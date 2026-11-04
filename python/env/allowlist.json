@@ -1,0 +1,47 @@
+{
+  "about": "Third-party Python packages that Enginuity installs by itself into its own Python environment (<data>/python-env) when a script needs them. MIT/BSD-licensed packages, plus OpenCV (Apache-2.0; its wheels bundle FFmpeg under the LGPL), which the user approved. All pinned to exact versions; requirements.txt holds the sha256 hash of every wheel (python3 -I python/env/update_requirements.py rewrites it from this file).",
+  "modules": {
+    "cv2": { "packages": ["opencv-python-headless", "numpy"] },
+    "numpy": { "packages": ["numpy"] },
+    "scipy": { "packages": ["scipy", "numpy"] },
+    "svgpathtools": { "packages": ["svgpathtools", "svgwrite", "numpy", "scipy"] },
+    "svgwrite": { "packages": ["svgwrite"] }
+  },
+  "packages": {
+    "numpy": {
+      "license": "BSD-3-Clause",
+      "home": "https://numpy.org",
+      "pins": [
+        { "version": "2.0.2", "marker": "python_version < \"3.10\"" },
+        { "version": "2.2.6", "marker": "python_version == \"3.10\"" },
+        { "version": "2.4.6", "marker": "python_version == \"3.11\"" },
+        { "version": "2.5.3", "marker": "python_version >= \"3.12\"" }
+      ]
+    },
+    "scipy": {
+      "license": "BSD-3-Clause",
+      "home": "https://scipy.org",
+      "pins": [
+        { "version": "1.13.1", "marker": "python_version < \"3.10\"" },
+        { "version": "1.15.3", "marker": "python_version == \"3.10\"" },
+        { "version": "1.17.1", "marker": "python_version == \"3.11\"" },
+        { "version": "1.18.1", "marker": "python_version >= \"3.12\"" }
+      ]
+    },
+    "svgwrite": {
+      "license": "MIT",
+      "home": "https://github.com/mozman/svgwrite",
+      "pins": [{ "version": "1.4.3" }]
+    },
+    "svgpathtools": {
+      "license": "MIT",
+      "home": "https://github.com/mathandy/svgpathtools",
+      "pins": [{ "version": "1.8.0" }]
+    },
+    "opencv-python-headless": {
+      "license": "Apache-2.0",
+      "home": "https://github.com/opencv/opencv-python",
+      "pins": [{ "version": "4.14.0.94" }]
+    }
+  }
+}

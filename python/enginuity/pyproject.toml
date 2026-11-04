@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enginuity"
+version = "1.0.0"
+description = "Python API for Enginuity: drive stations, robots and programs of a running Enginuity"
+requires-python = ">=3.9"
+dependencies = []
+authors = [{ name = "Enginuity" }]
+keywords = ["robotics", "robot", "simulation", "offline programming", "enginuity"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+    "Typing :: Typed",
+]
+
+[project.optional-dependencies]
+numpy = ["numpy"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+enginuity = ["py.typed"]
