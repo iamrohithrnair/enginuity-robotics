@@ -1,0 +1,354 @@
+{
+  "format": "enginuity-examples",
+  "version": 1,
+  "examples": [
+    {
+      "slug": "conveyor-pick-place",
+      "name": "Conveyor Pick and Place",
+      "description": "A UR5e with a two-finger gripper picks parts at the end of a belt conveyor and places them into a three-pocket tray. The conveyor is a one-axis mechanism with its own program running as a thread; a PART_AT_STOP signal hands each part over between the two programs.",
+      "features": [
+        "MoveJ",
+        "MoveL",
+        "Program calls",
+        "Threads",
+        "Digital I/O handshake",
+        "Attach / detach events",
+        "Conveyor mechanism"
+      ],
+      "robots": [
+        "UR5e.robot"
+      ],
+      "tools": [
+        "RobotiQ-2F-85-Gripper-Open.tool"
+      ],
+      "station": "conveyor-pick-place/conveyor-pick-place.mech",
+      "thumbnail": "conveyor-pick-place/thumbnail.png",
+      "mainProgram": "Main",
+      "programs": [
+        "ConveyorIndex",
+        "PickPart",
+        "PlaceSlot1",
+        "PlaceSlot2",
+        "PlaceSlot3",
+        "Main"
+      ],
+      "cycleTime": 24
+    },
+    {
+      "slug": "palletizing",
+      "name": "Palletizing",
+      "description": "A four-axis palletizing robot with a vacuum gripper stacks eight boxes from a roller conveyor onto a pallet in two interlocked layers. The pallet pattern, the conveyor indexing and the programs are made by an Enginuity script saved in the station: change the pattern and run it again.",
+      "features": [
+        "Enginuity script",
+        "Pallet pattern",
+        "MoveJ",
+        "MoveL",
+        "Program calls",
+        "Threads",
+        "Digital I/O handshake",
+        "Attach / detach events"
+      ],
+      "robots": [
+        "KUKA-KR-40-PA.robot"
+      ],
+      "tools": [
+        "OnRobot-VGP20-Vacuum-Gripper.tool"
+      ],
+      "station": "palletizing/palletizing.mech",
+      "thumbnail": "palletizing/thumbnail.png",
+      "mainProgram": "Palletize",
+      "programs": [
+        "InfeedRun",
+        "PickBox",
+        "Palletize"
+      ],
+      "cycleTime": 84.5
+    },
+    {
+      "slug": "cnc-machine-tending",
+      "name": "CNC Machine Tending",
+      "description": "A Fanuc M-10iD/12 loads three raw blanks, one after the other, into the vise of a machining centre, waits for the machining cycle and moves each finished part to an output tray. The machine's sliding door is a one-axis mechanism with its own Open and Close programs, called from the robot's program.",
+      "features": [
+        "MoveJ",
+        "MoveL",
+        "Program calls",
+        "Door mechanism",
+        "Digital I/O",
+        "Attach / detach events",
+        "Machine cycle wait"
+      ],
+      "robots": [
+        "Fanuc-M-10iD-12.robot"
+      ],
+      "tools": [
+        "Generic-2-Finger-Gripper.tool"
+      ],
+      "station": "cnc-machine-tending/cnc-machine-tending.mech",
+      "thumbnail": "cnc-machine-tending/thumbnail.png",
+      "mainProgram": "Main",
+      "programs": [
+        "OpenDoor",
+        "CloseDoor",
+        "MachineCycle",
+        "LoadMachine",
+        "UnloadMachine",
+        "Pick1",
+        "Place1",
+        "Pick2",
+        "Place2",
+        "Pick3",
+        "Place3",
+        "Main"
+      ],
+      "cycleTime": 140
+    },
+    {
+      "slug": "arc-welding",
+      "name": "Arc Welding",
+      "description": "A Motoman AR1440 with a 45° torch welds a T-joint and a pipe flange on a welding table. The fillet seams are a welding project that follows the seam curves and calls ArcOn / ArcOff at the start and end of every seam; the round seam around the pipe is two circular moves.",
+      "features": [
+        "Welding project (curve follow)",
+        "MoveC",
+        "MoveJ",
+        "MoveL",
+        "Program events",
+        "Program calls",
+        "Digital I/O"
+      ],
+      "robots": [
+        "Yaskawa-Motoman-AR1440.robot"
+      ],
+      "tools": [
+        "Abicor-Binzel-45deg-Welding-Gun.tool"
+      ],
+      "station": "arc-welding/arc-welding.mech",
+      "thumbnail": "arc-welding/thumbnail.png",
+      "mainProgram": "Main",
+      "programs": [
+        "ArcOn",
+        "ArcOff",
+        "FilletWelds",
+        "WeldFlange",
+        "Main"
+      ],
+      "cycleTime": 76.5
+    },
+    {
+      "slug": "deburring",
+      "name": "Deburring",
+      "description": "An ABB IRB 1200 with an electric deburring tool runs along the top edges of a machined plate: its rounded outline and the edge of a round boss. A curve-follow project makes the path from the two edge curves, and its program events switch the spindle on and off.",
+      "features": [
+        "Curve follow project",
+        "Program events",
+        "MoveJ",
+        "MoveL",
+        "Program calls",
+        "Digital I/O"
+      ],
+      "robots": [
+        "ABB-IRB-1200-5-0-9.robot"
+      ],
+      "tools": [
+        "ATI-RCE-230-Deburring-Tool-Electric.tool"
+      ],
+      "station": "deburring/deburring.mech",
+      "thumbnail": "deburring/thumbnail.png",
+      "mainProgram": "Main",
+      "programs": [
+        "SpindleOn",
+        "SpindleOff",
+        "DeburrEdges",
+        "Main"
+      ],
+      "cycleTime": 47.5
+    },
+    {
+      "slug": "glue-dispensing",
+      "name": "Glue Dispensing",
+      "description": "A compact ABB IRB 120 with a glue dispenser sets dots along the rim of a housing held in a nest. A point-follow project visits the points and calls the Dispense program at every point, which pulses the GLUE output.",
+      "features": [
+        "Point follow project",
+        "Program events",
+        "MoveJ",
+        "MoveL",
+        "Program calls",
+        "Digital I/O"
+      ],
+      "robots": [
+        "ABB-IRB-120-3-0-6.robot"
+      ],
+      "tools": [
+        "Aim-Robotics-FD-310-Dispenser.tool"
+      ],
+      "station": "glue-dispensing/glue-dispensing.mech",
+      "thumbnail": "glue-dispensing/thumbnail.png",
+      "mainProgram": "Main",
+      "programs": [
+        "Dispense",
+        "GlueDots",
+        "Main"
+      ],
+      "cycleTime": 42.5
+    },
+    {
+      "slug": "dual-robot-assembly",
+      "name": "Dual-Robot Assembly",
+      "description": "Two robots share one fixture: UR5e A puts a base part into it, UR5e B running in parallel presses a cap onto the part, and UR5e A moves the assembled part to the output tray. The programs hand over with BASE_READY and CAP_DONE, and Main can be run again and again.",
+      "features": [
+        "Two robots",
+        "Threads",
+        "Digital I/O handshake",
+        "Program calls",
+        "Attach / detach events",
+        "MoveJ",
+        "MoveL"
+      ],
+      "robots": [
+        "UR5e.robot",
+        "UR3e.robot"
+      ],
+      "tools": [
+        "RobotiQ-2F-85-Gripper-Open.tool"
+      ],
+      "station": "dual-robot-assembly/dual-robot-assembly.mech",
+      "thumbnail": "dual-robot-assembly/thumbnail.png",
+      "mainProgram": "Main",
+      "programs": [
+        "PickBase1",
+        "PickBase2",
+        "LoadFixture",
+        "UnloadFixture",
+        "PlaceOut1",
+        "PlaceOut2",
+        "PickCap1",
+        "PlaceCap1",
+        "PickCap2",
+        "PlaceCap2",
+        "RobotB",
+        "Main"
+      ],
+      "cycleTime": 41.5
+    },
+    {
+      "slug": "camera-inspection",
+      "name": "Camera Inspection",
+      "description": "An ABB IRB 120 with a vacuum cup holds each part under a simulated 2D camera. A Decision instruction asks the decision model whether the part is good, with the camera image, and routes it to the good or the reject bin. With no decision model set up the decision takes its fallback branch and the part goes to the reject bin.",
+      "features": [
+        "Decision step",
+        "2D camera",
+        "Program calls",
+        "MoveJ",
+        "MoveL",
+        "Digital I/O",
+        "Attach / detach events"
+      ],
+      "robots": [
+        "ABB-IRB-120-3-0-6.robot"
+      ],
+      "tools": [
+        "RobotiQ-EPick-Vacuum-Gripper-1-Cup.tool"
+      ],
+      "station": "camera-inspection/camera-inspection.mech",
+      "thumbnail": "camera-inspection/thumbnail.png",
+      "mainProgram": "Main",
+      "programs": [
+        "Pick1",
+        "Pick2",
+        "Pick3",
+        "Present",
+        "PlaceGood",
+        "PlaceReject",
+        "Main"
+      ],
+      "cycleTime": 28.5
+    },
+    {
+      "slug": "python-api",
+      "name": "Python API Drawing",
+      "description": "A UR3e draws a square and a circle on a board. The drawing program was made by the Python program DrawOnBoard with Enginuity's own enginuity package (robolink style: targets, MoveJ, MoveL, MoveC); run it again to rebuild the program, or change it to draw something else.",
+      "features": [
+        "Python API",
+        "enginuity package",
+        "MoveC",
+        "MoveJ",
+        "MoveL",
+        "Program calls"
+      ],
+      "robots": [
+        "UR3e.robot"
+      ],
+      "tools": [
+        "Generic-Pencil-Tool.tool"
+      ],
+      "station": "python-api/python-api.mech",
+      "thumbnail": "python-api/thumbnail.png",
+      "mainProgram": "Main",
+      "programs": [
+        "Drawing",
+        "Main"
+      ],
+      "cycleTime": 23
+    },
+    {
+      "slug": "scara-sorting",
+      "name": "SCARA Sorting",
+      "description": "An ABB IRB 910SC SCARA with a small vacuum cup sorts six parts from a feeder plate into two bins by colour. It runs at 2 m/s with blended (rounded) approach moves; Grip and Release subprograms switch the vacuum and attach or drop the part.",
+      "features": [
+        "SCARA",
+        "High speed with rounding",
+        "MoveJ",
+        "MoveL",
+        "Program calls",
+        "Digital I/O",
+        "Attach / detach events"
+      ],
+      "robots": [
+        "ABB-IRB-910SC-3-0-65.robot"
+      ],
+      "tools": [
+        "SMC-ZXP7A01-ZP20U-X1-Vacuum-Gripper.tool"
+      ],
+      "station": "scara-sorting/scara-sorting.mech",
+      "thumbnail": "scara-sorting/thumbnail.png",
+      "mainProgram": "Main",
+      "programs": [
+        "Grip",
+        "ReleaseA",
+        "ReleaseB",
+        "Main"
+      ],
+      "cycleTime": 16.5
+    },
+    {
+      "slug": "physics-drop-stack-push",
+      "name": "Physics: Drop, Stack and Push",
+      "description": "A UR5e drops a grid of boxes into a bin, slides the last box off the table down a chute and knocks over a stack. Switch physics on (top-bar Physics toggle) and the parts fall, pile up, bounce, slide and topple; with physics off they stay where the robot lets them go.",
+      "features": [
+        "Physics",
+        "Object physics settings",
+        "Attach / detach events",
+        "MoveJ",
+        "MoveL",
+        "Program calls",
+        "Digital I/O"
+      ],
+      "robots": [
+        "UR5e.robot"
+      ],
+      "tools": [
+        "RobotiQ-2F-85-Gripper-Open.tool"
+      ],
+      "station": "physics-drop-stack-push/physics-drop-stack-push.mech",
+      "thumbnail": "physics-drop-stack-push/thumbnail.png",
+      "mainProgram": "Main",
+      "programs": [
+        "Grip",
+        "Release",
+        "PushOff",
+        "KnockStack",
+        "Main"
+      ],
+      "cycleTime": 83
+    }
+  ]
+}
