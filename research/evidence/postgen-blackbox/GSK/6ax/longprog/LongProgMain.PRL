@@ -1,0 +1,8 @@
+MAIN;
+# LongProgMain 
+CALL LongProg;
+CALL LongProg1;
+CALL LongProg2;
+CALL LongProg3;
+CALL LongProg4;
+END;

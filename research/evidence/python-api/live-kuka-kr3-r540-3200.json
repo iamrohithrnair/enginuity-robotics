@@ -1,0 +1,177 @@
+{
+ "station": "Assembly-and-Material-Handling-with-KUKA-KR-3-R540.rdk",
+ "port": "3200",
+ "steps": [
+  {
+   "step": "python.run Reset_Mechanisms",
+   "started": true,
+   "oring": [
+    0
+   ],
+   "dialogs": [],
+   "pythonStatuses": [
+    "Running python script...",
+    "Python script finished successfully"
+   ]
+  },
+  {
+   "step": "python.run Next_O-Ring",
+   "started": true,
+   "oring": [
+    3
+   ],
+   "dialogs": [],
+   "pythonStatuses": [
+    "Running python script...",
+    "Python script finished successfully"
+   ]
+  },
+  {
+   "step": "python.run PickUp_Assembly",
+   "started": true,
+   "oring": [
+    3
+   ],
+   "dialogs": [],
+   "pythonStatuses": [
+    "Running python script...",
+    "Python script finished successfully"
+   ]
+  },
+  {
+   "step": "python.run Place_Assembly",
+   "started": true,
+   "oring": [
+    3
+   ],
+   "dialogs": [
+    {
+     "title": "Python script output",
+     "html": "<strong>Place_Assembly</strong><br>Python execution error: <br><span style=\"color:#d33;font-family:var(--font-mono)\">Traceback (most recent call last):<br>  File \"<repo>/.agents-data/python/Place_Assembly.py\", line 31, in &lt;module&gt;<br>    items = tool.Childs()<br>  File \"<repo>/python/enginuity/src/enginuity/robolink.py\", lin",
+     "buttons": [
+      "OK"
+     ]
+    }
+   ],
+   "pythonStatuses": [
+    "Running python script...",
+    "Python script failed returning 1"
+   ]
+  }
+ ],
+ "opened": {
+  "station": "Assembly-and-Material-Handling-with-KUKA-KR-3-R540",
+  "result": "Assembly-and-Material-Handling-with-KUKA-KR-3-R540"
+ },
+ "before": {
+  "oring": [
+   0
+  ],
+  "parents": {
+   "TubeType1-1": 1,
+   "TubeType2-1": 1,
+   "O-Ring_Frame": 12,
+   "TubeType1-2": 1,
+   "TubeType2-2": 1,
+   "TubeType1-3": 1,
+   "TubeType2-3": 1,
+   "TubeType1-4": 1,
+   "TubeType2-4": 1,
+   "TubeType1-5": 1,
+   "TubeType2-5": 1,
+   "TubeType1-6": 1,
+   "TubeType2-6": 1,
+   "TubeType1-7": 1,
+   "TubeType2-7": 1,
+   "TubeType1-8": 1,
+   "TubeType2-8": 1,
+   "TubeType1-9": 1,
+   "TubeType2-9": 1,
+   "TubeType1-10": 1,
+   "TubeType2-10": 1,
+   "TubeType1-11": 1,
+   "TubeType2-11": 1,
+   "TubeType1-12": 1,
+   "TubeType2-12": 1
+  }
+ },
+ "main": {
+  "secondsReal": 10.601,
+  "waitedMs": 9238,
+  "oring": [
+   36
+  ],
+  "parentsAfter": {
+   "PalletTube_Finish_Ref": 36
+  },
+  "finishRefsWithParts": [],
+  "dialogs": [],
+  "pythonStatuses": [
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully",
+   "Running python script...",
+   "Python script finished successfully"
+  ],
+  "statusTail": [
+   "Python script finished successfully",
+   "Program Pick_TubeType2 finished (path length: 467.3 mm, program time: 2.6s)",
+   "Program Place_TubeType2 finished (path length: 362.2 mm, program time: 2.0s)",
+   "Program GripperClose_Tube finished",
+   "Running python script...",
+   "Python script finished successfully",
+   "Program Pick_Assembly finished (path length: 35.0 mm, program time: 0.5s)",
+   "Program TubeAssembly_Part2 finished",
+   "Program GripperOpen finished (path length: 0.0 mm, program time: 0.8s)",
+   "Program Place_Assembly finished (path length: 235.2 mm, program time: 1.4s)",
+   "Program Tube12 finished",
+   "Program Main finished"
+  ]
+ },
+ "closed": true
+}

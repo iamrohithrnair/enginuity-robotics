@@ -1,0 +1,7 @@
+MAIN;
+# TgtProgMain 
+CALL TgtProg;
+CALL TgtProg1;
+CALL TgtProg2;
+CALL TgtProg3;
+END;

@@ -1,0 +1,8 @@
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-xqo_zcfd/omron_5uv_rzl8/TurnProg/Projects/TurnProg/TurnProg.flow
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Techman/6ax-api/turns/_written/omron_5uv_rzl8/TurnProg/Projects/TurnProg/TurnProg.flow
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-xqo_zcfd/omron_5uv_rzl8/TurnProg/Projects/TurnProg/TurnProg.prog
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Techman/6ax-api/turns/_written/omron_5uv_rzl8/TurnProg/Projects/TurnProg/TurnProg.prog
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-xqo_zcfd/omron_5uv_rzl8/TurnProg/Projects/TurnProg/TurnProg.dat
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Techman/6ax-api/turns/_written/omron_5uv_rzl8/TurnProg/Projects/TurnProg/TurnProg.dat
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-xqo_zcfd/omron_5uv_rzl8/TurnProg/ConfigData.xml
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Techman/6ax-api/turns/_written/omron_5uv_rzl8/TurnProg/ConfigData.xml

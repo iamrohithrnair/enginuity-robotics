@@ -1,0 +1,9 @@
+{
+ "post": "Adept_Vplus",
+ "robot": "Adept Six 300",
+ "nq": 6,
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-ru9dgqf4/PostTgtProg.py", line 30, in <module>
+    r.setTool(p(1,2,3,0,0,0),5,None)
+  File "Elite_Robots_CS.py", line 1324, in Elite_Robots_CS.RobotPost.setTool
+TypeError: Argument 'varStr' has incorrect type (expected str, got NoneType)

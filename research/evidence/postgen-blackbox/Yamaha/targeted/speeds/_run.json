@@ -1,0 +1,11 @@
+{
+ "post": "Yamaha",
+ "robot": "Yamaha YK400XR-S-150",
+ "nq": 4,
+ "axes": "RRTR",
+ "targeted": "speeds",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

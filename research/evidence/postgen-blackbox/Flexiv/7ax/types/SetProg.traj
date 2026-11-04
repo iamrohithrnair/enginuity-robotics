@@ -1,0 +1,92 @@
+pattern_params {
+  pattern_name: "WPT 0"
+  pattern_type: "Scatter"
+  scatterpoint_pattern {
+    pose_params {
+        x:"-0.641"
+        y:"0.507"
+        z:"0.372"
+        rx:"180.000"
+        ry:"50.000"
+        rz:"150.000"
+        coord_type: "WORLD"
+        coord_ref: "WORLD_ORIGIN"
+        use_quaternion: false
+      preferJntPos {
+        joint1:"0.000000"
+        joint2:"-10.000000"
+        joint3:"20.000000"
+        joint4:"0.000000"
+        joint5:"30.000000"
+        joint6:"0.000000"
+        joint7:"0.000000"      
+      }
+      externalAxes {
+        axis1: "0"
+        axis2: "0"
+        axis3: "0"
+        axis4: "0"
+        axis5: "0"
+        axis6: "0"
+      }
+    }
+    force_params {
+      fx: "0"
+      fy: "0"
+      fz: "0"
+      mx: "0"
+      my: "0"
+      mz: "0"
+    }
+    path_profile: "spline"
+    blend_zone: "Z0"
+    velocity: "0.5"
+    acceleration: "1"
+  }
+}
+pattern_params {
+  pattern_name: "WPT 1"
+  pattern_type: "Scatter"
+  scatterpoint_pattern {
+    pose_params {
+        x:"-0.624"
+        y:"0.571"
+        z:"0.455"
+        rx:"-82.711"
+        ry:"44.567"
+        rz:"-122.815"
+        coord_type: "WORLD"
+        coord_ref: "WORLD_ORIGIN"
+        use_quaternion: false
+      preferJntPos {
+        joint1:"30.000000"
+        joint2:"-20.000000"
+        joint3:"40.000000"
+        joint4:"60.000000"
+        joint5:"-45.000000"
+        joint6:"-100.000000"
+        joint7:"15.000000"      
+      }
+      externalAxes {
+        axis1: "0"
+        axis2: "0"
+        axis3: "0"
+        axis4: "0"
+        axis5: "0"
+        axis6: "0"
+      }
+    }
+    force_params {
+      fx: "0"
+      fy: "0"
+      fz: "0"
+      mx: "0"
+      my: "0"
+      mz: "0"
+    }
+    path_profile: "spline"
+    blend_zone: "Z0"
+    velocity: "0.5"
+    acceleration: "1"
+  }
+}

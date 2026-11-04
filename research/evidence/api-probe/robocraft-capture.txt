@@ -1,0 +1,89 @@
+new_station: 'ProbeStation'
+item_list_names_initial: ['ProbeStation']
+frame_name: 'ProbeFrame'
+frame_type: 3
+frame_set_pose: None
+frame_pose: [[0.0, -1.0, 0.0, 100.0], [1.0, 0.0, 0.0, 200.0], [0.0, 0.0, 1.0, 300.0], [0.0, 0.0, 0.0, 1.0]]
+frame_rename: 'ProbeFrame Renamed'
+frame_parent_type: 1
+robot_valid: True
+robot_type: 2
+robot_name: 'ABB IRB 120-3/0.6'
+robot_joints_home: [[0.0], [0.0], [0.0], [0.0], [0.0], [0.0]]
+robot_joint_limits: [[[-165.0], [-110.0], [-90.0], [-160.0], [-120.0], [-400.0]], [[165.0], [110.0], [70.0], [160.0], [120.0], [400.0]], 1.0]
+robot_joints: [[0.0], [0.0], [0.0], [0.0], [0.0], [0.0]]
+robot_set_joints: None
+robot_joints_after: [[10.0], [-20.0], [30.0], [-40.0], [50.0], [-60.0]]
+robot_pose_fk: [[-0.167, -0.776, 0.609, 257.738], [-0.913, -0.111, -0.393, 9.446], [0.372, -0.621, -0.69, 510.566], [0.0, 0.0, 0.0, 1.0]]
+robot_pose: [[-0.167, -0.776, 0.609, 257.738], [-0.913, -0.111, -0.393, 9.446], [0.372, -0.621, -0.69, 510.566], [0.0, 0.0, 0.0, 1.0]]
+robot_config: [[0.0], [0.0], [0.0], [0.0]]
+robot_ik: [[10.0], [-20.0], [30.0], [-40.0], [50.0], [-60.0]]
+robot_ik_all_count: 4
+robot_ik_unreachable: [[0]]
+robot_set_joints_out_of_limits: [[0.0], [0.0], [0.0], [0.0], [0.0], [400.0]]
+tool_name: 'ProbeTool'
+tool_type: 4
+tool_pose_tcp: [[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 100.0], [0.0, 0.0, 0.0, 1.0]]
+robot_pose_tool: [[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 100.0], [0.0, 0.0, 0.0, 1.0]]
+target1_name: 'Target 1'
+target1_isjoint: False
+target1_pose: [[0.0, 1.0, 0.0, 1000.0], [0.643, 0.0, -0.766, -294.442], [-0.766, 0.0, -0.643, 161.833], [0.0, 0.0, 0.0, 1.0]]
+target1_joints: [[0.0], [-10.0], [20.0], [0.0], [30.0], [0.0]]
+target2_set_pose: None
+target3_set_joints: None
+target3_isjoint: True
+prog_type: 8
+prog_set_frame: None
+prog_set_tool: None
+prog_set_speed: None
+prog_set_rounding: None
+prog_movej: None
+prog_movel: None
+prog_movej_joint_target: None
+prog_pause: None
+prog_message: 0
+prog_comment: 0
+prog_setdo: None
+prog_waitdi: None
+prog_call: 0
+prog_ins_count: 13
+prog_ins_0: ['Set Ref.: ProbeFrame Renamed', 3]
+prog_ins_1: ['Set Tool: ProbeTool', 4]
+prog_ins_2: ['Set speed (250.0 mm/s)', 2]
+prog_ins_3: ['Smooth(5)', 10]
+prog_ins_4: ['MoveJ (Target 1)', 0]
+prog_ins_5: ['MoveL (Target 2)', 0]
+prog_ins_6: ['MoveJ (Target 3)', 0]
+prog_ins_7: ['Pause 500 ms', 6]
+prog_ins_8: ['Hello from probe', 9]
+prog_ins_9: ['a comment', 8]
+prog_ins_10: ['Set IO_1=1', 11]
+prog_ins_11: ['Wait IO_2=1 T1.0s', 11]
+prog_ins_12: ['SubProgram', 8]
+Invalid item provided: The item identifier provided is not valid or it does not exist.
+prog_ins_13: ERROR Exception: Invalid item provided: The item identifier provided is not valid or it does not exist.
+Invalid item provided: The item identifier provided is not valid or it does not exist.
+prog_ins_14: ERROR Exception: Invalid item provided: The item identifier provided is not valid or it does not exist.
+Invalid item provided: The item identifier provided is not valid or it does not exist.
+prog_ins_15: ERROR Exception: Invalid item provided: The item identifier provided is not valid or it does not exist.
+prog_update: [13.0, 1.608, 138.335, 1.0, '']
+run_update: [5.0, 1.108, 138.335, 1.0, '']
+run_program_result: 5
+run_busy_wait_joints: [[20.0], [-10.0], [20.0], [0.0], [30.0], [0.0]]
+prog_make: [True, '', False]
+generated_files: ['ProbeProg.mod']
+param_path_library_isdir: True
+param_set_get: 42.0
+collision_active_default: 0
+collision_set_on: 0
+collisions_count: 0
+collision_set_off: 0
+item_by_name_missing: False
+item_by_name_type: 'ProbeFrame Renamed'
+item_list_types: [[1, 'ProbeStation'], [2, 'ABB IRB 120-3/0.6'], [3, 'ABB IRB 120-3/0.6 Base'], [3, 'ProbeFrame Renamed'], [4, 'ProbeTool'], [6, 'Target 1'], [6, 'Target 2'], [6, 'Target 3'], [8, 'ProbeProg'], [8, 'RunProg']]
+copy_paste: 'Target 1'
+delete_target2: False
+final_item_count: 10
+done
+
+[exit] {"code":0}

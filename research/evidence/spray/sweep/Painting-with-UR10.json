@@ -1,0 +1,90 @@
+{
+ "file": "Painting-with-UR10.rdk",
+ "program": "MainProg",
+ "ratio": 5.0,
+ "open": {
+  "ok": true,
+  "error": null
+ },
+ "open_s": 0.1,
+ "run": {
+  "ok": true,
+  "error": null
+ },
+ "run_s": 16.8,
+ "timed_out": false,
+ "spray_list": {
+  "station": "Painting-with-UR10",
+  "guns": [
+   {
+    "id": 0,
+    "tool": "Paint gun",
+    "object": "Object",
+    "state": 0,
+    "options": "ELLYPSE PROJECT PARTICLE=SPHERE(4,8,1,1,0.5) STEP=8x8 RAND=2",
+    "shape": "ELLYPSE",
+    "project": true,
+    "step": "8x8",
+    "perUpdate": 72,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 4,
+     "facets": 8,
+     "scale": [
+      1,
+      1,
+      0.5
+     ]
+    },
+    "nearColor": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "farColor": [
+     0,
+     0,
+     1,
+     0.2
+    ],
+    "updates": 1432,
+    "in": 82829,
+    "out": 20275,
+    "total": 103104,
+    "percentIn": 80.33538950962135,
+    "percentOut": 19.664610490378646,
+    "stored": 82829
+   }
+  ],
+  "info": "id<br>percent in<br>percent out<br>count",
+  "count": 1
+ },
+ "spray_stats": {
+  "info": "id<br>percent in<br>percent out<br>count",
+  "columns": [
+   [
+    0,
+    80.33538950962135,
+    19.664610490378646,
+    103104
+   ]
+  ],
+  "guns": [
+   {
+    "id": 0,
+    "percentIn": 80.33538950962135,
+    "percentOut": 19.664610490378646,
+    "count": 103104
+   }
+  ]
+ },
+ "shot": "/workspace/srcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcs/98d21853-3eb1-4a96-a77c-869a7e687818/scratchpad/live/sweep/Painting-with-UR10.png",
+ "zoom": "/workspace/srcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcs/98d21853-3eb1-4a96-a77c-869a7e687818/scratchpad/live/sweep/Painting-with-UR10-zoom.png",
+ "browser_log": "warning: THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\n",
+ "close": {
+  "ok": true,
+  "error": null
+ }
+}

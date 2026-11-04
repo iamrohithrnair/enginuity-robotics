@@ -1,0 +1,11 @@
+{
+ "post": "Epson_RC",
+ "robot": "Epson C12XL-A1401",
+ "nq": 3,
+ "axes": "RRT",
+ "targeted": "axes3",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

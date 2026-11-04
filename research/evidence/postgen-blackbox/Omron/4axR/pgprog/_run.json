@@ -1,0 +1,11 @@
+{
+ "post": "Omron",
+ "robot": "Omron eCobra 600",
+ "nq": 4,
+ "axes": "RRRR",
+ "hooks": true,
+ "exit": 1,
+ "stray_files": [
+  "Library"
+ ]
+}

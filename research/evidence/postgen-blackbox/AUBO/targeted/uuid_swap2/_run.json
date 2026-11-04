@@ -1,0 +1,11 @@
+{
+ "post": "AUBO",
+ "robot": "AUBO-ES3",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "uuid_swap2",
+ "exit": 1,
+ "stray_files": [
+  "Library"
+ ]
+}

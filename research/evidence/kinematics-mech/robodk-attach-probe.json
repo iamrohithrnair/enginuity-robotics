@@ -1,0 +1,132 @@
+{
+ "addfile_parent_robot": {
+  "name": "SCHUNK PGN-plus-E 80 Gripper",
+  "type": 2,
+  "parent": "SCHUNK PGN-plus-E 80 Gripper Base",
+  "parent_type": 3,
+  "rel_flange": [
+   1.0,
+   0.0,
+   -0.0,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1000.0,
+   -0.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  "ur_tool": null,
+  "ur_children": [
+   [
+    "SCHUNK PGN-plus-E 80 Gripper Base",
+    3
+   ]
+  ]
+ },
+ "follows_flange": [
+  1.0,
+  -0.0,
+  0.0,
+  -0.0,
+  -0.0,
+  1.0,
+  0.0,
+  1000.0,
+  0.0,
+  0.0,
+  1.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  1.0
+ ],
+ "base_setParent_robot": {
+  "base": "OnRobot 2FG7 Gripper Base",
+  "base_parent": "UR5e",
+  "rel_flange": [
+   1.0,
+   -0.0,
+   0.0,
+   -0.0,
+   -0.0,
+   1.0,
+   0.0,
+   1000.0,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ]
+ },
+ "mech_setParentStatic_robot": {
+  "parent": "UR5e",
+  "rel_flange": [
+   1.0,
+   -0.0,
+   0.0,
+   0.0,
+   -0.0,
+   1.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ]
+ },
+ "items": [
+  [
+   "attach",
+   1
+  ],
+  [
+   "UR5e Base",
+   3
+  ],
+  [
+   "UR5e",
+   2
+  ],
+  [
+   "SCHUNK PGN-plus-E 80 Gripper Base",
+   3
+  ],
+  [
+   "SCHUNK PGN-plus-E 80 Gripper",
+   2
+  ],
+  [
+   "OnRobot 2FG7 Gripper Base",
+   3
+  ],
+  [
+   "OnRobot 2FG7 Gripper",
+   2
+  ],
+  [
+   "RobotiQ 2F-85 Gripper (Mechanism)",
+   2
+  ],
+  [
+   "RobotiQ 2F-85 Gripper (Mechanism) Base",
+   3
+  ]
+ ]
+}

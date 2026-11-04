@@ -1,0 +1,8 @@
+//KEBA
+//0.0HZ
+//100.0%
+//PROG NAME : Sub1
+Out1.Set(TRUE)
+Lin(pos1, EROP_D0, EROP_OL)
+PTP(ap0, EROP_D0, EROP_OL)
+//ENDPROG

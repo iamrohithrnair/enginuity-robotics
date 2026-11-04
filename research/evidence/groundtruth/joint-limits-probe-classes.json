@@ -1,0 +1,116 @@
+{
+ "set": "classes",
+ "probes": [
+  {
+   "robot": "Gudel-FP-1-300.robot",
+   "q": [
+    0,
+    500,
+    0
+   ],
+   "solve_fk": "ok",
+   "set_joints": [
+    0.0,
+    500.0,
+    0.0
+   ]
+  },
+  {
+   "robot": "Gudel-FP-1-300.robot",
+   "q": [
+    0,
+    -500,
+    0
+   ],
+   "solve_fk": "TargetReachError: Input joints are invalid or outside their limits",
+   "set_joints": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "robot": "NEWKer-NEW2006B.robot",
+   "q": [
+    0,
+    -150,
+    0,
+    0,
+    0,
+    0
+   ],
+   "solve_fk": "ok",
+   "set_joints": [
+    0.0,
+    -150.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "robot": "Hyundai-YS080L.robot",
+   "q": [
+    0,
+    0,
+    150,
+    0,
+    0,
+    0
+   ],
+   "solve_fk": "TargetReachError: Input joints are invalid or outside their limits",
+   "set_joints": [
+    0.0,
+    0.0,
+    80.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "robot": "RealMan-GEN72-B.robot",
+   "q": [
+    0,
+    0,
+    0,
+    -150,
+    0,
+    0,
+    0
+   ],
+   "solve_fk": "ok",
+   "set_joints": [
+    0.0,
+    0.0,
+    0.0,
+    -150.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "robot": "ABB-IRB-2400-10.robot",
+   "q": [
+    0,
+    100,
+    150,
+    0,
+    0,
+    0
+   ],
+   "solve_fk": "ok",
+   "set_joints": [
+    0.0,
+    100.0,
+    150.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ ],
+ "version": "6.0.7.26935"
+}

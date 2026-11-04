@@ -1,0 +1,85 @@
+{
+ "cases": [
+  {
+   "station": "Inspection-with-KUKA-KR-22-R1610-02.rdk",
+   "update": {
+    "InspectA": [
+     7.0,
+     5.657,
+     2596.0847,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 5
+  },
+  {
+   "station": "Sample-Station-with-RoboDK-RDK-2200.rdk",
+   "update": {
+    "Wrist singularity - Lin Move LR": [
+     3.0,
+     4.54,
+     20.0814,
+     0.0,
+     ""
+    ],
+    "Wrist singularity - Lin Move UD": [
+     3.0,
+     0.0715,
+     10.0,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 11
+  },
+  {
+   "station": "Welding-with-Fanuc.rdk",
+   "update": {
+    "GoToWeld4": [
+     2.0,
+     0.0,
+     0.0,
+     0.0,
+     ""
+    ],
+    "ReTake-Frame-5-Rob1": [
+     3.0,
+     0.0,
+     0.0,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 17
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-igus-ReBeL-6DOF.rdk",
+   "update": {
+    "Pick_TubeType1 @ TubeType1-5": [
+     2.0,
+     0.8089,
+     0.0,
+     0.0,
+     ""
+    ],
+    "Pick_TubeType1 @ TubeType1-9": [
+     2.0,
+     0.8089,
+     0.0,
+     0.0,
+     ""
+    ],
+    "Pick_TubeType2 @ TubeType2-12": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 32
+  }
+ ],
+ "version": "6.0.7.26935"
+}

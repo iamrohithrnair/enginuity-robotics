@@ -1,0 +1,9 @@
+{
+ "post": "Fanuc_R30i",
+ "robot": "Fanuc ARC Mate 120iD/12L",
+ "nq": 6,
+ "exit": 1,
+ "stray_files": [
+  "Library"
+ ]
+}

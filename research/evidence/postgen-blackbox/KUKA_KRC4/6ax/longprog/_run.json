@@ -1,0 +1,9 @@
+{
+ "post": "KUKA_KRC4",
+ "robot": "KUKA KR 10 R1440-2",
+ "nq": 6,
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

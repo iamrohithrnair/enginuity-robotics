@@ -1,0 +1,30 @@
+# RoboDK Python Intermediate file to generate robot programs.
+# Program name: TgtProg
+# This file requires the post processor: 
+#   Techman
+# to generate your robot program.
+# This is a temporary file and you can delete it once you have generated your program.
+# 
+# Post processor documentation: https://robodk.com/doc/en/PythonAPI/postprocessor.html
+
+import sys
+import os
+import robodk
+sys.path.append(os.path.abspath(r"""/workspace/src/RoboDK/RoboDK.app/Contents/Posts/""")) # temporarily add path to POSTS folder
+
+from Techman import *
+
+try:
+  from robodk.robomath import PosePP as p
+except:
+  # This will be removed in future versions of RoboDK
+  from robodk import PosePP as p
+
+
+print('Total instructions: 2')
+r = RobotPost(r"""Techman""",r"""Techman TM12""",6, axes_type=['R','R','R','R','R','R'], native_name=r"""Techman TM12""", ip_com=r"""192.168.0.10""", api_port=20631, prog_ptr=47951332880, robot_ptr=1610613184)
+
+r.ProgStart(r'''TgtProg''')
+r.MoveL(p(-640.584,506.98,371.534,150,50,-165),[0,-10,20,0,30,0],[0,0,0])
+r.ProgFinish(r"""TgtProg""")
+r.ProgSave(r"""/workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Techman/targeted-api/nothing/""",r"""TgtProg""",False,False)

@@ -1,0 +1,11 @@
+{
+ "post": "Elite_Robots_CS",
+ "robot": "Elite Robots CS612",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "rt_cs612",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

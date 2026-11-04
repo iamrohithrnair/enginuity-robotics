@@ -1,0 +1,8 @@
+MODULE MainModule
+GLOBAL VAR robtarget robpoint0= p:{{-607.850, 543.849, 363.215},{0.374108, 0.285846, 0.853660, -0.222712}}{cfg 0,0,0,0}{EJ 0.000000000,0.000000000,0.000000000,0.000000000,0.000000000,0.000000000}
+
+GLOBAL Proc main()
+    Wait 0.000
+    MoveL robpoint0,v50,z50,tool03,wobj16
+EndProc
+EndModule

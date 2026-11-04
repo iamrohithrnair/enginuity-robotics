@@ -1,0 +1,77 @@
+version: '6.0.7.26935'
+new_station: 'PostgenStation'
+cmd_path_post: '/workspace/src/RoboDK/RoboDK.app/Contents/Posts/'
+WARNING: Invalid/unknown parameter to get: NoSuchParam_xyz
+param_unknown: None
+robot_name: 'ABB IRB 120-3/0.6'
+robot_default_post: 'ABB_RAPID_IRC5'
+robot_base_name: 'ABB IRB 120-3/0.6 Base'
+robot_base_pose: [[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 0.0, 1.0]]
+frame_set_pose: None
+frame_pose: [[0.866, -0.5, 0.0, 1234.568], [0.5, 0.866, 0.0, -98.765], [0.0, 0.0, 1.0, 50.5], [0.0, 0.0, 0.0, 1.0]]
+frame2_set_parent: 'Frame Child'
+frame2_parent_name: 'Frame Pg'
+robot_pose_tool: [[1.0, 0.0, 0.0, 10.0], [0.0, 0.966, -0.259, 20.0], [0.0, 0.259, 0.966, 150.0], [0.0, 0.0, 0.0, 1.0]]
+t1_pose: [[-0.557, 0.655, 0.511, -640.584], [0.321, 0.737, -0.594, 506.98], [-0.766, -0.166, -0.621, 371.534], [0.0, 0.0, 0.0, 1.0]]
+t1_joints: [[0.0], [-10.0], [20.0], [0.0], [30.0], [0.0]]
+t6_pose: [[-0.557, 0.655, 0.511, -650.861], [0.321, 0.737, -0.594, 503.437], [-0.766, -0.166, -0.621, 361.399], [0.0, 0.0, 0.0, 1.0]]
+p_frame: None
+p_tool: None
+p_speed: None
+p_rounding: None
+p_movej_t1: None
+p_movel_t2: None
+p_movec_t4_t5: None
+p_movej_t3_joint: None
+p_speed4: None
+p_movel_t6: None
+p_rounding0: None
+p_movel_t1: None
+p_pause_500: None
+p_pause_stop: None
+p_message: 0
+p_comment: 0
+p_call: 0
+p_code: 0
+p_thread: 0
+p_setdo: None
+p_setdo_named: None
+p_setao: None
+p_waitdi: None
+p_waitdi_timeout: None
+p_tool2: None
+p_movej_t2_tool2: None
+p_movej_joints_list: None
+p_ins_count: 27
+p_ins_0: ['Set Ref.: Frame Pg', 3, None, None]
+p_ins_1: ['Set Tool: Tool Pg', 4, None, None]
+p_ins_2: ['Set speed (250.0 mm/s)', 2, None, None]
+p_ins_3: ['Smooth(5)', 10, None, None]
+p_ins_4: ['MoveJ (Target 1)', 0, 1, 0]
+p_ins_5: ['MoveL (Target 2)', 0, 2, 0]
+p_ins_6: ['MoveC (Target Arc Mid, Target Arc End)', 1, None, None]
+p_ins_7: ['MoveJ (Target 3)', 0, 1, 1]
+p_ins_8: ['Set speed (100.0 mm/s)', 2, None, None]
+p_ins_9: ['MoveL (Target Precise)', 0, 2, 0]
+p_ins_10: ['Smooth(0)', 10, None, None]
+p_ins_11: ['MoveL (Target 1)', 0, 2, 0]
+p_ins_12: ['Pause 500 ms', 6, None, None]
+p_ins_13: ['Stop', 6, None, None]
+p_ins_14: ['Hello from postgen', 9, None, None]
+p_ins_15: ['a comment', 8, None, None]
+p_ins_16: ['SubProgram', 8, None, None]
+p_ins_17: ['CustomCode(42)', 8, None, None]
+p_ins_18: ['ThreadProg', 8, None, None]
+p_ins_19: ['Set IO_1=1', 11, None, None]
+p_ins_20: ['Set Valve=0', 11, None, None]
+p_ins_21: ['Set AO_3=2.5', 11, None, None]
+p_ins_22: ['Wait IO_2=1', 11, None, None]
+p_ins_23: ['Wait IO_4=0 T1.5s', 11, None, None]
+p_ins_24: ['Set Tool: Tool2', 4, None, None]
+p_ins_25: ['MoveJ (Target 2)', 0, 1, 0]
+p_ins_26: ['MoveJ 26', 0, 1, 1]
+p_update: [27.0, 5.783, 675.34, 1.0, '']
+set_post_ABB_RAPID_IRC5: 'OK'
+get_post_ABB_RAPID_IRC5: 'ABB_RAPID_IRC5'
+make_ABB_RAPID_IRC5: ERROR timeout: timed out
+files_ABB_RAPID_IRC5: [['PgProg.mod', 2426]]

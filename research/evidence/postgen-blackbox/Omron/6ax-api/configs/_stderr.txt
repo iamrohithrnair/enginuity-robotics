@@ -1,0 +1,8 @@
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-quittid8/omron_ya40ktbn/ConfProg/Projects/ConfProg/ConfProg.flow
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/6ax-api/configs/_written/omron_ya40ktbn/ConfProg/Projects/ConfProg/ConfProg.flow
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-quittid8/omron_ya40ktbn/ConfProg/Projects/ConfProg/ConfProg.prog
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/6ax-api/configs/_written/omron_ya40ktbn/ConfProg/Projects/ConfProg/ConfProg.prog
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-quittid8/omron_ya40ktbn/ConfProg/Projects/ConfProg/ConfProg.dat
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/6ax-api/configs/_written/omron_ya40ktbn/ConfProg/Projects/ConfProg/ConfProg.dat
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-quittid8/omron_ya40ktbn/ConfProg/ConfigData.xml
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/6ax-api/configs/_written/omron_ya40ktbn/ConfProg/ConfigData.xml

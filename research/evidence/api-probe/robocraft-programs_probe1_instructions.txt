@@ -1,0 +1,153 @@
+A.count: 17
+A.ins00.Instruction: ['Set Ref.: F1', 3, None, None]
+A.ins00.json: {ForcePose: 0, FrameName: 'F1', FramePtr: '<ptr>', Name: 'Set Ref.: F1', Pose: 'transl(0,1000,0)', Type: 3}
+A.ins01.Instruction: ['Set Tool: T1', 4, None, None]
+A.ins01.json: {ForcePose: 0, Name: 'Set Tool: T1', Pose: 'transl(0,0,100)', ToolName: 'T1', ToolPtr: '<ptr>', Type: 4}
+A.ins02.Instruction: ['Set speed (250.0 mm/s)', 2, None, None]
+A.ins02.json: {Accel: 3000, AccelSet: 0, JointAccel: 800, JointAccelSet: 0, JointSpeed: 500, JointSpeedSet: 0, Name: 'Set speed (250.0 mm/s)', Speed: 250, SpeedSet: 1, Type: 2}
+A.ins03.Instruction: ['Smooth(5)', 10, None, None]
+A.ins03.json: {Name: 'Smooth(5)', Rounding: 5, Type: 10}
+A.ins04.Instruction: ['MoveJ (Target 1)', 0, 1, 0]
+A.ins04.json: {Joints: '0.000000,-10.000000,20.000000,0.000000,30.000000,0.000000', MoveType: 1, Name: 'MoveJ (Target 1)', Pose: 'transl(394.442,-1000,461.833)*rotx(-180)*roty(50)*rotz(180)', TargetPtr: '<ptr>', Type: 0}
+A.ins05.Instruction: ['MoveL (Target 2)', 0, 2, 0]
+A.ins05.json: {Joints: '0.000000,-10.000000,20.000000,0.000000,30.000000,0.000000', MoveType: 2, Name: 'MoveL (Target 2)', Pose: 'transl(394.442,-950,461.833)*rotx(-180)*roty(50)*rotz(180)', TargetPtr: '<ptr>', Type: 0}
+A.ins06.Instruction: ['MoveC (Target 3, Target 1)', 1, None, None]
+A.ins06.json: {Joints: '0.000000,-10.000000,20.000000,0.000000,30.000000,0.000000', Joints2: '0.000000,-10.000000,20.000000,0.000000,30.000000,0.000000', MoveType: 3, Name: 'MoveC (Target 3, Target 1)', Pose: 'transl(362.303,-950,423.531)*rotx(-180)*roty(50)*rotz(180)', Pose2: 'transl(394.442,-1000,461.833)*rotx(-180)*roty(50)*rotz(180)', Type: 1}
+A.ins07.Instruction: ['Pause 500 ms', 6, None, None]
+A.ins07.json: {Name: 'Pause 500 ms', Pause: 500, Type: 6}
+A.ins08.Instruction: ['Hello msg', 9, None, None]
+A.ins08.json: {Message: 'Hello msg', Name: 'Print: Hello msg', Type: 9}
+A.ins09.Instruction: ['A comment', 8, None, None]
+A.ins09.json: {Behavior: 3, Code: 'A comment', Name: 'A comment', Type: 8}
+A.ins10.Instruction: ['SetRPM(25000)', 8, None, None]
+A.ins10.json: {Behavior: 1, Code: 'SetRPM(25000)', Name: 'SetRPM(25000)', Type: 8}
+A.ins11.Instruction: ['Sub1', 8, None, None]
+A.ins11.json: {Behavior: 0, Code: 'Sub1', Name: 'Call Sub1', Type: 8}
+A.ins12.Instruction: ['Sub1', 8, None, None]
+A.ins12.json: {Behavior: 2, Code: 'Sub1', Name: 'Run Sub1', Type: 8}
+A.ins13.Instruction: ['Set IO_1=1', 11, None, None]
+A.ins13.json: {Behavior: 0, IO_Name: '1', IO_Timeout: -1, IO_Value: '1', Name: 'Set IO_1=1', Type: 11}
+A.ins14.Instruction: ['Set AO_3=2.5', 11, None, None]
+A.ins14.json: {Behavior: 2, IO_Name: '3', IO_Timeout: -1, IO_Value: '2.5', Name: 'Set AO_3=2.5', Type: 11}
+A.ins15.Instruction: ['Wait IO_2=1 T1.0s', 11, None, None]
+A.ins15.json: {Behavior: 1, IO_Name: '2', IO_Timeout: 1000, IO_Value: '1', Name: 'Wait IO_2=1 T1.0s', Type: 11}
+A.ins16.Instruction: ['MyCustom', 12, None, None]
+A.ins16.json: {Blocking: 1, CustomData: '', EditCommand: '', LinePost: '', Name: 'MyCustom', PathIcon: '', PathRunRobot: 'cmd', PathRunSim: 'my.py', Type: 12}
+B.speed_mm(0.04): 'Set speed (0.0 mm/s)'
+B.speed_mm(0.05): 'Set speed (0.1 mm/s)'
+B.speed_mm(1): 'Set speed (1.0 mm/s)'
+B.speed_mm(99.94): 'Set speed (99.9 mm/s)'
+B.speed_mm(99.95): 'Set speed (100.0 mm/s)'
+B.speed_mm(250.25): 'Set speed (250.3 mm/s)'
+B.speed_mm(600.05): 'Set speed (600.0 mm/s)'
+B.speed_mm(1234.5678): 'Set speed (1234.6 mm/s)'
+B.speed(-1, 30.05): ['Set speed (30.1 deg/s)', {Accel: 3000, AccelSet: 0, JointAccel: 800, JointAccelSet: 0, JointSpeed: 30.05, JointSpeedSet: 1, Name: 'Set speed (30.1 deg/s)', Speed: 500, SpeedSet: 0, Type: 2}]
+B.speed(-1, -1, 600.06): ['Set accel. (600.1 mm/s2)', {Accel: 600.06, AccelSet: 1, JointAccel: 800, JointAccelSet: 0, JointSpeed: 500, JointSpeedSet: 0, Name: 'Set accel. (600.1 mm/s2)', Speed: 500, SpeedSet: 0, Type: 2}]
+B.speed(-1, -1, -1, 90.06): ['Set accel. (90.1 deg/s2)', {Accel: 3000, AccelSet: 0, JointAccel: 90.06, JointAccelSet: 1, JointSpeed: 500, JointSpeedSet: 0, Name: 'Set accel. (90.1 deg/s2)', Speed: 500, SpeedSet: 0, Type: 2}]
+B.speed(-1, 45, 600): ['Set accel. (600.0 mm/s2)', {Accel: 600, AccelSet: 1, JointAccel: 800, JointAccelSet: 0, JointSpeed: 45, JointSpeedSet: 1, Name: 'Set accel. (600.0 mm/s2)', Speed: 500, SpeedSet: 0, Type: 2}]
+B.speed(-1, -1, 600, 90): ['Set accel. (600.0 mm/s2)', {Accel: 600, AccelSet: 1, JointAccel: 90, JointAccelSet: 1, JointSpeed: 500, JointSpeedSet: 0, Name: 'Set accel. (600.0 mm/s2)', Speed: 500, SpeedSet: 0, Type: 2}]
+B.speed(123.456, 45.678, 789.123, 99.5): ['Set speed (123.5 mm/s)', {Accel: 789.123, AccelSet: 1, JointAccel: 99.5, JointAccelSet: 1, JointSpeed: 45.678, JointSpeedSet: 1, Name: 'Set speed (123.5 mm/s)', Speed: 123.456, SpeedSet: 1, Type: 2}]
+B.rounding(-1): 'Accurate'
+B.rounding(-2): 'Accurate'
+B.rounding(0): 'Smooth(0)'
+B.rounding(0.4): 'Smooth(0)'
+B.rounding(0.5): 'Smooth(1)'
+B.rounding(1.5): 'Smooth(2)'
+B.rounding(2.5): 'Smooth(3)'
+B.rounding(2.345): 'Smooth(2)'
+B.rounding(10.75): 'Smooth(11)'
+B.rounding(100): 'Smooth(100)'
+B.pause(0): 'Pause 0 ms'
+B.pause(0.4): 'Pause 0 ms'
+B.pause(0.5): 'Pause 1 ms'
+B.pause(999): 'Pause 999 ms'
+B.pause(999.5): 'Pause 1000 ms'
+B.pause(1000): 'Pause 1.0 s'
+B.pause(1049): 'Pause 1.0 s'
+B.pause(1050): 'Pause 1.1 s'
+B.pause(1234.5): 'Pause 1.2 s'
+B.pause(59999): 'Pause 60.0 s'
+B.pause(61000): 'Pause 61.0 s'
+B.pause(-1): 'Stop'
+B.pause(-0.5): 'Stop'
+B.waitDI(3,1,timeout=-1): 'Wait IO_3=1'
+B.waitDI(3,1,timeout=0): 'Wait IO_3=1'
+B.waitDI(3,1,timeout=1): 'Wait IO_3=1 T1ms'
+B.waitDI(3,1,timeout=999): 'Wait IO_3=1 T999ms'
+B.waitDI(3,1,timeout=999.5): 'Wait IO_3=1 T999ms'
+B.waitDI(3,1,timeout=1000): 'Wait IO_3=1 T1.0s'
+B.waitDI(3,1,timeout=1049.9): 'Wait IO_3=1 T1.0s'
+B.waitDI(3,1,timeout=1050): 'Wait IO_3=1 T1.1s'
+B.waitDI(3,1,timeout=2500): 'Wait IO_3=1 T2.5s'
+B.waitDI(3,1,timeout=60000): 'Wait IO_3=1 T60.0s'
+B.setDO(0,0): 'Set IO_0=0'
+B.setDO('5','1'): 'Set IO_5=1'
+B.setDO('IO_7','1'): 'Set IO_7=1'
+B.setDO('DO[3]','true'): 'Set DO[3]=true'
+B.setDO(' 4',' 5'): 'Set  4= 5'
+B.setDO('-2','1'): 'Set -2=1'
+B.setDO('3.5','1'): 'Set 3.5=1'
+B.setAO(0,0): 'Set AO_0=0'
+B.setAO('5','1.25'): 'Set AO_5=1.25'
+B.setAO('AO2','3'): 'Set AO2=3'
+B.waitDI('5','1'): 'Wait IO_5=1'
+B.waitDI('DI_X','0'): 'Wait DI_X=0'
+B.message('Hello'): ['Print: Hello', 'Hello']
+B.message('multi\nline'): ['Print: multi\nline', 'multi<br>line']
+B.code('Prog(1,2)'): ['Prog(1,2)', 'Prog(1,2)']
+B.code('two\nlines'): ['two\nlines', 'two<br>lines']
+B.code(''): ['', '']
+B.comment('Prog(1,2)'): ['Prog(1,2)', 'Prog(1,2)']
+B.comment('two\nlines'): ['two\nlines', 'two<br>lines']
+B.comment(''): ['', '']
+B.call('Prog(1,2)'): ['Call Prog(1,2)', 'Prog(1,2)']
+B.call('two\nlines'): ['Call two\nlines', 'two<br>lines']
+B.call(''): ['Call ', '']
+B.thread('Prog(1,2)'): ['Run Prog(1,2)', 'Prog(1,2)']
+B.thread('two\nlines'): ['Run two\nlines', 'two<br>lines']
+B.thread(''): ['Run ', '']
+C.add_type0: {Joints: '0.000000', MoveType: 2, Name: 'MoveL', Pose: 'rotz(0)', TargetPtr: '0', Type: 0}
+C.add_type1: {Joints: '0.000000', Joints2: '0.000000', MoveType: 3, Name: 'MoveC', Pose: 'rotz(0)', Pose2: 'rotz(0)', Type: 1}
+C.add_type2: {Accel: 10, AccelSet: 1, JointAccel: 800, JointAccelSet: 0, JointSpeed: 500, JointSpeedSet: 0, Name: 'Set speed (500.0 mm/s)', Speed: 500, SpeedSet: 1, Type: 2}
+C.add_type3: {ForcePose: 0, FrameName: 'Change Frame', FramePtr: '0', Name: 'Change Frame', Pose: 'rotz(0)', Type: 3}
+C.add_type4: {ForcePose: 0, Name: 'Set Tool', Pose: 'rotz(0)', ToolName: 'Set Tool', ToolPtr: '0', Type: 4}
+C.add_type5: {Name: 'Select Robot', Type: 5}
+C.add_type6: {Name: 'Pause 500 ms', Pause: 500, Type: 6}
+C.add_type7: {AttachDistance: 200, AttachStrategy: 0, Behavior: 0, FramePtr: '0', Name: 'Unset', ObjectList: '0', ParentList: '0', PoseList: '', ToolPtr: '0', Type: 7}
+C.add_type8: {Behavior: 1, Code: '', Name: '', Type: 8}
+C.add_type9: {Message: 'set message', Name: 'Print: set message', Type: 9}
+C.add_type10: {Name: 'Smooth(5)', Rounding: 5, Type: 10}
+C.add_type11: {Behavior: 0, IO_Name: '5', IO_Timeout: -1, IO_Value: '1', Name: 'Set IO_5=1', Type: 11}
+C.add_type12: {Blocking: 0, CustomData: '', EditCommand: '', LinePost: '', Name: '', PathIcon: '', PathRunRobot: '', PathRunSim: '', Type: 12}
+C.add_type13: {Name: '', Type: 13}
+D.set_pause_1500: {Name: 'Pause 1.5 s', Pause: 1500, Type: 6}
+D.set_custom_name: {Name: 'My custom name', Pause: 1500, Type: 6}
+D.set_pause_700_after_custom: {Name: 'Pause 700 ms', Pause: 700, Type: 6}
+D.set_speed_fields: {Accel: 123, AccelSet: 1, JointAccel: 800, JointAccelSet: 0, JointSpeed: 500, JointSpeedSet: 0, Name: 'Set speed (77.0 mm/s)', Speed: 77, SpeedSet: 1, Type: 2}
+D.delete_by_type_-1: ['Pause 700 ms', 'Set speed (77.0 mm/s)']
+D.InstructionDelete(0): ['Set speed (77.0 mm/s)']
+E.initial: ['Pause 1 ms', 'Pause 2 ms', 'Pause 3 ms']
+E.InstructionSelect(0): 0
+E.after_add_10: ['Pause 1 ms', 'Pause 10 ms', 'Pause 2 ms', 'Pause 3 ms']
+E.after_add_11: ['Pause 1 ms', 'Pause 11 ms', 'Pause 10 ms', 'Pause 2 ms', 'Pause 3 ms']
+E.InstructionSelect(): -1
+E.after_setSelection([])_add_12: ['Pause 1 ms', 'Pause 12 ms', 'Pause 11 ms', 'Pause 10 ms', 'Pause 2 ms', 'Pause 3 ms']
+F.names: ['Pause 1 ms', 'MoveJ -1', 'MoveJ 1', 'MoveL 2', 'x']
+F.json_last: {Behavior: 3, Code: 'x', Name: 'x', Type: 8}
+F.MoveC_with_pose: ERROR Exception: Adding a movement instruction to a program given joints or a pose is not supported. Use a target item instead, for example, add a target as with RDK.AddTarget(...) and set the pose or joints.
+G.actionAdd_Pause: [1, {Name: 'Pause 500 ms', Pause: 500, Type: 6}]
+G.actionAdd_Speed_Change: [1, {Accel: 3000, AccelSet: 0, JointAccel: 800, JointAccelSet: 0, JointSpeed: 500, JointSpeedSet: 0, Name: 'Set speed (500.0 mm/s)', Speed: 500, SpeedSet: 1, Type: 2}]
+G.actionAdd_Zone_change: [1, {Name: 'Accurate', Rounding: -1, Type: 10}]
+G.actionAdd_Message: [1, {Message: 'Display message', Name: 'Print: Display message', Type: 9}]
+G.actionAdd_Code_Custom: [1, {Behavior: 0, Code: 'Program1', Name: 'Call Program1', Type: 8}]
+G.actionAdd_I_O_change: [1, {Behavior: 0, IO_Name: '5', IO_Timeout: -1, IO_Value: '1', Name: 'Set IO_5=1', Type: 11}]
+G.actionAdd_Tool_Change: [1, {ForcePose: 0, Name: 'Set Tool: T1', Pose: 'transl(0,0,100)', ToolName: 'T1', ToolPtr: '<ptr>', Type: 4}]
+G.actionAdd_Frame_Change: [1, {ForcePose: 0, FrameName: 'ABB IRB 120-3/0.6 Base', FramePtr: '<ptr>', Name: 'Set Ref.: ABB IRB 120-3/0.6 Base', Pose: 'rotz(0)', Type: 3}]
+G.actionAdd_Move_Joint[target selected]: 'MoveJ (Target 2)'
+G.actionAdd_Move_Linear[only target selected]: 'MoveL (Target 3)'
+G.actionAdd_Move_Joint[program only -> new target]: 'MoveJ (Target 4)'
+G.new_target: ['Target 4', 'F1', False, [10.0, -10.0, 20.0, 0.0, 30.0, 0.0]]
+G.selection_after: [['GuiIns', 8]]
+done
+
+[exit] {"code":0}

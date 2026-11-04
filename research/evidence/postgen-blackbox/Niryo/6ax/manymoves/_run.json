@@ -1,0 +1,9 @@
+{
+ "post": "Niryo",
+ "robot": "Niryo NED",
+ "nq": 6,
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

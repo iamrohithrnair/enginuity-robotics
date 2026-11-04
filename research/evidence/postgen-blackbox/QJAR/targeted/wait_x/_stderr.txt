@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-taxhleog/PostTgtProg.py", line 30, in <module>
+    r.waitDI(1,'x')
+  File "QJAR.py", line 814, in QJAR.RobotPost.waitDI
+ValueError: invalid literal for int() with base 10: 'x'

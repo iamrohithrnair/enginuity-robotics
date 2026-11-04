@@ -1,0 +1,9 @@
+{
+ "post": "Inexbot",
+ "robot": "Ligent SK12-2010",
+ "nq": 6,
+ "exit": 1,
+ "stray_files": [
+  "Library"
+ ]
+}

@@ -1,0 +1,52 @@
+popups_before(1=popups shown; instance default observed 1): '0'
+popups_set0: '0'
+pause(500).finished_and_continued: [0, 1.0]
+pause(500)@simspeed10.wall_time_between_0.03_and_0.5s: True
+pause(0).finished_and_continued: [0, 1.0]
+pause(-1).finished_and_continued: [0, 1.0]
+message.run: 1.0
+io.station_param(IO_9): 1.0
+io.station_param(IO_4): 1.0
+io.station_param(MyDO): 'ON'
+io.station_param(AO_3): 2.5
+WARNING: Invalid/unknown parameter to get: 4
+io.station_param(4): None
+WARNING: Invalid/unknown parameter to get: 3
+io.station_param(3): None
+io.waitDI_already_true.run: [0, 1.0]
+io.waitDI_never_set.after_1.5s[busy,after]: [1, 0.0]
+io.waitDI_after_RDK.setParam(IO_10,1)[busy,after]: [0, 1.0]
+io.waitDI_timeout_1s_popups_off[busy,after]: [0, 1.0]
+call.main.instructions: ['Set Ref.: F1', 'Set Tool: T1', 'Set sub_ran=0', 'Set sub_done=0', 'MoveJ (A)', 'Call SubR', 'Set after_call=1', 'Call NoSuchProgram', 'Set after_missing=1', 'MoveJ (C)']
+call.states_seen(main_busy,sub_busy): [[1, 0], [1, 1]]
+call.params[sub_ran,sub_done,after_call,after_missing]: [1.0, 1.0, 1.0, 1.0]
+call.final_joints(=last target C): [-45.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+thread.after_main_finished[main_busy,thread_busy,m2_done,th_done]: [0, 1, 1.0, 0.0]
+thread.later[thread_busy,th_done]: [0, 1.0]
+missing_thread_and_call_with_args[m3_done,sub_ran]: [1.0, 0.0]
+loop.get_default: '0'
+loop.set1: 'OK'
+loop.busy_after_4s: 1
+loop.extreme_visits_alternate(>=3): True
+stop.busy_after_Stop: 0
+stop.robot_stays_where_stopped: True
+stop.mid_motion_is_intermediate(0<J1<60): True
+rerun.starts_from_first_instruction(goes_to_A=0_before_D=60): True
+rerun.end_joint: -60.0
+start_at.setParam(Start,4)=MoveJ(E): 'OK'
+start_at.never_visits_D(60)_and_ends_at_E: [True, -60.0]
+item_command_Stop: 0
+simspeed.initial: 5.0
+simspeed.after_actionFast_simulation: 100.0
+simspeed.after_second_toggle: 5.0
+simspeed.custom_7.5_then_toggle_twice: [100.0, 5.0]
+simspeed.set(0.001)->get: 0.001
+simspeed.set(0.0005)->get: 0.0
+simspeed.set(0)->get: 0.0
+simspeed.set(-1)->get: 0.0
+simspeed.set(1000)->get: 1000.0
+pause_action.first[busy,robot_frozen]: [1, True]
+pause_action.second_resumes_to_end[busy,J1]: [0, -90.0]
+done
+
+[exit] {"code": 0, "signal": 0, "reason": "exited"}

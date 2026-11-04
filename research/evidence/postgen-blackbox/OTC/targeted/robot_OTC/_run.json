@@ -1,0 +1,11 @@
+{
+ "post": "OTC",
+ "robot": "OTC",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "robot_OTC",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

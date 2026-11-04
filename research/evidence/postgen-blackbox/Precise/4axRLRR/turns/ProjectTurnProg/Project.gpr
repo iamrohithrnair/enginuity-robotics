@@ -1,0 +1,6 @@
+ProjectBegin
+ProjectName="ProjectTurnProg"
+ProjectStart="Main"
+ProjectSource="Main.gpl"
+ProjectSource="GModule.gpo"
+ProjectEnd

@@ -1,0 +1,11 @@
+{
+ "post": "Motoman",
+ "robot": "Yaskawa Motoman SCARA",
+ "nq": 4,
+ "axes": "LRRR",
+ "targeted": "pulses_4ax_LRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

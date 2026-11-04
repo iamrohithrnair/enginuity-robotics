@@ -1,0 +1,11 @@
+{
+ "post": "Neura",
+ "robot": "Delta Electronics DC06",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "io_text_do",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "post": "Robostar",
+ "robot": "Robostar RA004",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

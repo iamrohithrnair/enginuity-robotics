@@ -1,0 +1,10 @@
+{
+ "mode": "points",
+ "status": 0.0,
+ "names": {
+  "error": "Exception: Invalid item provided: The item identifier provided is not valid or it does not exist."
+ },
+ "prog": {
+  "error": "Exception: Invalid item provided: The item identifier provided is not valid or it does not exist."
+ },
+ "get_PointApproach": 

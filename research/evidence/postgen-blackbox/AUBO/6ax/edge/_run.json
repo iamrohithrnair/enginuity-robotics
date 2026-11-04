@@ -1,0 +1,9 @@
+{
+ "post": "AUBO",
+ "robot": "AUBO-ES3",
+ "nq": 6,
+ "exit": 1,
+ "stray_files": [
+  "Library"
+ ]
+}

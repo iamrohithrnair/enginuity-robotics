@@ -1,0 +1,11 @@
+{
+ "post": "CLOOS",
+ "robot": "CLOOS Romat 310",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "pulses_x_deg": "[18507.840000,18640.050000,14409.680000,13182.430000,8067.880000,9310.750000]",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "post": "Adept_Vplus",
+ "robot": "Adept Six 300",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "frames",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

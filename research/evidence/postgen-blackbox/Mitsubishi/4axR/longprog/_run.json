@@ -1,0 +1,10 @@
+{
+ "post": "Mitsubishi",
+ "robot": "Mitsubishi RH-12FH7035",
+ "nq": 4,
+ "axes": "RRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

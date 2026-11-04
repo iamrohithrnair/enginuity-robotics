@@ -1,0 +1,29 @@
+setting.MoveLSplitMM: '-1'
+setting.MoveLSplitDeg: '-1'
+setting.MoveLSplitMinMM: '0.005'
+setting.MoveJSplitDeg: '-1'
+setting.MoveCSplitMM: '-1'
+setting.MoveCSplitDeg: '270'
+setting.MoveCSplitMinMM: '0.2'
+setting.PathStepMM: '1'
+setting.PathStepCollisionMM: '4'
+setting.PathStepCollisionDeg: '4'
+setting.SimulationSpeed: '5.000000'
+setting.CollisideOneStop: '0'
+setting.ToleranceSingularityWrist: '2.5'
+setting.ToleranceSingularityElbow: '2.5'
+setting.ToleranceSingularityBack: '-1'
+setting.ToleranceTurn180: '0.5'
+setting.ProgMoveJType: '0'
+setting.ProgMoveLType: '0'
+setting.ProgMoveCType: '0'
+gen.default: [['MoveAbsJ', 'MoveL', 'MoveC'], ['-900.000']]
+gen.MoveLSplitMM=30: [['MoveAbsJ', 'MoveL', 'MoveL', 'MoveL', 'MoveL', 'MoveC'], ['-975.000', '-950.000', '-925.000', '-900.000']]
+gen.MoveCSplitDeg=45: [['MoveAbsJ', 'MoveL', 'MoveC'], ['-900.000']]
+sim.PathStepMM=1.all_sampled_offsets_are_multiples: True
+sim.PathStepMM=1.first_offsets: [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+sim.PathStepMM=5.all_sampled_offsets_are_multiples: True
+sim.PathStepMM=5.first_offsets: [5.0, 10.0, 15.0, 20.0, 25.0, 30.0, 35.0, 40.0]
+done
+
+[exit] {"code":0}

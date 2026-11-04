@@ -1,0 +1,121 @@
+{
+ "cases": [
+  {
+   "file": "Dispensing-with-Kassow-KR0810.rdk",
+   "update": {
+    "Dispensing_3-Axis": [
+     206.0,
+     9.0003,
+     1872.9468,
+     1.0,
+     ""
+    ],
+    "Dispensing_5-Axis": [
+     201.0,
+     9.0976,
+     1883.3396,
+     1.0,
+     ""
+    ]
+   },
+   "opened": true,
+   "items": 21,
+   "names": [
+    "Description",
+    "Dispensing - 5-Axis",
+    "Dispensing with Kassow KR0810",
+    "Dispensing_3-Axis",
+    "Dispensing_3-Axis Settings",
+    "Dispensing_3-Axis_JCT",
+    "Dispensing_3-Axis_JCT Settings",
+    "Dispensing_5-Axis",
+    "Dispensing_5-Axis Settings",
+    "GunEnd",
+    "GunStart",
+    "Jig",
+    "Kassow Robots KR0810",
+    "Kassow Robots KR0810 Base",
+    "Part",
+    "Part_Dispensing",
+    "Path - 3-Axis",
+    "Path - 3-Axis - JCT",
+    "Sealant_Dispenser",
+    "Table 1400x800x800mm",
+    "World"
+   ],
+   "calls_so_far": 8
+  },
+  {
+   "file": "Dispensing-with-Kassow-KR0810-mb.rdk",
+   "update": {
+    "Dispensing_3-Axis": [
+     206.0,
+     8.9927,
+     1871.4203,
+     1.0,
+     ""
+    ],
+    "Dispensing_5-Axis": [
+     201.0,
+     9.0862,
+     1881.0579,
+     1.0,
+     ""
+    ]
+   },
+   "opened": true,
+   "items": 18,
+   "names": [
+    "Description",
+    "Dispensing - 5-Axis",
+    "Dispensing with Kassow KR0810",
+    "Dispensing_3-Axis",
+    "Dispensing_3-Axis_JCT",
+    "Dispensing_5-Axis",
+    "GunEnd",
+    "GunStart",
+    "Jig",
+    "Kassow Robots KR0810",
+    "Kassow Robots KR0810 Base",
+    "Part",
+    "Part_Dispensing",
+    "Path - 3-Axis",
+    "Path - 3-Axis - JCT",
+    "Sealant_Dispenser",
+    "Table 1400x800x800mm",
+    "World"
+   ],
+   "calls_so_far": 15
+  },
+  {
+   "file": "MB-Simple.rdk",
+   "update": {
+    "Prog1": [
+     10.0,
+     2.9641,
+     1547.7257,
+     1.0,
+     ""
+    ]
+   },
+   "opened": true,
+   "items": 11,
+   "names": [
+    "Frame 2",
+    "Home",
+    "MB Simple",
+    "Notes folder",
+    "Prog1",
+    "Readme",
+    "Target 1",
+    "Target 2",
+    "Tool 1",
+    "UR5e",
+    "UR5e Base"
+   ],
+   "calls_so_far": 20
+  }
+ ],
+ "version": "6.0.7.26935",
+ "calls": 20
+}

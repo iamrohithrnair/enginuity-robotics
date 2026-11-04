@@ -1,0 +1,118 @@
+Module GModule
+  Public prof1 As Profile
+  Public Loc1 As Location
+  Public Loc2 As Location
+  Public Loc3 As Location
+  Public Loc4 As Location
+  Public Loc5 As Location
+  Public Loc6 As Location
+  Public Loc7 As Location
+  Public Loc8 As Location
+  Public Loc9 As Location
+  Public Loc10 As Location
+
+  Public Sub Init
+    '<MotionProfile>prof1
+    prof1 = New Profile
+    prof1.Speed = 25
+    prof1.Speed2 = 0
+    prof1.Accel = 100
+    prof1.Decel = 100
+    prof1.AccelRamp = 0.1
+    prof1.DecelRamp = 0.1
+    prof1.Straight = False
+    prof1.InRange = 10
+    '</MotionProfile>
+
+    '<MotionLocation>Loc1
+    Loc1 = New Location
+    Loc1.Type = 1
+    Loc1.Angles(250.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)
+    Loc1.ZWorld = False
+    Loc1.ZClearance = 1E+32
+    Loc1.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>Loc2
+    Loc2 = New Location
+    Loc2.Type = 0
+    Loc2.XYZ(436.232,68.297,413.715,-19.279,128.381,-12.253)
+    Loc2.ZWorld = False
+    Loc2.ZClearance = 1E+32
+    Loc2.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>Loc3
+    Loc3 = New Location
+    Loc3.Type = 0
+    Loc3.XYZ(414.005,116.593,367.095,-19.279,128.381,-12.253)
+    Loc3.ZWorld = False
+    Loc3.ZClearance = 1E+32
+    Loc3.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>Loc4
+    Loc4 = New Location
+    Loc4.Type = 0
+    Loc4.XYZ(371.953,68.296,337.111,-19.279,128.381,-12.253)
+    Loc4.ZWorld = False
+    Loc4.ZClearance = 1E+32
+    Loc4.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>Loc5
+    Loc5 = New Location
+    Loc5.Type = 1
+    Loc5.Angles(500.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)
+    Loc5.ZWorld = False
+    Loc5.ZClearance = 1E+32
+    Loc5.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>Loc6
+    Loc6 = New Location
+    Loc6.Type = 0
+    Loc6.XYZ(419.189,11.793,411.899,-19.279,128.381,-12.253)
+    Loc6.ZWorld = False
+    Loc6.ZClearance = 1E+32
+    Loc6.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>Loc7
+    Loc7 = New Location
+    Loc7.Type = 0
+    Loc7.XYZ(426.318,20.000,422.034,-19.279,128.381,-12.253)
+    Loc7.ZWorld = False
+    Loc7.ZClearance = 1E+32
+    Loc7.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>Loc8
+    Loc8 = New Location
+    Loc8.Type = 1
+    Loc8.Angles(250.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)
+    Loc8.ZWorld = False
+    Loc8.ZClearance = 1E+32
+    Loc8.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>Loc9
+    Loc9 = New Location
+    Loc9.Type = 1
+    Loc9.Angles(260.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)
+    Loc9.ZWorld = False
+    Loc9.ZClearance = 1E+32
+    Loc9.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>Loc10
+    Loc10 = New Location
+    Loc10.Type = 0
+    Loc10.XYZ(973.908,-353.337,382.202,12.059,138.234,-12.044)
+    Loc10.ZWorld = False
+    Loc10.ZClearance = 1E+32
+    Loc10.Config = 0
+    '</MotionLocation>
+
+  End Sub
+End Module

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-tgw1pskg/PostTgtProg.py", line 30, in <module>
+    r.MoveC(None,[0,-10,20,0,30,0],None,[20,-10,20,0,30,0],None,None)
+  File "AUBO.py", line 1133, in AUBO.RobotPost.MoveC
+AttributeError: 'RobotPost' object has no attribute 'LAST_JOINTS'

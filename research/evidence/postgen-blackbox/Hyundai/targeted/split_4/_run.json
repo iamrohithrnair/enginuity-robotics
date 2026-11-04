@@ -1,0 +1,11 @@
+{
+ "post": "Hyundai",
+ "robot": "Hyundai HA006B",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "split_4",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "file": "Painting-and-Spraying-with-ABB-IRB-2600-12-1-85.rdk",
+ "program": "Main",
+ "ratio": 5.0,
+ "open": {
+  "ok": true,
+  "error": null
+ },
+ "open_s": 0.3,
+ "run": {
+  "ok": true,
+  "error": null
+ },
+ "run_s": 39.9,
+ "timed_out": false,
+ "spray_list": {
+  "station": "Painting and Spraying with ABB IRB 2600-12/1.85",
+  "guns": [],
+  "info": "id<br>percent in<br>percent out<br>count",
+  "count": 0
+ },
+ "spray_stats": {
+  "info": "id<br>percent in<br>percent out<br>count",
+  "columns": [],
+  "guns": []
+ },
+ "shot": "/workspace/srcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcs/98d21853-3eb1-4a96-a77c-869a7e687818/scratchpad/live/sweep/Painting-and-Spraying-with-ABB-IRB-2600-12-1-85.png",
+ "close": {
+  "ok": true,
+  "error": null
+ }
+}

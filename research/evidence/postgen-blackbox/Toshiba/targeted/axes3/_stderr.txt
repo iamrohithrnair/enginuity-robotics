@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-rer8juda/PostTgtProg.py", line 30, in <module>
+    r.MoveL(p(-607.85,543.849,363.215,150,50,-165),[1,-2,3],[0,0,0])
+  File "Toshiba.py", line 160, in Toshiba.RobotPost.MoveL
+  File "Toshiba.py", line 70, in Toshiba.target_2_str
+IndexError: list index out of range

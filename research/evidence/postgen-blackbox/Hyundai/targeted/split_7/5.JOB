@@ -1,0 +1,7 @@
+Program File Format Version : 1.6  MechType: 578(HA006B-01)  TotalAxis: 6  AuxAxis: 0
+' Main program TgtProg calls 4 subprograms
+CALL   6
+CALL   7
+CALL   8
+CALL   9
+END

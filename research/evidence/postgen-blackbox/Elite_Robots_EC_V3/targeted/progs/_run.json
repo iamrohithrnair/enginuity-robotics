@@ -1,0 +1,11 @@
+{
+ "post": "Elite_Robots_EC_V3",
+ "robot": "Elite Robots EC612",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "progs",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

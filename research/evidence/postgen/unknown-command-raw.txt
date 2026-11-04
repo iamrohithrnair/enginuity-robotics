@@ -1,0 +1,4 @@
+hello: 52444b5f4150490a000000010000693700000000
+first reply after 25.0s (no further client bytes sent): ffffffff
+more: none
+Version reply: b'RoboDK v6.0.7\n\x00\x00\x00@6.0.7.26935\n31-08-2026\n\x00\x00\x00\x00'

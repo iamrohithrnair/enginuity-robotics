@@ -1,0 +1,58 @@
+(ItemCommand)	(ItemParameter)	(description)
+(id)	(dict or JSON string)	For a program, providing the instruction id you can get or set the instruction parameters.
+Add	(dict or JSON string)	Add the new instruction to a program using a dict or JSON format.
+Approach	(Normal|Tangent|Side|XYZ|NTS|ArcN|ArcS A B C)	Set the approach or retract of a robot machining toopath
+ApproachRetractAllCurves	(1|0)	For curve follow projects: Apply approach and retract to each curve section.
+BoundingBox		Returns the bounding box of this object, robot or tool a JSON string, in mm and with respect to station coordinates (absolute)
+Clear	Point|Curve|Surf	Delete object points, curves or mesh
+ClearanceZ	(ignored)	Get the clearance distance along the positive Z axis (for tools, objects or coordinate systems).
+Close	(ignored)	Close camera view
+Code	(ignored)	Get the Python code
+Convert	(Object|Tool)	Convert a tool or geometry to an object or an object to a tool. If the pointer changes it returns the object pointer as a string, otherwise it returns OK.
+Cutter	(1|0)	Set this tool as a cutter: it is treated accordingly when using a robot machining project.
+FilterMesh	(double double double)	Remove small object triangles given a tolerance [min part size (mm), min triangle surface (mm2), triangle angle (deg)].
+FitAll	(double)	Fits the screen to the current item and its children. Optionally provide a minimum size to fit.
+Form	(Open|Close)	Open or close a form or camera linked to an item
+HTML	(string)	Get or set the HTML text of a notes item
+IconGet	(ignored)	Get the item icon as a PNG bytearray in hex format
+IconSet	(image file or hex bytearray representing png data)	Set the icon of an item (see command AddItem)
+IsJointTarget	(ignored)	Returns 1 if the target is a joint target.
+IsOpen	(ignored)	Returns 1 if the view is open, 0 otherwise
+JoinCurveTol	(double)	For curve follow projects: Join curve tolerance (in mm).
+Loop	(1|0)	Set program to loop
+Machining	(dict or JSON string)	Get or set the robot machining settings (see also: ProgEvents and OptimAxes)
+NormalApproach	(double)	For robot machining projects: Use a normal approach with a given distance.
+OffsetRail	(double)	For robot machining projects: Offset of the rail when optimized (mm).
+OffsetTurntable	(double)	For robot machining projects: Offset of the turntable when optimized (deg).
+Open	(ignored)	Open camera view
+OperationSpeed	(double)	For curve follow projects: Operation speed (in mm/s).
+OptimAxes	(dict or JSON string)	Get or set the robot optimization settings for external axes (settings linked to a robot machining project or robot)
+OptimRail	(0|1)	For robot machining projects: Use linear rail optimization.
+OptimTurntable	(0|1)	For robot machining projects: Use turntable optimization.
+Orient	(Teach)	Set the teach action for machining/curve follow projects
+PathDisplay	(Estimated|Preferred|Quick|None)	Preview path for robot machining/curve follow projects. Add the Quick flag to display for a brief moment (about 2 seconds).
+PointApproach	(double)	For point follow projects: Point approach (in mm).
+PostProcessor	(string)	Set the post processor (file or name excluding the path). Leave empty to retrieve current post processor.
+ProgEvents	(dict or JSON string)	Get or set the program events of a robot machining project (use a station to change default settings)
+RangeRotZ	(double 0-180)	For robot machining projects: Tool rotation range around the Z axis (deg).
+Reachable	(ignored)	Returns 1 if the target is reachable with the currently active tool and reference frame, 0 otherwise.
+Recalculate	(ignored)	Recalculate a target.
+RecalculateTargets	(string)	Recalculate all targets of a program.
+Reframe	(ignored)	Reframe on this object
+Reset	(Surf|Curves|Points)	Delete the mesh, curves and/or points of an object or tool
+Retract	(Normal|Tangent|Side|XYZ|NTS|ArcN|ArcS A B C)	Set the approach or retract of a robot machining toopath
+SaveTableCalib	(path to csv file)	Save the calibration data as a CSV file.
+SaveTableRail	(path to csv file)	Save the rail data as a CSV file.
+SaveTableValid	(path to csv file)	Save the validation data as a CSV file.
+SelectAlgorithm	(0|1|2)	Select the algorithm (0: minimum tool orientation change, 1: Tool orientation follows path, 3: Robot holds object).
+Settings	(1|0)	Set camera settings
+ShowWorkspace	(0|1|2|3)	Show or hide robot workspace (0: hide, 1: show for wrist center, 2: show for flange, 3: show for active tool).
+SimplifyMesh	(ignored)	Simplify the geometry of an object (it does not change the object appearance).
+Start	(int)	Start a program at a given instruction (0 to start from the beginning)
+StatsAccuracy	(Validation|Calibration)	Robot calibration statistics
+StepRotZ	(double)	For robot machining projects: Tool rotation steps around the Z axis (deg).
+Stop	(ignored)	Stop a program
+Tree	(expand|collapse|isExpanded)	Expand or collapse the item in the tree.
+UpdatePath	(ignored)	Update the operation toolpath (green path). Use this option after changing an approach or retract
+Visible	(1|0)	Get or set visibility of an item.
+VisibleChilds	(1|0)	Get or set visibility of an item including children items.

@@ -1,0 +1,10 @@
+{
+ "post": "ABB_RAPID_OmniCore",
+ "robot": "ABB IRB 120-3/0.6",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

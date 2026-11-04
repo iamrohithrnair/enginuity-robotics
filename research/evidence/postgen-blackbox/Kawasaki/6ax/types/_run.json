@@ -1,0 +1,9 @@
+{
+ "post": "Kawasaki",
+ "robot": "Kawasaki Astorino",
+ "nq": 6,
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

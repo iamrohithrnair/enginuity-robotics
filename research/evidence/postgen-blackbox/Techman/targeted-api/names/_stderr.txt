@@ -1,0 +1,8 @@
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-nb5x5kwr/omron_xzl5vijy/TgtProg/Projects/TgtProg/TgtProg.flow
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Techman/targeted-api/names/_written/omron_xzl5vijy/TgtProg/Projects/TgtProg/TgtProg.flow
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-nb5x5kwr/omron_xzl5vijy/TgtProg/Projects/TgtProg/TgtProg.prog
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Techman/targeted-api/names/_written/omron_xzl5vijy/TgtProg/Projects/TgtProg/TgtProg.prog
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-nb5x5kwr/omron_xzl5vijy/TgtProg/Projects/TgtProg/TgtProg.dat
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Techman/targeted-api/names/_written/omron_xzl5vijy/TgtProg/Projects/TgtProg/TgtProg.dat
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-nb5x5kwr/omron_xzl5vijy/TgtProg/ConfigData.xml
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Techman/targeted-api/names/_written/omron_xzl5vijy/TgtProg/ConfigData.xml

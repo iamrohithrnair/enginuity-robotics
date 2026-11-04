@@ -1,0 +1,7 @@
+stations0 ['UndoDel']
+KeyEvent Ctrl+N -> Action for shortcut found: Ctrl+N
+stations1 ['UndoDel']
+KeyEvent ⌘N -> OK
+stations2 ['New Station (4)']
+KeyEvent ⌘n (lowercase) -> OK
+stations3 ['New Station (5)']

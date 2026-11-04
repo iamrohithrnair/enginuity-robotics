@@ -1,0 +1,8 @@
+cmd_programs_show_0: 'OK'
+cmd_popups_get: '1'
+cmd_popups_0: 'OK'
+new_station: 'PostgenErrors_bad_post_dot_py'
+bad_post_dot_py.set: 'OK'
+bad_post_dot_py.get: 'ABB_RAPID_IRC5'
+
+[exit] {"code": null, "signal": 9, "reason": "idle_timeout"}

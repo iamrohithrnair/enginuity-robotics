@@ -1,0 +1,8 @@
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-nv03nafo/omron_fznbfw28/PgProg/Projects/PgProg/PgProg.flow
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/4ax-api/pgprog/_written/omron_fznbfw28/PgProg/Projects/PgProg/PgProg.flow
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-nv03nafo/omron_fznbfw28/PgProg/Projects/PgProg/PgProg.prog
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/4ax-api/pgprog/_written/omron_fznbfw28/PgProg/Projects/PgProg/PgProg.prog
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-nv03nafo/omron_fznbfw28/PgProg/Projects/PgProg/PgProg.dat
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/4ax-api/pgprog/_written/omron_fznbfw28/PgProg/Projects/PgProg/PgProg.dat
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-nv03nafo/omron_fznbfw28/PgProg/ConfigData.xml
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/4ax-api/pgprog/_written/omron_fznbfw28/PgProg/ConfigData.xml

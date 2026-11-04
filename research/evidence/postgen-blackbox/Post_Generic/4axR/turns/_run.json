@@ -1,0 +1,10 @@
+{
+ "post": "Post_Generic",
+ "robot": "AUCTECH BR-06SC-500",
+ "nq": 4,
+ "axes": "RRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

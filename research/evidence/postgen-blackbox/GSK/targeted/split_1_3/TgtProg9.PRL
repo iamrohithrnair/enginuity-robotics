@@ -1,0 +1,4 @@
+MAIN;
+# Program: TgtProg9
+MOVJ P0, V500, Z0;
+END;

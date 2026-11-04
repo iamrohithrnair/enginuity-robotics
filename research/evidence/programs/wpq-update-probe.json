@@ -1,0 +1,96 @@
+{
+ "cases": [
+  {
+   "station": "Machining-and-Synchronization.rdk",
+   "update": {
+    "OpenDoor": [
+     3.0,
+     0.0,
+     0.0,
+     1.0,
+     ""
+    ],
+    "Path1": [
+     149.0,
+     14.9308,
+     2926.006,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Conveying-and-Palletizing-with-TM14X.rdk",
+   "update": {
+    "RunConveyor": [
+     2.0,
+     4518.0544,
+     451755.4407,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Adept-Viper-s650.rdk",
+   "update": {
+    "Pick_TubeType1": [
+     6.0,
+     4.4113,
+     522.7058,
+     0.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Dispensing-with-Kassow-KR0810.rdk",
+   "update": {
+    "Dispensing_3-Axis": [
+     206.0,
+     9.0003,
+     1872.9468,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Machining-with-ABB-IRB-120-3-0-6.rdk",
+   "update": {
+    "DXFPath": [
+     3160.0,
+     579.5991,
+     4005.5422,
+     0.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Welding-with-Panasonic-TA-1600.rdk",
+   "update": {
+    "RAWeld2": [
+     4.0,
+     0.0,
+     0.0,
+     0.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Material-Handling-and-Synchronization-with-Brooks.rdk",
+   "update": {
+    "Read Microplate": [
+     2.0,
+     0.0,
+     0.0,
+     0.0,
+     ""
+    ]
+   }
+  }
+ ],
+ "version": "6.0.7.26935"
+}

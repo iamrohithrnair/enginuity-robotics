@@ -1,0 +1,9 @@
+{
+ "post": "Comau_C5G",
+ "robot": "Comau Aura 170-2.8",
+ "nq": 6,
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

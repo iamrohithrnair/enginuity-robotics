@@ -1,0 +1,11 @@
+{
+ "post": "ABB_RAPID_IRC5",
+ "robot": "ABB IRB 4600-60/2.05",
+ "nq": 7,
+ "axes": "RRRRRRT",
+ "targeted": "axes_7_T",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

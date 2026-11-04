@@ -1,0 +1,11 @@
+{
+ "post": "Hans",
+ "robot": "Huayan E03",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "targets",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

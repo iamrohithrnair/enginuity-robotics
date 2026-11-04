@@ -1,0 +1,10 @@
+{
+ "post": "Staubli_VAL3",
+ "robot": "Staubli TP80",
+ "nq": 4,
+ "axes": "RRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

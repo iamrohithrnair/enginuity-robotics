@@ -1,0 +1,8 @@
+cmd_programs_show_0: 'OK'
+cmd_popups_get: '0'
+cmd_popups_0: 'OK'
+new_station: 'PostgenErrors_missing_post'
+missing_post.set: 'OK'
+missing_post.get: 'Fanuc_R30iA'
+
+[exit] {"code": null, "signal": 9, "reason": "idle_timeout"}

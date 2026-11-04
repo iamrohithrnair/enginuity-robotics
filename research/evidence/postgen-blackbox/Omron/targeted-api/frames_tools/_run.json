@@ -1,0 +1,10 @@
+{
+ "post": "Omron",
+ "robot": "Omron TM12",
+ "nq": 6,
+ "robot_file": "Omron-TM12.robot",
+ "targeted": "frames_tools",
+ "exit": 0,
+ "api_standin": true,
+ "hooks": true
+}

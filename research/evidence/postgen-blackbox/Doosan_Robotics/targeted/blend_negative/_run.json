@@ -1,0 +1,11 @@
+{
+ "post": "Doosan_Robotics",
+ "robot": "Doosan Robotics A0509 White",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "blend_negative",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

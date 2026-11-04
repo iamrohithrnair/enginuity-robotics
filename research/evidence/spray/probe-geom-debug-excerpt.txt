@@ -1,0 +1,62 @@
++0ms Running API Command:  "AddShape3"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "AddShape3"
++12ms Running API Command:  "AddShape3"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "AddShape3"
++8ms Running API Command:  "S_Hlocal"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "S_Hlocal"
++9ms Running API Command:  "SCMD"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "SCMD"
++7ms Running API Command:  "Gun_Add"
++1ms Done with API Command:  "Gun_Add"
++0ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++8ms Running API Command:  "Gun_SetState"
++0ms Done with API Command:  "Gun_SetState"
++0ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++7ms Running API Command:  "Gun_Stats"
++1ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++8ms Running API Command:  "G_Name"
++0ms Done with API Command:  "G_Name"
++0ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++511ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++2ms Running API Command:  "S_Hlocal"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "S_Hlocal"
++9ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++1057ms Running API Command:  "Gun_SetState"
++0ms Done with API Command:  "Gun_SetState"
++0ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++915ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++2ms Running API Command:  "Gun_SetState"
++1ms Done with API Command:  "Gun_SetState"
++0ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++908ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++4ms Running API Command:  "Gun_Clear"
++0ms Done with API Command:  "Gun_Clear"
++1ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++8ms Running API Command:  "Gun_Clear"
++0ms Done with API Command:  "Gun_Clear"

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-vanmoexl/PostTgtProg.py", line 31, in <module>
+    r.MoveC(p(-607.85,543.849,363.215,150,50,-165),[0,-10,20,0,30,0],p(-602.951,596.788,316.595,150,50,-165),[20,-10,20,0,30,0],[0,0,0],[0,0,0])
+  File "AUBO.py", line 1188, in AUBO.RobotPost.MoveC
+  File "AUBO.py", line 370, in AUBO.fixed_point
+  File "/workspace/src/AI/experiments/Robocraft/python/enginuity/src/enginuity/robomath.py", line 858, in Pose_2_ABB
+    return _xyz_list(H) + pose_2_quaternion(H)
+  File "/workspace/src/AI/experiments/Robocraft/python/enginuity/src/enginuity/robomath.py", line 734, in _xyz_list
+    R = _r(H)
+  File "/workspace/src/AI/experiments/Robocraft/python/enginuity/src/enginuity/robomath.py", line 690, in _r
+    return _pose_arg(H).rows
+  File "/workspace/src/AI/experiments/Robocraft/python/enginuity/src/enginuity/robomath.py", line 635, in _pose_arg
+    raise MatrixError("Expected a 4x4 pose, got a %dx%d matrix" % tuple(m.size()))
+enginuity.robomath.MatrixError: Expected a 4x4 pose, got a 0x0 matrix

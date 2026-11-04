@@ -1,0 +1,10 @@
+{
+ "post": "KUKA_KRC2",
+ "robot": "KUKA KR 100-2 PA",
+ "nq": 4,
+ "axes": "RRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

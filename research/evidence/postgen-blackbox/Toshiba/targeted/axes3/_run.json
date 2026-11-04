@@ -1,0 +1,11 @@
+{
+ "post": "Toshiba",
+ "robot": "Shibaura Machine THE1000",
+ "nq": 3,
+ "axes": "RRT",
+ "targeted": "axes3",
+ "exit": 1,
+ "stray_files": [
+  "Library"
+ ]
+}

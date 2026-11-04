@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-pbaolv55/PostTgtProg.py", line 38, in <module>
+    r.MoveJ(None,[0,-10,20,0,30,0],None)
+  File "Panasonic_G3_CSR.py", line 405, in Panasonic_G3_CSR.RobotPost.MoveJ
+  File "Panasonic_G3_CSR.py", line 558, in Panasonic_G3_CSR.RobotPost.page_size_control
+  File "Panasonic_G3_CSR.py", line 236, in Panasonic_G3_CSR.RobotPost.ProgStart
+Exception: Only one program at a time can be split into smaller programs

@@ -1,0 +1,5 @@
+' Main program Prog12 calls 3 subprograms
+CALLP [013]
+CALLP [014]
+CALLP [015]
+END

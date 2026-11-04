@@ -1,0 +1,11 @@
+{
+ "post": "Motoman",
+ "robot": "Yaskawa Motoman DX1350D",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "pulses_x_deg": "[1803.200000,1945.600000,1262.157500,1067.116667,910.222222,562.683333]",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

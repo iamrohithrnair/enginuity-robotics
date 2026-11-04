@@ -1,0 +1,136 @@
+(Command)	(parameter)	(description)
+AddFolder	(str)	Add a new folder attached to the station root
+AddFrame	(str)	Add a reference frame with the given name
+AddNotes	(str)	Add notes to the station root
+AddStationNested	1|0	Add new RDK station files as nested stations (added to the currently open station)
+AllowExternalAPI	1|0	Allow external API
+API_NODELAY	1|0	Turn On or Off the NoDelay socket for TCP/IP. This option provides faster results when working with the API from a remote PC
+API_NonFinite_Behavior	-1|0|1	How to deal with non finite values provided through the API -> 0=Force values to be 0, 1=Do not allow, -1=Ignore
+CAM_APT_AUTOSPLIT	1|0	Automatically split CAM programs on tool change
+CAM_APT_SPLITPROG	1|0	Automatically split CAM programs on operation change
+CAM_AUTOLOADCUTTER	1|0	Automatically create cutters when loading CAM programs
+CAM_ZAXIS_INSIDE	1|0	Set to 1 if the Tool Z axis points towards the inside of the spindle (CNC standard instead of robot)
+CamWinId		Returns the top level window ID. CamID is the pointer returned by Camd2D_Add.
+ClearSelection		Clear the selection
+CollisideOneStop	0|1	Stop collision check as soon as one collition is found
+CollisionCalcTime		Time it took to calculate collisions during the last udpate event
+CollisionHidden	1|0	Include hidden objects for collision checking
+CollisionMap	All|None|Default|Uncheck|Off	Set the collision map settings to chack for all interactions, no interactions or the default settings (setting it to Off removes the default collision presets to speed up loading multiple parts)
+CollisionMapMaxSize	(int)	Set the maximum number of objects to remember the collision map (larger is slower when adding new objects)
+CollisionMethod	Default|Fastest|CUDA|CPU	Hardware to use for collision checking
+ColorAxisX	(#AARRGGBB)	Change the color of the X axis
+ColorAxisY	(#AARRGGBB)	Change the color of the Y axis
+ColorAxisZ	(#AARRGGBB)	Change the color of the Z axis
+ColorBgBottom	(#RRGGBB)	Change the color of the background (bottom gradient)
+ColorBgTop	(#RRGGBB)	Change the color of the background (top gradient)
+ColorPlaneXY	(#AARRGGBB)	Change the color of the XY plane
+ColorPlaneXZ	(#AARRGGBB)	Change the color of the XZ plane
+ColorPlaneYZ	(#AARRGGBB)	Change the color of the YZ plane
+ColorSelected	(#AARRGGBB)	Change the color of selected objects
+CudaDevice		Name of the CUDA harware being used
+CudaThreads	(int)	Number of threads to use for CUDA GPUs
+DisplayCurveNormalsOnSelect	1|0	Show curve normals when selected
+DisplayCurves	1|0	Display object curves
+DisplayPoints	1|0	Display object points
+DisplayThreshold	(double)	Object smaller than this size won't be displayed (size as a percentage of the screen size). Set to -1 to always display everything
+EXIT_LAST_COM		When this command is used, RoboDK will close after the last instance of the API closes
+FitAll		Fit all objects in the screen (Fit All action).
+FitIsometric		Set Isometric view.
+FitSelection		Fit to selection.
+Font	(str)	Set the default text font family by name (eg.: 'Consolas', 'Arial', ...)
+FontSize	(double)	Set the default fext font point size
+FrameSizes	(double)	Set the sizes of coordinate systems as a ratio with respect to the default values (1=default)
+FrameSizes-PlaneWidthRatio	(double)	Apply a ratio to the width of the planes
+FrameSizesOther	(double)	Set the size for other coordinate systems in mm (if no value is provided it will return the current size)
+FrameSizesPath	(double)	Set the size of coordinate systems for paths in mm (if no value is provided it will return the current size)
+FrameSizesRef	(double)	Set the size of coordinate systems for reference frames in mm (if no value is provided it will return the current size)
+FrameSizesTarget	(double)	Set the size of coordinate systems for target items in mm (if no value is provided it will return the current size)
+ImportCurvesPoints	(double)	Import surface edges (Tools-Options-CAD)
+ImportSurfaceEdges	(double)	Import surface edges (Tools-Options-CAD)
+KeyEvent	(str)	Trigger an action given the key shortcut (such as Ctrl+C)
+Lang	(str)	Set the language as a 2-letter ISO language code (eg.: 'en', 'zh', 'ja',...)
+LastRender		Returns the time of last display update in ms since epoch
+MainProcess_ID		RoboDK's main process ID
+MainWindow_ID		Top level window ID
+MouseClickLeft	Select|Rotate|Zoom|Pan|None	Set the default action for the mouse left click
+MouseClickMid	Select|Rotate|Zoom|Pan|None	Set the default action for the mouse mid button click
+MouseClickRight	Select|Rotate|Zoom|Pan|None	Set the default action for the mouse right click
+MouseFeedback	1|0	Enable or disable mouse retroactive feedback in the 3D view
+MouseNav	(int)	Change the 3D navigation type
+MoveCSplitDeg	(double)	Get/set the default step to generate circular movements in deg
+MoveCSplitMinMM	(double)	Get/set the minimum step to generate circular movements in mm
+MoveCSplitMM	(double)	Get/set the default step to generate circular movements in mm
+MoveJSplitDeg	(double)	Get/set the default step to generate joint movements in deg
+MoveLSplitDeg	(double)	Get/set the default step to generate linear movements in deg
+MoveLSplitMinMM	(double)	Get/set the minimum step to generate linear movements in mm
+MoveLSplitMM	(double)	Get/set the default step to generate linear movements in mm
+PATH_PROGRAMS	(folder)	Set the path to save generated programs
+PathCheckActiveKin	1|0	Check paths using active kinematics (accurate or nominal). If the value is set to 0 it will use nominal kinematics
+PathPostProcessor		Path to post processors
+PathPrograms	(folder)	Default path to save programs
+PathStepCollisionDeg	(double)	Get/set the movement step for collision detection, in deg
+PathStepCollisionMM	(double)	Get/set the movement step for collision detection, in mm
+PathStepMM	(double)	Get/set the step for simulation in mm
+PluginApiEvents	(All|)	Allows you to enable feedback for all events while a plugin is loaded
+PluginCommand	(command=value=name)	Send a plugin command, value and name (plugin name is optional)
+PluginLoad	(str)	Load a plugin by name or path to library
+PluginReload	(str)	Reload a plugin
+PluginsList	(str)	List of plugins including pointers
+PluginsLoad		Load plugins
+PluginsUnload		Unload plugins
+Popups	1|0	Prevent showing any blocking popup messages
+ProgMaxLines	(int)	Number of lines per program
+ProgMoveCType	(int)	Type of targets for circular movements
+ProgMoveJType	(int)	Type of targets for joint movements
+ProgMoveLType	(int)	Type of targets for linear movements
+ProgMoveNames	1|0	Export program names for program generation
+ProgramsShow	1|0	Show programs when they are generated (use the command PATH_PROGRAMS to specify the folder and MAKEPROGS to generate all programs).
+ProgRecalc	1|0	Recalculate targets before program generation
+ProgressBar	(int)	Set the status of the progress bar from 0 to 100 (-1 to hide)
+PYTHONPATH	(folder)	Get or set the Python path
+PythonRunCode	(str)	Run Python code, new lines can be represented as br HTML tags
+RunProg	(str)	Run program name
+SetSize3D	(w x h)	Set the size of the 3D window in pixels as Width x Height (example: [pixels]x[pixels])
+Settings	Load|Save|Defaults	Load, save or reset the settings related to RoboDK
+ShowCoords	1|0	Display coordinate systems
+ShowCurveNormals	1|0	Show curve normals
+ShowCurvePoints	1|0	Show curve points
+ShowHiddenSelected	1|0	Show transparent items when the are hidden and selected
+ShowMessage	(str)	Display a message (blocking popup)
+ShowPointNormals	1|0	Show point normals
+ShowRef_NewObjects	1|0	Display references by default for newly added objects
+ShowRef_NewReferences	1|0	Display references by default for newly added references
+ShowSelectedPointNormals	1|0	Show point normals for selected curves
+ShowText	1|0	Display text on the screen
+ShowTextObject	1|0	Display text on the screen for objects only
+SilentMessage	(str)	Display a message in the toolbar
+SimulationSpeed	(double)	Set the simulation speed (> 0)
+SimulationTime		Retrieve the simulation time of the simulation (milliseconds). Starts counting the first time this value is requested.
+SizeCurveArrow	(double)	Curve arrow size
+SizeCurvePoints	(double)	Size of curve points
+SizeNormals	(double)	Normals size
+SizeRatioCurves	(double)	Size of the curves (ratio with respect to the default size). Default value = 1
+Snapshot	(file)	Save a screenshot (PNG, JPG and other formats supported)
+SnapshotWhite	(file)	Save a screenshot using a white background (PNG, JPG and other formats supported)
+Theme	(int)	Set the theme (0=default, 1=light, 2=dark, 10=high contrast)
+Threads	(int)	Number of threads used for parallel processing
+Time		Retrieve the time of the computer since Epoch (seconds)
+ToggleWorkspace		Toggle showing workspace
+TolerancePickCurve	(double)	Import surface edges (Tools-Options-Display)
+TolerancePickPoint	(double)	Import surface edges (Tools-Options-Display)
+ToleranceSingularityBack	(double)	Tolerance angle (in deg) to avoid front/back singularity (wrist on axis 1). Same as Tools-Options-Motion-Tolerance to avoid front/back singularity
+ToleranceSingularityElbow	(double)	Tolerance angle (in deg) to avoid elbow singularity (joint 3). Same as Tools-Options-Motion-Tolernace to avoid elbow singularity
+ToleranceSingularityWrist	(double)	Tolerance angle (in deg) to avoid wrist singularity (joint 5). Same as Tools-Options-Motion-Tolerance to avoid wrist singularity
+ToleranceTurn180	(double)	Tolerance to avoid 180 deg rotations (Tools-Options-Motion)
+ToolbarLayout	None|Basic|Complete|Viewer	Set the toolbar layout
+Trace	On|Off|Reset	Turn the trace On, Off or Reset/Clear it
+TrajectoryTime	(double)	Returns the simulation time or advance the simulation by a time delta (in seconds). The simulation time used by robots and mechanisms while they are moving.
+Tree	Detach|Visible|Hidden	Detach/hide/show the tree from the main screen (the tree can't be attached once detached. Use -SKIPINI command line option on RoboDK startup to ignore user settings)
+TriggerAction	(str)	Trigger an action given the action name (leave empty to retrieve list)
+UseGPU	1|0	Use GPU arrays for rendering
+Version		Return the full string of the RoboDK version
+ViewPerspective	0|1	Set the view in perspective mode (1) or orthographic mode (0)
+ViewPoseVR	[x,y,z,rx,ry,rz]	Get or set the view pose of the VR headset (mm and rad)
+Window	Resize	Provoke a resize event
+ZoomInvert	1|0	Invert the sense of the zoom
+ZoomSpeed	(double)|Auto|Fixed	Set the zoom speed as a ratio, set to Automatic (default) or fixed

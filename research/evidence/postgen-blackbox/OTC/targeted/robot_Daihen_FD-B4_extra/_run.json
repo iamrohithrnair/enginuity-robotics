@@ -1,0 +1,11 @@
+{
+ "post": "OTC",
+ "robot": "Daihen FD-B4 extra",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "robot_Daihen_FD-B4_extra",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

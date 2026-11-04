@@ -1,0 +1,11 @@
+{
+ "post": "JAKA",
+ "robot": "JAKA 12L",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "blend_circle",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

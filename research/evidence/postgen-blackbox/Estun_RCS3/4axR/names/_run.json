@@ -1,0 +1,10 @@
+{
+ "post": "Estun_RCS3",
+ "robot": "Estun ER10-500-SR",
+ "nq": 4,
+ "axes": "RRRR",
+ "exit": 1,
+ "stray_files": [
+  "Library"
+ ]
+}

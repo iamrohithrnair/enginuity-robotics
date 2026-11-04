@@ -1,0 +1,15 @@
+windows_before: [('17923', 'RoboDK - UndoDel - Free (Trial) - 25 days left', '["X": 0, "Height": 948, "Y": 34, "Width": 1512]')]
+cinema_on: OK
+shot_cinema: 10-cinema-on ["Y": 33, "X": 0, "Width": 1512, "Height": 949]
+windows_cinema: [('17984', '', '["X": 0, "Height": 33, "Y": 0, "Width": 1512]'), ('17979', '', '["X": 0, "Height": 32, "Y": 33, "Width": 1512]'), ('17923', 'RoboDK - UndoDel - Free (Trial) - 25 days left', '["X": 0, "Height": 949, "Y": 33, "Width": 1512]')]
+cinema_off: OK
+fullscreen_state_after_cinema_off: []
+fullscreen_toggle: OK
+windows_after_fullscreen_toggle: [('RoboDK - UndoDel - Free (Trial) - 25 days left', '["Y": 34, "X": 0, "Width": 1512, "Height": 948]')]
+shot_after_fullscreen_toggle: 11-after-fullscreen-toggle ["Y": 34, "Width": 1512, "Height": 948, "X": 0]
+perspective_toggle: OK
+shot_ortho: 12-perspective-toggled ["Width": 1512, "X": 0, "Height": 948, "Y": 34]
+perspective_back: OK
+close_side_windows: OK
+toolbar_layout_cmd_bogus: OK
+shot_toolbar_bogus: 13-toolbar-unknown-set ["X": 0, "Width": 1512, "Y": 34, "Height": 948]

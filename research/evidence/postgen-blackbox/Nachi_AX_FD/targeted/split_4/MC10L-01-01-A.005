@@ -1,0 +1,5 @@
+' Main program TgtProg calls 3 subprograms
+CALLP [006]
+CALLP [007]
+CALLP [008]
+END

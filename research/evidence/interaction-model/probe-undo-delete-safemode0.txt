@@ -1,0 +1,37 @@
+stack_after_addstation: ['Undo', 'Redo']
+stack_after_add_A_B: ['Undo Add: B', 'Redo']
+after_delete_A_valid: (False, True)
+names_after_delete: ['UndoDel']
+stack_after_delete: ['Undo Delete: A', 'Redo']
+undo_delete: OK
+after_undo_delete_valid: (False, True)
+names_after_undo_delete: ['A', 'UndoDel']
+Invalid item provided: The item identifier provided is not valid or it does not exist.
+A_parent_after_undo: ERROR Exception: Invalid item provided: The item identifier provided is not valid or it does not exist.
+stack_after_undo_delete: ['Undo Delete: B', 'Redo Delete: A']
+undo_addB: OK
+names_after_undo_addB: ['A', 'B', 'UndoDel']
+B_valid: True
+stack: ['Undo Add: B', 'Redo Delete: B']
+redo_addB: OK
+names_after_redo_addB: ['A', 'UndoDel']
+Invalid item provided: The item identifier provided is not valid or it does not exist.
+vis_before: ERROR Exception: Invalid item provided: The item identifier provided is not valid or it does not exist.
+showhide_action: OK
+Invalid item provided: The item identifier provided is not valid or it does not exist.
+vis_after: ERROR Exception: Invalid item provided: The item identifier provided is not valid or it does not exist.
+stack_after_showhide: ['Undo Delete: B', 'Redo Delete: A']
+copy: OK
+paste: OK
+stack_after_paste: ['Undo Add: ', 'Redo']
+names_after_paste: ['A', 'Pasted Curve', 'UndoDel']
+undo_paste: OK
+names_after_undo_paste: ['A', 'UndoDel']
+stack_after_undo_paste: ['Undo Delete: B', 'Redo Add: ']
+cut: OK
+stack_after_cut: ['Undo Delete: B', 'Redo Add: ']
+names_after_cut: ['A', 'UndoDel']
+undo_cut: OK
+names_after_undo_cut: ['A', 'B', 'UndoDel']
+stack_in_new_station: ['Undo', 'Redo']
+stack_back_in_first: ['Undo Add: B', 'Redo Delete: B']

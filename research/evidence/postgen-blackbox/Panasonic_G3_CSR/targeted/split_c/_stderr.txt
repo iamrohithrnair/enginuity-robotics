@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-94gpquwu/PostTgtProg.py", line 37, in <module>
+    r.ProgSave(r"""/workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Panasonic_G3_CSR/targeted/split_c/""",r"""TgtProg""",False,False)
+  File "Panasonic_G3_CSR.py", line 364, in Panasonic_G3_CSR.RobotPost.ProgSave
+  File "Panasonic_G3_CSR.py", line 535, in Panasonic_G3_CSR.RobotPost.RunCode
+  File "Panasonic_G3_CSR.py", line 565, in Panasonic_G3_CSR.RobotPost.addline
+  File "Panasonic_G3_CSR.py", line 558, in Panasonic_G3_CSR.RobotPost.page_size_control
+  File "Panasonic_G3_CSR.py", line 236, in Panasonic_G3_CSR.RobotPost.ProgStart
+Exception: Only one program at a time can be split into smaller programs

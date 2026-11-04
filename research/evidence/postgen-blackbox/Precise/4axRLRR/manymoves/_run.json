@@ -1,0 +1,10 @@
+{
+ "post": "Precise",
+ "robot": "Brooks PreciseFlex DD 4-axis 1000",
+ "nq": 4,
+ "axes": "RLRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

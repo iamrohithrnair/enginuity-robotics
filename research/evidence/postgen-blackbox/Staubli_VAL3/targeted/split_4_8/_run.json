@@ -1,0 +1,11 @@
+{
+ "post": "Staubli_VAL3",
+ "robot": "Staubli RX130B",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "split_4_8",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "post": "GSK",
+ "robot": "GSK RMD08",
+ "nq": 4,
+ "axes": "RRTR",
+ "targeted": "scara4",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

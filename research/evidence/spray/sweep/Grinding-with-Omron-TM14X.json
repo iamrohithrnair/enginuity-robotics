@@ -1,0 +1,1627 @@
+{
+ "file": "Grinding-with-Omron-TM14X.rdk",
+ "program": "MAIN_WITHGRIND",
+ "ratio": 5.0,
+ "open": {
+  "ok": true,
+  "error": null
+ },
+ "open_s": 0.1,
+ "run": {
+  "ok": true,
+  "error": null
+ },
+ "run_s": 114.3,
+ "timed_out": false,
+ "spray_list": {
+  "station": "Grinding with Omron TM14X",
+  "guns": [
+   {
+    "id": 0,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 102,
+    "in": 0,
+    "out": 102,
+    "total": 102,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 102
+   },
+   {
+    "id": 1,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 104,
+    "in": 0,
+    "out": 104,
+    "total": 104,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 104
+   },
+   {
+    "id": 2,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 111,
+    "in": 0,
+    "out": 111,
+    "total": 111,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 111
+   },
+   {
+    "id": 3,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 116,
+    "in": 0,
+    "out": 116,
+    "total": 116,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 116
+   },
+   {
+    "id": 4,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 119,
+    "in": 0,
+    "out": 119,
+    "total": 119,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 119
+   },
+   {
+    "id": 5,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 115,
+    "in": 0,
+    "out": 115,
+    "total": 115,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 115
+   },
+   {
+    "id": 6,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 103,
+    "in": 0,
+    "out": 103,
+    "total": 103,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 103
+   },
+   {
+    "id": 7,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 95,
+    "in": 0,
+    "out": 95,
+    "total": 95,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 95
+   },
+   {
+    "id": 8,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 95,
+    "in": 0,
+    "out": 95,
+    "total": 95,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 95
+   },
+   {
+    "id": 9,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 73,
+    "in": 0,
+    "out": 73,
+    "total": 73,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 73
+   },
+   {
+    "id": 10,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 102,
+    "in": 0,
+    "out": 102,
+    "total": 102,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 102
+   },
+   {
+    "id": 11,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 104,
+    "in": 0,
+    "out": 104,
+    "total": 104,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 104
+   },
+   {
+    "id": 12,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 111,
+    "in": 0,
+    "out": 111,
+    "total": 111,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 111
+   },
+   {
+    "id": 13,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 116,
+    "in": 0,
+    "out": 116,
+    "total": 116,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 116
+   },
+   {
+    "id": 14,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 119,
+    "in": 0,
+    "out": 119,
+    "total": 119,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 119
+   },
+   {
+    "id": 15,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 115,
+    "in": 0,
+    "out": 115,
+    "total": 115,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 115
+   },
+   {
+    "id": 16,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 103,
+    "in": 0,
+    "out": 103,
+    "total": 103,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 103
+   },
+   {
+    "id": 17,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 95,
+    "in": 0,
+    "out": 95,
+    "total": 95,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 95
+   },
+   {
+    "id": 18,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 95,
+    "in": 0,
+    "out": 95,
+    "total": 95,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 95
+   },
+   {
+    "id": 19,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 73,
+    "in": 0,
+    "out": 73,
+    "total": 73,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 73
+   },
+   {
+    "id": 20,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 102,
+    "in": 0,
+    "out": 102,
+    "total": 102,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 102
+   },
+   {
+    "id": 21,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 104,
+    "in": 0,
+    "out": 104,
+    "total": 104,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 104
+   },
+   {
+    "id": 22,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 111,
+    "in": 0,
+    "out": 111,
+    "total": 111,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 111
+   },
+   {
+    "id": 23,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 116,
+    "in": 0,
+    "out": 116,
+    "total": 116,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 116
+   },
+   {
+    "id": 24,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 119,
+    "in": 0,
+    "out": 119,
+    "total": 119,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 119
+   },
+   {
+    "id": 25,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 115,
+    "in": 0,
+    "out": 115,
+    "total": 115,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 115
+   },
+   {
+    "id": 26,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 103,
+    "in": 0,
+    "out": 103,
+    "total": 103,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 103
+   },
+   {
+    "id": 27,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 95,
+    "in": 0,
+    "out": 95,
+    "total": 95,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 95
+   },
+   {
+    "id": 28,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 95,
+    "in": 0,
+    "out": 95,
+    "total": 95,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 95
+   },
+   {
+    "id": 29,
+    "tool": "FerRobotics-AOK-905",
+    "object": "Propeller",
+    "state": 0,
+    "options": "NO_PROJECT PARTICLE=SPHERE(9,12,1,0.5,0.05) STEP=1x0 RAND=2 COLOR=#d3d3d3",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 2,
+    "particle": {
+     "kind": "sphere",
+     "radius": 9,
+     "facets": 12,
+     "scale": [
+      1,
+      0.5,
+      0.05
+     ]
+    },
+    "nearColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "farColor": [
+     0.8274509906768799,
+     0.8274509906768799,
+     0.8274509906768799,
+     1
+    ],
+    "updates": 73,
+    "in": 0,
+    "out": 73,
+    "total": 73,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 73
+   }
+  ],
+  "info": "id<br>percent in<br>percent out<br>count",
+  "count": 30
+ },
+ "spray_stats": {
+  "info": "id<br>percent in<br>percent out<br>count",
+  "columns": [
+   [
+    0,
+    0,
+    100,
+    102
+   ],
+   [
+    1,
+    0,
+    100,
+    104
+   ],
+   [
+    2,
+    0,
+    100,
+    111
+   ],
+   [
+    3,
+    0,
+    100,
+    116
+   ],
+   [
+    4,
+    0,
+    100,
+    119
+   ],
+   [
+    5,
+    0,
+    100,
+    115
+   ],
+   [
+    6,
+    0,
+    100,
+    103
+   ],
+   [
+    7,
+    0,
+    100,
+    95
+   ],
+   [
+    8,
+    0,
+    100,
+    95
+   ],
+   [
+    9,
+    0,
+    100,
+    73
+   ],
+   [
+    10,
+    0,
+    100,
+    102
+   ],
+   [
+    11,
+    0,
+    100,
+    104
+   ],
+   [
+    12,
+    0,
+    100,
+    111
+   ],
+   [
+    13,
+    0,
+    100,
+    116
+   ],
+   [
+    14,
+    0,
+    100,
+    119
+   ],
+   [
+    15,
+    0,
+    100,
+    115
+   ],
+   [
+    16,
+    0,
+    100,
+    103
+   ],
+   [
+    17,
+    0,
+    100,
+    95
+   ],
+   [
+    18,
+    0,
+    100,
+    95
+   ],
+   [
+    19,
+    0,
+    100,
+    73
+   ],
+   [
+    20,
+    0,
+    100,
+    102
+   ],
+   [
+    21,
+    0,
+    100,
+    104
+   ],
+   [
+    22,
+    0,
+    100,
+    111
+   ],
+   [
+    23,
+    0,
+    100,
+    116
+   ],
+   [
+    24,
+    0,
+    100,
+    119
+   ],
+   [
+    25,
+    0,
+    100,
+    115
+   ],
+   [
+    26,
+    0,
+    100,
+    103
+   ],
+   [
+    27,
+    0,
+    100,
+    95
+   ],
+   [
+    28,
+    0,
+    100,
+    95
+   ],
+   [
+    29,
+    0,
+    100,
+    73
+   ]
+  ],
+  "guns": [
+   {
+    "id": 0,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 102
+   },
+   {
+    "id": 1,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 104
+   },
+   {
+    "id": 2,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 111
+   },
+   {
+    "id": 3,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 116
+   },
+   {
+    "id": 4,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 119
+   },
+   {
+    "id": 5,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 115
+   },
+   {
+    "id": 6,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 103
+   },
+   {
+    "id": 7,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 95
+   },
+   {
+    "id": 8,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 95
+   },
+   {
+    "id": 9,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 73
+   },
+   {
+    "id": 10,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 102
+   },
+   {
+    "id": 11,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 104
+   },
+   {
+    "id": 12,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 111
+   },
+   {
+    "id": 13,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 116
+   },
+   {
+    "id": 14,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 119
+   },
+   {
+    "id": 15,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 115
+   },
+   {
+    "id": 16,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 103
+   },
+   {
+    "id": 17,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 95
+   },
+   {
+    "id": 18,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 95
+   },
+   {
+    "id": 19,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 73
+   },
+   {
+    "id": 20,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 102
+   },
+   {
+    "id": 21,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 104
+   },
+   {
+    "id": 22,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 111
+   },
+   {
+    "id": 23,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 116
+   },
+   {
+    "id": 24,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 119
+   },
+   {
+    "id": 25,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 115
+   },
+   {
+    "id": 26,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 103
+   },
+   {
+    "id": 27,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 95
+   },
+   {
+    "id": 28,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 95
+   },
+   {
+    "id": 29,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 73
+   }
+  ]
+ },
+ "shot": "/workspace/srcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcs/98d21853-3eb1-4a96-a77c-869a7e687818/scratchpad/live/sweep/Grinding-with-Omron-TM14X.png",
+ "zoom": "/workspace/srcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcs/98d21853-3eb1-4a96-a77c-869a7e687818/scratchpad/live/sweep/Grinding-with-Omron-TM14X-zoom.png",
+ "browser_log": "warning: THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\n",
+ "close": {
+  "ok": true,
+  "error": null
+ }
+}

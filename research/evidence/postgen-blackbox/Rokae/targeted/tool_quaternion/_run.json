@@ -1,0 +1,11 @@
+{
+ "post": "Rokae",
+ "robot": "Rokae XB4",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "tool_quaternion",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

@@ -1,0 +1,10 @@
+&ACCESS RVP
+&REL 1
+&PARAM TEMPLATE = C:\KRC\Roboter\Template\vorgabe
+&PARAM EDITMASK = *
+DEF LongProgMain ( )
+LongProg()
+LongProg1()
+LongProg2()
+LongProg3()
+END

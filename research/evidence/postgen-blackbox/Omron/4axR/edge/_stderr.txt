@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-av4c68us/PostEdgeProg.py", line 44, in <module>
+    r.setAO('Pressure',0.75)
+  File "Omron.py", line 2016, in Omron.RobotPost.setAO
+ValueError: invalid literal for int() with base 10: 'Pressure'

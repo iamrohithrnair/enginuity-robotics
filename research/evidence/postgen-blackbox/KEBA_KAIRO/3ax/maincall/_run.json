@@ -1,0 +1,10 @@
+{
+ "post": "KEBA_Kairo",
+ "robot": "autonox Robotics DELTA RL3-600-1kg (A_00072-02)",
+ "nq": 3,
+ "axes": "LLL",
+ "exit": 1,
+ "stray_files": [
+  "Library"
+ ]
+}

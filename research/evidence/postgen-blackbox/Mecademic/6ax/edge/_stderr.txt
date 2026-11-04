@@ -1,0 +1,1 @@
+HOOK write /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Mecademic/6ax/edge//EdgeProg.txt

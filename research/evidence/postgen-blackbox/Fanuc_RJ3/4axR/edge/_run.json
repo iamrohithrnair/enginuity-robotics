@@ -1,0 +1,10 @@
+{
+ "post": "Fanuc_RJ3",
+ "robot": "Fanuc M-1iA/0.5S",
+ "nq": 4,
+ "axes": "RRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

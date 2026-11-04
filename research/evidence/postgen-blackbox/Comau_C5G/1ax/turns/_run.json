@@ -1,0 +1,10 @@
+{
+ "post": "Comau_C5G",
+ "robot": "Comau MP-1000",
+ "nq": 1,
+ "axes": "L",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

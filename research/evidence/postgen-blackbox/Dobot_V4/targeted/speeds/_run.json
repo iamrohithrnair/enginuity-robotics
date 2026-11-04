@@ -1,0 +1,11 @@
+{
+ "post": "Dobot_V4",
+ "robot": "Dobot CR10",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "speeds",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

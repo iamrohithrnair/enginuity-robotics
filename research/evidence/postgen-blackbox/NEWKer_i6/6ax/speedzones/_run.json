@@ -1,0 +1,10 @@
+{
+ "post": "NEWKer_i6",
+ "robot": "NEWKer NEW2006B",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

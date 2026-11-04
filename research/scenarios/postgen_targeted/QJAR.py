@@ -1,0 +1,24 @@
+
+POST = "QJAR"
+NQ = 6
+ROBOT = "QJAR QJR20-1600"
+P1="p(-607.85,543.849,363.215,150,50,-165)"
+J="[0,-10,20,0,30,0]"
+MJ="r.MoveJ(None,%s,None)" % J
+ML="r.MoveL(%s,%s,[0,0,0])" % (P1, J)
+EXPS=[("ids", 'r.setFrame(p(1,2,3,4,5,6),-1,r"""Frame 3""")\nr.setTool(p(1,2,3,4,5,6),-1,r"""Tool 12b7""")\n%s\n%s\nr.setFrame(p(1,2,3,4,5,6),5,r"""F""")\nr.setTool(p(1,2,3,4,5,6),6,r"""T""")\n%s' % (MJ, ML, ML))]
+EXPS += [("io_numbers", "\n".join(["r.setDO(1,%s)" % v for v in ["2", "-1", "'x'", "True", "0.5"]] + ["r.setAO(2,%s)" % v for v in ["0", "'2.5'", "1.23456"]] + ["r.setAO('V','w')"] + ["r.waitDI(1,%s)" % v for v in ["0", "2", "True"]] + ["r.waitDI(1,1,0)", "r.waitDI('V',0,5.5)"]))]
+EXPS += [("speeds", "r.setSpeedJoints(-5)\nr.setAccelerationJoints(55.5)\n%s\nr.setAccelerationJoints(-1)\nr.setAcceleration(-1)\nr.setSpeed(-1)\n%s\n%s\nr.setZoneData(-1)\n%s\nr.setZoneData(0.5)\n%s\nr.setZoneData(1.5)\n%s" % (MJ, MJ, ML, ML, ML, ML))]
+EXPS += [("pauses", "\n".join("r.Pause(%s)" % v for v in [0, -1, 0.4, 0.6, 1234.5678]))]
+EXPS += [("calls", "\n".join('r.RunCode(r"""%s""", True)' % c for c in ["My Prog", "a b(c, d)", "x.y"]) + '\nr.RunCode(r"""raw code""")\nr.RunMessage(r"""m "q" """)')]
+EXPS += [("subs", "\n".join([MJ, 'r.RunCode(r"""S1""", True)', "r.ProgFinish(r'''AdHoc''')", "r.ProgStart(r'''S1''')", ML, "r.ProgFinish(r'''S1''')", "r.ProgStart(r'''S2''')"]))]
+EXPS += [("ax7", "r.MoveJ(None,[1,2,3,4,5,6,7],None)", None, "", None, "RRRRRRT", 7)]
+EXPS += [("ax4", "r.MoveJ(None,[1,2,3,4],None)", None, "", None, "RRTR", 4)]
+EXPS += [("joint_targets", "r.MoveL(None,%s,None)\nr.MoveC(None,%s,None,[1,2,3,4,5,6],None,None)" % (J, J))]
+EXPS += [("do_%s" % k, "r.setDO(1,%s)" % v) for k, v in [("2","2"),("m1","-1"),("x","'x'"),("true","True"),("half","0.5"),("s1","'1'"),("name","'w'")]]
+EXPS += [("dov", "r.setDO('V',%s)" % v) for v in ["1"]]
+EXPS += [("ao_%s" % k, "r.setAO(2,%s)" % v) for k, v in [("0","0"),("y","'y'"),("s","'2.5'"),("f","1.23456"),("i","3")]]
+EXPS += [("aov", "r.setAO('V','w')\nr.setAO('V',1.5)")]
+EXPS += [("wait_%s" % k, "r.waitDI(1,%s)" % v) for k, v in [("0","0"),("x","'x'"),("2","2"),("true","True"),("half","0.5"),("t0","1,0"),("t","1,1234.5678")]]
+EXPS += [("waitv", "r.waitDI('V',0,5.5)\nr.waitDI('V','on')")]
+EXPS += [("accel", "\n".join("r.setAcceleration(%s)\nr.MoveL(p(1,2,3,4,5,6),%s,[0,0,0])" % (v, J) for v in [50, 99, 100, 101, 1e6]) + "\n" + "\n".join("r.setAccelerationJoints(%s)\nr.MoveJ(None,%s,None)" % (v, J) for v in [0.5, 1, 100, 101]))]

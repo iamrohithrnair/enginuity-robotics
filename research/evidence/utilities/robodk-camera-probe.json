@@ -1,0 +1,8 @@
+{
+ "build": null,
+ "cam.as_item": true,
+ "cam": {
+  "error": "timed out",
+  "trace": "socket.timeout: timed out"
+ }
+}

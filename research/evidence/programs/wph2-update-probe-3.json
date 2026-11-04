@@ -1,0 +1,116 @@
+{
+ "cases": [
+  {
+   "station": "Dispensing-with-Kassow-KR0810-02.rdk",
+   "update": {
+    "Dispensing": [
+     398.0,
+     9.6659,
+     1990.4039,
+     1.0,
+     ""
+    ]
+   },
+   "calls_so_far": 5
+  },
+  {
+   "station": "Dispensing-with-Kassow-KR0810.rdk",
+   "update": {
+    "Dispensing_5-Axis": [
+     201.0,
+     9.0976,
+     1883.3396,
+     1.0,
+     ""
+    ],
+    "Dispensing_3-Axis_JCT": [
+     206.0,
+     8.611,
+     1765.6547,
+     1.0,
+     ""
+    ]
+   },
+   "calls_so_far": 11
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Motoman-GP20.rdk",
+   "update": {
+    "Follow App": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 15
+  },
+  {
+   "station": "Welding-with-Fanuc.rdk",
+   "update": {
+    "Weld4-1-2": [
+     30.0,
+     3.2683,
+     3097.7406,
+     1.0,
+     ""
+    ]
+   },
+   "calls_so_far": 19
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Denso-Cobotta-PRO-900.rdk",
+   "update": {
+    "Pick_TubeType1": [
+     3.0,
+     2.4079,
+     71.6948,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 23
+  },
+  {
+   "station": "Dispensing-with-Delta-Electronics-DC06.rdk",
+   "update": {
+    "Dispensing_3-Axis_JCT": [
+     157.0,
+     7.021,
+     1778.738,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 27
+  },
+  {
+   "station": "Machining-with-ABB-IRB-120-3-0-6-02.rdk",
+   "update": {
+    "DXFPath": [
+     3160.0,
+     579.5991,
+     4005.5422,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 31
+  },
+  {
+   "station": "Welding-with-Panasonic-TA-1600.rdk",
+   "update": {
+    "RDWeld2": [
+     4.0,
+     0.0,
+     0.0,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 35
+  }
+ ],
+ "version": "6.0.7.26935"
+}

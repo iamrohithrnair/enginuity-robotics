@@ -1,0 +1,89 @@
+{
+ "cases": [
+  {
+   "station": "Material-Handling-with-TM12.rdk",
+   "update": {
+    "Pick Carrier 1": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Drilling-and-Milling-with-KUKA-KR-10-R900-sixx-02.rdk",
+   "update": {
+    "DrillingPart": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Epson-C3.rdk",
+   "update": {
+    "Pick_TubeType1": [
+     2.0,
+     0.8089,
+     0.0,
+     0.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Curve-Following-with-Omron-TM5-700.rdk",
+   "update": {
+    "Outline": [
+     46.0,
+     12.0496,
+     2543.7162,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Milling-and-Synchronization-with-KUKA-02.rdk",
+   "update": {
+    "FaceMachining": [
+     560.0,
+     4.2747,
+     3198.9101,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Mixed-Applications-with-KUKA.rdk",
+   "update": {
+    "TestUsinage_002_1_T1_Ebauche": [
+     149.0,
+     21.0696,
+     21170.2756,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Machining-and-Synchronization-with-KUKA.rdk",
+   "update": {
+    "Milling_2_T1": [
+     3612.0,
+     918.9925,
+     98985.8279,
+     1.0,
+     ""
+    ]
+   }
+  }
+ ],
+ "version": "6.0.7.26935"
+}

@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/workspace/src/AI/experiments/Robocraft/python/enginuity/src/enginuity/robolink.py", line 2018, in _open
+    raw = self._connect_raw()
+  File "/workspace/src/AI/experiments/Robocraft/python/enginuity/src/enginuity/robolink.py", line 2002, in _connect_raw
+    return socket.create_connection((self.host, self.port), timeout=self.connect_timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 843, in create_connection
+    raise err
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 831, in create_connection
+    sock.connect(sa)
+PermissionError: [Errno 1] Operation not permitted
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-45dd9khx/PostTgtProg.py", line 33, in <module>
+    r.ProgSave(r"""/workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/AUBO/targeted/uuid_same2/""",r"""TgtProg""",False,False)
+  File "AUBO.py", line 763, in AUBO.RobotPost.ProgSave
+  File "AUBO.py", line 511, in AUBO.RobotPost.RDK
+  File "/workspace/src/AI/experiments/Robocraft/python/enginuity/src/enginuity/robolink.py", line 1972, in __init__
+    self.Connect()
+  File "/workspace/src/AI/experiments/Robocraft/python/enginuity/src/enginuity/robolink.py", line 2054, in Connect
+    self._sock = self._open()
+  File "/workspace/src/AI/experiments/Robocraft/python/enginuity/src/enginuity/robolink.py", line 2025, in _open
+    raise EnginuityConnectionError(
+enginuity.errors.EnginuityConnectionError: Enginuity is not running on localhost:20524 (Operation not permitted). Start Enginuity (npm run dev or npm start in the Enginuity folder) and try again, or set ENGINUITY_HOST / ENGINUITY_API_PORT to the address of a running instance.

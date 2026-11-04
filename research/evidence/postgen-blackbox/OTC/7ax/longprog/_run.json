@@ -1,0 +1,9 @@
+{
+ "post": "OTC",
+ "robot": "Daihen OTC FD-NV6Ls",
+ "nq": 7,
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

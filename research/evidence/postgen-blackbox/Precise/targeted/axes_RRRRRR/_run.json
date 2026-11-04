@@ -1,0 +1,11 @@
+{
+ "post": "Precise",
+ "robot": "Brooks PreciseFlex 3400-1160",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "axes_RRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

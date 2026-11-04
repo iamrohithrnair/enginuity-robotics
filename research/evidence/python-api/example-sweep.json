@@ -1,0 +1,4346 @@
+{
+ "summary": {
+  "interpreter": "Enginuity's Python environment, Python 3.9.6",
+  "stations": 367,
+  "scripts": 678,
+  "ok": 559,
+  "runningAtTimeout": 44,
+  "error": 70,
+  "skipped": 5,
+  "notStarted": 0,
+  "timeoutMs": 12000,
+  "categories": {
+   "error:syntax-error": 31,
+   "error:invalid-item": 30,
+   "error:script-error": 4,
+   "skipped:desktop-gui-tkinter": 5,
+   "error:not-supported-command": 1,
+   "error:name-error": 2,
+   "error:third-party-module:cv2": 2
+  }
+ },
+ "results": [
+  {
+   "station": "Additive-Manufacturing-and-Machining-with-ABB-IRB-120-3-0-6.rdk",
+   "script": "ExtrusionStart",
+   "outcome": "ok",
+   "seconds": 0.135
+  },
+  {
+   "station": "Additive-Manufacturing-and-Machining-with-ABB-IRB-120-3-0-6.rdk",
+   "script": "ExtrusionStop",
+   "outcome": "ok",
+   "seconds": 0.123
+  },
+  {
+   "station": "Additive-Manufacturing-with-ABB-IRB-120-3-0-6.rdk",
+   "script": "Extruder",
+   "outcome": "error",
+   "seconds": 0.115,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Extruder.py\", line 52\n    Material waisted: %.1f%%\n             ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Additive-Manufacturing-with-ABB-IRB-120-3-0-6.rdk",
+   "script": "SimulateFinalResult",
+   "outcome": "running-at-timeout",
+   "seconds": 12.001,
+   "detail": ""
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-IRB-120-3-0-6.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.23
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-IRB-120-3-0-6.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.118
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-IRB-120-3-0-6.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.117
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-IRB-120-3-0-6.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.114,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 17, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "RackConveyor_Next",
+   "outcome": "ok",
+   "seconds": 0.622
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "MainConveyor_Next",
+   "outcome": "ok",
+   "seconds": 1.438
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "NextBackPanel",
+   "outcome": "ok",
+   "seconds": 0.828
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "NextFoamDown",
+   "outcome": "ok",
+   "seconds": 0.815
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "NextFoamTop",
+   "outcome": "ok",
+   "seconds": 0.81
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "OutputConveyor_Next",
+   "outcome": "ok",
+   "seconds": 0.631
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "AutoScrewPanel",
+   "outcome": "ok",
+   "seconds": 0.501
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_MainConveyor",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_Tool",
+   "outcome": "ok",
+   "seconds": 0.118
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_RackConveyor",
+   "outcome": "ok",
+   "seconds": 0.163
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "Render",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_Distributors",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_OutputConveyor",
+   "outcome": "ok",
+   "seconds": 0.278
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB-and-Fanuc.rdk",
+   "script": "ResetAutoScrewPanel",
+   "outcome": "ok",
+   "seconds": 0.25
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB.rdk",
+   "script": "ResetAutoScrewCircuit1",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB.rdk",
+   "script": "AutoScrewCircuit1",
+   "outcome": "ok",
+   "seconds": 0.476
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB.rdk",
+   "script": "ResetAutoScrewCircuit2",
+   "outcome": "ok",
+   "seconds": 0.117
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB.rdk",
+   "script": "AutoScrewCircuit2",
+   "outcome": "ok",
+   "seconds": 0.477
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB.rdk",
+   "script": "MainConveyor_Next",
+   "outcome": "ok",
+   "seconds": 1.449
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB.rdk",
+   "script": "ResetCircuitBox",
+   "outcome": "ok",
+   "seconds": 0.138
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB.rdk",
+   "script": "Reset_MainConveyor",
+   "outcome": "ok",
+   "seconds": 0.122
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB.rdk",
+   "script": "Reset_DeltaRobot",
+   "outcome": "ok",
+   "seconds": 0.114
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB.rdk",
+   "script": "Reset_ScrewTools",
+   "outcome": "ok",
+   "seconds": 0.137
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB.rdk",
+   "script": "NextCircuitBox",
+   "outcome": "ok",
+   "seconds": 1.166
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-ABB.rdk",
+   "script": "Foam_RollerConveyor_Next",
+   "outcome": "ok",
+   "seconds": 0.878
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-AUBO-i3.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.239
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-AUBO-i3.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.115
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-AUBO-i3.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.141
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-AUBO-i3.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.36,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-AUCTECH-X3-618.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.227
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-AUCTECH-X3-618.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.134
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-AUCTECH-X3-618.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-AUCTECH-X3-618.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.115,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Adept-Viper-s650.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.225
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Adept-Viper-s650.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Adept-Viper-s650.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Adept-Viper-s650.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.135,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "RackConveyor_Next",
+   "outcome": "ok",
+   "seconds": 0.678
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "MainConveyor_Next",
+   "outcome": "ok",
+   "seconds": 1.56
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "NextBackPanel",
+   "outcome": "ok",
+   "seconds": 0.811
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "NextFoamDown",
+   "outcome": "ok",
+   "seconds": 0.818
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "NextFoamTop",
+   "outcome": "ok",
+   "seconds": 0.813
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "OutputConveyor_Next",
+   "outcome": "ok",
+   "seconds": 0.625
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "AutoScrewPanel",
+   "outcome": "ok",
+   "seconds": 0.523
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "Reset_MainConveyor",
+   "outcome": "ok",
+   "seconds": 0.131
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "Reset_Tool",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "Reset_RackConveyor",
+   "outcome": "ok",
+   "seconds": 0.127
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "Render",
+   "outcome": "ok",
+   "seconds": 0.115
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "Reset_Distributors",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "Reset_OutputConveyor",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Comau.rdk",
+   "script": "ResetAutoScrewPanel",
+   "outcome": "ok",
+   "seconds": 0.248
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Denso-Cobotta-PRO-900.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.257
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Denso-Cobotta-PRO-900.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.257
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Denso-Cobotta-PRO-900.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.285
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Denso-Cobotta-PRO-900.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.266,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Dobot-CR3.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.268
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Dobot-CR3.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.183
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Dobot-CR3.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.188
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Dobot-CR3.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.154,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Elite-Robots-CS63.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.28
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Elite-Robots-CS63.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.149
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Elite-Robots-CS63.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.156
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Elite-Robots-CS63.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.129,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Epson-C3.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.235
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Epson-C3.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.123
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Epson-C3.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Epson-C3.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.127,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-FAIRINO-FR3.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.238
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-FAIRINO-FR3.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.219
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-FAIRINO-FR3.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.225
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-FAIRINO-FR3.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.163,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Hyundai-HH4.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.241
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Hyundai-HH4.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Hyundai-HH4.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.143
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Hyundai-HH4.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.13,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-INOVANCE-IR-R4-56S5.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.598
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-INOVANCE-IR-R4-56S5.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.138
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-INOVANCE-IR-R4-56S5.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.189
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-INOVANCE-IR-R4-56S5.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.131,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-JAKA-Zu3.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.231
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-JAKA-Zu3.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.127
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-JAKA-Zu3.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.124
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-JAKA-Zu3.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.122,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-KUKA-KR-3-R540.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.247
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-KUKA-KR-3-R540.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-KUKA-KR-3-R540.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-KUKA-KR-3-R540.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.13,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-KUKA-KR5-scara-R550-Z200.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.23
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-KUKA-KR5-scara-R550-Z200.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.12
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-KUKA-KR5-scara-R550-Z200.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.157
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-KUKA-KR5-scara-R550-Z200.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.123,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Kawasaki-RS03N.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.229
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Kawasaki-RS03N.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.121
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Kawasaki-RS03N.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.119
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Kawasaki-RS03N.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.115,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Leantec-LA596-4H-R.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.287
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Leantec-LA596-4H-R.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.122
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Leantec-LA596-4H-R.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.119
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Leantec-LA596-4H-R.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.12,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Mitsubishi-RV-2F.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.227
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Mitsubishi-RV-2F.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.119
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Mitsubishi-RV-2F.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.121
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Mitsubishi-RV-2F.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.12,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Nachi-MZ04-01.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.227
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Nachi-MZ04-01.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Nachi-MZ04-01.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.114
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Nachi-MZ04-01.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.171,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Neura-LARA-3.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.231
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Neura-LARA-3.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.119
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Neura-LARA-3.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.113
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Neura-LARA-3.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.116,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Neuromeka-INDY7-V2.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.229
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Neuromeka-INDY7-V2.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Neuromeka-INDY7-V2.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.113
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Neuromeka-INDY7-V2.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.114,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Robostar-RA004.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.345
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Robostar-RA004.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.115
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Robostar-RA004.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.114
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Robostar-RA004.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.117,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Rokae-XB4.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.28
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Rokae-XB4.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.12
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Rokae-XB4.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.114
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Rokae-XB4.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.116,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Schneider-Electric-Lexium-Cobot-LXMRL03S0000.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.225
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Schneider-Electric-Lexium-Cobot-LXMRL03S0000.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.114
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Schneider-Electric-Lexium-Cobot-LXMRL03S0000.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.117
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Schneider-Electric-Lexium-Cobot-LXMRL03S0000.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.115,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Staubli-TX2-40.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.223
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Staubli-TX2-40.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Staubli-TX2-40.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.114
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Staubli-TX2-40.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.116,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-TM5X-700.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.225
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-TM5X-700.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.143
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-TM5X-700.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.14
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-TM5X-700.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.116,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Yaskawa-GP4.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.223
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Yaskawa-GP4.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Yaskawa-GP4.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.118
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-Yaskawa-GP4.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.121,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 17, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-igus-ReBeL-6DOF.rdk",
+   "script": "Next_O-Ring",
+   "outcome": "ok",
+   "seconds": 0.229
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-igus-ReBeL-6DOF.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.148
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-igus-ReBeL-6DOF.rdk",
+   "script": "PickUp_Assembly",
+   "outcome": "ok",
+   "seconds": 0.138
+  },
+  {
+   "station": "Assembly-and-Material-Handling-with-igus-ReBeL-6DOF.rdk",
+   "script": "Place_Assembly",
+   "outcome": "error",
+   "seconds": 0.119,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Place_Assembly.py\", line 31, in <module>\n    items = tool.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "RackConveyor_Next",
+   "outcome": "ok",
+   "seconds": 0.62
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "MainConveyor_Next",
+   "outcome": "ok",
+   "seconds": 1.421
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Next_BoxTargetPick",
+   "outcome": "ok",
+   "seconds": 0.118
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Next_BoxTargetPlace",
+   "outcome": "ok",
+   "seconds": 0.153
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_BoxTargetPickRel",
+   "outcome": "ok",
+   "seconds": 0.117
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "FoldBox",
+   "outcome": "ok",
+   "seconds": 0.12
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_BoxTargetRel",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_VaccumTool",
+   "outcome": "ok",
+   "seconds": 0.118
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "PushTV_InBox",
+   "outcome": "ok",
+   "seconds": 0.115
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "NextBackPanel",
+   "outcome": "ok",
+   "seconds": 0.827
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "NextFoamDown",
+   "outcome": "ok",
+   "seconds": 0.824
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "NextFoamTop",
+   "outcome": "ok",
+   "seconds": 0.817
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "ResetAutoScrewCircuit1",
+   "outcome": "ok",
+   "seconds": 0.437
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "AutoScrewCircuit1",
+   "outcome": "ok",
+   "seconds": 0.477
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "ResetAutoScrewCircuit2",
+   "outcome": "ok",
+   "seconds": 0.435
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "AutoScrewCircuit2",
+   "outcome": "ok",
+   "seconds": 0.483
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_RackTargetABS",
+   "outcome": "ok",
+   "seconds": 0.115
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Next_RackTarget",
+   "outcome": "ok",
+   "seconds": 0.115
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_RackTargetRel",
+   "outcome": "ok",
+   "seconds": 0.121
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "ResetCircuitBox",
+   "outcome": "ok",
+   "seconds": 0.14
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_MainConveyor",
+   "outcome": "ok",
+   "seconds": 0.124
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_All_Tool",
+   "outcome": "ok",
+   "seconds": 0.117
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_RackConveyor",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Render",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_BoxingStation",
+   "outcome": "ok",
+   "seconds": 0.121
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_BoxTargetABS",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_Pallets",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_Distributors",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_ScrewTools",
+   "outcome": "ok",
+   "seconds": 0.121
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Reset_AVG",
+   "outcome": "ok",
+   "seconds": 0.189
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "AutoScrewPanel",
+   "outcome": "ok",
+   "seconds": 0.509
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "ResetAutoScrewPanel",
+   "outcome": "ok",
+   "seconds": 0.269
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "NextCircuitBox",
+   "outcome": "ok",
+   "seconds": 1.208
+  },
+  {
+   "station": "Assembly-and-Palletizing-with-ABB-and-Fanuc.rdk",
+   "script": "Foam_RollerConveyor_Next",
+   "outcome": "ok",
+   "seconds": 0.821
+  },
+  {
+   "station": "Assembly-with-ABB-IRB-2400-16.rdk",
+   "script": "RackConveyor_Next",
+   "outcome": "ok",
+   "seconds": 0.626
+  },
+  {
+   "station": "Assembly-with-ABB-IRB-2400-16.rdk",
+   "script": "MainConveyor_Next",
+   "outcome": "ok",
+   "seconds": 1.443
+  },
+  {
+   "station": "Assembly-with-ABB-IRB-2400-16.rdk",
+   "script": "Next_RackTarget",
+   "outcome": "ok",
+   "seconds": 0.138
+  },
+  {
+   "station": "Assembly-with-ABB-IRB-2400-16.rdk",
+   "script": "Reset_MainConveyor",
+   "outcome": "ok",
+   "seconds": 0.14
+  },
+  {
+   "station": "Assembly-with-ABB-IRB-2400-16.rdk",
+   "script": "Reset_Tool",
+   "outcome": "ok",
+   "seconds": 0.118
+  },
+  {
+   "station": "Assembly-with-ABB-IRB-2400-16.rdk",
+   "script": "Reset_RackConveyor",
+   "outcome": "ok",
+   "seconds": 0.124
+  },
+  {
+   "station": "Assembly-with-ABB-IRB-2400-16.rdk",
+   "script": "Render",
+   "outcome": "ok",
+   "seconds": 0.113
+  },
+  {
+   "station": "Assembly-with-ABB-IRB-2400-16.rdk",
+   "script": "Reset_AVG",
+   "outcome": "ok",
+   "seconds": 0.181
+  },
+  {
+   "station": "Assembly-with-ABB-IRB-2400-16.rdk",
+   "script": "Reset_RackTargetRel",
+   "outcome": "ok",
+   "seconds": 0.119
+  },
+  {
+   "station": "Assembly-with-ABB-IRB-2400-16.rdk",
+   "script": "Reset_RackTargetABS",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "Syringe1_setTrue_flag_py",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "Syringe1_check_flag_py",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "Syringe1_setFalse_flag_py",
+   "outcome": "ok",
+   "seconds": 0.114
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "Syringe2_setTrue_flag_py",
+   "outcome": "ok",
+   "seconds": 0.12
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "Syringe2_check_flag_py",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "Syringe2_setFalse_flag_py",
+   "outcome": "ok",
+   "seconds": 0.112
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "Syringe3_setTrue_flag_py",
+   "outcome": "ok",
+   "seconds": 0.117
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "Syringe3_check_flag_py",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "Syringe3_setFalse_flag_py",
+   "outcome": "ok",
+   "seconds": 0.113
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "Syringes_check_flag_py",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "CalibTool_setTrue_flag_py",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "CalibTool_check_flag_py",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "CalibTool_setFalse_flag_py",
+   "outcome": "ok",
+   "seconds": 0.115
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "TwinToolApp",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "UpdateMachiningProjects",
+   "outcome": "ok",
+   "seconds": 3.111
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "RunProgram",
+   "outcome": "ok",
+   "seconds": 3.169
+  },
+  {
+   "station": "Calibration-Curve-Following-and-Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "ResetTCP",
+   "outcome": "error",
+   "seconds": 0.117,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/ResetTCP.py\", line 31, in <module>\n    tool.setPoseTool(Pose(80,0,35.8,0,90,0))\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Calibration-and-Dispensing-with-KUKA-KR-30-R2100.rdk",
+   "script": "Create measurements",
+   "outcome": "error",
+   "seconds": 0.115,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Createmeasurements.py\", line 132\n    (avoid this message by naming the tracker reference \"%s\")' % TRACKER_REF_NAME, robolink.ITEM_TYPE_FRAME)\n           ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Calibration-with-Comau-Smart5-NJ-165-3-4-SH.rdk",
+   "script": "Create measurements",
+   "outcome": "running-at-timeout",
+   "seconds": 12.002,
+   "detail": ""
+  },
+  {
+   "station": "Calibration-with-Mecademic-Meca500-R3.rdk",
+   "script": "Create measurements",
+   "outcome": "error",
+   "seconds": 0.11,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Createmeasurements.py\", line 126\n    (avoid this message by naming the tracker reference \"%s\")' % TRACKER_REF_NAME, robolink.ITEM_TYPE_FRAME)\n           ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Calibration-with-Mecademic-Meca500-R3.rdk",
+   "script": "Create_measurements_Grid",
+   "outcome": "error",
+   "seconds": 0.11,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Create_measurements_Grid.py\", line 117\n    (avoid this message by naming the tracker reference \"%s\")' % TRACKER_REF_NAME, robolink.ITEM_TYPE_FRAME)\n           ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Calibration-with-UR10-02.rdk",
+   "script": "Create measurements",
+   "outcome": "error",
+   "seconds": 0.116,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Createmeasurements.py\", line 126\n    (avoid this message by naming the tracker reference \"%s\")' % TRACKER_REF_NAME, robolink.ITEM_TYPE_FRAME)\n           ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Calibration-with-UR10.rdk",
+   "script": "Generate targets",
+   "outcome": "running-at-timeout",
+   "seconds": 12.01,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-02.rdk",
+   "script": "ConveyorReset",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Conveying-02.rdk",
+   "script": "SensorReader",
+   "outcome": "running-at-timeout",
+   "seconds": 12.002,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-02.rdk",
+   "script": "ConveyorRunner",
+   "outcome": "running-at-timeout",
+   "seconds": 12.002,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-02.rdk",
+   "script": "BoxSpawner",
+   "outcome": "running-at-timeout",
+   "seconds": 12.003,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-03.rdk",
+   "script": "Reset_Conveyor",
+   "outcome": "ok",
+   "seconds": 0.14
+  },
+  {
+   "station": "Conveying-03.rdk",
+   "script": "Generate box",
+   "outcome": "ok",
+   "seconds": 1.3
+  },
+  {
+   "station": "Conveying-Decanting-and-Material-Handling-with-Fanuc-R-2000iC-165F.rdk",
+   "script": "OpenBox",
+   "outcome": "ok",
+   "seconds": 1.031
+  },
+  {
+   "station": "Conveying-Decanting-and-Material-Handling-with-Fanuc-R-2000iC-165F.rdk",
+   "script": "MechnaismReset",
+   "outcome": "ok",
+   "seconds": 0.119
+  },
+  {
+   "station": "Conveying-Decanting-and-Material-Handling-with-Fanuc-R-2000iC-165F.rdk",
+   "script": "ConveyorReset",
+   "outcome": "ok",
+   "seconds": 0.118
+  },
+  {
+   "station": "Conveying-Decanting-and-Material-Handling-with-Fanuc-R-2000iC-165F.rdk",
+   "script": "SwitchRef_Box_to_convOut",
+   "outcome": "ok",
+   "seconds": 0.118
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10.rdk",
+   "script": "SetSimulationParams",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10.rdk",
+   "script": "PrepareSimulation",
+   "outcome": "ok",
+   "seconds": 0.14
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10.rdk",
+   "script": "SimulateCamera",
+   "outcome": "ok",
+   "seconds": 0.114
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10.rdk",
+   "script": "PartsToConveyor",
+   "outcome": "running-at-timeout",
+   "seconds": 12.002,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10.rdk",
+   "script": "PartsToPallet",
+   "outcome": "running-at-timeout",
+   "seconds": 12,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10e-02.rdk",
+   "script": "NextPart_In",
+   "outcome": "ok",
+   "seconds": 0.714
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10e-02.rdk",
+   "script": "NextPart_Out",
+   "outcome": "ok",
+   "seconds": 0.724
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10e-02.rdk",
+   "script": "InitConvPosition",
+   "outcome": "ok",
+   "seconds": 0.12
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10e.rdk",
+   "script": "NextPart_In",
+   "outcome": "ok",
+   "seconds": 0.71
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10e.rdk",
+   "script": "NextPart_Out",
+   "outcome": "ok",
+   "seconds": 0.704
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10e.rdk",
+   "script": "InitConvPosition",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-ABB-IRB-2400-L.rdk",
+   "script": "Reset_Conveyor",
+   "outcome": "ok",
+   "seconds": 0.137
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-ABB-IRB-2400-L.rdk",
+   "script": "Generate box",
+   "outcome": "ok",
+   "seconds": 0.119
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-ABB-IRB-2400-L.rdk",
+   "script": "Clear_Tool",
+   "outcome": "ok",
+   "seconds": 0.12
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-ABB-IRB-2400-L.rdk",
+   "script": "Reset_PalletLeft",
+   "outcome": "ok",
+   "seconds": 0.115
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-ABB-IRB-2400-L.rdk",
+   "script": "Reset_PalletRight",
+   "outcome": "ok",
+   "seconds": 0.117
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-ABB-IRB-2400-L.rdk",
+   "script": "ConvMove",
+   "outcome": "ok",
+   "seconds": 0.723
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "Reset_Conveyor",
+   "outcome": "ok",
+   "seconds": 0.125
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "Generate box",
+   "outcome": "ok",
+   "seconds": 0.122
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "Clear_Tool",
+   "outcome": "ok",
+   "seconds": 0.118
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "Reset_PalletLeft",
+   "outcome": "ok",
+   "seconds": 0.121
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "Reset_PalletRight",
+   "outcome": "ok",
+   "seconds": 0.118
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "ConvMove",
+   "outcome": "ok",
+   "seconds": 0.701
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-UR20.rdk",
+   "script": "Reset_Conveyor",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-UR20.rdk",
+   "script": "Generate box",
+   "outcome": "ok",
+   "seconds": 0.118
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-UR20.rdk",
+   "script": "Clear_Tool",
+   "outcome": "ok",
+   "seconds": 0.121
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-UR20.rdk",
+   "script": "Reset_PalletLeft",
+   "outcome": "ok",
+   "seconds": 0.119
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-UR20.rdk",
+   "script": "Reset_PalletRight",
+   "outcome": "ok",
+   "seconds": 0.117
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-UR20.rdk",
+   "script": "ConvMove",
+   "outcome": "ok",
+   "seconds": 0.698
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Yaskawa-GP25.rdk",
+   "script": "Reset_Conveyor",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Yaskawa-GP25.rdk",
+   "script": "Generate box",
+   "outcome": "ok",
+   "seconds": 0.119
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Yaskawa-GP25.rdk",
+   "script": "Clear_Tool",
+   "outcome": "ok",
+   "seconds": 0.115
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Yaskawa-GP25.rdk",
+   "script": "Reset_PalletLeft",
+   "outcome": "ok",
+   "seconds": 0.118
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Yaskawa-GP25.rdk",
+   "script": "Reset_PalletRight",
+   "outcome": "ok",
+   "seconds": 0.114
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Yaskawa-GP25.rdk",
+   "script": "ConvMove",
+   "outcome": "ok",
+   "seconds": 0.7
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-ABB.rdk",
+   "script": "RunConveyor",
+   "outcome": "running-at-timeout",
+   "seconds": 12.001,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-ABB.rdk",
+   "script": "SetupStation",
+   "outcome": "ok",
+   "seconds": 0.156
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-ABB.rdk",
+   "script": "FeedConveyor",
+   "outcome": "running-at-timeout",
+   "seconds": 12.002,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-ABB.rdk",
+   "script": "TakeConveyor",
+   "outcome": "running-at-timeout",
+   "seconds": 12.001,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-LR-Mate-200iD-7L.rdk",
+   "script": "InitStationParam",
+   "outcome": "ok",
+   "seconds": 0.116
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-LR-Mate-200iD-7L.rdk",
+   "script": "InitConvPosition",
+   "outcome": "ok",
+   "seconds": 0.117
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-LR-Mate-200iD-7L.rdk",
+   "script": "NextPart",
+   "outcome": "ok",
+   "seconds": 1.118
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-LR-Mate-200iD-7L.rdk",
+   "script": "UnloadPallet",
+   "outcome": "running-at-timeout",
+   "seconds": 12.003,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-LR-Mate-200iD-7L.rdk",
+   "script": "RemoveEmptyPallet",
+   "outcome": "error",
+   "seconds": 1.005,
+   "category": "script-error",
+   "detail": "TypeError: 'Item' object is not iterable",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/RemoveEmptyPallet.py\", line 58, in <module>\n    robot_fanuc.MoveL(RelTool(target_approach_pick_pallet,200,0,0))\nTypeError: 'Item' object is not iterable"
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-M-410iC-110-02.rdk",
+   "script": "BoxSpawner",
+   "outcome": "running-at-timeout",
+   "seconds": 12.003,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-M-410iC-110-02.rdk",
+   "script": "ConveyorReset",
+   "outcome": "ok",
+   "seconds": 0.12
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-M-410iC-110-02.rdk",
+   "script": "Rob1_PickBox",
+   "outcome": "running-at-timeout",
+   "seconds": 12,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-M-410iC-110-02.rdk",
+   "script": "Delete_Box_Over_The_Edge",
+   "outcome": "running-at-timeout",
+   "seconds": 12.002,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-M-410iC-110-02.rdk",
+   "script": "Rob2_PickBox",
+   "outcome": "running-at-timeout",
+   "seconds": 12.001,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-M-410iC-110.rdk",
+   "script": "BoxSpawner",
+   "outcome": "running-at-timeout",
+   "seconds": 12.004,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-M-410iC-110.rdk",
+   "script": "ConveyorReset",
+   "outcome": "ok",
+   "seconds": 0.12
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-M-410iC-110.rdk",
+   "script": "PickBox",
+   "outcome": "running-at-timeout",
+   "seconds": 12.009,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-M-410iC-110.rdk",
+   "script": "Delete_Box_Over_The_Edge",
+   "outcome": "running-at-timeout",
+   "seconds": 12.003,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Motoman-GP20.rdk",
+   "script": "ObjSpawner",
+   "outcome": "running-at-timeout",
+   "seconds": 12.003,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Motoman-GP20.rdk",
+   "script": "ConveyorReset",
+   "outcome": "ok",
+   "seconds": 0.154
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Motoman-GP20.rdk",
+   "script": "PickBox",
+   "outcome": "running-at-timeout",
+   "seconds": 12.001,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-UR10.rdk",
+   "script": "RunConveyor",
+   "outcome": "running-at-timeout",
+   "seconds": 12.001,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-UR10.rdk",
+   "script": "WaitForPart",
+   "outcome": "running-at-timeout",
+   "seconds": 12.001,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-UR10.rdk",
+   "script": "SimulateToolOpen",
+   "outcome": "running-at-timeout",
+   "seconds": 12.001,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "Clear_Conveyor",
+   "outcome": "ok",
+   "seconds": 0.125
+  },
+  {
+   "station": "Conveying-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "Clear_Pallet",
+   "outcome": "ok",
+   "seconds": 0.122
+  },
+  {
+   "station": "Conveying-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "Clear_Tool",
+   "outcome": "ok",
+   "seconds": 0.122
+  },
+  {
+   "station": "Conveying-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "Conv_Init_Position",
+   "outcome": "ok",
+   "seconds": 0.121
+  },
+  {
+   "station": "Conveying-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "Conv_Move_24X16",
+   "outcome": "ok",
+   "seconds": 3.434
+  },
+  {
+   "station": "Conveying-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "Conv_Move_12X10",
+   "outcome": "ok",
+   "seconds": 2.435
+  },
+  {
+   "station": "Conveying-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "New_Box_12X10",
+   "outcome": "ok",
+   "seconds": 0.142
+  },
+  {
+   "station": "Conveying-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "script": "New_Box_24X16",
+   "outcome": "ok",
+   "seconds": 0.134
+  },
+  {
+   "station": "Conveying-with-UR10.rdk",
+   "script": "SensorActivate",
+   "outcome": "running-at-timeout",
+   "seconds": 12.003,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-with-UR10.rdk",
+   "script": "SetSimulationParams",
+   "outcome": "ok",
+   "seconds": 0.152
+  },
+  {
+   "station": "Conveying-with-UR10.rdk",
+   "script": "PrepareSimulation",
+   "outcome": "ok",
+   "seconds": 0.173
+  },
+  {
+   "station": "Conveying-with-UR10.rdk",
+   "script": "RobotA_GetParts",
+   "outcome": "running-at-timeout",
+   "seconds": 12.006,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-with-UR10.rdk",
+   "script": "RobotB_StoreParts",
+   "outcome": "running-at-timeout",
+   "seconds": 12.005,
+   "detail": ""
+  },
+  {
+   "station": "Conveying.rdk",
+   "script": "Run_Conveyor_Curve",
+   "outcome": "ok",
+   "seconds": 5.497
+  },
+  {
+   "station": "Conveying.rdk",
+   "script": "Run_Conveyor1",
+   "outcome": "ok",
+   "seconds": 5.851
+  },
+  {
+   "station": "Conveying.rdk",
+   "script": "Run_Conveyor2",
+   "outcome": "ok",
+   "seconds": 5.805
+  },
+  {
+   "station": "Conveying.rdk",
+   "script": "Reset_All_Mechanism",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Conveying.rdk",
+   "script": "Switch_Obj_ref",
+   "outcome": "ok",
+   "seconds": 0.144
+  },
+  {
+   "station": "Curve-Following-Synchronization-and-Taping-with-ABB.rdk",
+   "script": "TapeOff",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Curve-Following-Synchronization-and-Taping-with-ABB.rdk",
+   "script": "TapeOn",
+   "outcome": "ok",
+   "seconds": 0.125
+  },
+  {
+   "station": "Curve-Following-and-Synchronization-with-Motoman-UP50N.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Curve-Following-and-Synchronization-with-Motoman-UP50N.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.131
+  },
+  {
+   "station": "Curve-Following-and-Taping-with-UR10e.rdk",
+   "script": "TapeOff",
+   "outcome": "ok",
+   "seconds": 0.135
+  },
+  {
+   "station": "Curve-Following-and-Taping-with-UR10e.rdk",
+   "script": "TapeOn",
+   "outcome": "ok",
+   "seconds": 0.136
+  },
+  {
+   "station": "Dispensing-with-ABB-CRB-1300-11-0-9.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.166
+  },
+  {
+   "station": "Dispensing-with-ABB-CRB-1300-11-0-9.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.135
+  },
+  {
+   "station": "Dispensing-with-ABB-CRB-15000.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Dispensing-with-ABB-CRB-15000.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.137
+  },
+  {
+   "station": "Dispensing-with-ABB-IRB-1200-5-0-9-02.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.131
+  },
+  {
+   "station": "Dispensing-with-ABB-IRB-1200-5-0-9-02.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Dispensing-with-ABB-IRB-1200-5-0-9.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Dispensing-with-ABB-IRB-1200-5-0-9.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.137
+  },
+  {
+   "station": "Dispensing-with-AUBO-i5.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.139
+  },
+  {
+   "station": "Dispensing-with-AUBO-i5.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.138
+  },
+  {
+   "station": "Dispensing-with-AUCTECH-ACR-7.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.134
+  },
+  {
+   "station": "Dispensing-with-AUCTECH-ACR-7.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.176
+  },
+  {
+   "station": "Dispensing-with-Agilebot-GBT-P7A.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.144
+  },
+  {
+   "station": "Dispensing-with-Agilebot-GBT-P7A.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.138
+  },
+  {
+   "station": "Dispensing-with-Comau-Racer-5-0-80.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.139
+  },
+  {
+   "station": "Dispensing-with-Comau-Racer-5-0-80.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Dispensing-with-Delta-Electronics-DC06.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.137
+  },
+  {
+   "station": "Dispensing-with-Delta-Electronics-DC06.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.134
+  },
+  {
+   "station": "Dispensing-with-Denso-VS-068.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Dispensing-with-Denso-VS-068.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.131
+  },
+  {
+   "station": "Dispensing-with-Dobot-CR3L.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.14
+  },
+  {
+   "station": "Dispensing-with-Dobot-CR3L.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.139
+  },
+  {
+   "station": "Dispensing-with-Dobot-CR5.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Dispensing-with-Dobot-CR5.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Dispensing-with-Doosan-Robotics-A0509.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Dispensing-with-Doosan-Robotics-A0509.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.141
+  },
+  {
+   "station": "Dispensing-with-Doosan-Robotics-A0912.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.149
+  },
+  {
+   "station": "Dispensing-with-Doosan-Robotics-A0912.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.135
+  },
+  {
+   "station": "Dispensing-with-Doosan-Robotics-M1013-02.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.148
+  },
+  {
+   "station": "Dispensing-with-Doosan-Robotics-M1013-02.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.14
+  },
+  {
+   "station": "Dispensing-with-Doosan-Robotics-M1013.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.149
+  },
+  {
+   "station": "Dispensing-with-Doosan-Robotics-M1013.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.139
+  },
+  {
+   "station": "Dispensing-with-Elite-Robots-CS66.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.151
+  },
+  {
+   "station": "Dispensing-with-Elite-Robots-CS66.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.158
+  },
+  {
+   "station": "Dispensing-with-Epson-C8L.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.137
+  },
+  {
+   "station": "Dispensing-with-Epson-C8L.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.238
+  },
+  {
+   "station": "Dispensing-with-Epson-N6-A1000.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.145
+  },
+  {
+   "station": "Dispensing-with-Epson-N6-A1000.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Dispensing-with-FAIR-Innovation-F16.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.135
+  },
+  {
+   "station": "Dispensing-with-FAIR-Innovation-F16.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Dispensing-with-FAIR-Innovation-FR5.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.127
+  },
+  {
+   "station": "Dispensing-with-FAIR-Innovation-FR5.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Dispensing-with-Fanuc-CR-7iA-L.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.144
+  },
+  {
+   "station": "Dispensing-with-Fanuc-CR-7iA-L.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.218
+  },
+  {
+   "station": "Dispensing-with-Fanuc-LR-Mate-200iD-7L-02.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.148
+  },
+  {
+   "station": "Dispensing-with-Fanuc-LR-Mate-200iD-7L-02.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.142
+  },
+  {
+   "station": "Dispensing-with-Fanuc-LR-Mate-200iD-7L.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Dispensing-with-Fanuc-LR-Mate-200iD-7L.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.124
+  },
+  {
+   "station": "Dispensing-with-Foxbot-A1200.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.124
+  },
+  {
+   "station": "Dispensing-with-Foxbot-A1200.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.134
+  },
+  {
+   "station": "Dispensing-with-HCR-5.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Dispensing-with-HCR-5.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Dispensing-with-HIWIN-RA605-710-GB.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.145
+  },
+  {
+   "station": "Dispensing-with-HIWIN-RA605-710-GB.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.149
+  },
+  {
+   "station": "Dispensing-with-Han-s-E05-L.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Dispensing-with-Han-s-E05-L.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Dispensing-with-Han-s-E10.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Dispensing-with-Han-s-E10.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Dispensing-with-Hyundai-HH7.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.131
+  },
+  {
+   "station": "Dispensing-with-Hyundai-HH7.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Dispensing-with-Hyundai-HH8.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Dispensing-with-Hyundai-HH8.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.139
+  },
+  {
+   "station": "Dispensing-with-IIMT-CA-05.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Dispensing-with-IIMT-CA-05.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.127
+  },
+  {
+   "station": "Dispensing-with-JAKA-Zu5.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.138
+  },
+  {
+   "station": "Dispensing-with-JAKA-Zu5.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.14
+  },
+  {
+   "station": "Dispensing-with-KUKA-KR-5-sixx-R850.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Dispensing-with-KUKA-KR-5-sixx-R850.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Dispensing-with-KUKA-KR-6-R900-sixx-02.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.124
+  },
+  {
+   "station": "Dispensing-with-KUKA-KR-6-R900-sixx-02.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Dispensing-with-KUKA-KR-6-R900-sixx.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.127
+  },
+  {
+   "station": "Dispensing-with-KUKA-KR-6-R900-sixx.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.127
+  },
+  {
+   "station": "Dispensing-with-KUKA-iisy-3-R930.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.157
+  },
+  {
+   "station": "Dispensing-with-KUKA-iisy-3-R930.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.158
+  },
+  {
+   "station": "Dispensing-with-Kassow-KR0810-02.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.123
+  },
+  {
+   "station": "Dispensing-with-Kassow-KR0810-02.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.131
+  },
+  {
+   "station": "Dispensing-with-Kassow-KR0810.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.124
+  },
+  {
+   "station": "Dispensing-with-Kassow-KR0810.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Dispensing-with-Kawasaki-RS005L.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.125
+  },
+  {
+   "station": "Dispensing-with-Kawasaki-RS005L.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Dispensing-with-Kawasaki-RS007N.rdk",
+   "script": "GunEnd",
+   "outcome": "error",
+   "seconds": 0.121,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/GunEnd.py\", line 123\n    Material waisted: %.1f%%\n             ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Dispensing-with-Kawasaki-RS007N.rdk",
+   "script": "GunStart",
+   "outcome": "error",
+   "seconds": 0.122,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/GunStart.py\", line 123\n    Material waisted: %.1f%%\n             ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Dispensing-with-Leantec-LA707-7H-R.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.127
+  },
+  {
+   "station": "Dispensing-with-Leantec-LA707-7H-R.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.124
+  },
+  {
+   "station": "Dispensing-with-Leantec-LA906-7H-R.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.123
+  },
+  {
+   "station": "Dispensing-with-Leantec-LA906-7H-R.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Dispensing-with-Mitsubishi-RV-5AS-D.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Dispensing-with-Mitsubishi-RV-5AS-D.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.127
+  },
+  {
+   "station": "Dispensing-with-Motoman-MH5.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Dispensing-with-Motoman-MH5.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.124
+  },
+  {
+   "station": "Dispensing-with-Nachi-MZ07.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Dispensing-with-Nachi-MZ07.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Dispensing-with-Neura-LARA-10.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Dispensing-with-Neura-LARA-10.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Dispensing-with-RB10-1300.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.127
+  },
+  {
+   "station": "Dispensing-with-RB10-1300.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.125
+  },
+  {
+   "station": "Dispensing-with-RoboDK-RDK-1100-02.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.125
+  },
+  {
+   "station": "Dispensing-with-RoboDK-RDK-1100-02.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Dispensing-with-RoboDK-RDK-1100.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Dispensing-with-RoboDK-RDK-1100.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.135
+  },
+  {
+   "station": "Dispensing-with-RoboDK-RDK-COBOT-1200.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.192
+  },
+  {
+   "station": "Dispensing-with-RoboDK-RDK-COBOT-1200.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.225
+  },
+  {
+   "station": "Dispensing-with-Robostar-RA007.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.181
+  },
+  {
+   "station": "Dispensing-with-Robostar-RA007.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.155
+  },
+  {
+   "station": "Dispensing-with-Rokae-CR12.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.135
+  },
+  {
+   "station": "Dispensing-with-Rokae-CR12.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Dispensing-with-Rokae-XB6.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.127
+  },
+  {
+   "station": "Dispensing-with-Rokae-XB6.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.155
+  },
+  {
+   "station": "Dispensing-with-Schneider-Electric-Lexium-Cobot-LXMRL07S0000.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.137
+  },
+  {
+   "station": "Dispensing-with-Schneider-Electric-Lexium-Cobot-LXMRL07S0000.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.14
+  },
+  {
+   "station": "Dispensing-with-Schneider-Electric-Lexium-Cobot-LXMRL18S0000.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.141
+  },
+  {
+   "station": "Dispensing-with-Schneider-Electric-Lexium-Cobot-LXMRL18S0000.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Dispensing-with-Siasun-GCR5-910.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.154
+  },
+  {
+   "station": "Dispensing-with-Siasun-GCR5-910.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.221
+  },
+  {
+   "station": "Dispensing-with-Standard-Bots-RO1.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.15
+  },
+  {
+   "station": "Dispensing-with-Standard-Bots-RO1.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.165
+  },
+  {
+   "station": "Dispensing-with-Staubli-RX60BL.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.138
+  },
+  {
+   "station": "Dispensing-with-Staubli-RX60BL.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.154
+  },
+  {
+   "station": "Dispensing-with-Staubli-RX90B.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Dispensing-with-Staubli-RX90B.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.225
+  },
+  {
+   "station": "Dispensing-with-Staubli-TX2-60L-02.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.135
+  },
+  {
+   "station": "Dispensing-with-Staubli-TX2-60L-02.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.145
+  },
+  {
+   "station": "Dispensing-with-Staubli-TX2-60L.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Dispensing-with-Staubli-TX2-60L.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.139
+  },
+  {
+   "station": "Dispensing-with-TM12.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Dispensing-with-TM12.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.152
+  },
+  {
+   "station": "Dispensing-with-TM14X-02.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Dispensing-with-TM14X-02.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Dispensing-with-TM14X.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Dispensing-with-TM14X.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Dispensing-with-TM5-900.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Dispensing-with-TM5-900.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Dispensing-with-TM5S.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Dispensing-with-TM5S.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Dispensing-with-UR10.rdk",
+   "script": "ArcEnd",
+   "outcome": "error",
+   "seconds": 0.127,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/ArcEnd.py\", line 123\n    Material waisted: %.1f%%\n             ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Dispensing-with-UR10.rdk",
+   "script": "ArcStart",
+   "outcome": "error",
+   "seconds": 0.124,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/ArcStart.py\", line 123\n    Material waisted: %.1f%%\n             ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Dispensing-with-UR10e-02.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.139
+  },
+  {
+   "station": "Dispensing-with-UR10e-02.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.177
+  },
+  {
+   "station": "Dispensing-with-UR10e-03.rdk",
+   "script": "GunOff",
+   "outcome": "ok",
+   "seconds": 0.146
+  },
+  {
+   "station": "Dispensing-with-UR10e-03.rdk",
+   "script": "GunOn",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Dispensing-with-UR10e.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Dispensing-with-UR10e.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Dispensing-with-UR5e.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.131
+  },
+  {
+   "station": "Dispensing-with-UR5e.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Dispensing-with-Yaskawa-GP8-02.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Dispensing-with-Yaskawa-GP8-02.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.124
+  },
+  {
+   "station": "Dispensing-with-Yaskawa-GP8-03.rdk",
+   "script": "GunOff",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Dispensing-with-Yaskawa-GP8-03.rdk",
+   "script": "GunOn",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Dispensing-with-Yaskawa-GP8.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Dispensing-with-Yaskawa-GP8.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.141
+  },
+  {
+   "station": "Dispensing-with-Yaskawa-HC10.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.136
+  },
+  {
+   "station": "Dispensing-with-Yaskawa-HC10.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.137
+  },
+  {
+   "station": "Dispensing-with-igus-ReBeL-6DOF.rdk",
+   "script": "GunEnd",
+   "outcome": "ok",
+   "seconds": 0.173
+  },
+  {
+   "station": "Dispensing-with-igus-ReBeL-6DOF.rdk",
+   "script": "GunStart",
+   "outcome": "ok",
+   "seconds": 0.145
+  },
+  {
+   "station": "Drawing-with-ABB-IRB-4600-20-2-50.rdk",
+   "script": "Draw",
+   "outcome": "running-at-timeout",
+   "seconds": 12.004,
+   "detail": ""
+  },
+  {
+   "station": "Drilling-and-Milling-with-KUKA-KR-10-R900-sixx-02.rdk",
+   "script": "RunProgram",
+   "outcome": "running-at-timeout",
+   "seconds": 12.003,
+   "detail": ""
+  },
+  {
+   "station": "Grinding-with-Omron-TM14X.rdk",
+   "script": "GrindEnd",
+   "outcome": "ok",
+   "seconds": 0.155
+  },
+  {
+   "station": "Grinding-with-Omron-TM14X.rdk",
+   "script": "GrindStart",
+   "outcome": "ok",
+   "seconds": 0.131
+  },
+  {
+   "station": "Grinding-with-Omron-TM14X.rdk",
+   "script": "GrindClear",
+   "outcome": "ok",
+   "seconds": 0.139
+  },
+  {
+   "station": "Grinding-with-UR10e.rdk",
+   "script": "GrindEnd",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Grinding-with-UR10e.rdk",
+   "script": "GrindStart",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Grinding-with-UR10e.rdk",
+   "script": "GrindClear",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "HMI.rdk",
+   "script": "Display Panel Demo",
+   "outcome": "running-at-timeout",
+   "seconds": 12.005,
+   "detail": ""
+  },
+  {
+   "station": "Inspection-and-Painting-with-RoboDK-RDK-COBOT-1200.rdk",
+   "script": "PaintEnd",
+   "outcome": "ok",
+   "seconds": 0.134
+  },
+  {
+   "station": "Inspection-and-Painting-with-RoboDK-RDK-COBOT-1200.rdk",
+   "script": "RedPaint",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Inspection-and-Painting-with-RoboDK-RDK-COBOT-1200.rdk",
+   "script": "GrindClear",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Inspection-and-Painting-with-RoboDK-RDK-COBOT-1200.rdk",
+   "script": "BluePaint",
+   "outcome": "ok",
+   "seconds": 0.14
+  },
+  {
+   "station": "Inspection-with-UR10.rdk",
+   "script": "MakeGridCurve",
+   "outcome": "error",
+   "seconds": 0.125,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/MakeGridCurve.py\", line 75\n    (select cancel if you do not want to project the path)', robolink.ITEM_TYPE_OBJECT)\n            ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Inspection-with-UR10.rdk",
+   "script": "ProjectPoints",
+   "outcome": "error",
+   "seconds": 0.131,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/ProjectPoints.py\", line 75\n    (select cancel if you do not want to project the path)', robolink.ITEM_TYPE_OBJECT)\n            ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Inspection-with-UR10.rdk",
+   "script": "ProjectPoints-AutoSetup",
+   "outcome": "error",
+   "seconds": 0.139,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/ProjectPointsAutoSetup.py\", line 75\n    (select cancel if you do not want to project the path)', robolink.ITEM_TYPE_OBJECT)\n            ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Inspection-with-UR10e.rdk",
+   "script": "GenerateCurveGrid",
+   "outcome": "error",
+   "seconds": 0.131,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/GenerateCurveGrid.py\", line 91, in <module>\n    pose_ref_wrt_obj = invH(obj.Parent().PoseAbs())*refgrid.PoseAbs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Inspection-with-UR10e.rdk",
+   "script": "CurveSetupGUI_Stripes_JLB",
+   "outcome": "skipped",
+   "category": "desktop-gui-tkinter"
+  },
+  {
+   "station": "Inspection-with-UR10e.rdk",
+   "script": "MoveAxis",
+   "outcome": "ok",
+   "seconds": 0.386
+  },
+  {
+   "station": "Inspection-with-UR10e.rdk",
+   "script": "SyncInputRobot",
+   "outcome": "running-at-timeout",
+   "seconds": 12.001,
+   "detail": ""
+  },
+  {
+   "station": "Inspection-with-UR10e.rdk",
+   "script": "SyncOutputRobot",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Machining-and-Material-Handling-with-FAIRINO-and-Gudel.rdk",
+   "script": "Delete_Objects",
+   "outcome": "ok",
+   "seconds": 0.139
+  },
+  {
+   "station": "Machining-and-Material-Handling-with-FAIRINO-and-Gudel.rdk",
+   "script": "Reset_Tool",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Machining-and-Material-Handling-with-FAIRINO-and-Gudel.rdk",
+   "script": "CNC1_Machining",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Machining-and-Material-Handling-with-FAIRINO-and-Gudel.rdk",
+   "script": "CNC2_Machining",
+   "outcome": "ok",
+   "seconds": 0.134
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "P_Ku_Weld_Rib1_DO_DI_Loop_Lambda",
+   "outcome": "error",
+   "seconds": 0.182,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/P_Ku_Weld_Rib1_DO_DI_Loop_Lambda.py\", line 18\n    from robodk.robolink import Robolink, robolink.ITEM_TYPE_ROBOT, robolink.ITEM_TYPE_FRAME, robolink.ITEM_TYPE_TOOL, robolink.ITEM_TYPE_TARGET, robolink.ITEM_TYPE_NOTES\n                                                  ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "P_Ku_Weld_Rib2_DO_DI_Loop_Lambda",
+   "outcome": "error",
+   "seconds": 0.146,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/P_Ku_Weld_Rib2_DO_DI_Loop_Lambda.py\", line 18\n    from robodk.robolink import Robolink, robolink.ITEM_TYPE_ROBOT, robolink.ITEM_TYPE_FRAME, robolink.ITEM_TYPE_TOOL, robolink.ITEM_TYPE_TARGET, robolink.ITEM_TYPE_NOTES\n                                                  ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "P_Ku_Weld_Rib3_DO_DI_Loop_Lambda",
+   "outcome": "error",
+   "seconds": 0.141,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/P_Ku_Weld_Rib3_DO_DI_Loop_Lambda.py\", line 18\n    from robodk.robolink import Robolink, robolink.ITEM_TYPE_ROBOT, robolink.ITEM_TYPE_FRAME, robolink.ITEM_TYPE_TOOL, robolink.ITEM_TYPE_TARGET, robolink.ITEM_TYPE_NOTES\n                                                  ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "P_Ku_Weld_Rib4_DO_DI_Loop_Lambda",
+   "outcome": "error",
+   "seconds": 0.162,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/P_Ku_Weld_Rib4_DO_DI_Loop_Lambda.py\", line 18\n    from robodk.robolink import Robolink, robolink.ITEM_TYPE_ROBOT, robolink.ITEM_TYPE_FRAME, robolink.ITEM_TYPE_TOOL, robolink.ITEM_TYPE_TARGET, robolink.ITEM_TYPE_NOTES\n                                                  ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "P_Ku_Weld_Rib5_DO_DI_Loop_Lambda",
+   "outcome": "error",
+   "seconds": 0.261,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/P_Ku_Weld_Rib5_DO_DI_Loop_Lambda.py\", line 18\n    from robodk.robolink import Robolink, robolink.ITEM_TYPE_ROBOT, robolink.ITEM_TYPE_FRAME, robolink.ITEM_TYPE_TOOL, robolink.ITEM_TYPE_TARGET, robolink.ITEM_TYPE_NOTES\n                                                  ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "P_Ku_Weld_Rib6_DO_DI_Loop_Lambda",
+   "outcome": "error",
+   "seconds": 0.156,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/P_Ku_Weld_Rib6_DO_DI_Loop_Lambda.py\", line 18\n    from robodk.robolink import Robolink, robolink.ITEM_TYPE_ROBOT, robolink.ITEM_TYPE_FRAME, robolink.ITEM_TYPE_TOOL, robolink.ITEM_TYPE_TARGET, robolink.ITEM_TYPE_NOTES\n                                                  ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "new_pose_for_Structural_rib",
+   "outcome": "ok",
+   "seconds": 0.159
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "GunOff",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "GunOn",
+   "outcome": "ok",
+   "seconds": 0.143
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "Validate_Essential_Items",
+   "outcome": "ok",
+   "seconds": 0.165
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "Frames_Position_Orientation_Exporter_MD_Table",
+   "outcome": "error",
+   "seconds": 0.174,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Frames_Position_Orientation_Exporter_MD_Table.py\", line 18\n    from robodk.robolink import Robolink, robolink.ITEM_TYPE_FRAME, robolink.ITEM_TYPE_ROBOT\n                                                  ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "Export_All_Targets_with_Metadata_MD_Table",
+   "outcome": "error",
+   "seconds": 0.171,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Export_All_Targets_with_Metadata_MD_Table.py\", line 18\n    from robodk.robolink import Robolink, robolink.ITEM_TYPE_TARGET, robolink.ITEM_TYPE_ROBOT\n                                                  ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "Export_Flat_List_of_All_Station_Objects_To_MD",
+   "outcome": "ok",
+   "seconds": 0.776
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "Reference_Frames_With_Metadata_MD_Table",
+   "outcome": "error",
+   "seconds": 0.149,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Reference_Frames_With_Metadata_MD_Table.py\", line 18\n    from robodk.robolink import Robolink, robolink.ITEM_TYPE_FRAME, robolink.ITEM_TYPE_ROBOT\n                                                  ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "KUKA_Background_Launcher",
+   "outcome": "ok",
+   "seconds": 0.217
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "_DI_DO_simulation_ONLINE",
+   "outcome": "running-at-timeout",
+   "seconds": 12.001,
+   "detail": ""
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-Fanuc-and-KUKA.rdk",
+   "script": "Restart_All_WELD_PROGRESS_STEPS",
+   "outcome": "ok",
+   "seconds": 0.134
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-KUKA.rdk",
+   "script": "Reset_All_Mechanism",
+   "outcome": "ok",
+   "seconds": 0.16
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-KUKA.rdk",
+   "script": "JIG1_OPENCLAWS",
+   "outcome": "ok",
+   "seconds": 0.137
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-KUKA.rdk",
+   "script": "JIG2_OPENCLAWS",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-KUKA.rdk",
+   "script": "ArcEnd",
+   "outcome": "error",
+   "seconds": 0.123,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/ArcEnd.py\", line 123\n    Material waisted: %.1f%%\n             ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Material-Handling-and-Welding-with-KUKA.rdk",
+   "script": "ArcStart",
+   "outcome": "error",
+   "seconds": 0.158,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/ArcStart.py\", line 123\n    Material waisted: %.1f%%\n             ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Material-Handling-with-Fanuc-R-2000iB-125L.rdk",
+   "script": "Reset_Shelf",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Material-Handling-with-Fanuc-R-2000iB-125L.rdk",
+   "script": "Conveyor_Incremental",
+   "outcome": "error",
+   "seconds": 0.153,
+   "category": "script-error",
+   "detail": "IndexError: list index out of range",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Conveyor_Incremental.py\", line 94, in <module>\n    RunIncremental(str(sys.argv[1]), float(sys.argv[2]), str(sys.argv[3]), str(sys.argv[4]))\nIndexError: list index out of range"
+  },
+  {
+   "station": "Material-Handling-with-Fanuc-R-2000iB-125L.rdk",
+   "script": "Reset_Conveyor",
+   "outcome": "error",
+   "seconds": 0.144,
+   "category": "script-error",
+   "detail": "IndexError: list index out of range",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Reset_Conveyor.py\", line 30, in <module>\n    ResetMechanism(str(sys.argv[1]))\nIndexError: list index out of range"
+  },
+  {
+   "station": "Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "script": "Gripper",
+   "outcome": "ok",
+   "seconds": 0.146
+  },
+  {
+   "station": "Milling-and-Synchronization-with-KUKA.rdk",
+   "script": "Spindle_Reset",
+   "outcome": "ok",
+   "seconds": 0.144
+  },
+  {
+   "station": "Mixed-Applications-with-Fanuc-M-10iD-12.rdk",
+   "script": "PickFinalAssembly",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Mixed-Applications-with-Fanuc-M-10iD-12.rdk",
+   "script": "DropFinalAssembly",
+   "outcome": "ok",
+   "seconds": 0.124
+  },
+  {
+   "station": "Mixed-Applications-with-Fanuc-M-10iD-12.rdk",
+   "script": "InitPartPosition",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Mixed-Applications-with-Fanuc-M-10iD-12.rdk",
+   "script": "NextSubAssembly",
+   "outcome": "ok",
+   "seconds": 3.36
+  },
+  {
+   "station": "Mixed-Applications-with-Fanuc-M-10iD-12.rdk",
+   "script": "NextBatteryPack",
+   "outcome": "ok",
+   "seconds": 1.423
+  },
+  {
+   "station": "Mixed-Applications-with-Fanuc-M-10iD-12.rdk",
+   "script": "NextTopCover",
+   "outcome": "ok",
+   "seconds": 1.426
+  },
+  {
+   "station": "Mixed-Applications-with-Fanuc-M-10iD-12.rdk",
+   "script": "NextBatteryCover",
+   "outcome": "ok",
+   "seconds": 1.266
+  },
+  {
+   "station": "Mixed-Applications-with-Fanuc-M-10iD-12.rdk",
+   "script": "NextScrew",
+   "outcome": "ok",
+   "seconds": 0.718
+  },
+  {
+   "station": "Mixed-Applications-with-Fanuc-M-10iD-12.rdk",
+   "script": "NextFinalAssembly",
+   "outcome": "ok",
+   "seconds": 4.057
+  },
+  {
+   "station": "Mixed-Applications-with-KUKA.rdk",
+   "script": "Tracker_CreatePoints",
+   "outcome": "error",
+   "seconds": 0.136,
+   "category": "not-supported-command",
+   "detail": "enginuity.errors.NotSupportedError: MeasLT2 is not available in this Enginuity (API command MeasLT2)",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Tracker_CreatePoints.py\", line 33, in <module>\n    xyz = RDK.LaserTracker_Measure()\nenginuity.errors.NotSupportedError: MeasLT2 is not available in this Enginuity (API command MeasLT2)"
+  },
+  {
+   "station": "Mixed-Applications-with-KUKA.rdk",
+   "script": "Create measurements",
+   "outcome": "error",
+   "seconds": 0.123,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Createmeasurements.py\", line 126\n    (avoid this message by naming the tracker reference \"%s\")' % TRACKER_REF_NAME, robolink.ITEM_TYPE_FRAME)\n           ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Mixed-Applications-with-KUKA.rdk",
+   "script": "TCP_2_axis_projection",
+   "outcome": "running-at-timeout",
+   "seconds": 12.001,
+   "detail": ""
+  },
+  {
+   "station": "Mixed-Applications-with-KUKA.rdk",
+   "script": "TCP_Set_Relative_All_Len",
+   "outcome": "ok",
+   "seconds": 0.244
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "DeleteObjectsPallet",
+   "outcome": "ok",
+   "seconds": 0.134
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_Tool",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Machining_Part",
+   "outcome": "error",
+   "seconds": 0.137,
+   "category": "name-error",
+   "detail": "NameError: name 'machining_stock' is not defined",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Machining_Part.py\", line 42, in <module>\n    if machining_stock.Valid():\nNameError: name 'machining_stock' is not defined"
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Clear_Conveyor",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Clear_Pallet",
+   "outcome": "ok",
+   "seconds": 0.134
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Clear_Tool",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Conv_Init_Position",
+   "outcome": "ok",
+   "seconds": 0.127
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Conv_Move_24X16",
+   "outcome": "ok",
+   "seconds": 3.48
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Conv_Move_12X10",
+   "outcome": "ok",
+   "seconds": 2.466
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "New_Box_12X10",
+   "outcome": "ok",
+   "seconds": 0.138
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "New_Box_24X16",
+   "outcome": "ok",
+   "seconds": 0.136
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "NextSubAssembly",
+   "outcome": "ok",
+   "seconds": 3.378
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "NextBatteryPack",
+   "outcome": "ok",
+   "seconds": 1.412
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "NextTopCover",
+   "outcome": "ok",
+   "seconds": 1.411
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "NextBatteryCover",
+   "outcome": "ok",
+   "seconds": 1.318
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "NextScrew",
+   "outcome": "ok",
+   "seconds": 0.715
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "NextFinalAssembly",
+   "outcome": "ok",
+   "seconds": 4.084
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "InitPartPosition",
+   "outcome": "ok",
+   "seconds": 0.159
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "PickFinalAssembly",
+   "outcome": "ok",
+   "seconds": 0.151
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "DropFinalAssembly",
+   "outcome": "ok",
+   "seconds": 0.135
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "RackConveyor_Next",
+   "outcome": "ok",
+   "seconds": 2.552
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "MainConveyor_Next",
+   "outcome": "ok",
+   "seconds": 6.614
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Next_BoxTargetPick",
+   "outcome": "ok",
+   "seconds": 0.136
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Next_BoxTargetPlace",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_BoxTargetPickRel",
+   "outcome": "ok",
+   "seconds": 0.131
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "FoldBox",
+   "outcome": "ok",
+   "seconds": 0.139
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_BoxTargetRel",
+   "outcome": "ok",
+   "seconds": 0.142
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_VaccumTool",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "PushTV_InBox",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "NextBackPanel",
+   "outcome": "ok",
+   "seconds": 3.542
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "NextFoamDown",
+   "outcome": "ok",
+   "seconds": 3.541
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "NextFoamTop",
+   "outcome": "ok",
+   "seconds": 3.516
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "ResetAutoScrewCircuit1",
+   "outcome": "ok",
+   "seconds": 1.571
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "AutoScrewCircuit1",
+   "outcome": "ok",
+   "seconds": 1.898
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "ResetAutoScrewCircuit2",
+   "outcome": "ok",
+   "seconds": 1.56
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "AutoScrewCircuit2",
+   "outcome": "ok",
+   "seconds": 1.883
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Next_RackTarget",
+   "outcome": "ok",
+   "seconds": 0.134
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_RackTargetRel",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "ResetCircuitBox",
+   "outcome": "ok",
+   "seconds": 0.174
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_MainConveyor",
+   "outcome": "ok",
+   "seconds": 0.142
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_All_Tool",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_RackConveyor",
+   "outcome": "ok",
+   "seconds": 0.146
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Render",
+   "outcome": "ok",
+   "seconds": 0.123
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_BoxingStation",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_BoxTargetABS",
+   "outcome": "ok",
+   "seconds": 0.127
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_Pallets",
+   "outcome": "ok",
+   "seconds": 0.167
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_Distributors",
+   "outcome": "ok",
+   "seconds": 0.158
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_ScrewTools",
+   "outcome": "ok",
+   "seconds": 0.135
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_AVG",
+   "outcome": "ok",
+   "seconds": 0.41
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Reset_RackTargetABS",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "AutoScrewPanel",
+   "outcome": "ok",
+   "seconds": 1.948
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "ResetAutoScrewPanel",
+   "outcome": "ok",
+   "seconds": 0.7
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "NextCircuitBox",
+   "outcome": "ok",
+   "seconds": 4.994
+  },
+  {
+   "station": "Mixed-Applications-with-Multiple-Robots.rdk",
+   "script": "Foam_RollerConveyor_Next",
+   "outcome": "ok",
+   "seconds": 3.619
+  },
+  {
+   "station": "Mixed-Applications-with-Omron-TM12X.rdk",
+   "script": "New_Closed_Box",
+   "outcome": "ok",
+   "seconds": 0.133
+  },
+  {
+   "station": "Mixed-Applications-with-Omron-TM12X.rdk",
+   "script": "NextBox",
+   "outcome": "ok",
+   "seconds": 3.614
+  },
+  {
+   "station": "Mixed-Applications-with-Omron-TM12X.rdk",
+   "script": "InitConvPosition",
+   "outcome": "ok",
+   "seconds": 0.136
+  },
+  {
+   "station": "Mixed-Applications-with-Omron-TM12X.rdk",
+   "script": "NextBottle",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Mixed-Applications-with-Omron.rdk",
+   "script": "NextBox",
+   "outcome": "ok",
+   "seconds": 5.38
+  },
+  {
+   "station": "Mixed-Applications-with-Omron.rdk",
+   "script": "Reset_ConveyorBox",
+   "outcome": "ok",
+   "seconds": 0.18
+  },
+  {
+   "station": "Mixed-Applications-with-Omron.rdk",
+   "script": "CreateBox",
+   "outcome": "ok",
+   "seconds": 0.125
+  },
+  {
+   "station": "Mixed-Applications-with-Omron.rdk",
+   "script": "Switch_Obj_ref",
+   "outcome": "error",
+   "seconds": 0.125,
+   "category": "invalid-item",
+   "detail": "enginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist.",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Switch_Obj_ref.py\", line 18, in <module>\n    obj_list1 = frame_conv1.Childs()\nenginuity.errors.InvalidItemError: Invalid item provided: The item identifier provided is not valid or it does not exist."
+  },
+  {
+   "station": "Mixed-Applications-with-Omron.rdk",
+   "script": "Reset_Tool",
+   "outcome": "ok",
+   "seconds": 0.125
+  },
+  {
+   "station": "Mixed-Applications-with-Omron.rdk",
+   "script": "NextBottle",
+   "outcome": "ok",
+   "seconds": 2.545
+  },
+  {
+   "station": "Mixed-Applications-with-Omron.rdk",
+   "script": "Reset_ConveyorBottle",
+   "outcome": "ok",
+   "seconds": 0.204
+  },
+  {
+   "station": "Mixed-Applications-with-Omron.rdk",
+   "script": "Reset_Pallet",
+   "outcome": "ok",
+   "seconds": 0.147
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1100.rdk",
+   "script": "DeleteObjectsPallet",
+   "outcome": "ok",
+   "seconds": 0.127
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1100.rdk",
+   "script": "Reset_Tool",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1100.rdk",
+   "script": "Machining_Part",
+   "outcome": "error",
+   "seconds": 0.13,
+   "category": "name-error",
+   "detail": "NameError: name 'machining_stock' is not defined",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Machining_Part.py\", line 42, in <module>\n    if machining_stock.Valid():\nNameError: name 'machining_stock' is not defined"
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Conveyor_Advance",
+   "outcome": "ok",
+   "seconds": 0.756
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Reset_Conveyor",
+   "outcome": "ok",
+   "seconds": 0.134
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Generate_Box",
+   "outcome": "ok",
+   "seconds": 0.214
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Conveyor_Advance_infinite",
+   "outcome": "running-at-timeout",
+   "seconds": 12.001,
+   "detail": ""
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Delete_Box_Over_The_Edge",
+   "outcome": "ok",
+   "seconds": 0.209
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "SetPickTarget",
+   "outcome": "ok",
+   "seconds": 0.227
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Detect Box",
+   "outcome": "ok",
+   "seconds": 0.193
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Reset_Tool",
+   "outcome": "ok",
+   "seconds": 0.142
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Generate_Box_Continuous",
+   "outcome": "ok",
+   "seconds": 0.194
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "SetPlaceTarget",
+   "outcome": "ok",
+   "seconds": 0.17
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Reset_Pallet",
+   "outcome": "ok",
+   "seconds": 0.181
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Detect Box CAM",
+   "outcome": "error",
+   "seconds": 0.221,
+   "category": "third-party-module:cv2",
+   "detail": "ModuleNotFoundError: No module named 'cv2'",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/DetectBoxCAM.py\", line 12, in <module>\n    import cv2 as cv\nModuleNotFoundError: No module named 'cv2'"
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "SetPickAndPlaceTarget",
+   "outcome": "ok",
+   "seconds": 0.132
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Detect Box CAM Live",
+   "outcome": "error",
+   "seconds": 0.161,
+   "category": "third-party-module:cv2",
+   "detail": "ModuleNotFoundError: No module named 'cv2'",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/DetectBoxCAMLive.py\", line 12, in <module>\n    import cv2 as cv\nModuleNotFoundError: No module named 'cv2'"
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440.rdk",
+   "script": "Reset_Conveyor",
+   "outcome": "ok",
+   "seconds": 0.139
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440.rdk",
+   "script": "New_Box_24X16",
+   "outcome": "ok",
+   "seconds": 1.56
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440.rdk",
+   "script": "Reset_WideConveyor",
+   "outcome": "ok",
+   "seconds": 0.134
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440.rdk",
+   "script": "New_Box_24X20",
+   "outcome": "ok",
+   "seconds": 2.37
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440.rdk",
+   "script": "Clear_Tool",
+   "outcome": "ok",
+   "seconds": 0.126
+  },
+  {
+   "station": "Mixed-Applications-with-TM12X.rdk",
+   "script": "NextPart",
+   "outcome": "ok",
+   "seconds": 1.134
+  },
+  {
+   "station": "Mixed-Applications-with-TM12X.rdk",
+   "script": "InitConvPosition",
+   "outcome": "ok",
+   "seconds": 0.13
+  },
+  {
+   "station": "Mixed-Applications-with-TM12X.rdk",
+   "script": "PartWork",
+   "outcome": "ok",
+   "seconds": 0.128
+  },
+  {
+   "station": "Mixed-Applications-with-UR10e.rdk",
+   "script": "New_Closed_Box",
+   "outcome": "ok",
+   "seconds": 0.154
+  },
+  {
+   "station": "Mixed-Applications-with-UR10e.rdk",
+   "script": "NextBox",
+   "outcome": "ok",
+   "seconds": 1.449
+  },
+  {
+   "station": "Mixed-Applications-with-UR10e.rdk",
+   "script": "InitConvPosition",
+   "outcome": "ok",
+   "seconds": 0.15
+  },
+  {
+   "station": "Mixed-Applications-with-UR10e.rdk",
+   "script": "NextBottle",
+   "outcome": "ok",
+   "seconds": 0.138
+  },
+  {
+   "station": "Painting-and-Spraying-with-ABB-IRB-2600-12-1-85.rdk",
+   "script": "GunOn",
+   "outcome": "ok",
+   "seconds": 0.135
+  },
+  {
+   "station": "Painting-with-KUKA-KR-5-arc.rdk",
+   "script": "PointOperations",
+   "outcome": "error",
+   "seconds": 0.139,
+   "category": "syntax-error",
+   "detail": "SyntaxError: EOL while scanning string literal",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/PointOperations.py\", line 41\n    message = 'List of points for object\n                                        ^\nSyntaxError: EOL while scanning string literal"
+  },
+  {
+   "station": "Painting-with-KUKA-KR-5-arc.rdk",
+   "script": "CurveSetupGUI One Pass",
+   "outcome": "skipped",
+   "category": "desktop-gui-tkinter"
+  },
+  {
+   "station": "Painting-with-KUKA-KR-5-arc.rdk",
+   "script": "CurveSetupGUI Stripes",
+   "outcome": "skipped",
+   "category": "desktop-gui-tkinter"
+  },
+  {
+   "station": "Painting-with-KUKA-KR-5-arc.rdk",
+   "script": "CurveSetupGUI Radial Stripes",
+   "outcome": "skipped",
+   "category": "desktop-gui-tkinter"
+  },
+  {
+   "station": "Painting-with-UR10.rdk",
+   "script": "SprayOn",
+   "outcome": "ok",
+   "seconds": 0.144
+  },
+  {
+   "station": "Palletizing-with-Fanuc-R-1000iA-80F.rdk",
+   "script": "DuplicateTargets",
+   "outcome": "running-at-timeout",
+   "seconds": 12.002,
+   "detail": ""
+  },
+  {
+   "station": "Palletizing-with-Fanuc-R-1000iA-80F.rdk",
+   "script": "FoldBox",
+   "outcome": "ok",
+   "seconds": 0.179
+  },
+  {
+   "station": "Palletizing-with-Fanuc-R-1000iA-80F.rdk",
+   "script": "Reset_Foam",
+   "outcome": "ok",
+   "seconds": 0.152
+  },
+  {
+   "station": "Palletizing-with-Fanuc-R-1000iA-80F.rdk",
+   "script": "SwitchFrame",
+   "outcome": "ok",
+   "seconds": 0.14
+  },
+  {
+   "station": "Palletizing-with-Fanuc-R-1000iA-80F.rdk",
+   "script": "Clear_Foam",
+   "outcome": "ok",
+   "seconds": 0.153
+  },
+  {
+   "station": "Palletizing-with-Fanuc-R-1000iA-80F.rdk",
+   "script": "Reset_Pallets",
+   "outcome": "ok",
+   "seconds": 0.214
+  },
+  {
+   "station": "Palletizing-with-Fanuc-R-1000iA-80F.rdk",
+   "script": "Reset_Tool",
+   "outcome": "ok",
+   "seconds": 0.164
+  },
+  {
+   "station": "Sample-Station-with-Kinova-Gen3-6DOF-NoV.rdk",
+   "script": "Open Grip",
+   "outcome": "ok",
+   "seconds": 0.799
+  },
+  {
+   "station": "Sample-Station-with-Kinova-Gen3-6DOF-NoV.rdk",
+   "script": "Closed Grip",
+   "outcome": "ok",
+   "seconds": 0.545
+  },
+  {
+   "station": "Sample-Station-with-Kinova-Gen3-6DOF-NoV.rdk",
+   "script": "Chuck Grip",
+   "outcome": "ok",
+   "seconds": 0.648
+  },
+  {
+   "station": "Sample-Station-with-Kinova-Gen3-6DOF-NoV.rdk",
+   "script": "Fine Pinch Grip",
+   "outcome": "ok",
+   "seconds": 0.664
+  },
+  {
+   "station": "Sample-Station-with-Kinova-Gen3-6DOF-NoV.rdk",
+   "script": "Key Grip",
+   "outcome": "ok",
+   "seconds": 0.909
+  },
+  {
+   "station": "Sample-Station-with-Kinova-Gen3-6DOF-NoV.rdk",
+   "script": "Hook Grip",
+   "outcome": "ok",
+   "seconds": 0.895
+  },
+  {
+   "station": "Sample-Station-with-Kinova-Gen3-6DOF-NoV.rdk",
+   "script": "Tool Grip",
+   "outcome": "ok",
+   "seconds": 0.444
+  },
+  {
+   "station": "Sample-Station-with-Kinova-Gen3-6DOF-NoV.rdk",
+   "script": "MoveHand",
+   "outcome": "error",
+   "seconds": 0.152,
+   "category": "script-error",
+   "detail": "Call the program using MoveHand(0) through MoveHand(6).",
+   "trace": "  File \"<tmp>/mb-sweep-LDZwpv/python/MoveHand.py\", line 396, in <module>\n    main()\n  File \"<tmp>/mb-sweep-LDZwpv/python/MoveHand.py\", line 386, in main\n    grip_number = parse_grip_number()\n  File \"<tmp>/mb-sweep-LDZwpv/python/MoveHand.py\", line 354, in parse_grip_number\n    raise ValueError(\nValueError: No grip value was provided.\nCall the program using MoveHand(0) through MoveHand(6)."
+  },
+  {
+   "station": "Sample-Station-with-Kinova-Gen3-6DOF-NoV.rdk",
+   "script": "Synchronize Fingers",
+   "outcome": "running-at-timeout",
+   "seconds": 12.003,
+   "detail": ""
+  },
+  {
+   "station": "Sample-Station-with-Kinova-Gen3-6DOF-NoV.rdk",
+   "script": "Capture_Position",
+   "outcome": "ok",
+   "seconds": 0.144
+  },
+  {
+   "station": "Sample-Station-with-Kinova-Gen3-6DOF-NoV.rdk",
+   "script": "Fine Pinch Open",
+   "outcome": "ok",
+   "seconds": 0.328
+  },
+  {
+   "station": "Sample-Station-with-RoboDK-RDK-2200.rdk",
+   "script": "Set tolerances",
+   "outcome": "ok",
+   "seconds": 0.125
+  },
+  {
+   "station": "Synchronization-and-Welding-with-ABB-Fanuc-and-KUKA.rdk",
+   "script": "DoWeld",
+   "outcome": "running-at-timeout",
+   "seconds": 12.007,
+   "detail": ""
+  },
+  {
+   "station": "Synchronization-and-Welding-with-ABB-Fanuc-and-KUKA.rdk",
+   "script": "DoWeldAll",
+   "outcome": "ok",
+   "seconds": 4.253
+  },
+  {
+   "station": "Synchronization-and-Welding-with-ABB-IRB-2600ID-8-2-00-02.rdk",
+   "script": "side_1",
+   "outcome": "ok",
+   "seconds": 1.243
+  },
+  {
+   "station": "Synchronization-and-Welding-with-ABB-IRB-2600ID-8-2-00-02.rdk",
+   "script": "side_2",
+   "outcome": "ok",
+   "seconds": 1.226
+  },
+  {
+   "station": "Synchronization-and-Welding-with-ABB-IRB-2600ID-8-2-00.rdk",
+   "script": "ArcEnd",
+   "outcome": "error",
+   "seconds": 0.139,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/ArcEnd.py\", line 123\n    Material waisted: %.1f%%\n             ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Synchronization-and-Welding-with-ABB-IRB-2600ID-8-2-00.rdk",
+   "script": "ArcStart",
+   "outcome": "error",
+   "seconds": 0.12,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/ArcStart.py\", line 123\n    Material waisted: %.1f%%\n             ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Synchronization-and-Welding-with-ABB-IRB-2600ID-8-2-00.rdk",
+   "script": "ProgramAddSineWave",
+   "outcome": "error",
+   "seconds": 0.121,
+   "category": "syntax-error",
+   "detail": "SyntaxError: EOL while scanning string literal",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/ProgramAddSineWave.py\", line 97\n    RDK.ShowMessage(\"Warning: Samples per cycle is %.1f.\n                                                        ^\nSyntaxError: EOL while scanning string literal"
+  },
+  {
+   "station": "Synchronization-and-Welding-with-ABB-IRB-2600ID-8-2-00.rdk",
+   "script": "Change_view_Jay",
+   "outcome": "ok",
+   "seconds": 0.401
+  },
+  {
+   "station": "Synchronization-and-Welding-with-ABB-IRB-2600ID-8-2-00.rdk",
+   "script": "Reset_Mechanisms",
+   "outcome": "ok",
+   "seconds": 0.147
+  },
+  {
+   "station": "Synchronization-and-Welding-with-ABB.rdk",
+   "script": "ArcEnd",
+   "outcome": "ok",
+   "seconds": 0.125
+  },
+  {
+   "station": "Synchronization-and-Welding-with-ABB.rdk",
+   "script": "ArcStart",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Synchronization-and-Welding.rdk",
+   "script": "HOME",
+   "outcome": "ok",
+   "seconds": 0.654
+  },
+  {
+   "station": "Synchronization-and-Welding.rdk",
+   "script": "WaitRobots",
+   "outcome": "ok",
+   "seconds": 0.151
+  },
+  {
+   "station": "Synchronization-with-ABB-IRB-120-3-0-6.rdk",
+   "script": "MirrorRobot2",
+   "outcome": "running-at-timeout",
+   "seconds": 12.002,
+   "detail": ""
+  },
+  {
+   "station": "Synchronization-with-KUKA-KR-210-2-02.rdk",
+   "script": "RecordRelativePosition",
+   "outcome": "ok",
+   "seconds": 0.2
+  },
+  {
+   "station": "Synchronization-with-KUKA-KR-210-2-02.rdk",
+   "script": "FollowLeaderRel",
+   "outcome": "running-at-timeout",
+   "seconds": 12.002,
+   "detail": ""
+  },
+  {
+   "station": "Synchronization-with-KUKA-KR-210-2-02.rdk",
+   "script": "FollowLeaderAbs",
+   "outcome": "running-at-timeout",
+   "seconds": 12.004,
+   "detail": ""
+  },
+  {
+   "station": "Synchronization-with-KUKA-KR-210-2-02.rdk",
+   "script": "TeachTargets",
+   "outcome": "ok",
+   "seconds": 0.129
+  },
+  {
+   "station": "Synchronization-with-KUKA-KR-210-2-02.rdk",
+   "script": "MoveRobots",
+   "outcome": "running-at-timeout",
+   "seconds": 12.001,
+   "detail": ""
+  },
+  {
+   "station": "Synchronization-with-KUKA-KR-210-2.rdk",
+   "script": "SyncR1",
+   "outcome": "running-at-timeout",
+   "seconds": 12.002,
+   "detail": ""
+  },
+  {
+   "station": "Synchronization-with-KUKA-KR-210-2.rdk",
+   "script": "SyncR2",
+   "outcome": "running-at-timeout",
+   "seconds": 12.004,
+   "detail": ""
+  },
+  {
+   "station": "Synchronization-with-KUKA-KR-210-2.rdk",
+   "script": "SyncR3",
+   "outcome": "ok",
+   "seconds": 0.249
+  },
+  {
+   "station": "Welding-with-Comau-Smart5-NJ-130-2-6.rdk",
+   "script": "CycleTimeDisplayAll",
+   "outcome": "ok",
+   "seconds": 0.645
+  },
+  {
+   "station": "Welding-with-Fanuc-ARC-Mate-120iB-10L.rdk",
+   "script": "ArcEnd",
+   "outcome": "error",
+   "seconds": 0.144,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/ArcEnd.py\", line 123\n    Material waisted: %.1f%%\n             ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Welding-with-Fanuc-ARC-Mate-120iB-10L.rdk",
+   "script": "ArcStart",
+   "outcome": "error",
+   "seconds": 0.125,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/ArcStart.py\", line 123\n    Material waisted: %.1f%%\n             ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Welding-with-Fanuc-ARC-Mate-120iC.rdk",
+   "script": "Move Polygon GUI",
+   "outcome": "skipped",
+   "category": "desktop-gui-tkinter"
+  },
+  {
+   "station": "Welding-with-Panasonic-TA-1600.rdk",
+   "script": "Arc",
+   "outcome": "error",
+   "seconds": 0.126,
+   "category": "syntax-error",
+   "detail": "SyntaxError: invalid syntax",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-LDZwpv/python/Arc.py\", line 86\n    Material waisted: %.1f%%\n             ^\nSyntaxError: invalid syntax"
+  },
+  {
+   "station": "Welding-with-UR10e.rdk",
+   "script": "AttachBallbar",
+   "outcome": "running-at-timeout",
+   "seconds": 12.003,
+   "detail": ""
+  }
+ ]
+}

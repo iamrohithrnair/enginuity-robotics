@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "/workspace/src/RoboDK/RoboDK.app/Contents/Python/robodk/robolink.py", line 520, in import_install
+    exec('import ' + module_name, globals())
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'win32com'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/src/RoboDK/RoboDK.app/Contents/Python/robodk/robolink.py", line 562, in import_install
+    execute(cmd)
+  File "/workspace/src/RoboDK/RoboDK.app/Contents/Python/robodk/robolink.py", line 534, in execute
+    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)  #, universal_newlines=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1821, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install pywin32'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-crhhrfgz/PostManyMoves.py", line 74, in <module>
+    r.ProgSave(r"""/workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Foxbot/6ax/manymoves/""",r"""ManyMoves""",False,False)
+  File "Foxbot.py", line 232, in Foxbot.RobotPost.ProgSave
+  File "Foxbot.py", line 169, in Foxbot.RobotPost.write_mdb
+  File "/workspace/src/RoboDK/RoboDK.app/Contents/Python/robodk/robolink.py", line 582, in import_install
+    raise ImportError(msg)
+ImportError: Unable to load or install <strong>win32com</strong>. Make sure you have internet connection and administrator privileges

@@ -1,0 +1,11 @@
+{
+ "post": "IIMT",
+ "robot": "IIMT CI-03",
+ "nq": 7,
+ "axes": "RRRRRRR",
+ "targeted": "ax7",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

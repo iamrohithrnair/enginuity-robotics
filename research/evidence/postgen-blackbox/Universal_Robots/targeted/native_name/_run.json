@@ -1,0 +1,11 @@
+{
+ "post": "Universal_Robots",
+ "robot": "Robot X",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "native_name",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

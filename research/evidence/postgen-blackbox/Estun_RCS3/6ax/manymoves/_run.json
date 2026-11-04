@@ -1,0 +1,9 @@
+{
+ "post": "Estun_RCS3",
+ "robot": "Estun ER100B-3000",
+ "nq": 6,
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

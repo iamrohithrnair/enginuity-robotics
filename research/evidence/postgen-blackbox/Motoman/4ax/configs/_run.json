@@ -1,0 +1,11 @@
+{
+ "post": "Motoman",
+ "robot": "Yaskawa Motoman EPL160",
+ "nq": 4,
+ "axes": "RRLR",
+ "pulses_x_deg": "[0.000000,0.000000,0.000000,0.000000]",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

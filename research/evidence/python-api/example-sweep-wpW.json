@@ -1,0 +1,216 @@
+{
+ "summary": {
+  "stations": 4,
+  "scripts": 28,
+  "ok": 14,
+  "runningAtTimeout": 7,
+  "error": 7,
+  "skipped": 0,
+  "notStarted": 0,
+  "timeoutMs": 12000,
+  "categories": {
+   "error:missing-api-attribute": 3,
+   "error:name-error": 1,
+   "error:script-error": 1,
+   "error:third-party-module:numpy": 2
+  }
+ },
+ "results": [
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10.rdk",
+   "script": "SetSimulationParams",
+   "outcome": "ok",
+   "seconds": 0.324
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10.rdk",
+   "script": "PrepareSimulation",
+   "outcome": "error",
+   "seconds": 0.545,
+   "category": "missing-api-attribute",
+   "detail": "AttributeError: 'Item' object has no attribute 'Paste'",
+   "trace": "Traceback (most recent call last):\n  File \"/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/mb-sweep-78J50Z/python/PrepareSimulation.py\", line 83, in <module>\n    parts_setup(frame_pallet, parts_positions, SIZE_BOX_XYZ)\n  File \"/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/mb-sweep-78J50Z/python/PrepareSimulation.py\", line 50, in parts_setup\n    newpart = frame.Paste()\nAttributeError: 'Item' object has no attribute 'Paste'"
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10.rdk",
+   "script": "SimulateCamera",
+   "outcome": "ok",
+   "seconds": 0.476
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10.rdk",
+   "script": "PartsToConveyor",
+   "outcome": "running-at-timeout",
+   "seconds": 12.004,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-Inspection-and-Material-Handling-with-UR10.rdk",
+   "script": "PartsToPallet",
+   "outcome": "error",
+   "seconds": 0.312,
+   "category": "name-error",
+   "detail": "NameError: name 'PICKABLE_OBJECTS_KEYWORD' is not defined",
+   "trace": "Traceback (most recent call last):\n  File \"/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/mb-sweep-78J50Z/python/PartsToPallet.py\", line 63, in <module>\n    raise Exception('No parts to check for. Name at least one part with the name: %s.' % PICKABLE_OBJECTS_KEYWORD)\nNameError: name 'PICKABLE_OBJECTS_KEYWORD' is not defined"
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-ABB.rdk",
+   "script": "RunConveyor",
+   "outcome": "running-at-timeout",
+   "seconds": 12.015,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-ABB.rdk",
+   "script": "SetupStation",
+   "outcome": "error",
+   "seconds": 0.293,
+   "category": "missing-api-attribute",
+   "detail": "AttributeError: 'Item' object has no attribute 'Paste'",
+   "trace": "Traceback (most recent call last):\n  File \"/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/mb-sweep-78J50Z/python/SetupStation.py\", line 61, in <module>\n    newpart = part_clone(station)\n  File \"/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/mb-sweep-78J50Z/python/SetupStation.py\", line 23, in part_clone\n    newpart = parent.Paste()\nAttributeError: 'Item' object has no attribute 'Paste'"
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-ABB.rdk",
+   "script": "FeedConveyor",
+   "outcome": "running-at-timeout",
+   "seconds": 12.003,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-ABB.rdk",
+   "script": "TakeConveyor",
+   "outcome": "error",
+   "seconds": 0.269,
+   "category": "script-error",
+   "detail": "Exception: No parts to check for. The keyword is part.",
+   "trace": "Traceback (most recent call last):\n  File \"/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/mb-sweep-78J50Z/python/TakeConveyor.py\", line 105, in <module>\n    raise Exception('No parts to check for. The keyword is %s.' % PICKABLE_OBJECTS_KEYWORD)\nException: No parts to check for. The keyword is part."
+  },
+  {
+   "station": "Conveying-with-UR10.rdk",
+   "script": "SensorActivate",
+   "outcome": "running-at-timeout",
+   "seconds": 12.011,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-with-UR10.rdk",
+   "script": "SetSimulationParams",
+   "outcome": "ok",
+   "seconds": 0.229
+  },
+  {
+   "station": "Conveying-with-UR10.rdk",
+   "script": "PrepareSimulation",
+   "outcome": "error",
+   "seconds": 0.234,
+   "category": "missing-api-attribute",
+   "detail": "AttributeError: 'Item' object has no attribute 'Paste'",
+   "trace": "Traceback (most recent call last):\n  File \"/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/mb-sweep-78J50Z/python/PrepareSimulation.py\", line 83, in <module>\n    parts_setup(frame_pallet, parts_positions, SIZE_BOX_XYZ)\n  File \"/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/mb-sweep-78J50Z/python/PrepareSimulation.py\", line 50, in parts_setup\n    newpart = frame.Paste()\nAttributeError: 'Item' object has no attribute 'Paste'"
+  },
+  {
+   "station": "Conveying-with-UR10.rdk",
+   "script": "RobotA_GetParts",
+   "outcome": "running-at-timeout",
+   "seconds": 12.003,
+   "detail": ""
+  },
+  {
+   "station": "Conveying-with-UR10.rdk",
+   "script": "RobotB_StoreParts",
+   "outcome": "running-at-timeout",
+   "seconds": 12.017,
+   "detail": ""
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Conveyor_Advance",
+   "outcome": "ok",
+   "seconds": 1.061
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Reset_Conveyor",
+   "outcome": "ok",
+   "seconds": 0.274
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Generate_Box",
+   "outcome": "ok",
+   "seconds": 0.533
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Conveyor_Advance_infinite",
+   "outcome": "running-at-timeout",
+   "seconds": 12.003,
+   "detail": ""
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Delete_Box_Over_The_Edge",
+   "outcome": "ok",
+   "seconds": 0.361
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "SetPickTarget",
+   "outcome": "ok",
+   "seconds": 0.299
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Detect Box",
+   "outcome": "ok",
+   "seconds": 0.324
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Reset_Tool",
+   "outcome": "ok",
+   "seconds": 0.556
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Generate_Box_Continuous",
+   "outcome": "ok",
+   "seconds": 0.343
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "SetPlaceTarget",
+   "outcome": "ok",
+   "seconds": 0.26
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Reset_Pallet",
+   "outcome": "ok",
+   "seconds": 0.29
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Detect Box CAM",
+   "outcome": "error",
+   "seconds": 0.296,
+   "category": "third-party-module:numpy",
+   "detail": "ModuleNotFoundError: No module named 'numpy'",
+   "trace": "Traceback (most recent call last):\n  File \"/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/mb-sweep-78J50Z/python/DetectBoxCAM.py\", line 11, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'"
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "SetPickAndPlaceTarget",
+   "outcome": "ok",
+   "seconds": 0.348
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Detect Box CAM Live",
+   "outcome": "error",
+   "seconds": 0.295,
+   "category": "third-party-module:numpy",
+   "detail": "ModuleNotFoundError: No module named 'numpy'",
+   "trace": "Traceback (most recent call last):\n  File \"/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/mb-sweep-78J50Z/python/DetectBoxCAMLive.py\", line 11, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'"
+  }
+ ]
+}

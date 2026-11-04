@@ -1,0 +1,9 @@
+{
+ "post": "Omron",
+ "robot": "Omron eCobra 600",
+ "nq": 4,
+ "robot_file": "Omron-eCobra-600.robot",
+ "exit": 1,
+ "api_standin": true,
+ "hooks": true
+}

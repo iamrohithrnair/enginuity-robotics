@@ -1,0 +1,51 @@
++9ms Running API Command:  "AddShape3"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "AddShape3"
++14ms Running API Command:  "AddShape3"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "AddShape3"
++9ms Running API Command:  "S_Hlocal"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "S_Hlocal"
++7ms Running API Command:  "SCMD"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "SCMD"
++9ms Running API Command:  "Gun_Add"
++0ms Done with API Command:  "Gun_Add"
++1ms Running API Command:  "Gun_Add"
++0ms Done with API Command:  "Gun_Add"
++0ms Running API Command:  "Gun_SetState"
++0ms Done with API Command:  "Gun_SetState"
++0ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++7ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++929ms Running API Command:  "Gun_SetState"
++0ms Done with API Command:  "Gun_SetState"
++1ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++5ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++7ms Running API Command:  "Gun_SetState"
++1ms Done with API Command:  "Gun_SetState"
++0ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++8ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++8ms Running API Command:  "Gun_Clear"
++0ms Done with API Command:  "Gun_Clear"
++0ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++8ms Running API Command:  "Gun_Add"
++0ms Done with API Command:  "Gun_Add"
++0ms Running API Command:  "Gun_Add"
++0ms Done with API Command:  "Gun_Add"
++1ms Running API Command:  "Gun_Add"
++0ms Done with API Command:  "Gun_Add"

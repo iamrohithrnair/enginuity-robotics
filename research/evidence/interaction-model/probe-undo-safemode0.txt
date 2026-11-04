@@ -1,0 +1,24 @@
+safe_mode_class: 0
+joints0: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+undo_after_load: ['actionUndo|Undo Add: ABB IRB 120-3/0.6|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+paste1: OK
+joints1: [10.0, 20.0, 30.0, 40.0, 50.0, 60.0]
+undo_texts1: ['actionUndo|Undo Move robot: ABB IRB 120-3/0.6|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+paste2: OK
+joints2: [11.0, 21.0, 31.0, 41.0, 51.0, 61.0]
+undo_texts2: ['actionUndo|Undo Move robot: ABB IRB 120-3/0.6|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+undo_a: OK
+joints_after_undo_a: [10.0, 20.0, 30.0, 40.0, 50.0, 60.0]
+undo_texts_a: ['actionUndo|Undo Move robot: ABB IRB 120-3/0.6|Ctrl+Z', 'actionRedo|Redo Move robot: ABB IRB 120-3/0.6|Ctrl+Y']
+undo_b: OK
+joints_after_undo_b: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+undo_texts_b: ['actionUndo|Undo Add: ABB IRB 120-3/0.6|Ctrl+Z', 'actionRedo|Redo Move robot: ABB IRB 120-3/0.6|Ctrl+Y']
+redo_a: OK
+joints_after_redo_a: [10.0, 20.0, 30.0, 40.0, 50.0, 60.0]
+undo_texts_redo_a: ['actionUndo|Undo Move robot: ABB IRB 120-3/0.6|Ctrl+Z', 'actionRedo|Redo Move robot: ABB IRB 120-3/0.6|Ctrl+Y']
+paste3: OK
+undo_texts3: ['actionUndo|Undo Move robot: ABB IRB 120-3/0.6|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+undo_texts_after_api_setJoints: ['actionUndo|Undo Move robot: ABB IRB 120-3/0.6|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+undo_texts_after_addframe: ['actionUndo|Undo Add: F|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+undo_texts_after_api_name_pose: ['actionUndo|Undo Add: F|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+undo_texts_after_delete: ['actionUndo|Undo Delete: T|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']

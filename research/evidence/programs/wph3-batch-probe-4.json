@@ -1,0 +1,105 @@
+{
+ "cases": [
+  {
+   "station": "Assembly-and-Material-Handling-with-AUBO-i3.rdk",
+   "update": {
+    "Tube1": [
+     6.0,
+     19.854,
+     2963.7554,
+     1.0,
+     ""
+    ],
+    "TubeAssembly_Part1": [
+     5.0,
+     13.7616,
+     4208.6472,
+     1.0,
+     ""
+    ],
+    "Pick_TubeType1": [
+     7.0,
+     4.492,
+     1711.0628,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Conveying-and-Material-Handling-with-Fanuc-M-410iC-110.rdk",
+   "update": {
+    "Main": [
+     6.0,
+     1000.0533,
+     80000.0,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Dispensing-with-HCR-5.rdk",
+   "update": {
+    "Dispensing_3-Axis": [
+     206.0,
+     156.0911,
+     5390.0738,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Polishing-and-Sanding-with-Dobot-CR10.rdk",
+   "update": {
+    "Curve": [
+     72.0,
+     86.8686,
+     3307.9328,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Dispensing-with-TM5-900.rdk",
+   "update": {
+    "Dispensing": [
+     398.0,
+     52.1561,
+     3118.1124,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Drilling-and-Milling-with-KUKA-KR-10-R900-sixx-02.rdk",
+   "update": {
+    "MainProgram": [
+     7.0,
+     15.827,
+     3069.5371,
+     1.0,
+     ""
+    ],
+    "DrillProgram1": [
+     4.0,
+     8.104,
+     1672.7885,
+     1.0,
+     ""
+    ],
+    "DrillProgram2": [
+     4.0,
+     7.723,
+     1396.7486,
+     1.0,
+     ""
+    ]
+   }
+  }
+ ],
+ "version": "6.0.7.26935"
+}

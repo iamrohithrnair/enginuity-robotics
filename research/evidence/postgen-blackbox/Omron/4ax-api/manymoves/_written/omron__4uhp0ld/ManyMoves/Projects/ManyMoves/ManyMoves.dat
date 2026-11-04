@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+  <RobotPoints>
+  <Point name="Point1" coordinate="-724.821,578.136,475.655,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-640.584,506.980,371.534,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point2" coordinate="-722.321,575.636,476.155,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-638.084,504.480,372.034,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point3" coordinate="-445.552,819.038,256.500,180.0000,0.0000,70.0000" joint_angle="30.00000,25.00000,80.00000,-45.0000" tool_mode="-423.338,821.595,106.500,180.0000,0.0000,70.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point4" coordinate="-503.724,414.895,286.500,180.0000,-0.0000,-70.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-519.098,398.658,136.500,180.0000,-0.0000,-70.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point5" coordinate="-714.821,568.136,477.655,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-630.584,496.980,373.534,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point6" coordinate="-712.321,565.636,478.155,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-628.084,494.480,374.034,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point7" coordinate="-704.821,558.136,479.655,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-620.584,486.980,375.534,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point8" coordinate="-702.321,555.636,480.155,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-618.084,484.480,376.034,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point9" coordinate="-694.821,548.136,481.655,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-610.584,476.980,377.534,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point10" coordinate="-692.321,545.636,482.155,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-608.084,474.480,378.034,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point11" coordinate="-684.821,538.136,483.655,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-600.584,466.980,379.534,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point12" coordinate="-682.321,535.636,484.155,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-598.084,464.480,380.034,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point13" coordinate="-674.821,528.136,485.655,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-590.584,456.980,381.534,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point14" coordinate="-672.321,525.636,486.155,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-588.084,454.480,382.034,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point15" coordinate="-664.821,518.136,487.655,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-580.584,446.980,383.534,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point16" coordinate="-662.321,515.636,488.155,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-578.084,444.480,384.034,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point17" coordinate="-654.821,508.136,489.655,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-570.584,436.980,385.534,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point18" coordinate="-652.321,505.636,490.155,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-568.084,434.480,386.034,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point19" coordinate="-644.821,498.136,491.655,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-560.584,426.980,387.534,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point20" coordinate="-642.321,495.636,492.155,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-558.084,424.480,388.034,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point21" coordinate="-634.821,488.136,493.655,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-550.584,416.980,389.534,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point22" coordinate="-632.321,485.636,494.155,-165.0000,50.0000,150.0000" joint_angle="10.00000,-20.00000,50.00000,30.0000" tool_mode="-548.084,414.480,390.034,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  </RobotPoints>
+  <RobotBases>
+    <Base name="RobotBase" basedata="0,0,0,0,0,0" type="R" number="0" />
+    <Base name="FrameS" basedata="1234.570,-98.765,50.500,0.0000,0.0000,30.0000" type="C" number="1" />
+  </RobotBases>
+  <VirtualTCP>
+  </VirtualTCP>
+  <Network>
+  </Network>
+  <FTSensor>
+  </FTSensor>
+  <FineTuneVariable>
+  </FineTuneVariable>
+  <Conveyor>
+  </Conveyor>
+  <DisplayMgr>
+    <Pwd pwd="" />
+  </DisplayMgr>
+  <SafetySpace>
+  </SafetySpace>
+  <MaxBaseNumber>
+    <Custom max="105" />
+    <Vision max="0" />
+  </MaxBaseNumber>
+  <ModbusDevice>
+    <Device DeviceName="localhost" Type="TCP" IP="127.0.0.1" Port="502" ID="1" Timeout="10000" />
+  </ModbusDevice>
+  <DisableSmartSafetySpeed value="false" />
+  <RefreshDILPeriod value="300" />
+  <RunStopSetting />
+  <RunErrorSetting />
+</Root>

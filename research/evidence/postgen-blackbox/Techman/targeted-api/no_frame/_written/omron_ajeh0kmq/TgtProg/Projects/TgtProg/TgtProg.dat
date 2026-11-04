@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+  <RobotPoints>
+  <Point name="Point1" coordinate="-724.821,578.136,475.655,-165.0000,50.0000,150.0000" joint_angle="0.00000,-10.00000,20.00000,0.00000,30.00000,0.0000" tool_mode="-640.584,506.980,371.534,-165.0000,50.0000,150.0000" base="RobotBase" tcp="ToolS" type="R" />
+  <Point name="Point2" coordinate="-692.087,615.005,467.336,-165.0000,50.0000,150.0000" joint_angle="0.00000,-10.00000,20.00000,0.00000,30.00000,0.0000" tool_mode="-607.850,543.849,363.215,-165.0000,50.0000,150.0000" base="RobotBase" tcp="ToolS" type="R" />
+  <Point name="Point3" coordinate="143.864,-218.248,1435.626,95.0384,8.6492,50.3813" joint_angle="20.00000,-10.00000,20.00000,0.00000,30.00000,0.0000" tool_mode="267.268,-306.253,1440.795,95.0384,8.6492,50.3813" base="RobotBase" tcp="ToolS" type="R" />
+  </RobotPoints>
+  <RobotBases>
+    <Base name="RobotBase" basedata="0,0,0,0,0,0" type="R" number="0" />
+  </RobotBases>
+  <VirtualTCP>
+  </VirtualTCP>
+  <Network>
+  </Network>
+  <FTSensor>
+  </FTSensor>
+  <FineTuneVariable>
+  </FineTuneVariable>
+  <Conveyor>
+  </Conveyor>
+  <DisplayMgr>
+    <Pwd pwd="" />
+  </DisplayMgr>
+  <SafetySpace>
+  </SafetySpace>
+  <MaxBaseNumber>
+    <Custom max="1" />
+    <Vision max="0" />
+  </MaxBaseNumber>
+  <ModbusDevice>
+    <Device DeviceName="localhost" Type="TCP" IP="127.0.0.1" Port="502" ID="1" Timeout="10000" />
+  </ModbusDevice>
+  <DisableSmartSafetySpeed value="false" />
+  <RefreshDILPeriod value="300" />
+  <RunStopSetting />
+  <RunErrorSetting />
+</Root>

@@ -1,0 +1,14 @@
+{
+ "mode": "types",
+ "curve_object_name_type": [
+  "Curve",
+  5
+ ],
+ "points_object_name_type": [
+  "Points",
+  5
+ ],
+ "curve_items": [],
+ "get_SizeNormals": "15",
+ "get_DisplayCurves": "0"
+}

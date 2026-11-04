@@ -1,0 +1,9 @@
+{
+ "post": "Universal_Robots",
+ "robot": "UR10",
+ "nq": 6,
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

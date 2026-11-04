@@ -1,0 +1,13 @@
+cmd_programs_show_0: 'OK'
+cmd_popups_get: '1'
+cmd_popups_0: 'OK'
+new_station: 'PostgenErrors_all'
+unreachable.update: [2.0, 0.0, 0.0, 0.0, '']
+unreachable.make: [True, '', False]
+unreachable.files: ['UnreachProg.mod']
+empty_folder.cmd_path_programs: '/workspace/src/AI/experiments/Robocraft/research/evidence/postgen/errors/empty_folder/'
+empty_folder.make: [True, '', False]
+empty_folder.files: ['ErrProg.mod']
+done
+
+[exit] {"code": 0, "signal": 0, "reason": "exited"}

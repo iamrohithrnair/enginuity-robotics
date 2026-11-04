@@ -1,0 +1,111 @@
+{
+ "cases": [
+  {
+   "station": "Machining-and-Remote-TCP-with-Motoman-ES200D-02.rdk",
+   "update": {
+    "Start": [
+     73.0,
+     3.8778,
+     3213.1785,
+     1.0,
+     ""
+    ],
+    "Square": [
+     29.0,
+     2.5508,
+     1786.0787,
+     1.0,
+     ""
+    ],
+    "Circle": [
+     28.0,
+     1.3785,
+     1378.4778,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Dispensing-with-KUKA-KR-6-R900-sixx.rdk",
+   "update": {
+    "Dispensing_3-Axis": [
+     207.0,
+     12.5923,
+     1761.9924,
+     1.0,
+     ""
+    ],
+    "Dispensing_3-Axis_JCT": [
+     206.0,
+     8.5923,
+     1761.9924,
+     1.0,
+     ""
+    ],
+    "Dispensing_5-Axis": [
+     202.0,
+     12.5923,
+     1761.9924,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Milling-with-ABB-IRB-120-3-0-6.rdk",
+   "update": {
+    "Curve": [
+     287.0,
+     9.1415,
+     914.1499,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Dispensing-with-KUKA-KR-5-sixx-R850.rdk",
+   "update": {
+    "Dispensing": [
+     398.0,
+     9.4623,
+     1956.66,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Polishing-and-Sanding-with-Shibaura-Machine-TV800.rdk",
+   "update": {
+    "Curve": [
+     72.0,
+     23.2002,
+     2464.5559,
+     1.0,
+     ""
+    ]
+   }
+  }
+ ],
+ "version": "6.0.7.26935",
+ "sim": {
+  "station": "Curve-Following-with-Omron-TM5-700.rdk",
+  "program": "Outline",
+  "ratio": 2,
+  "expect": 40.3674,
+  "run": 46,
+  "busy_before": 1,
+  "t_before": 39.979,
+  "busy_after": 0,
+  "t_after": 40.771,
+  "update_after_run": [
+   46.0,
+   10.4393,
+   2087.8568,
+   1.0,
+   ""
+  ]
+ }
+}

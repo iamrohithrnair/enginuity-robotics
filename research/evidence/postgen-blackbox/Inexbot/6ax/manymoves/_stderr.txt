@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-9c_rdq8h/PostManyMoves.py", line 36, in <module>
+    r.MoveL(None,[0,-10,20,0,30,3.13389e-14],None)
+  File "Inexbot.py", line 440, in Inexbot.RobotPost.MoveL
+  File "/workspace/src/RoboDK/RoboDK.app/Contents/Python/robodk/robomath.py", line 1757, in __mul__
+    matm, matn = mat.size()
+AttributeError: 'NoneType' object has no attribute 'size'

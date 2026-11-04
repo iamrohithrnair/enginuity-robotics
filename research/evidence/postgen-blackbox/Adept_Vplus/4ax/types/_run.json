@@ -1,0 +1,10 @@
+{
+ "post": "Adept_Vplus",
+ "robot": "Adept Cobra s350",
+ "nq": 4,
+ "axes": "RRLR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

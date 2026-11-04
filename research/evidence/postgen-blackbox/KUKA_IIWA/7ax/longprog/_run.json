@@ -1,0 +1,9 @@
+{
+ "post": "KUKA_IIWA",
+ "robot": "KUKA LBR iiwa 14 R820",
+ "nq": 7,
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

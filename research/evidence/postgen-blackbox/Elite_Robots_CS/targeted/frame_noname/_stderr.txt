@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-cco840u_/PostTgtProg.py", line 30, in <module>
+    r.setFrame(p(1,2,3,0,0,0),2,None)
+  File "Elite_Robots_CS.py", line 1299, in Elite_Robots_CS.RobotPost.setFrame
+TypeError: Argument 'varStr' has incorrect type (expected str, got NoneType)

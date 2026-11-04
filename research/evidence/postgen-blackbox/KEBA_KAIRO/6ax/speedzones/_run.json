@@ -1,0 +1,10 @@
+{
+ "post": "KEBA_KAIRO",
+ "robot": "autonox Robotics articc.m6-1704-30kg (AT_00026-SE01)",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

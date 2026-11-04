@@ -1,0 +1,10 @@
+{
+ "post": "Precise",
+ "robot": "Brooks PreciseFlex Linear Rail 1000 -90",
+ "nq": 1,
+ "axes": "L",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

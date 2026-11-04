@@ -1,0 +1,229 @@
+A01_open_stations_after_reset: ['New Station (1)']
+A02_title_after_reset: None
+A03_add_station_default_name: 'New Station'
+A04_title_after_add: None
+A05_add_station_empty_name: "''"
+A06_title_after_add_empty: None
+A07_duplicate_station_names: ['New Station (1)', 'New Station', '', 'Dup', 'Dup']
+A08_title_4th_station: None
+A09_active_is_last_added: 'Dup'
+A10_rename_active_station: 'Dup renamed'
+A11_title_after_rename_no_refresh: None
+A12_setActiveStation_same: None
+A13_title_after_reactivate: None
+A14_close_active: None
+A15_active_after_close: 'New Station (1)'
+A16_open_after_close: ['New Station (1)', 'New Station', '', 'Dup']
+A17_close_last_station_recreates: ['New Station (1)']
+A18_title_after_recreate: None
+A19_station_type: 1
+A20_station_parent: <null>
+B01_add_frame_empty_name_0: <Frame 1|t3>
+B01_add_frame_empty_name_1: <Frame 2|t3>
+B01_add_frame_empty_name_2: <Frame 3|t3>
+B02_frame_poses: [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 1000.0, 0.0, 0.0, 0.0, 0.0], [0.0, 2000.0, 0.0, 0.0, 0.0, 0.0]]
+B03_rename_frame2: 'Renamed'
+B04_add_frame_after_rename: 'Frame 4'
+B05_delete_frame1: None
+B06_add_frame_after_delete_duplicates: 'Frame 4'
+B07_frame_names: ['Renamed', 'Frame 3', 'Frame 4', 'Frame 4']
+B08_move_frame3_to_y5000: None
+B09_next_frame_after_move: <Next|t3>
+B10_next_frame_pose_maxY_plus_1000: [0.0, 6000.0, 0.0, 0.0, 0.0, 0.0]
+B11_nested_frame: <Nested|t3>
+B12_nested_frame_parent_pose: ['Renamed', [0.0, 7000.0, 0.0, 0.0, 0.0, 0.0]]
+B13_select_frame_then_add_frame_no_parent: 'Renamed'
+B14_addfile_robot: <ABB IRB 120-3/0.6|t2>
+B15_robot_base_frame_name_type: ['ABB IRB 120-3/0.6 Base', 3]
+B16_robot_base_parent: 'TreeProbe'
+B17_robot_base_pose: [0.0, 7000.0, 0.0, 0.0, 0.0, 0.0]
+B18_robot_active_frame_after_load: None
+B19_rename_robot_keeps_base_name: 'ABB IRB 120-3/0.6 Base'
+B20_add_frame_sets_robot_active_frame: <Work|t3>
+B21_robot_active_frame: 'Work'
+B22_robot2_base_parent_pose: ['Renamed', [0.0, 9000.0, 0.0, 0.0, 0.0, 0.0]]
+B23_robot2_active_frame: None
+B24_tool_api_default_name: 'New TCP'
+B25_tool_api_empty_name: "''"
+B26_tool_dup_name_allowed: 'New TCP'
+B27_active_tool_stays_first: 'New TCP'
+B28_cmd_AddTool_returns_ptr: True
+B29_tool_names: [['Tool 4', 'R2'], ['New TCP', 'R1'], ['', 'R1'], ['New TCP', 'R1']]
+B30_addfile_tool_with_robot_parent: <Spindle|t4>
+B31_tool_file_name_type_parent: ['Spindle', 4, 'R1']
+B32_addfile_object: <Table-1400x800x800mm|t5>
+B33_object_parent_pose: ['TreeProbe', [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+B34_addfile_object_under_frame: 'Work'
+B34b_addfile_object_with_frame_selected: 'TreeProbe'
+B35_target_explicit: ['T explicit', 'Work', 'R1']
+B36_target_empty_name_api: "''"
+B37_target_no_args_parent_robot: ['Work', 'R2']
+B38_target_robot_only: ['Work', 'R2']
+B39_target_parent_robot_allowed_by_api: 'R1'
+B40_prog_api_name_and_parent: ['P1', 'TreeProbe', 'R2']
+B41_prog_no_robot_links_first_robot: 'R2'
+B42_prog_empty_name_api: "''"
+B43_cmd_AddScript_names: ['Prog4', 'Prog5']
+B44_cmd_AddFolder_names: [['Folder 1', 'TreeProbe'], ['Mine', 'TreeProbe'], ['Folder 3', 'TreeProbe']]
+B45_cmd_AddNotes_names: [['Note 1', 'TreeProbe'], ['Note 2', 'TreeProbe']]
+B46_machining_default_name: 'Milling settings'
+B47_tree:
+    'Renamed' t3
+      'Nested' t3
+      'UnderSel' t3
+      'ABB IRB 120-3/0.6 Base' t3
+        'R2' t2
+          'Tool 4' t4
+    'Frame 3' t3
+    'Frame 4' t3
+    'Frame 4' t3
+    'Next' t3
+    'ABB IRB 120-3/0.6 Base' t3
+      'R1' t2
+        'New TCP' t4
+        '' t4
+        'New TCP' t4
+        'Spindle' t4
+        'T on robot' t6
+    'Work' t3
+      'Table-1400x800x800mm' t5
+      'T explicit' t6
+      '' t6
+      'T noargs' t6
+      'T r2' t6
+    'Table-1400x800x800mm' t5
+    'Table-1400x800x800mm' t5
+    'P1' t8
+    'P2' t8
+    '' t8
+    'Prog4' t10
+    'Prog5' t10
+    'Folder 1' t17
+    'Mine' t17
+    'Folder 3' t17
+    'Note 1' t22
+    'Note 2' t22
+    'Milling settings' t11
+B48_target_in_empty_station_autocreates_frame: ['Frame 1', None]
+B49_tree_empty_station:
+    'Frame 1' t3
+      'T0' t6
+B50_single_robot_active_frame_is_first_new_frame: 'F'
+B51_object_no_parent_goes_to_robot_active_frame: 'F'
+B52_object_ignores_selected_frame: 'F'
+B53_object_follows_new_active_frame: 'G'
+B54_tool_file_single_robot_autoattach: ['Spindle', 'RO', 'Spindle']
+C01_C_rel_abs: [[10.0, 20.0, 30.0, 0.0, 0.0, 0.0], [110.0, 20.0, 30.0, 0.0, 0.0, 0.0]]
+C02_setParent_keeps_relative: ['B', [10.0, 20.0, 30.0, 0.0, 0.0, 0.0], [-20.0, 510.0, 30.0, 0.0, 0.0, 1.571]]
+C03_setParentStatic_keeps_absolute: ['A', [-120.0, 510.0, 30.0, 0.0, 0.0, 1.571], [-20.0, 510.0, 30.0, 0.0, 0.0, 1.571]]
+WARNING: The parent can not be a child of the current item
+C04_setParent_into_own_child_refused: 'TreeProbe'
+C05_rename_empty_allowed_api: "''"
+C06_rename_whitespace_kept: "'  B  '"
+C07_rename_duplicate_allowed: 'A'
+C08_Item_by_name_returns_first_in_tree: True
+C09_visible_default: [1, 1]
+C10_hide_parent_children_unchanged: [0, 1]
+C11_tree_IsExpanded_station_frame: ['1', '1']
+C12_tree_IsExpanded_robot_base_robot: ['1', '1']
+C13_tree_IsHidden_row: '0'
+C14_tree_collapse_then_query: '0'
+C15_selection_set_get: ['A', 'B']
+C16_tree_Reveal_selects_item: ['A']
+D01_copy_frame_with_children: None
+D02_paste_to_station_keeps_name: <A|t3>
+D03_pasted_parent_children_pose: ['TreeProbe', ['C', 'TA'], [100.0, 0.0, 0.0, 0.0, 0.0, 0.0]]
+D04_paste_into_B: 'B'
+D05_paste_3_times: ['A', 'A', 'A']
+D06_copy_without_children: []
+D07_copy_target_keeps_robot_link: ['TA', 'TreeProbe', 'R1']
+D08_copy_robot_paste_at_root_no_base: ['R1', 'TreeProbe', ['New TCP', '', 'New TCP', 'Spindle', 'T on robot']]
+E01_delete_parent_deletes_descendants: [False, False]
+E02_delete_list_parent_and_child: [False, False]
+E03_delete_robot_only_child_removes_base: [False, False]
+E04_delete_target_used_by_program: 1
+E05_program_instruction_after_target_delete: ERROR Exception: Target at instruction MoveJ (TK) has been deleted
+E06_delete_robot_base_with_other_children: [True, True, None, None]
+E07_delete_invalid_item: ERROR InputError: Item is not valid or was already deleted
+F01_dblclick_joint_target_moves_robot: [30.0, 10.0, 10.0, 0.0, 20.0, 0.0]
+F02_robot_frame_before: 'Other'
+F03_dblclick_target_switches_robot_frame: 'ABB IRB 120-3/0.6 Base'
+F04_dblclick_program_runs_it: [30.0, 10.0, 10.0, 0.0, 20.0, 0.0]
+F05_active_before_station_dblclick: 'OtherStation'
+F06_dblclick_station_activates: 'TreeProbe'
+F07_title_after_activation: None
+F08_itemlist_only_active_station: False
+F09_item_lookup_other_station: False
+F10_final_tree:
+    'Renamed' t3
+      'Nested' t3
+      'UnderSel' t3
+      'ABB IRB 120-3/0.6 Base' t3
+        'R2' t2
+          'Tool 4' t4
+    'Frame 3' t3
+    'Frame 4' t3
+    'Frame 4' t3
+    'Next' t3
+    'ABB IRB 120-3/0.6 Base' t3
+      'R1' t2
+        'New TCP' t4
+        '' t4
+        'New TCP' t4
+        'Spindle' t4
+        'T on robot' t6
+      'JT' t6
+    'Work' t3
+      'Table-1400x800x800mm' t5
+      'T explicit' t6
+      '' t6
+      'T noargs' t6
+      'T r2' t6
+    'Table-1400x800x800mm' t5
+    'Table-1400x800x800mm' t5
+    'P1' t8
+    'P2' t8
+    '' t8
+    'Prog4' t10
+    'Prog5' t10
+    'Folder 1' t17
+    'Mine' t17
+    'Folder 3' t17
+    'Note 1' t22
+    'Note 2' t22
+    'Milling settings' t11
+    'A' t3
+      'C' t3
+      'TA' t6
+    'B' t3
+      'A' t3
+        'C' t3
+        'TA' t6
+    'A' t3
+      'C' t3
+      'TA' t6
+    'A' t3
+      'C' t3
+      'TA' t6
+    'A' t3
+      'C' t3
+      'TA' t6
+    'A' t3
+      'C' t3
+      'TA' t6
+    'A' t3
+    'TA' t6
+    'R1' t2
+      'New TCP' t4
+      '' t4
+      'New TCP' t4
+      'Spindle' t4
+      'T on robot' t6
+    'ABB IRB 120-3/0.6 Base' t3
+      'TK2' t6
+    'PK' t8
+    'Other' t3
+    'PR' t8
+done
+
+[exit] {"code":0}

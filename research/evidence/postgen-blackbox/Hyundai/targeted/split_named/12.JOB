@@ -1,0 +1,6 @@
+Program File Format Version : 1.6  MechType: 578(HA006B-01)  TotalAxis: 6  AuxAxis: 0
+' Main program Prog12 calls 3 subprograms
+CALL  13
+CALL  14
+CALL  15
+END

@@ -1,0 +1,11 @@
+{
+ "post": "OTC",
+ "robot": "Daihen OTC AX-V4",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "program_Prog12",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

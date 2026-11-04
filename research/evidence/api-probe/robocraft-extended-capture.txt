@@ -1,0 +1,69 @@
+S01_active_station: 'ExtProbe'
+S02_open_stations_contains: True
+S03_station_parent: <null>
+F01_auto_poses: [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 1000.0, 0.0, 0.0, 0.0, 0.0]]
+F02_child_rel_abs: [[10.0, 20.0, 30.0, 0.0, 0.0, 0.0], [110.0, 20.0, 30.0, 0.0, 0.0, 0.0]]
+F03_setParent_keeps_relative: ['B', [10.0, 20.0, 30.0, 0.0, 0.0, 0.0], [-20.0, 510.0, 30.0, 0.0, 0.0, 1.571]]
+F04_setParentStatic_keeps_absolute: ['A', [-120.0, 510.0, 30.0, 0.0, 0.0, 1.571], [-20.0, 510.0, 30.0, 0.0, 0.0, 1.571]]
+WARNING: The parent can not be a child of the current item
+F05_parent_into_own_child: 'ExtProbe'
+F06_childs: ['C']
+F07_setPoseAbs: [-99.0, 2.0, 3.0, 0.0, 0.0, 0.0]
+F08_empty_name_frame: 'Frame 4'
+F09_item_by_type: ['A', False]
+F10_frames_list: ['A', 'C', 'B', 'Frame 4']
+V01_visible: [1, 0]
+V02_selection: ['A', 'B']
+V03_selection_cleared: 0
+R01_robot_parent: ['ABB IRB 120-3/0.6 Base', 3, [0.0, 2500.0, 0.0, 0.0, 0.0, 0.0]]
+R02_active_frame_after_load: <null>
+R03_active_frame: 'A'
+R04_pose_frame: [100.0, -2500.0, 0.0, 0.0, 0.0, 0.0]
+R05_pose_wrt_frame: [217.838, 2500.0, 526.112, -3.142, 0.873, 3.142]
+R06_active_tool_stays_first: ['T1', [0.0, 0.0, 100.0, 0.0, 0.0, 0.0]]
+R07_setPoseTool_item: ['T2', [0.0, 0.0, 200.0, 0.0, 0.0, 0.0]]
+R08_tool_parent: ['ABB IRB 120-3/0.6', 2]
+R09_solveik_approx: [10.0, -10.0, 20.0, 40.0, 30.0, 0.0]
+R10_joint_poses_count: 7
+R11_home: [[0.0], [-5.0], [5.0], [0.0], [10.0], [0.0]]
+R12_short_joints: [[1.0], [2.0], [3.0], [0.0], [0.0], [0.0]]
+R13_tool_file: ['Wood_Holder', 4, 'ABB IRB 120-3/0.6']
+R14_object_file: [5, 'A']
+M01_sim_speed: 100.0
+M02_movej_joints: [[10.0], [-10.0], [20.0], [0.0], [30.0], [0.0]]
+M03_movej_outside_limits: ERROR TargetReachError: Joint axes outside limits
+M04_movej_unreachable_pose: ERROR TargetReachError: Target cannot be reached
+M05_movel_tool_z: [10.0, -6.81, 19.59, 0.0, 27.22, 0.0]
+M06_movel_half_turn: ERROR TargetReachError: Target cannot be reached
+M07_busy_after_wait: 0
+M08_joints_after_nonblocking: [[0.0], [-10.0], [20.0], [0.0], [30.0], [0.0]]
+T01_target: ['A', False, [294.442, 2500.0, 461.833, -3.142, 0.873, 3.142]]
+T02_empty_name_target: ''
+T03_setJoints_keeps_pose: [True, [[20.0], [-10.0], [20.0], [0.0], [30.0], [0.0]]]
+T04_joint_target: True
+T05_cartesian_again: False
+T06_movej_target: [0.0, -10.0, 20.0, 0.0, 30.0, 0.0]
+P01_insert_after_selected: ['Pause 100 ms', 'Pause 500 ms', 'Pause 400 ms', 'Pause 200 ms', 'Pause 300 ms']
+P02_instruction_delete: 4
+P03_select_idle: -1
+P04_post_get: 'ABB_RAPID_IRC5'
+P05_post_set_py: 'KUKA_KRC4'
+P06_post_on_frame: 'Invalid Item'
+P07_names: [['Set Ref.: A', 3], ['Set Tool: T1', 4], ['MoveJ (T1)', 0], ['MoveJ ()', 0], ['Set speed (30.0 deg/s)', 2], ['Accurate', 10], ['Hi', 9], ['Thr', 8], ['x = 1', 8], ['Set AO_3=2.5', 11], ['Set Valve=0', 11]]
+P08_update: [11.0, 0.0, 0.0, 1.0, '']
+P09_run_and_wait: [0.0, -10.0, 20.0, 0.0, 30.0, 0.0]
+P10_io_param_after_run: [2.5, 0.0]
+K01_paste_without_children: ['A', 0, 'B']
+K02_paste_twice: ['A', 'A']
+K03_paste_target_keeps_robot_link: ['T1', 'A', 'ABB IRB 120-3/0.6']
+K04_delete_list: [False, False]
+C01_params_contains: True
+C02_cmd_get_default: ['0', '1']
+C03_cmd_set: ['OK', '1']
+C04_cmd_unknown_is_help: True
+C05_popups_get: '0'
+C06_collisions: 1
+C07_item_list_types: [1, 2, 3, 4, 5, 6, 8]
+done
+
+[exit] {"code":0}

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-q9vf6unf/PostTgtProg.py", line 33, in <module>
+    r.ProgSave(r"""/workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Elite_Robots_CS/targeted/code/""",r"""TgtProg""",False,False)
+  File "Elite_Robots_CS.py", line 1030, in Elite_Robots_CS.RobotPost.ProgSave
+  File "Elite_Robots_CS.py", line 2431, in Elite_Robots_CS.RobotPost.convert_task
+  File "Elite_Robots_CS.py", line 2400, in Elite_Robots_CS.RobotPost.convert_program
+TypeError: attrib must be dict, not set

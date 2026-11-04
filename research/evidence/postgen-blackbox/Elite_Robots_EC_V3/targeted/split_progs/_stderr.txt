@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-x3py72rf/PostTgtProg.py", line 37, in <module>
+    r.MoveL(p(-607.85,543.849,363.215,150,50,-165),[0,-10,20,0,30,0],[0,0,0])
+  File "Elite_Robots_EC_V3.py", line 470, in Elite_Robots_EC_V3.RobotPost.MoveL
+  File "Elite_Robots_EC_V3.py", line 624, in Elite_Robots_EC_V3.RobotPost.addline2
+  File "Elite_Robots_EC_V3.py", line 608, in Elite_Robots_EC_V3.RobotPost.page_size_control
+  File "Elite_Robots_EC_V3.py", line 211, in Elite_Robots_EC_V3.RobotPost.ProgStart
+Exception: Only one program at a time can be split into smaller programs

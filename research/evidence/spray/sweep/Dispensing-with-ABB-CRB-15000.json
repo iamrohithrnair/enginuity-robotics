@@ -1,0 +1,135 @@
+{
+ "file": "Dispensing-with-ABB-CRB-15000.rdk",
+ "program": "Dispensing",
+ "ratio": 5.0,
+ "open": {
+  "ok": true,
+  "error": null
+ },
+ "open_s": 0.2,
+ "run": {
+  "ok": true,
+  "error": null
+ },
+ "run_s": 29.1,
+ "timed_out": false,
+ "spray_list": {
+  "station": "Dispensing with ABB CRB 15000",
+  "guns": [
+   {
+    "id": 0,
+    "tool": "Sealant_Dispenser",
+    "object": "Pan_Holder",
+    "state": 0,
+    "options": "PARTICLE=SPHERE(3.00) NO_PROJECT COLOR=white",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 1,
+    "particle": {
+     "kind": "sphere",
+     "radius": 3,
+     "facets": 12,
+     "scale": null
+    },
+    "nearColor": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "farColor": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "updates": 1246,
+    "in": 0,
+    "out": 1246,
+    "total": 1246,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 1246
+   },
+   {
+    "id": 1,
+    "tool": "Sealant_Dispenser",
+    "object": "Pan_Holder",
+    "state": 0,
+    "options": "PARTICLE=SPHERE(3.00) NO_PROJECT COLOR=white",
+    "shape": "ELLYPSE",
+    "project": false,
+    "step": "1x0",
+    "perUpdate": 1,
+    "rand": 1,
+    "particle": {
+     "kind": "sphere",
+     "radius": 3,
+     "facets": 12,
+     "scale": null
+    },
+    "nearColor": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "farColor": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "updates": 622,
+    "in": 0,
+    "out": 622,
+    "total": 622,
+    "percentIn": 0,
+    "percentOut": 100,
+    "stored": 622
+   }
+  ],
+  "info": "id<br>percent in<br>percent out<br>count",
+  "count": 2
+ },
+ "spray_stats": {
+  "info": "id<br>percent in<br>percent out<br>count",
+  "columns": [
+   [
+    0,
+    0,
+    100,
+    1246
+   ],
+   [
+    1,
+    0,
+    100,
+    622
+   ]
+  ],
+  "guns": [
+   {
+    "id": 0,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 1246
+   },
+   {
+    "id": 1,
+    "percentIn": 0,
+    "percentOut": 100,
+    "count": 622
+   }
+  ]
+ },
+ "shot": "/workspace/srcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcs/98d21853-3eb1-4a96-a77c-869a7e687818/scratchpad/live/sweep/Dispensing-with-ABB-CRB-15000.png",
+ "zoom": "/workspace/srcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcsrcs/98d21853-3eb1-4a96-a77c-869a7e687818/scratchpad/live/sweep/Dispensing-with-ABB-CRB-15000-zoom.png",
+ "browser_log": "warning: THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\n",
+ "close": {
+  "ok": true,
+  "error": null
+ }
+}

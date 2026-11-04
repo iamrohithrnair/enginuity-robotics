@@ -1,0 +1,11 @@
+{
+ "post": "Elite_Robots_CS",
+ "robot": "Elite Robots CS530H",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "frame_noname",
+ "exit": 1,
+ "stray_files": [
+  "Library"
+ ]
+}

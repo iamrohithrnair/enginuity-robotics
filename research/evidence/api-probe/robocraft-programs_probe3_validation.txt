@@ -1,0 +1,82 @@
+unreachable_cart_MoveJ.n_instructions: 4
+unreachable_cart_MoveJ.Update: [3.0, 0.0, 0.0, 0.0, '']
+unreachable_cart_MoveJ.InstructionList.status: -2
+unreachable_cart_MoveJ.InstructionListJoints[status,msg,ERROR codes]: [-2, 'One or more targets are not reachable or missing. ', [0, 10000000]]
+unreachable_cart_MoveJ.robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+unreachable_cart_MoveL.n_instructions: 4
+unreachable_cart_MoveL.Update: [3.0, 0.0, 0.0, 0.0, '']
+unreachable_cart_MoveL.InstructionList.status: -2
+unreachable_cart_MoveL.InstructionListJoints[status,msg,ERROR codes]: [-2, 'One or more targets are not reachable or missing. ', [0, 10000000]]
+unreachable_cart_MoveL.robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+continue_after_failure_MoveJ.n_instructions: 6
+continue_after_failure_MoveJ.Update: [3.0, 0.0, 0.0, 0.0, '']
+continue_after_failure_MoveJ.InstructionList.status: -2
+continue_after_failure_MoveJ.InstructionListJoints[status,msg,ERROR codes]: [-2, 'One or more targets are not reachable or missing. ', [0, 10000000]]
+continue_after_failure_MoveJ.robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+continue_after_failure_MoveL.n_instructions: 6
+continue_after_failure_MoveL.Update: [3.0, 0.0, 0.0, 0.0, '']
+continue_after_failure_MoveL.InstructionList.status: -2
+continue_after_failure_MoveL.InstructionListJoints[status,msg,ERROR codes]: [-2, 'One or more targets are not reachable or missing. ', [0, 10000000]]
+continue_after_failure_MoveL.robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+joint_target_beyond_limit(J1=170).n_instructions: 4
+joint_target_beyond_limit(J1=170).Update: [3.0, 0.0, 0.0, 0.0, '']
+joint_target_beyond_limit(J1=170).InstructionList.status: -2
+joint_target_beyond_limit(J1=170).InstructionListJoints[status,msg,ERROR codes]: [-2, 'One or more targets are not reachable or missing. ', [0, 10000000]]
+joint_target_beyond_limit(J1=170).robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+MoveL_crossing_J1_limit(150->-150).n_instructions: 4
+MoveL_crossing_J1_limit(150->-150).Update: [3.0, 2.0, 1180.586, 0.0, '']
+MoveL_crossing_J1_limit(150->-150).InstructionList.status: -2
+MoveL_crossing_J1_limit(150->-150).InstructionListJoints[status,msg,ERROR codes]: [-2, 'One or more targets are not reachable or missing. ', [0, 10000000]]
+MoveL_crossing_J1_limit(150->-150).robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+MoveL_wrist_flip(J5 10->-10).n_instructions: 4
+MoveL_wrist_flip(J5 10->-10).Update: [3.0, 0.7303, 60.0386, 0.0, '']
+MoveL_wrist_flip(J5 10->-10).InstructionList.status: -2
+MoveL_wrist_flip(J5 10->-10).InstructionListJoints[status,msg,ERROR codes]: [-1, 'Warning! Path is not continuous. ', [0, 1000]]
+MoveL_wrist_flip(J5 10->-10).robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+MoveJ_wrist_flip(J5 10->-10).n_instructions: 4
+MoveJ_wrist_flip(J5 10->-10).Update: [4.0, 1.4606, 120.0771, 1.0, '']
+MoveJ_wrist_flip(J5 10->-10).InstructionList.status: 4
+MoveJ_wrist_flip(J5 10->-10).InstructionListJoints[status,msg,ERROR codes]: [4, 'Success', [0]]
+MoveJ_wrist_flip(J5 10->-10).robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+MoveL_wrist_flip(J5 40->-40).n_instructions: 4
+MoveL_wrist_flip(J5 40->-40).Update: [3.0, 0.5164, 30.0193, 0.0, '']
+MoveL_wrist_flip(J5 40->-40).InstructionList.status: -2
+MoveL_wrist_flip(J5 40->-40).InstructionListJoints[status,msg,ERROR codes]: [-1, 'Warning! Path is not continuous. ', [0, 1000]]
+MoveL_wrist_flip(J5 40->-40).robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+MoveJ_wrist_flip(J5 40->-40).n_instructions: 4
+MoveJ_wrist_flip(J5 40->-40).Update: [4.0, 1.977, 270.1735, 1.0, '']
+MoveJ_wrist_flip(J5 40->-40).InstructionList.status: 4
+MoveJ_wrist_flip(J5 40->-40).InstructionListJoints[status,msg,ERROR codes]: [4, 'Success', [0]]
+MoveJ_wrist_flip(J5 40->-40).robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+MoveL_to_J5=1deg(near wrist singularity).n_instructions: 4
+MoveL_to_J5=1deg(near wrist singularity).Update: [3.0, 0.0, 0.0, 0.0, '']
+MoveL_to_J5=1deg(near wrist singularity).InstructionList.status: -2
+MoveL_to_J5=1deg(near wrist singularity).InstructionListJoints[status,msg,ERROR codes]: [-1, 'Warning! Path is not continuous. ', [0, 1000]]
+MoveL_to_J5=1deg(near wrist singularity).robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+MoveL_to_J5=3deg.n_instructions: 4
+MoveL_to_J5=3deg.Update: [4.0, 0.4628, 80.3052, 1.0, '']
+MoveL_to_J5=3deg.InstructionList.status: 4
+MoveL_to_J5=3deg.InstructionListJoints[status,msg,ERROR codes]: [4, 'Success', [0]]
+MoveL_to_J5=3deg.robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+first_instruction_MoveC.n_instructions: 3
+first_instruction_MoveC.Update: [3.0, 0.6472, 157.0796, 1.0, '']
+first_instruction_MoveC.InstructionList.status: 3
+first_instruction_MoveC.InstructionListJoints[status,msg,ERROR codes]: [-1, 'Warning! Path is not continuous. ', [0, 1010]]
+first_instruction_MoveC.robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+missing_program_call.n_instructions: 4
+missing_program_call.Update: [4.0, 0.0, 0.0, 1.0, '']
+missing_program_call.InstructionList.status: 4
+missing_program_call.InstructionListJoints[status,msg,ERROR codes]: [4, 'Success', [0]]
+missing_program_call.robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+tolerances(ToleranceSingularityWrist,Elbow,Back,Turn180): ['2.5', '2.5', '-1', '0.5']
+collision_sweep_COLLISION_ON.n_instructions: 4
+collision_sweep_COLLISION_ON.Update: [4.0, 3.7401, 2125.0549, 0.0, '(0.0 %) Collision detected. <br><br>Program: <strong>V_collision_sweep_COLLISION_ON</strong><br>Instruction 2: <strong>MoveJ (ca)</strong>']
+collision_sweep_COLLISION_ON.InstructionList.status: 4
+collision_sweep_COLLISION_ON.InstructionListJoints[status,msg,ERROR codes]: [4, 'Collisions found. ', [0, 100000]]
+collision_sweep_COLLISION_ON.robot_joints_after: [0.0, 0.0, 0.0, 0.0, 30.0, 0.0]
+collision_sweep.Update(COLLISION_OFF): [4.0, 2.1909, 1416.7032, 1.0, '']
+collision_sweep.Update(ON, mm_step=1, deg_step=1): [4.0, 2.1909, 1416.7032, 0.3542, '(35.4 %) Collision detected. <br><br>Program: <strong>V_collision_sweep_COLLISION_ON</strong><br>Instruction 3: <strong>MoveJ (cb)</strong>']
+collision_sweep.Update(ON, mm_step=20, deg_step=20): [4.0, 2.1909, 1416.7032, 0.3542, '(35.4 %) Collision detected. <br><br>Program: <strong>V_collision_sweep_COLLISION_ON</strong><br>Instruction 3: <strong>MoveJ (cb)</strong>']
+done
+
+[exit] {"code":0}

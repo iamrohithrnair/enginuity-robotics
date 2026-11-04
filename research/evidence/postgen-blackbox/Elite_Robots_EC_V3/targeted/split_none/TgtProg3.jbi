@@ -1,0 +1,14 @@
+NOP
+// HEADER
+<volatile>
+// COMM Generated using RoboDK
+//set total pose number and use lua to tranf pose in user to in_base
+SET B010 -1
+SET B000 1
+TIMER T=0.2 S
+WAIT B000=0  
+MOVJ P000 VJ=100% CR=0.0MM ACC=50 DEC=50
+MOVJ P000 VJ=100% CR=0.0MM ACC=50 DEC=50
+MOVJ P001 VJ=100% CR=0.0MM ACC=50 DEC=50
+MOVJ P002 VJ=100% CR=0.0MM ACC=50 DEC=50
+END

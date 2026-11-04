@@ -1,0 +1,114 @@
+{
+ "cases": [
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Yaskawa-GP25.rdk",
+   "update": {
+    "Palletizing Example Left_L1": [
+     21.0,
+     13.3262,
+     10307.0101,
+     0.0,
+     ""
+    ],
+    "Palletizing Example Left_L2": [
+     21.0,
+     14.9785,
+     9991.6931,
+     0.0,
+     ""
+    ],
+    "Palletizing Example Right_L0": [
+     19.0,
+     15.4524,
+     10227.0057,
+     0.0,
+     ""
+    ],
+    "Palletizing Example Right_L2": [
+     21.0,
+     16.3867,
+     10549.372,
+     0.0,
+     ""
+    ],
+    "Palletizing Example Right_L3": [
+     5.0,
+     6.7976,
+     3349.4878,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 13
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-ABB-IRB-2400-L.rdk",
+   "update": {
+    "Palletizing Example Left_L2": [
+     17.0,
+     6.2306,
+     9889.5038,
+     0.0,
+     ""
+    ],
+    "Palletizing Example Left_L3": [
+     67.0,
+     17.4737,
+     30484.8845,
+     0.0,
+     ""
+    ],
+    "Palletizing Example Right_L1": [
+     17.0,
+     4.8506,
+     10495.5068,
+     0.0,
+     ""
+    ],
+    "Palletizing Example Right_L2": [
+     17.0,
+     4.9255,
+     9994.2957,
+     0.0,
+     ""
+    ],
+    "Palletizing Example Right_L3": [
+     29.0,
+     8.2033,
+     15096.6805,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 25
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "update": {
+    "Palletizing Example Left_L1": [
+     29.0,
+     25.8357,
+     16200.9879,
+     0.0,
+     ""
+    ],
+    "Palletizing Example Right_L0": [
+     19.0,
+     18.9977,
+     12243.3064,
+     0.0,
+     ""
+    ],
+    "Palletizing Example Right_L1": [
+     29.0,
+     27.8333,
+     17428.4817,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 33
+  }
+ ],
+ "version": "6.0.7.26935"
+}

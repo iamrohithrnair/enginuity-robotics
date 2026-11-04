@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<MainProgram>
+    <Condition ConditionType="Project_Program" ConditionAlias="Project_Program" ConditionUuid="1846d424c17c4279a3c6612f48268673">
+        <Attribute>
+            <enableMoveGroupPro>false</enableMoveGroupPro>
+            <md5OfProjectContinueFile/>
+            <md5OfProjectPauseFile/>
+            <md5OfProjectStopFile/>
+            <projectContinueFile/>
+            <projectPauseFile/>
+            <projectStopFile/>
+            <selectProjectContinue>false</selectProjectContinue>
+            <selectProjectPause>false</selectProjectPause>
+            <selectProjectStop>false</selectProjectStop>
+        </Attribute>
+        <Condition ConditionType="Loop" ConditionAlias="Loop" ConditionUuid="2e581cce4eab4e2fb7425a1ba362149d">
+            <Attribute>
+                <LoopConditionMode>Always</LoopConditionMode>
+            </Attribute>
+            <Condition ConditionType="Wait" ConditionAlias="Wait" ConditionUuid="f7c1bd874da5470994713d60c8a70639">
+                <Attribute>
+                    <WaitConditionMode>Time</WaitConditionMode>
+                    <WaitTime>0.25</WaitTime>
+                </Attribute>
+            </Condition>
+            <Condition ConditionType="Wait" ConditionAlias="Wait" ConditionUuid="e443df789558467f9ba91faf7a024204">
+                <Attribute>
+                    <WaitConditionMode>Time</WaitConditionMode>
+                    <WaitTime>0.5</WaitTime>
+                </Attribute>
+            </Condition>
+        </Condition>
+    </Condition>
+</MainProgram>

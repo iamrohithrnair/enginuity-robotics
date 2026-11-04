@@ -1,0 +1,116 @@
+{
+ "summary": {
+  "interpreter": "Enginuity's Python environment, Python 3.9.6",
+  "stations": 2,
+  "scripts": 15,
+  "ok": 11,
+  "runningAtTimeout": 2,
+  "error": 2,
+  "skipped": 0,
+  "notStarted": 0,
+  "timeoutMs": 180000,
+  "categories": {
+   "error:third-party-module:cv2": 2
+  }
+ },
+ "results": [
+  {
+   "station": "Drawing-with-ABB-IRB-4600-20-2-50.rdk",
+   "script": "Draw",
+   "outcome": "running-at-timeout",
+   "seconds": 180.05,
+   "detail": ""
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Conveyor_Advance",
+   "outcome": "ok",
+   "seconds": 0.829
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Reset_Conveyor",
+   "outcome": "ok",
+   "seconds": 0.161
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Generate_Box",
+   "outcome": "ok",
+   "seconds": 0.326
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Conveyor_Advance_infinite",
+   "outcome": "running-at-timeout",
+   "seconds": 180.005,
+   "detail": ""
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Delete_Box_Over_The_Edge",
+   "outcome": "ok",
+   "seconds": 0.176
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "SetPickTarget",
+   "outcome": "ok",
+   "seconds": 0.14
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Detect Box",
+   "outcome": "ok",
+   "seconds": 0.156
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Reset_Tool",
+   "outcome": "ok",
+   "seconds": 0.135
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Generate_Box_Continuous",
+   "outcome": "ok",
+   "seconds": 0.18
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "SetPlaceTarget",
+   "outcome": "ok",
+   "seconds": 0.136
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Reset_Pallet",
+   "outcome": "ok",
+   "seconds": 0.144
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Detect Box CAM",
+   "outcome": "error",
+   "seconds": 0.251,
+   "category": "third-party-module:cv2",
+   "detail": "ModuleNotFoundError: No module named 'cv2'",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-xedR2o/python/DetectBoxCAM.py\", line 12, in <module>\n    import cv2 as cv\nModuleNotFoundError: No module named 'cv2'"
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "SetPickAndPlaceTarget",
+   "outcome": "ok",
+   "seconds": 0.163
+  },
+  {
+   "station": "Mixed-Applications-with-RoboDK-RDK-1440-02.rdk",
+   "script": "Detect Box CAM Live",
+   "outcome": "error",
+   "seconds": 0.183,
+   "category": "third-party-module:cv2",
+   "detail": "ModuleNotFoundError: No module named 'cv2'",
+   "trace": "Traceback (most recent call last):\n  File \"<tmp>/mb-sweep-xedR2o/python/DetectBoxCAMLive.py\", line 12, in <module>\n    import cv2 as cv\nModuleNotFoundError: No module named 'cv2'"
+  }
+ ]
+}

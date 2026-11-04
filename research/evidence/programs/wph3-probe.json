@@ -1,0 +1,72 @@
+{
+ "version": "6.0.7.26935",
+ "A.addfile": true,
+ "A.PictureShot.update": [
+  -1.0,
+  0.0,
+  0.0,
+  0.0,
+  ""
+ ],
+ "A.close": null,
+ "D.addfile": true,
+ "D.Outline.update.saved_state": [
+  46.0,
+  12.0496,
+  2543.7162,
+  1.0,
+  ""
+ ],
+ "D.setRounding(-1)": null,
+ "D.Outline.update.rounding_-1": [
+  46.0,
+  41.654,
+  2543.7162,
+  1.0,
+  ""
+ ],
+ "D.close": null,
+ "S.NR.update": [
+  -1.0,
+  0.0,
+  0.0,
+  0.0,
+  ""
+ ],
+ "S.NRMove.update": [
+  -1.0,
+  0.0,
+  0.0,
+  0.0,
+  ""
+ ],
+ "S.Sub.update": [
+  1.0,
+  0.8944,
+  190.7728,
+  1.0,
+  ""
+ ],
+ "S.NR.run": -1,
+ "S.NR.busy_after_3s": 0,
+ "S.robot.joints_after_NR": [
+  30.0,
+  0.0,
+  0.0,
+  0.0,
+  30.0,
+  -0.0
+ ],
+ "S.NRMove.run": -1,
+ "S.NRMove.busy_after_3s": 1,
+ "S.robot.joints_after_NRMove": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  30.0,
+  0.0
+ ],
+ "S.NRMove.stop": null,
+ "S.NRMove.busy_after_stop": 0
+}

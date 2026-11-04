@@ -1,0 +1,9 @@
+{
+  "source": "research/scenarios/kinematics_scara_probe.py against RoboDK 6.0.7.26935 (port 20523); the run stopped after the first robot because the RoboDK licence had expired (\"API calls are limited\")",
+  "robot": "ABB-IRB-910SC-3-0-65.robot",
+  "q": [65.26900958577437, 62.513541886347824, -41.34059234708798, -195.4139559914506],
+  "method": "target = SolveFK(q) * Rot(axis, t), axis = (cos a, sin a, 0) in the flange frame; SolveIK(target, q) succeeds for t <= max_ok (bisection on [0, 40] deg, 8 steps, resolution 0.156 deg; 40 = accepted at 40 deg)",
+  "timing_s": { "solveik_ok": 0.00022, "solveik_failed": 0.00025 },
+  "max_ok_deg_by_axis_angle_a": { "0": 40.0, "45": 16.41, "90": 11.41, "135": 16.41, "180": 40.0, "225": 40.0, "270": 40.0, "315": 40.0 },
+  "reading": "Only leans that tip the X axis of the J4-frame target against the J4 axis direction are limited: SolveIK fails once that component exceeds 0.2 (axis 90: sin 11.41 = 0.198 ok, sin 11.56 = 0.200 rejected; axes 45/135: sin(16.41)/sqrt(2) = 0.1997 ok, sin(16.57)/sqrt(2) = 0.2016 rejected; every other direction accepted up to 40). Probe 1 (robodk-probe-1.json) agrees: tilt rx0.2ry0.3 gives that component 0.2896 on IRB 910SC, Yamaha YK700 and the Brooks arms (rejected) and -0.2896 on Mitsubishi RH-3CH and Epson LS3, whose flange is Rx(180) from the J4 frame (accepted)."
+}

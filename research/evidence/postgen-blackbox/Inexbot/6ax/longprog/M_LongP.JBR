@@ -1,0 +1,15 @@
+//DIR
+//JOB
+//NAME M_LongP
+//POS
+///NPOS 0,0,0,0,0,0
+//INSTRUCTION
+<volatile>
+ROBOTTYPE = [R_GENERAL_6S]
+DOUBLEROBOT = [NoCooperative]
+PROVERSION = [1.0.6]
+NOP
+CALL JOB:LongPro
+CALL JOB:LongPro2
+CALL JOB:LongPro3
+END

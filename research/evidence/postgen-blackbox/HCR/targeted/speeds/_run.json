@@ -1,0 +1,11 @@
+{
+ "post": "HCR",
+ "robot": "Hanwha HCR-10L",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "speeds",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

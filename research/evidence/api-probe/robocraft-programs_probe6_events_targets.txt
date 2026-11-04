@@ -1,0 +1,41 @@
+tcp_abs_xyz: [451.0, 0.0, 544.0]
+attach.event_json: {AttachDistance: 200, AttachStrategy: 0, Behavior: 0, FramePtr: '0', Name: 'Unset', ObjectList: '0', ParentList: '0', PoseList: '', ToolPtr: '<ptr>', Type: 7}
+attach.after_run_1: [['Obj50', 'T1'], ['Obj120', 'PP6'], ['Obj195', 'PP6'], ['Obj205', 'PP6']]
+attach.after_run_2: [['Obj50', 'T1'], ['Obj120', 'T1'], ['Obj195', 'PP6'], ['Obj205', 'PP6']]
+attach.after_run_3: [['Obj50', 'T1'], ['Obj120', 'T1'], ['Obj195', 'T1'], ['Obj205', 'PP6']]
+attach.after_run_4: [['Obj50', 'T1'], ['Obj120', 'T1'], ['Obj195', 'T1'], ['Obj205', 'PP6']]
+attach.object_pose_kept_abs(Obj50): [450.96, 0.0, 494.0]
+attach.attached_object_moves_with_tool(Obj50 abs xyz): [390.5, 225.5, 494.0]
+detach.event_json: {AttachDistance: 200, AttachStrategy: 0, Behavior: 1, FramePtr: '<ptr>', Name: 'Unset', ObjectList: '0', ParentList: '0', PoseList: '', ToolPtr: '<ptr>', Type: 7}
+detach.after_run(all to F1): [['Obj50', 'F1'], ['Obj120', 'F1'], ['Obj195', 'F1'], ['Obj205', 'PP6']]
+attach.strategy0_AttachDistance=100(150mm,250mm): [['N150', 'T1'], ['N250', 'PP6']]
+attach.strategy0_AttachDistance=300(150mm,250mm): [['N150', 'T1'], ['N250', 'PP6']]
+target.cart.isJointTarget: False
+target.cart.joints(=robot joints at creation): [10.0, -10.0, 20.0, 0.0, 30.0, 0.0]
+target.cart.pose_equals_robot_TCP_wrt_frame: True
+target.joint.isJointTarget: True
+target.IsJointTarget_cmd: ['0', '1']
+frame_moved.cart_target.joints(stored, not yet recalculated): [10.0, -10.0, 20.0, 0.0, 30.0, 0.0]
+frame_moved.cart_target.Recalculate: [9.295, -5.803, 16.306, 1.096, 29.504, -1.407]
+frame_moved.joint_target.joints(unchanged): [10.0, -10.0, 20.0, 0.0, 30.0, 0.0]
+target.Reachable_cmd: ['1', '1']
+target.Reachable_far: '0'
+teach.nothing_selected: [['Target 4', 'F1', False, [20.0, -10.0, 20.0, 0.0, 30.0, 0.0]]]
+teach.selection_after: [['Target 4', 6]]
+teach.target_selected(creates new, does not modify): [['Target 5'], [9.3, -5.8, 16.31, 1.1, 29.5, -1.41]]
+teach.program_selected[new targets, program instructions]: [['Target 6'], 0]
+sample.Pick_O-Ring.ins6: ['Attach to GripperTCP', 0, 0, 200, 0]
+sample.Pick_TubeType1.ins5: ['Attach to GripperTCP', 0, 0, 200, 0]
+sample.PlaceTubeType1.ins5: ['Detach from GripperTCP', 1, 0, 200, 0]
+sample.Place_O-Ring.ins5: ['Detach from GripperTCP', 1, 0, 200, 0]
+sample.Pick_TubeType2.ins5: ['Attach to GripperTCP', 0, 0, 200, 0]
+sample.PickObject.ins2: ['Attach to GripperTCP', 0, 0, 200, 0]
+sample.Place_Assembly.ins4: ['Detach from GripperTCP', 1, 0, 200, 0]
+sample.Next O-Ring.ins0: ['Move O-RingDistributor_Mech', 7, 0, 200, 1]
+sample.Pick Assembly.ins0: ['Attach to GripperTCP', 0, 0, 200, 0]
+sample.Pick Assembly.ins1: ['Attach to GripperTCP', 0, 0, 200, 0]
+sample.Reset.ins0: ['Home mechanisms', 6, 0, 200, 3]
+sample.Reset.ins1: ['Replace objects', 0, 0, 200, 0]
+done
+
+[exit] {"code":0}

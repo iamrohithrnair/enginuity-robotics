@@ -1,0 +1,20 @@
+<ConfigurationSettings robotType="62CS530H" <volatile>>
+  <ToolsManager Active="e3e70682-c209-4cac-a29f-6fbed82c07cd">
+    <TcpTool name="TCP" uuid="e3e70682-c209-4cac-a29f-6fbed82c07cd">
+      <ToolShape value="0, 0, 0, 0.0, 0.0, 0.0" />
+    </TcpTool>
+    <TcpTool name="Tool_Edge" uuid="f728b4fa-4248-4e3a-8a5d-2f346baa9455">
+      <ToolShape value="-1.5, 2.25, 99.875, 3.141592653589793, 0.7853981633974482, -1.5707963267948966" />
+    </TcpTool>
+  </ToolsManager>
+  <FramesManager>
+    <Frame name="Frame_Edge" isValid="true" isVariable="true" uuid="eb1167b3-67a9-4378-bc65-c1e582e2e662">
+      <Transform value="100.5, -200.25, 300.125, 0.5235987755982988, -0.3490658503988659, 0.17453292519943295" />
+    </Frame>
+  </FramesManager>
+  <IOConfig>
+  </IOConfig>
+  <StartupConfigsManager>
+    <config needAutoLoad="false" triggerValueToRunTask="false" triggerValueToInit="false" />
+  </StartupConfigsManager>
+</ConfigurationSettings>

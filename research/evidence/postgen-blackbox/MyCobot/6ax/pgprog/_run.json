@@ -1,0 +1,15 @@
+{
+ "post": "MyCobot",
+ "robot": "Elephant Robotics myCobot-280-M5",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "stub_modules": [
+  "mirobot",
+  "pymycobot",
+  "serial"
+ ],
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

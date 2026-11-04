@@ -1,0 +1,10 @@
+{
+ "post": "Fanuc_RJ3",
+ "robot": "Fanuc ARC Mate 100iD/8L",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

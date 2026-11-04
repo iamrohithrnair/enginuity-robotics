@@ -1,0 +1,11 @@
+{
+ "post": "RainbowRobotics",
+ "robot": "RB10-1300",
+ "nq": 7,
+ "axes": "RRRRRRT",
+ "targeted": "ax7",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

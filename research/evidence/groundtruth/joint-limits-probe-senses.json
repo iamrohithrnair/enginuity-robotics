@@ -1,0 +1,132 @@
+{
+ "set": "senses",
+ "probes": [
+  {
+   "robot": "Gudel-FP-6-300.robot",
+   "q": [
+    0,
+    1000,
+    0
+   ],
+   "solve_fk": "ok",
+   "set_joints": [
+    0.0,
+    1000.0,
+    0.0
+   ]
+  },
+  {
+   "robot": "Yaskawa-Motoman-MH12.robot",
+   "q": [
+    0,
+    0,
+    220,
+    0,
+    0,
+    0
+   ],
+   "solve_fk": "TargetReachError: Input joints are invalid or outside their limits",
+   "set_joints": [
+    0.0,
+    0.0,
+    175.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "robot": "Yaskawa-Motoman-MH12.robot",
+   "q": [
+    0,
+    0,
+    -200,
+    0,
+    0,
+    0
+   ],
+   "solve_fk": "ok",
+   "set_joints": [
+    0.0,
+    0.0,
+    -200.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "robot": "Denso-HS045A1.robot",
+   "q": [
+    0,
+    0,
+    100,
+    0
+   ],
+   "solve_fk": "ok",
+   "set_joints": [
+    0.0,
+    0.0,
+    100.0,
+    0.0
+   ]
+  },
+  {
+   "robot": "ABB-IRB-260.robot",
+   "q": [
+    0,
+    60,
+    10,
+    0
+   ],
+   "solve_fk": "ok",
+   "set_joints": [
+    0.0,
+    60.0,
+    10.0,
+    0.0
+   ]
+  },
+  {
+   "robot": "Fanuc-ARC-Mate-120iB.robot",
+   "q": [
+    0,
+    0,
+    200,
+    0,
+    0,
+    0
+   ],
+   "solve_fk": "ok",
+   "set_joints": [
+    0.0,
+    0.0,
+    200.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "robot": "Niryo-NED.robot",
+   "q": [
+    0,
+    -100,
+    0,
+    0,
+    0,
+    0
+   ],
+   "solve_fk": "ok",
+   "set_joints": [
+    0.0,
+    -100.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ ],
+ "version": "6.0.7.26935"
+}

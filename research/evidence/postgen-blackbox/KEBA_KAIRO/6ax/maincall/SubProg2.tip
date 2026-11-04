@@ -1,0 +1,6 @@
+//KEBA
+//0.0HZ
+//100.0%
+//PROG NAME : SubProg2
+PTP(ap1, EROP_D0, EROP_OL)
+//ENDPROG

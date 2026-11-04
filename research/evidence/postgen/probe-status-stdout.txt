@@ -1,0 +1,24 @@
+movel_unreachable: ERROR TargetReachError: Target cannot be reached
+movej_joints_out_of_limits: ERROR TargetReachError: Joint axes outside limits
+movej_ok: None
+movel_through_singularity: ERROR TargetReachError: 
+Invalid item provided: The item identifier provided is not valid or it does not exist.
+instruction_invalid_index: ERROR Exception: Invalid item provided: The item identifier provided is not valid or it does not exist.
+Invalid item provided: The item identifier provided is not valid or it does not exist.
+item_invalid_name: ERROR Exception: Invalid item provided: The item identifier provided is not valid or it does not exist.
+add_target_no_parent: 'T'
+setparam_post_on_frame: 'Invalid Item'
+joints_config_bad: Matrix: (4, 1)
+[[ 0.000 ],
+ [ 0.000 ],
+ [ 0.000 ],
+ [ 0.000 ]]
+
+solve_fk_bad_len: Matrix: (4, 4)
+Pose(385.579, 6.730, 616.740,  -153.445, 87.764, 153.428):
+[[ -0.035, -0.017, 0.999, 385.579 ],
+ [ -0.001, 1.000, 0.017, 6.730 ],
+ [ -0.999, -0.000, -0.035, 616.740 ],
+ [ 0.000, 0.000, 0.000, 1.000 ]]
+
+done

@@ -1,0 +1,8 @@
+Program File Format Version : 1.6  MechType: 578(HA006B-01)  TotalAxis: 6  AuxAxis: 0
+     ' CHGCOORD 0
+     ' Using the tool:
+     ' TOOL1=(10.000,20.000,150.000,0.000,0.000,0.000)
+S1   MOVE J,S=50%,A=2,T=1  #(0.00000,-10.00000,20.00000,0.00000,30.00000,0.00000)
+S2   MOVE J,S=50%,A=2,T=1  #(20.00000,-10.00000,20.00000,0.00000,30.00000,0.00000)
+     END
+     ' Program LongProg

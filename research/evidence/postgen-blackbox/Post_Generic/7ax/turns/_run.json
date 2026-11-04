@@ -1,0 +1,10 @@
+{
+ "post": "Post_Generic",
+ "robot": "Neura MAiRA L",
+ "nq": 7,
+ "axes": "RRRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
+  <Program name="main">
+    <Code><![CDATA[begin
+  close(tCurrentTool)
+  pPointRs.config.shoulder = lefty
+  pPointRs2.config.shoulder = lefty
+  mCurrentSpeed.tvel = 100.00
+  mCurrentSpeed.blend = joint
+  mCurrentSpeed.reach = 0.010
+  mCurrentSpeed.leave = 0.010
+  call MoveJoint(30.00000,25.00000,80.00000,-45.00000)
+  call MoveJoint(10.00000,-20.00000,50.00000,30.00000)
+  call MoveJoint(30.00000,25.00000,80.00000,-45.00000)
+  call MoveJoint(10.00000,-20.00000,50.00000,30.00000)
+  call MoveJoint(30.00000,25.00000,80.00000,-45.00000)
+  
+  waitEndMove()
+  // Program LongProg end
+
+end]]></Code>
+  </Program>
+</Programs>

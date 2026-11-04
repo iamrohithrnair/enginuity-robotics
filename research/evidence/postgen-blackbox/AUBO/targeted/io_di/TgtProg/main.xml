@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<MainProgram>
+    <Condition ConditionType="Project_Program" ConditionAlias="Project_Program" ConditionUuid="a3f2c9bf9c6346b990f244556f25e2a2">
+        <Attribute>
+            <enableMoveGroupPro>false</enableMoveGroupPro>
+            <md5OfProjectContinueFile/>
+            <md5OfProjectPauseFile/>
+            <md5OfProjectStopFile/>
+            <projectContinueFile/>
+            <projectPauseFile/>
+            <projectStopFile/>
+            <selectProjectContinue>false</selectProjectContinue>
+            <selectProjectPause>false</selectProjectPause>
+            <selectProjectStop>false</selectProjectStop>
+        </Attribute>
+        <Condition ConditionType="Loop" ConditionAlias="Loop" ConditionUuid="2e581cce4eab4e2fb7425a1ba362149d">
+            <Attribute>
+                <LoopConditionMode>Always</LoopConditionMode>
+            </Attribute>
+            <Condition ConditionType="Wait" ConditionAlias="Wait" ConditionUuid="f7c1bd874da5470994713d60c8a70639">
+                <Attribute>
+                    <WaitConditionMode>Exp</WaitConditionMode>
+                    <WaitConditionExp>(U,DI)U_DI_00 == 1</WaitConditionExp>
+                </Attribute>
+            </Condition>
+            <Condition ConditionType="Wait" ConditionAlias="Wait" ConditionUuid="e443df789558467f9ba91faf7a024204">
+                <Attribute>
+                    <WaitConditionMode>Exp</WaitConditionMode>
+                    <WaitConditionExp>(U,DI)U_DI_01 == 1</WaitConditionExp>
+                </Attribute>
+            </Condition>
+            <Condition ConditionType="Wait" ConditionAlias="Wait" ConditionUuid="23a7711a81334876b7ebdcd9e87a1613">
+                <Attribute>
+                    <WaitConditionMode>Exp</WaitConditionMode>
+                    <WaitConditionExp>(U,DI)U_DI_02 == 0</WaitConditionExp>
+                </Attribute>
+            </Condition>
+            <Condition ConditionType="Wait" ConditionAlias="Wait" ConditionUuid="1846d424c17c4279a3c6612f48268673">
+                <Attribute>
+                    <WaitConditionMode>Exp</WaitConditionMode>
+                    <WaitConditionExp>(U,DI)U_DI_03 == 0</WaitConditionExp>
+                </Attribute>
+            </Condition>
+            <Condition ConditionType="Wait" ConditionAlias="Wait" ConditionUuid="fcbd04c340214ef78ca5a5a19e4d6e3c">
+                <Attribute>
+                    <WaitConditionMode>Exp</WaitConditionMode>
+                    <WaitConditionExp>(U,DI)U_DI_04 == 1</WaitConditionExp>
+                </Attribute>
+            </Condition>
+            <Condition ConditionType="Wait" ConditionAlias="Wait" ConditionUuid="b4862b21fb97443588561712e8e5216a">
+                <Attribute>
+                    <WaitConditionMode>Exp</WaitConditionMode>
+                    <WaitConditionExp>(U,DI)U_DI_12 == 0</WaitConditionExp>
+                </Attribute>
+            </Condition>
+            <Condition ConditionType="Wait" ConditionAlias="Wait" ConditionUuid="259f4329e6f4490b9a164106cf6a659e">
+                <Attribute>
+                    <WaitConditionMode>Exp</WaitConditionMode>
+                    <WaitConditionExp>(U,DI)Name == 1</WaitConditionExp>
+                </Attribute>
+            </Condition>
+            <Condition ConditionType="Wait" ConditionAlias="Wait" ConditionUuid="12e0c8b2bad640fb99488dec4f65d4d9">
+                <Attribute>
+                    <WaitConditionMode>Exp</WaitConditionMode>
+                    <WaitConditionExp>(U,DI)6 == 0</WaitConditionExp>
+                </Attribute>
+            </Condition>
+            <Condition ConditionType="Wait" ConditionAlias="Wait" ConditionUuid="5487ce1eaf19422a99b8a714e61a441c">
+                <Attribute>
+                    <WaitConditionMode>Exp</WaitConditionMode>
+                    <WaitConditionExp>(U,DI)U_DI_99 == 0</WaitConditionExp>
+                </Attribute>
+            </Condition>
+        </Condition>
+    </Condition>
+</MainProgram>

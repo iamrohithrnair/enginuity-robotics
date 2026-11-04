@@ -1,0 +1,8 @@
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-6j0el0db/omron_lw2c9sn9/MainCall/Projects/MainCall/MainCall.flow
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/6ax-api/maincall/_written/omron_lw2c9sn9/MainCall/Projects/MainCall/MainCall.flow
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-6j0el0db/omron_lw2c9sn9/MainCall/Projects/MainCall/MainCall.prog
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/6ax-api/maincall/_written/omron_lw2c9sn9/MainCall/Projects/MainCall/MainCall.prog
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-6j0el0db/omron_lw2c9sn9/MainCall/Projects/MainCall/MainCall.dat
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/6ax-api/maincall/_written/omron_lw2c9sn9/MainCall/Projects/MainCall/MainCall.dat
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-6j0el0db/omron_lw2c9sn9/MainCall/ConfigData.xml
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/6ax-api/maincall/_written/omron_lw2c9sn9/MainCall/ConfigData.xml

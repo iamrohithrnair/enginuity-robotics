@@ -1,0 +1,7 @@
+<Tool>
+    <INFO NAME="Tool_Edge" AUTHOR="RoboDK"/>
+    <OFFSET OffsetX="-2" OffsetY="2" OffsetZ="100" OffsetA="-90" OffsetB="45" OffsetC="180"/>
+    <CAD FileStandard="Schunk_SGW64.obj" FileActive="Schunk_SGW64.obj" FlipMesh="True"/>
+    <KINEMATIC Motion="Digital" MotionVel="10"/>
+    <INTERFACE Protocol="digital" ChannelOpenClose = "11" ChannelEnable="12"/>
+</Tool>

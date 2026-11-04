@@ -1,0 +1,68 @@
+Module GModule
+  Public prof1 As Profile
+  Public T1_Angular As Location
+  Public T2stalejoints_Cartesian As Location
+  Public T4arcmid_Cartesian As Location
+  Public T5arcend_Cartesian As Location
+  Public T3joint_Angular As Location
+
+  Public Sub Init
+    '<MotionProfile>prof1
+    prof1 = New Profile
+    prof1.Speed = 25
+    prof1.Speed2 = 0
+    prof1.Accel = 100
+    prof1.Decel = 100
+    prof1.AccelRamp = 0.1
+    prof1.DecelRamp = 0.1
+    prof1.Straight = False
+    prof1.InRange = 10
+    '</MotionProfile>
+
+    '<MotionLocation>T1_Angular
+    T1_Angular = New Location
+    T1_Angular.Type = 1
+    T1_Angular.Angles(250.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)
+    T1_Angular.ZWorld = False
+    T1_Angular.ZClearance = 1E+32
+    T1_Angular.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>T2stalejoints_Cartesian
+    T2stalejoints_Cartesian = New Location
+    T2stalejoints_Cartesian.Type = 0
+    T2stalejoints_Cartesian.XYZ(436.232,68.297,413.715,-19.279,128.381,-12.253)
+    T2stalejoints_Cartesian.ZWorld = False
+    T2stalejoints_Cartesian.ZClearance = 1E+32
+    T2stalejoints_Cartesian.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>T4arcmid_Cartesian
+    T4arcmid_Cartesian = New Location
+    T4arcmid_Cartesian.Type = 0
+    T4arcmid_Cartesian.XYZ(414.005,116.593,367.095,-19.279,128.381,-12.253)
+    T4arcmid_Cartesian.ZWorld = False
+    T4arcmid_Cartesian.ZClearance = 1E+32
+    T4arcmid_Cartesian.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>T5arcend_Cartesian
+    T5arcend_Cartesian = New Location
+    T5arcend_Cartesian.Type = 0
+    T5arcend_Cartesian.XYZ(371.953,68.296,337.111,-19.279,128.381,-12.253)
+    T5arcend_Cartesian.ZWorld = False
+    T5arcend_Cartesian.ZClearance = 1E+32
+    T5arcend_Cartesian.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>T3joint_Angular
+    T3joint_Angular = New Location
+    T3joint_Angular.Type = 1
+    T3joint_Angular.Angles(500.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)
+    T3joint_Angular.ZWorld = False
+    T3joint_Angular.ZClearance = 1E+32
+    T3joint_Angular.Config = 0
+    '</MotionLocation>
+
+  End Sub
+End Module

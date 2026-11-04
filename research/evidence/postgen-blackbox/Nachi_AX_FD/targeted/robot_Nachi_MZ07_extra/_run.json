@@ -1,0 +1,11 @@
+{
+ "post": "Nachi_AX_FD",
+ "robot": "Nachi MZ07 extra",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "robot_Nachi_MZ07_extra",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

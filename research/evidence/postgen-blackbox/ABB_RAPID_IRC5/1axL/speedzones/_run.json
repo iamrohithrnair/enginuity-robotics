@@ -1,0 +1,10 @@
+{
+ "post": "ABB_RAPID_IRC5",
+ "robot": "ABB IRBT 2005 Standard 2.8m",
+ "nq": 1,
+ "axes": "L",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

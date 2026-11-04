@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+  <RobotPoints>
+  <Point name="Point1" coordinate="-724.821,578.136,475.655,-165.0000,50.0000,150.0000" joint_angle="0.00000,-10.00000,20.00000,0.00000,30.00000,0.0000" tool_mode="-640.584,506.980,371.534,-165.0000,50.0000,150.0000" base="FrameS" tcp="ToolS" type="R" />
+  <Point name="Point2" coordinate="-691.724,566.391,433.623,-133.2806,25.0897,-161.0469" joint_angle="0.00000,-10.00000,20.00000,0.00000,30.00000,0.0000" tool_mode="-640.584,506.980,371.534,-165.0000,50.0000,150.0000" base="Frame2" tcp="Tool2" type="R" />
+  <Point name="Point3" coordinate="-701.952,578.274,446.040,-165.0000,50.0000,150.0000" joint_angle="0.00000,-10.00000,20.00000,0.00000,30.00000,0.0000" tool_mode="-640.584,506.980,371.534,-165.0000,50.0000,150.0000" base="Frame2" tcp="Tool2" type="R" />
+  <Point name="Point4" coordinate="-640.584,506.980,371.534,-165.0000,50.0000,150.0000" joint_angle="0.00000,-10.00000,20.00000,0.00000,30.00000,0.0000" tool_mode="-640.584,506.980,371.534,-165.0000,50.0000,150.0000" base="RobotBase" tcp="Tool0" type="R" />
+  <Point name="Point5" coordinate="-643.031,506.755,374.355,-164.4509,54.0426,158.0767" joint_angle="0.00000,-10.00000,20.00000,0.00000,30.00000,0.0000" tool_mode="-640.584,506.980,371.534,-165.0000,50.0000,150.0000" base="Frame2" tcp="T1x" type="R" />
+  </RobotPoints>
+  <RobotBases>
+    <Base name="RobotBase" basedata="0,0,0,0,0,0" type="R" number="0" />
+    <Base name="FrameS" basedata="1234.570,-98.765,50.500,0.0000,0.0000,30.0000" type="C" number="1" />
+    <Base name="Frame2" basedata="100.000,200.000,300.000,0.0000,90.0000,0.0000" type="C" number="2" />
+  </RobotBases>
+  <VirtualTCP>
+  </VirtualTCP>
+  <Network>
+  </Network>
+  <FTSensor>
+  </FTSensor>
+  <FineTuneVariable>
+  </FineTuneVariable>
+  <Conveyor>
+  </Conveyor>
+  <DisplayMgr>
+    <Pwd pwd="" />
+  </DisplayMgr>
+  <SafetySpace>
+  </SafetySpace>
+  <MaxBaseNumber>
+    <Custom max="209" />
+    <Vision max="0" />
+  </MaxBaseNumber>
+  <ModbusDevice>
+    <Device DeviceName="localhost" Type="TCP" IP="127.0.0.1" Port="502" ID="1" Timeout="10000" />
+  </ModbusDevice>
+  <DisableSmartSafetySpeed value="false" />
+  <RefreshDILPeriod value="300" />
+  <RunStopSetting />
+  <RunErrorSetting />
+</Root>

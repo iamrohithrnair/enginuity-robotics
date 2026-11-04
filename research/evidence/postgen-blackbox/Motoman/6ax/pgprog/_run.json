@@ -1,0 +1,11 @@
+{
+ "post": "Motoman",
+ "robot": "Yaskawa Motoman AR1440",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "pulses_x_deg": "[0.000000,0.000000,0.000000,0.000000,0.000000,0.000000]",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

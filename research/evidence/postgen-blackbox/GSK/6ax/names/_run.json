@@ -1,0 +1,11 @@
+{
+ "post": "GSK",
+ "robot": "GSK RB03A1",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "pulses_x_deg": "[1.000000,1.000000,1.000000,1.000000,1.000000,1.000000]",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

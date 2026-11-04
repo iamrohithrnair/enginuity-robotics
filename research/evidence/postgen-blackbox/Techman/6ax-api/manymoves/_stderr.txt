@@ -1,0 +1,8 @@
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-_46mjxnd/omron_8u7gf_7j/ManyMoves/Projects/ManyMoves/ManyMoves.flow
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Techman/6ax-api/manymoves/_written/omron_8u7gf_7j/ManyMoves/Projects/ManyMoves/ManyMoves.flow
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-_46mjxnd/omron_8u7gf_7j/ManyMoves/Projects/ManyMoves/ManyMoves.prog
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Techman/6ax-api/manymoves/_written/omron_8u7gf_7j/ManyMoves/Projects/ManyMoves/ManyMoves.prog
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-_46mjxnd/omron_8u7gf_7j/ManyMoves/Projects/ManyMoves/ManyMoves.dat
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Techman/6ax-api/manymoves/_written/omron_8u7gf_7j/ManyMoves/Projects/ManyMoves/ManyMoves.dat
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-_46mjxnd/omron_8u7gf_7j/ManyMoves/ConfigData.xml
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Techman/6ax-api/manymoves/_written/omron_8u7gf_7j/ManyMoves/ConfigData.xml

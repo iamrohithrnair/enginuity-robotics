@@ -1,0 +1,11 @@
+{
+ "post": "Panasonic_G3_CSR",
+ "robot": "Panasonic TA-1000",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "io",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

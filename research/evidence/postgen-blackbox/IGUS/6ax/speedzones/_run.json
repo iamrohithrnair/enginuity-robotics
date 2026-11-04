@@ -1,0 +1,10 @@
+{
+ "post": "IGUS",
+ "robot": "igus ReBeL 6DOF",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

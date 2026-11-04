@@ -1,0 +1,8 @@
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-_vl9kpxh/omron_jnpdac3b/SpeedProg/Projects/SpeedProg/SpeedProg.flow
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/4ax-api/speedzones/_written/omron_jnpdac3b/SpeedProg/Projects/SpeedProg/SpeedProg.flow
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-_vl9kpxh/omron_jnpdac3b/SpeedProg/Projects/SpeedProg/SpeedProg.prog
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/4ax-api/speedzones/_written/omron_jnpdac3b/SpeedProg/Projects/SpeedProg/SpeedProg.prog
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-_vl9kpxh/omron_jnpdac3b/SpeedProg/Projects/SpeedProg/SpeedProg.dat
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/4ax-api/speedzones/_written/omron_jnpdac3b/SpeedProg/Projects/SpeedProg/SpeedProg.dat
+HOOK write /var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-_vl9kpxh/omron_jnpdac3b/SpeedProg/ConfigData.xml
+HOOK kept /workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Omron/4ax-api/speedzones/_written/omron_jnpdac3b/SpeedProg/ConfigData.xml

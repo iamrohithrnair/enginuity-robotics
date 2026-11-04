@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-7jfpwr_h/PostPrecProg.py", line 33, in <module>
+    r.MoveL(p(-640.585,506.981,371.534,150,50,-165.5),[12.3456,-45.6789,78.9013,-0.5],[0,0,0])
+  File "Estun_RCS3.py", line 751, in Estun_RCS3.RobotPost.MoveL
+  File "Estun_RCS3.py", line 1135, in Estun_RCS3.RobotPost.add_crt_target
+IndexError: list index out of range

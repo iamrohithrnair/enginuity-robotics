@@ -1,0 +1,10 @@
+{
+ "post": "Turin",
+ "robot": "Turin TKB5800",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-aetnpfkk/PostLongProg.py", line 45, in <module>
+    r.ProgSave(r"""/workspace/src/AI/experiments/Robocraft/research/evidence/postgen-blackbox/Fanuc_RJ3/4axR/longprog/""",r"""LongProg""",False,False)
+  File "Fanuc_R30i.py", line 878, in Fanuc_R30i.RobotPost.ProgSave
+  File "Fanuc_R30i.py", line 1295, in Fanuc_R30i.RobotPost.RunCode
+  File "Fanuc_R30i.py", line 1385, in Fanuc_R30i.RobotPost.addline
+  File "Fanuc_R30i.py", line 1378, in Fanuc_R30i.RobotPost.page_size_control
+  File "Fanuc_R30i.py", line 668, in Fanuc_R30i.RobotPost.ProgStart
+Exception: Only one program at a time can be split into smaller programs

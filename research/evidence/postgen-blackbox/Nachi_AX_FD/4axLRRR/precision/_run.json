@@ -1,0 +1,10 @@
+{
+ "post": "Nachi_AX_FD",
+ "robot": "Nachi EZ03V4-02-4525",
+ "nq": 4,
+ "axes": "LRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

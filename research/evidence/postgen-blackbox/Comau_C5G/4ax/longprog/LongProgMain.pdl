@@ -1,0 +1,13 @@
+PROGRAM LongProgMain
+IMPORT 'LongProg'
+IMPORT 'LongProg1'
+IMPORT 'LongProg2'
+IMPORT 'LongProg3'
+CONST
+VAR
+BEGIN
+  R_LongProg()
+  R_LongProg1()
+  R_LongProg2()
+  R_LongProg3()
+END LongProgMain

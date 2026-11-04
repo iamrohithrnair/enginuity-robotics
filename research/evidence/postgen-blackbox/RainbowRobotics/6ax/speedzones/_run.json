@@ -1,0 +1,10 @@
+{
+ "post": "RainbowRobotics",
+ "robot": "RB10-1300",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

@@ -1,0 +1,14 @@
+<ConfigurationSettings robotType="6212" <volatile>>
+  <ToolsManager Active="e3e70682-c209-4cac-a29f-6fbed82c07cd">
+    <TcpTool name="TCP" uuid="e3e70682-c209-4cac-a29f-6fbed82c07cd">
+      <ToolShape value="0, 0, 0, 0.0, 0.0, 0.0" />
+    </TcpTool>
+  </ToolsManager>
+  <FramesManager>
+  </FramesManager>
+  <IOConfig>
+  </IOConfig>
+  <StartupConfigsManager>
+    <config needAutoLoad="false" triggerValueToRunTask="false" triggerValueToInit="false" />
+  </StartupConfigsManager>
+</ConfigurationSettings>

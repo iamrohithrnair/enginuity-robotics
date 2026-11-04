@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- values in mm and degree -->
+<Program>
+<Header RobotName="igus REBEL-6DOF" RobotType="igus-REBEL/REBEL-6DOF-00" GripperType="" Software="iRC V902-14-001" VelocitySetting="0" />
+    <Joint Nr="4" a1="20.00000" a2="-10.00000" a3="20.00000" a4="0.00000" a5="30.00000" a6="0.00000" velPercent="35" acc="35" smooth="0" AbortCondition="false" Descr="" />
+</Program>
+

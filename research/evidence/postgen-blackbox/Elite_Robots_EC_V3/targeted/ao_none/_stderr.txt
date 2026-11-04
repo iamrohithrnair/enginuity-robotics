@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-7obe5lqk/PostTgtProg.py", line 30, in <module>
+    r.setAO('x',None)
+  File "Elite_Robots_EC_V3.py", line 557, in Elite_Robots_EC_V3.RobotPost.setAO
+TypeError: '>' not supported between instances of 'NoneType' and 'int'

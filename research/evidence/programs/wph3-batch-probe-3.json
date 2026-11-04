@@ -1,0 +1,119 @@
+{
+ "cases": [
+  {
+   "station": "Machining-and-Remote-TCP-with-Motoman-ES200D.rdk",
+   "update": {
+    "Star": [
+     79.0,
+     17.3124,
+     5046.3167,
+     1.0,
+     ""
+    ],
+    "Square": [
+     31.0,
+     5.8763,
+     1715.7632,
+     1.0,
+     ""
+    ],
+    "Circle": [
+     30.0,
+     6.9185,
+     2330.8195,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Dispensing-with-Staubli-RX90B.rdk",
+   "update": {
+    "Dispensing_3-Axis": [
+     206.0,
+     28.8473,
+     2329.2166,
+     1.0,
+     ""
+    ],
+    "Dispensing_3-Axis_JCT": [
+     206.0,
+     28.8473,
+     2329.2166,
+     1.0,
+     ""
+    ],
+    "Dispensing_5-Axis": [
+     201.0,
+     28.8473,
+     2329.2166,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Painting-with-KUKA-KR-10-R1100-sixx.rdk",
+   "update": {
+    "Path1": [
+     83.0,
+     18.8015,
+     2973.4334,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Polishing-and-Sanding-with-Panasonic-TA-1000.rdk",
+   "update": {
+    "Curve": [
+     72.0,
+     20.5582,
+     2855.4016,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Painting-with-UR10.rdk",
+   "update": {
+    "PaintTop": [
+     11.0,
+     42.0182,
+     1851.3936,
+     1.0,
+     ""
+    ],
+    "ApproachMove": [
+     4.0,
+     4.2598,
+     1336.0308,
+     1.0,
+     ""
+    ],
+    "Retract": [
+     4.0,
+     9.7143,
+     722.7372,
+     1.0,
+     ""
+    ]
+   }
+  },
+  {
+   "station": "Material-Handling-with-Mecademic-Meca500-R3.rdk",
+   "update": {
+    "ProgramTest": [
+     14.0,
+     18.9081,
+     710.0321,
+     1.0,
+     ""
+    ]
+   }
+  }
+ ],
+ "version": "6.0.7.26935"
+}

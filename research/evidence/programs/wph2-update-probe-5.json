@@ -1,0 +1,72 @@
+{
+ "cases": [
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-UR20.rdk",
+   "update": {
+    "Palletizing Example Right_L1": [
+     5.0,
+     2.0795,
+     2502.1362,
+     0.0,
+     ""
+    ],
+    "Palletizing Example Right_L2": [
+     33.0,
+     10.5352,
+     14755.2681,
+     0.0,
+     ""
+    ],
+    "Palletizing Example Right_L3": [
+     5.0,
+     2.0795,
+     2502.1362,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 9
+  },
+  {
+   "station": "Material-Handling-with-Motoman-HP20D-02.rdk",
+   "update": {
+    "Pick sequence": [
+     31.0,
+     36.3134,
+     22246.9737,
+     1.0,
+     ""
+    ],
+    "Transition Pick": [
+     4.0,
+     3.5523,
+     2820.8155,
+     1.0,
+     ""
+    ],
+    "Drop Pink": [
+     5.0,
+     2.2538,
+     1587.1199,
+     1.0,
+     ""
+    ]
+   },
+   "calls_so_far": 17
+  },
+  {
+   "station": "Polishing-and-Sanding-with-Franka-Emika-Panda.rdk",
+   "update": {
+    "Curve": [
+     72.0,
+     24.0297,
+     2537.2528,
+     1.0,
+     ""
+    ]
+   },
+   "calls_so_far": 21
+  }
+ ],
+ "version": "6.0.7.26935"
+}

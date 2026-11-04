@@ -1,0 +1,30 @@
+A.hello: ('RDK_API', 1, 26935, (0, None))
+A.version: ('RoboDK v6.0.7', 64, '6.0.7.26935', 'XX-XX-XXXX', (0, None))
+L.legacy_reply: 'READY'
+L.extra_bytes: None
+L.G_Item_empty_name: ((42610499088, 1), (0, None))
+U.reply_within_1.5s: b''
+U.after_bad_hello_reply: b''
+A.new_station: ((42600483344, 1), (0, None))
+A.add_missing_file: ((0, -1), (2, "File doesn't exist: /nonexistent/file.robot"))
+A.add_robot: ((42556719120, 2), (0, None))
+A.G_Name_invalid_handle: (b'(unavailable)\n\x00\x00\x00\x01',)
+A.G_Name_null_handle: (b'(unavailable)\n\x00\x00\x00\x01',)
+A.G_Name_robot: ('ABB IRB 120-3/0.6', (0, None))
+A.S_Thetas_out_of_limits: (0, None)
+A.S_Thetas_too_few: (0, None)
+A.G_Param_unknown: ('UNKNOWN NoSuchParam', (2, 'Invalid/unknown parameter to get: NoSuchParam'))
+A.G_Item2_robot: (2, (0, None))
+S.hello_skipstatus: ('RDK_API', 1, 26935, (0, None))
+S.S_Name_reply_bytes: None
+S.G_Name: ('Renamed By S', (0, None))
+B.hello: ('RDK_API', 1, 26935, (0, None))
+B.G_Name: ('Renamed By S', (0, None))
+A.G_Name: ('Renamed By S', (0, None))
+X.hello: ('RDK_API', 1, 26935, (0, None))
+X.unknown_cmd_bytes_within_1.5s: None
+X.first_byte_after_Version_s: (15, b'\xff')
+X.version_second_try: ERROR UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+done
+
+[exit] {"code": 0, "signal": 0, "reason": "exited"}

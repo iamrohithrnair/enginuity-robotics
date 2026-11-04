@@ -1,0 +1,11 @@
+{
+ "post": "AUBO_ARCS",
+ "robot": "AUBO-iS20L",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "io_ao_10",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

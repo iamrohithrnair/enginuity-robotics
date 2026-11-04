@@ -1,0 +1,28 @@
+{
+ "mode": "defaults",
+ "name_type_parent": [
+  "ProbeDefaults settings",
+  11,
+  "MachProbe"
+ ],
+ "get_Machining": "",
+ "get_ProgEvents": "",
+ "get_OptimAxes": "",
+ "get_Approach": "",
+ "get_Retract": "",
+ "get_PathDisplay": "",
+ "get_PointApproach": "",
+ "get_OperationSpeed": "",
+ "get_RangeRotZ": "",
+ "get_StepRotZ": "",
+ "get_NormalApproach": "",
+ "get_JoinCurveTol": "",
+ "get_SelectAlgorithm": "",
+ "get_ApproachRetractAllCurves": "",
+ "get_OffsetRail": "",
+ "get_OffsetTurntable": "",
+ "proj2": [
+  "Milling settings",
+  ""
+ ]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<MainProgram>
+    <Condition ConditionType="Project_Program" ConditionAlias="Project_Program" ConditionUuid="23a7711a81334876b7ebdcd9e87a1613">
+        <Attribute>
+            <enableMoveGroupPro>false</enableMoveGroupPro>
+            <md5OfProjectContinueFile/>
+            <md5OfProjectPauseFile/>
+            <md5OfProjectStopFile/>
+            <projectContinueFile/>
+            <projectPauseFile/>
+            <projectStopFile/>
+            <selectProjectContinue>false</selectProjectContinue>
+            <selectProjectPause>false</selectProjectPause>
+            <selectProjectStop>false</selectProjectStop>
+        </Attribute>
+        <Condition ConditionType="Loop" ConditionAlias="Loop" ConditionUuid="2e581cce4eab4e2fb7425a1ba362149d">
+            <Attribute>
+                <LoopConditionMode>Always</LoopConditionMode>
+            </Attribute>
+            <Condition ConditionType="Set" ConditionAlias="Set" ConditionUuid="f7c1bd874da5470994713d60c8a70639">
+                <Attribute>
+                    <SetConditionMode>IO</SetConditionMode>
+                    <Duration>0</Duration>
+                    <IOCategory>User</IOCategory>
+                    <IOName>CO2</IOName>
+                    <IOValue>-3.14159</IOValue>
+                    <IsPulseSignal>false</IsPulseSignal>
+                    <RobotIOType>RobotBoardUserAO</RobotIOType>
+                </Attribute>
+            </Condition>
+        </Condition>
+    </Condition>
+</MainProgram>

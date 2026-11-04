@@ -1,0 +1,16 @@
+/JOB
+//NAME LONGPRO2
+//POS
+///NPOS 0,0,0,0,0,0
+//INST
+<volatile>
+///COMM Generated using RoboDK
+///ATTR SC,RW
+///GROUP1 RB1
+NOP
+'se):
+'1234.6,-98.8,50.5,0.0,0.0,30.
+'0
+'Tool Tool S should be close t
+'o:
+END

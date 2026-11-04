@@ -1,0 +1,7 @@
+' Main program LongProg calls 5 subprograms
+CALLP [006]
+CALLP [007]
+CALLP [008]
+CALLP [009]
+CALLP [010]
+END

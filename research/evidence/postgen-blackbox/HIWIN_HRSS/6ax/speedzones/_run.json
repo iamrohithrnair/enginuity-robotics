@@ -1,0 +1,10 @@
+{
+ "post": "HIWIN_HRSS",
+ "robot": "HIWIN RA605-710-GB",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

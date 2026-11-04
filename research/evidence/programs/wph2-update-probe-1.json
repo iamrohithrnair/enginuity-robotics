@@ -1,0 +1,123 @@
+{
+ "cases": [
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Yaskawa-GP25.rdk",
+   "update": {
+    "Palletizing Example Left_L0": [
+     19.0,
+     13.9188,
+     9572.3942,
+     0.0,
+     ""
+    ],
+    "Palletizing Example Right_L1": [
+     5.0,
+     6.7976,
+     3349.4878,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 7
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-ABB-IRB-2400-L.rdk",
+   "update": {
+    "Palletizing Example Left_L1": [
+     17.0,
+     4.8092,
+     10490.2865,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 11
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-Doosan-Robotics-H2017.rdk",
+   "update": {
+    "Palletizing Example Left_L0": [
+     19.0,
+     18.8123,
+     10922.4144,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 15
+  },
+  {
+   "station": "Conveying-Material-Handling-and-Palletizing-with-UR20.rdk",
+   "update": {
+    "Palletizing Example Right_L0": [
+     33.0,
+     11.1117,
+     16212.9434,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 19
+  },
+  {
+   "station": "Material-Handling-with-Motoman-HP20D.rdk",
+   "update": {
+    "Pick sequence": [
+     15.0,
+     16.7324,
+     11141.0522,
+     1.0,
+     ""
+    ],
+    "Drop Blue": [
+     4.0,
+     2.0167,
+     1350.0207,
+     1.0,
+     ""
+    ]
+   },
+   "calls_so_far": 25
+  },
+  {
+   "station": "Dispensing-with-Delta-Electronics-DC06.rdk",
+   "update": {
+    "Dispensing_3-Axis": [
+     157.0,
+     7.021,
+     1778.7379,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 29
+  },
+  {
+   "station": "Dispensing-with-AUCTECH-ACR-7.rdk",
+   "update": {
+    "Dispensing_5-Axis": [
+     201.0,
+     9.0616,
+     2100.794,
+     1.0,
+     ""
+    ]
+   },
+   "calls_so_far": 33
+  },
+  {
+   "station": "Polishing-and-Sanding-with-uFactory-850.rdk",
+   "update": {
+    "Curve": [
+     24.0,
+     6.5744,
+     804.8417,
+     0.0,
+     ""
+    ]
+   },
+   "calls_so_far": 37
+  }
+ ],
+ "version": "6.0.7.26935"
+}

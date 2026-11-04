@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-nh36yvkh/PostPgProg.py", line 54, in <module>
+    r.setAO(3,'2.5')
+  File "Inexbot.py", line 561, in Inexbot.RobotPost.setAO
+UnboundLocalError: local variable 'io_val' referenced before assignment

@@ -1,0 +1,6 @@
+ProjectBegin
+ProjectName="ProjectPgProg"
+ProjectStart="Main"
+ProjectSource="Main.gpl"
+ProjectSource="GModule.gpo"
+ProjectEnd

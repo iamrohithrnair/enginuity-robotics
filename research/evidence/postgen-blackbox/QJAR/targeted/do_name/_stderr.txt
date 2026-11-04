@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-6g1szxqy/PostTgtProg.py", line 30, in <module>
+    r.setDO(1,'w')
+  File "QJAR.py", line 766, in QJAR.RobotPost.setDO
+ValueError: invalid literal for int() with base 10: 'w'

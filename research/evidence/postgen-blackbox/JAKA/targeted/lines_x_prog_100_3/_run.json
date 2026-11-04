@@ -1,0 +1,11 @@
+{
+ "post": "JAKA",
+ "robot": "JAKA 12L",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "lines_x_prog_100_3",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

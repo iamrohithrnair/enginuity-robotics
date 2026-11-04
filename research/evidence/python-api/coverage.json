@@ -1,0 +1,760 @@
+{
+ "server_commands": 231,
+ "server_fallback_only": [
+  "FilterProg2",
+  "MeasLT2",
+  "MeasPose4",
+  "Proj2d3d",
+  "S_Gen_Str",
+  "S_ValueMat"
+ ],
+ "commands_sent_by_the_package": 223,
+ "server_commands_not_sent": [
+  "Attach_Closest",
+  "Cam2D_Add",
+  "Cam2D_Close",
+  "Cam2D_SetParams",
+  "Cam2D_Snapshot",
+  "S_Frame_ptr",
+  "S_Hgeom",
+  "Update"
+ ],
+ "package_commands_not_on_this_server": [
+  "FilterProg2",
+  "MeasLT2",
+  "MeasPose4",
+  "S_Gen_Str",
+  "S_ValueMat"
+ ],
+ "public_methods": {
+  "Enginuity": 105,
+  "Item": 132
+ },
+ "methods": {
+  "Enginuity": {
+   "ActiveStation": [
+    "G_ActiveStn"
+   ],
+   "AddCurve": [
+    "AddWir2",
+    "AddWire"
+   ],
+   "AddFile": [
+    "Add"
+   ],
+   "AddFrame": [
+    "Add_FRAME"
+   ],
+   "AddMachiningProject": [
+    "Add_MACHINING"
+   ],
+   "AddMillingProject": [
+    "Add_MACHINING"
+   ],
+   "AddPoints": [
+    "AddPoints"
+   ],
+   "AddProgram": [
+    "Add_PROG"
+   ],
+   "AddShape": [
+    "AddShape2",
+    "AddShape3",
+    "AddShape4",
+    "AddShape5"
+   ],
+   "AddStation": [
+    "NewStation"
+   ],
+   "AddTarget": [
+    "Add_TARGET"
+   ],
+   "BuildMechanism": [
+    "BuildMechanism"
+   ],
+   "CalibrateReference": [
+    "CalibFrame"
+   ],
+   "CalibrateTool": [
+    "CalibTCP3"
+   ],
+   "Cam2D_Add": [
+    "Cam2D_PtrAdd"
+   ],
+   "Cam2D_Close": [
+    "Cam2D_CloseAll",
+    "Cam2D_PtrClose"
+   ],
+   "Cam2D_SetParams": [
+    "Cam2D_PtrSetParams"
+   ],
+   "Cam2D_Snapshot": [
+    "Cam2D_PtrSnapshot"
+   ],
+   "CloseRoboDK": [
+    "QUIT"
+   ],
+   "CloseStation": [
+    "RemoveStn"
+   ],
+   "Collision": [
+    "Collided",
+    "Collided3"
+   ],
+   "CollisionActivePairList": [
+    "Collision_GetPairList"
+   ],
+   "CollisionItems": [
+    "Collision_Items"
+   ],
+   "CollisionPairs": [
+    "Collision_Pairs"
+   ],
+   "Collision_Line": [
+    "CollisionLine"
+   ],
+   "Collision_Lines": [
+    "CollisionLineLst"
+   ],
+   "Collisions": [
+    "Collisions"
+   ],
+   "Command": [
+    "BlindSCMD",
+    "G_Gen_Mat",
+    "SCMD"
+   ],
+   "Copy": [
+    "Copy2"
+   ],
+   "Delete": [
+    "RemoveLst"
+   ],
+   "Disconnect": [
+    "QUIT"
+   ],
+   "FilterTargets": [
+    "FilterListTarget"
+   ],
+   "Finish": [
+    "QUIT"
+   ],
+   "HideEnginuity": [
+    "HIDE"
+   ],
+   "HideRoboDK": [
+    "HIDE"
+   ],
+   "Item": [
+    "G_Item",
+    "G_Item2"
+   ],
+   "ItemList": [
+    "G_List_Items",
+    "G_List_Items_Type",
+    "G_List_Items_Type_ptr",
+    "G_List_Items_ptr"
+   ],
+   "ItemUserPick": [
+    "PickItem",
+    "PickItemList"
+   ],
+   "Joints": [
+    "G_ThetasList"
+   ],
+   "JointsConfig": [
+    "G_LThetas_Config"
+   ],
+   "LaserTracker_Measure": [
+    "MeasLT2"
+   ],
+   "License": [
+    "G_License2"
+   ],
+   "MeasurePose": [
+    "MeasPose4"
+   ],
+   "MergeItems": [
+    "MergeItems"
+   ],
+   "Paste": [
+    "PastN",
+    "Paste"
+   ],
+   "PluginCommand": [
+    "PluginCommand"
+   ],
+   "PluginLoad": [
+    "PluginLoad"
+   ],
+   "Popup_ISO9283_CubeProgram": [
+    "Popup_ProgISO9283"
+   ],
+   "ProgramStart": [
+    "ProgramStart"
+   ],
+   "ProjectPoints": [
+    "ProjectPoints"
+   ],
+   "Render": [
+    "Render"
+   ],
+   "RunCode": [
+    "RunCode"
+   ],
+   "RunMessage": [
+    "RunMessage"
+   ],
+   "RunMode": [
+    "G_RunMode"
+   ],
+   "Save": [
+    "Save"
+   ],
+   "Selection": [
+    "G_Selection"
+   ],
+   "ShowAsCollided": [
+    "ShowAsCollided",
+    "ShowAsCollidedList"
+   ],
+   "ShowDialog": [
+    "MB_Dialog"
+   ],
+   "ShowEnginuity": [
+    "RAISE"
+   ],
+   "ShowMessage": [
+    "ShowMessage",
+    "ShowMessageStatus"
+   ],
+   "ShowRoboDK": [
+    "RAISE"
+   ],
+   "SimulationSpeed": [
+    "GetSimulateSpeed"
+   ],
+   "SimulationTime": [
+    "GetSimTime"
+   ],
+   "SolveFK": [
+    "G_LFK"
+   ],
+   "SolveIK": [
+    "G_LIK",
+    "G_LIK_jnts"
+   ],
+   "SolveIK_All": [
+    "G_LIK_cmpl"
+   ],
+   "Spray_Add": [
+    "Gun_Add"
+   ],
+   "Spray_Clear": [
+    "Gun_Clear"
+   ],
+   "Spray_GetStats": [
+    "Gun_Stats"
+   ],
+   "Spray_SetState": [
+    "Gun_SetState"
+   ],
+   "Update": [
+    "Refresh"
+   ],
+   "Version": [
+    "Version"
+   ],
+   "VersionInfo": [
+    "Version"
+   ],
+   "ViewPose": [
+    "G_ViewPose"
+   ],
+   "_ensure": [
+    "S_RunMode"
+   ],
+   "_open_events": [
+    "RDK_EVT",
+    "RDK_EVT_FILTER"
+   ],
+   "_restore_run_mode": [
+    "S_RunMode"
+   ],
+   "_supported_commands": [
+    "SCMD"
+   ],
+   "close": [
+    "QUIT"
+   ],
+   "getFlagsItem": [
+    "G_Item_Rights"
+   ],
+   "getOpenStations": [
+    "G_AllStn"
+   ],
+   "getParam": [
+    "G_DataParam",
+    "G_Param"
+   ],
+   "getParams": [
+    "G_Params"
+   ],
+   "setActiveStation": [
+    "S_ActiveStn"
+   ],
+   "setCollisionActive": [
+    "Collision_SetState"
+   ],
+   "setCollisionActivePair": [
+    "Collision_SetPair"
+   ],
+   "setCollisionActivePairList": [
+    "Collision_SetPairList"
+   ],
+   "setColor": [
+    "S_ColorList",
+    "S_ColorList2"
+   ],
+   "setFlagsItem": [
+    "S_Item_Rights"
+   ],
+   "setFlagsEnginuity": [
+    "S_RoboDK_Rights"
+   ],
+   "setFlagsRoboDK": [
+    "S_RoboDK_Rights"
+   ],
+   "setInteractiveMode": [
+    "S_InteractiveMode"
+   ],
+   "setJoints": [
+    "S_ThetasList"
+   ],
+   "setParam": [
+    "S_DataParam",
+    "S_Param"
+   ],
+   "setPoses": [
+    "S_Hlocals"
+   ],
+   "setPosesAbs": [
+    "S_Hlocal_AbsS"
+   ],
+   "setRunMode": [
+    "S_RunMode"
+   ],
+   "setSelection": [
+    "S_Selection"
+   ],
+   "setSimulationSpeed": [
+    "SimulateSpeed"
+   ],
+   "setViewPose": [
+    "S_ViewPose"
+   ],
+   "setVisible": [
+    "S_VisibleList"
+   ],
+   "setWindowState": [
+    "S_WindowState"
+   ]
+  },
+  "Item": {
+   "AccuracyActive": [
+    "G_AbsAccOn"
+   ],
+   "AddGeometry": [
+    "CopyFaces"
+   ],
+   "AddTool": [
+    "AddToolEmpty"
+   ],
+   "AttachClosest": [
+    "Attach_Closest2"
+   ],
+   "Busy": [
+    "IsBusy"
+   ],
+   "Children": [
+    "G_Childs"
+   ],
+   "Childs": [
+    "G_Childs"
+   ],
+   "Color": [
+    "G_Color"
+   ],
+   "Connect": [
+    "Connect2"
+   ],
+   "ConnectedState": [
+    "ConnectedState"
+   ],
+   "ConnectionParams": [
+    "ConnectParams"
+   ],
+   "Delete": [
+    "Remove"
+   ],
+   "DetachAll": [
+    "Detach_All"
+   ],
+   "DetachClosest": [
+    "Detach_Closest"
+   ],
+   "Disconnect": [
+    "Disconnect"
+   ],
+   "FilterProgram": [
+    "FilterProg2"
+   ],
+   "FilterTarget": [
+    "FilterTarget"
+   ],
+   "GeometryPose": [
+    "G_Hgeom"
+   ],
+   "GetCurves": [
+    "G_ObjCurves"
+   ],
+   "GetPoints": [
+    "G_ObjPoint"
+   ],
+   "Htool": [
+    "G_Htool"
+   ],
+   "Instruction": [
+    "Prog_GIns"
+   ],
+   "InstructionCount": [
+    "Prog_Nins"
+   ],
+   "InstructionDelete": [
+    "Prog_DelIns"
+   ],
+   "InstructionList": [
+    "G_ProgInsList"
+   ],
+   "InstructionListJoints": [
+    "G_ProgJointList"
+   ],
+   "InstructionSelect": [
+    "Prog_SelIns"
+   ],
+   "IsInside": [
+    "IsInside"
+   ],
+   "JointLimits": [
+    "G_RobLimits"
+   ],
+   "JointPoses": [
+    "G_LinkPoses"
+   ],
+   "Joints": [
+    "G_Thetas"
+   ],
+   "JointsConfig": [
+    "G_Thetas_Config"
+   ],
+   "JointsHome": [
+    "G_Home"
+   ],
+   "MakeProgram": [
+    "MakeProg2"
+   ],
+   "MoveC": [
+    "Add_INSMOVEC",
+    "MoveC",
+    "MoveCb"
+   ],
+   "MoveJ_Collision": [
+    "CollisionMove"
+   ],
+   "MoveJ_Test": [
+    "CollisionMove"
+   ],
+   "MoveJ_Test_Blend": [
+    "CollisionMoveBlend"
+   ],
+   "MoveL_Test": [
+    "CollisionMoveL"
+   ],
+   "Name": [
+    "G_Name"
+   ],
+   "ObjectLink": [
+    "G_LinkObjId"
+   ],
+   "Parent": [
+    "G_Parent"
+   ],
+   "Pause": [
+    "RunPause"
+   ],
+   "Pose": [
+    "G_Hlocal"
+   ],
+   "PoseAbs": [
+    "G_Hlocal_Abs"
+   ],
+   "PoseFrame": [
+    "G_Frame"
+   ],
+   "PoseTool": [
+    "G_Tool"
+   ],
+   "Recolor": [
+    "Recolor"
+   ],
+   "RunCode": [
+    "RunProg",
+    "RunProgParam"
+   ],
+   "RunCodeCustom": [
+    "RunCode2"
+   ],
+   "RunInstruction": [
+    "RunCode2"
+   ],
+   "RunProgram": [
+    "RunProg",
+    "RunProgParam"
+   ],
+   "RunType": [
+    "G_ProgRunType"
+   ],
+   "Scale": [
+    "Scale",
+    "TrScale"
+   ],
+   "SelectedFeature": [
+    "G_ObjSelection"
+   ],
+   "ShowInstructions": [
+    "Prog_ShowIns"
+   ],
+   "ShowSequence": [
+    "Show_Seq",
+    "Show_SeqPoses"
+   ],
+   "ShowTargets": [
+    "Prog_ShowTargets"
+   ],
+   "SimulatorJoints": [
+    "G_Thetas_Sim"
+   ],
+   "SolveFK": [
+    "G_FK"
+   ],
+   "SolveIK": [
+    "G_IK",
+    "G_IK_jnts"
+   ],
+   "SolveIK_All": [
+    "G_IK_cmpl"
+   ],
+   "Stop": [
+    "Stop"
+   ],
+   "Type": [
+    "G_Item_Type"
+   ],
+   "Update": [
+    "Update2"
+   ],
+   "Visible": [
+    "G_Visible"
+   ],
+   "WaitMove": [
+    "WaitMove"
+   ],
+   "_move": [
+    "Add_INSMOVE",
+    "MoveX",
+    "MoveXb"
+   ],
+   "addMoveC": [
+    "Add_INSMOVEC"
+   ],
+   "addMoveJ": [
+    "Add_INSMOVE"
+   ],
+   "addMoveL": [
+    "Add_INSMOVE"
+   ],
+   "customInstruction": [
+    "InsCustom2"
+   ],
+   "getAI": [
+    "getAI"
+   ],
+   "getDI": [
+    "getDI"
+   ],
+   "getLink": [
+    "G_LinkType"
+   ],
+   "getParam": [
+    "G_ItmDataParam"
+   ],
+   "isJointTarget": [
+    "Target_Is_JT"
+   ],
+   "setAO": [
+    "setAO"
+   ],
+   "setAccuracyActive": [
+    "S_AbsAccOn"
+   ],
+   "setAsCartesianTarget": [
+    "S_Target_As_RT"
+   ],
+   "setAsJointTarget": [
+    "S_Target_As_JT"
+   ],
+   "setColor": [
+    "S_Color"
+   ],
+   "setColorCurve": [
+    "S_CurveColor"
+   ],
+   "setColorShape": [
+    "S_ShapeColor"
+   ],
+   "setConnectionParams": [
+    "setConnectParams"
+   ],
+   "setDO": [
+    "setDO"
+   ],
+   "setFrame": [
+    "S_Frame",
+    "S_Link_ptr"
+   ],
+   "setGeometryPose": [
+    "S_Hgeo2"
+   ],
+   "setHtool": [
+    "S_Htool"
+   ],
+   "setInstruction": [
+    "Prog_SIns"
+   ],
+   "setJointLimits": [
+    "S_RobLimits"
+   ],
+   "setJoints": [
+    "S_Thetas"
+   ],
+   "setJointsHome": [
+    "S_Home"
+   ],
+   "setLink": [
+    "S_Link_ptr"
+   ],
+   "setMachiningParameters": [
+    "S_MachiningParams"
+   ],
+   "setMillingParameters": [
+    "S_MachiningParams"
+   ],
+   "setName": [
+    "S_Name"
+   ],
+   "setParam": [
+    "BlindICMD",
+    "ICMD",
+    "S_ItmDataParam"
+   ],
+   "setParamRobotTool": [
+    "S_ParamCalibTool"
+   ],
+   "setParent": [
+    "S_Parent"
+   ],
+   "setParentStatic": [
+    "S_Parent_Static"
+   ],
+   "setPose": [
+    "S_Hlocal"
+   ],
+   "setPoseAbs": [
+    "S_Hlocal_Abs"
+   ],
+   "setPoseFrame": [
+    "S_Frame",
+    "S_Link_ptr"
+   ],
+   "setPoseTool": [
+    "S_Tool",
+    "S_Tool_ptr"
+   ],
+   "setRobot": [
+    "S_Robot"
+   ],
+   "setRounding": [
+    "S_ZoneData"
+   ],
+   "setRunType": [
+    "S_ProgRunType"
+   ],
+   "setSpeed": [
+    "S_Speed4"
+   ],
+   "setTool": [
+    "S_Tool",
+    "S_Tool_ptr"
+   ],
+   "setValue": [
+    "S_Gen_Str",
+    "S_ValueMat"
+   ],
+   "setVisible": [
+    "S_Visible"
+   ],
+   "setZoneData": [
+    "S_ZoneData"
+   ],
+   "waitDI": [
+    "waitDI"
+   ]
+  }
+ },
+ "robomath_functions": 89,
+ "constants": 235,
+ "example_usage": {
+  "api_like_names_used": 196,
+  "provided": 170,
+  "uses_covered": 7886,
+  "uses_total": 7951,
+  "not_provided": {
+   "Label": 11,
+   "StringVar": 10,
+   "Tk": 5,
+   "Button": 5,
+   "Font": 4,
+   "SystemRandom": 3,
+   "Thread": 3,
+   "getRobot": 2,
+   "Lock": 2,
+   "Queue": 2,
+   "IntVar": 2,
+   "Entry": 2,
+   "CalibSettings": 1,
+   "Load": 1,
+   "getTool": 1,
+   "getTarget": 1,
+   "RunMainAction_SaveBackup": 1,
+   "Gage": 1,
+   "MeasureRaw": 1,
+   "Close": 1,
+   "FILE_SAVE_PREFIX": 1,
+   "PICKABLE_OBJECTS_KEYWORD": 1,
+   "Checkbutton": 1,
+   "W": 1,
+   "LEFT": 1,
+   "Radiobutton": 1
+  }
+ }
+}

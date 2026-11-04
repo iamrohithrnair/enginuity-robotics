@@ -1,0 +1,38 @@
+<Configuration>
+  <TCPConfig> 
+    <EndEffector order="1" default="false">
+      <Name>ToolP</Name>
+      <Description />
+      <GPTFF>
+        <X>0.125</X>
+        <Y>-0.375</Y>
+        <Z>123.457</Z>
+        <W>-45.250</W>
+        <V>0.000</V>
+        <U>0.000</U>
+      </GPTFF>
+      <Mass>0.0</Mass>
+      <MassCenter>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0</W>
+        <V>0</V>
+        <U>0</U>
+      </MassCenter>
+      <Inertia>
+        <Ixx>0</Ixx>
+        <Iyy>0</Iyy>
+        <Izz>0</Izz>
+      </Inertia>
+      <GPTCF>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0</W>
+        <V>0</V>
+        <U>0</U>
+      </GPTCF>
+    </EndEffector> 
+  </TCPConfig>
+</Configuration>

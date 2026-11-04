@@ -1,0 +1,7 @@
+<Tool>
+    <INFO NAME="Tool_P" AUTHOR="RoboDK"/>
+    <OFFSET OffsetX="0" OffsetY="-0" OffsetZ="123" OffsetA="0" OffsetB="0" OffsetC="-45"/>
+    <CAD FileStandard="Schunk_SGW64.obj" FileActive="Schunk_SGW64.obj" FlipMesh="True"/>
+    <KINEMATIC Motion="Digital" MotionVel="10"/>
+    <INTERFACE Protocol="digital" ChannelOpenClose = "11" ChannelEnable="12"/>
+</Tool>

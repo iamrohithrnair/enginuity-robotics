@@ -1,0 +1,9 @@
+{
+ "post": "Foxbot",
+ "robot": "Foxbot A1200",
+ "nq": 6,
+ "exit": 1,
+ "stray_files": [
+  "Library"
+ ]
+}

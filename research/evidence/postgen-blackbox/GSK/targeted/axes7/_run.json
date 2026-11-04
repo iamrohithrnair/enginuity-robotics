@@ -1,0 +1,11 @@
+{
+ "post": "GSK",
+ "robot": "GSK RB08",
+ "nq": 7,
+ "axes": "RRRRRRT",
+ "targeted": "axes7",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

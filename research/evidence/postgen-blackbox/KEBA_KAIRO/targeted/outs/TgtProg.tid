@@ -1,0 +1,9 @@
+//PROG NAME : TgtProg
+EROP_OL : OVLABS := (posDist := 0, vConst := TRUE)
+EROP_D0 : DYNAMIC := (velAxis := 100, accAxis := 100, decAxis := 100, jerkAxis := 100, vel := 2000, acc := 8000, dec := 8000, jerk := 80000, velOri := 360, accOri := 720, decOri := 720, jerkOri := 7200)
+Out1 : BOOLSIGOUT := (signal := MAP(IoDOut[1]))
+Outa b-c : BOOLSIGOUT := (signal := MAP(IoDOut[a b-c]))
+Out2 : BOOLSIGOUT := (signal := MAP(IoDOut[2]))
+Out3 : BOOLSIGOUT := (signal := MAP(IoDOut[3]))
+Out4 : BOOLSIGOUT := (signal := MAP(IoDOut[4]))
+ap0 : AXISPOS := (a1 := 0.0000, a2 := -10.0000, a3 := 20.0000, a4 := 0.0000, a5 := 30.0000, a6 := 0.0000)

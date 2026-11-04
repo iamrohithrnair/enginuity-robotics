@@ -1,0 +1,48 @@
+
+
+pattern_params {
+  pattern_name: "WPT 0"
+  pattern_type: "Scatter"
+  scatterpoint_pattern {
+    pose_params {
+        x:"-0.608"
+        y:"0.544"
+        z:"0.363"
+        rx:"-165.000"
+        ry:"50.000"
+        rz:"150.000"
+        coord_type: "WORLD"
+        coord_ref: "WORLD_ORIGIN"
+        use_quaternion: false
+      preferJntPos {
+        joint1:"0.000000"
+        joint2:"-10.000000"
+        joint3:"20.000000"
+        joint4:"0.000000"
+        joint5:"30.000000"
+        joint6:"0.000000"
+        joint7:"15.000000"      
+      }
+      externalAxes {
+        axis1: "0"
+        axis2: "0"
+        axis3: "0"
+        axis4: "0"
+        axis5: "0"
+        axis6: "0"
+      }
+    }
+    force_params {
+      fx: "0"
+      fy: "0"
+      fz: "0"
+      mx: "0"
+      my: "0"
+      mz: "0"
+    }
+    path_profile: "spline"
+    blend_zone: "Z0"
+    velocity: "0.5"
+    acceleration: "1"
+  }
+}

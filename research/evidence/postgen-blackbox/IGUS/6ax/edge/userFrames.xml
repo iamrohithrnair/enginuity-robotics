@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<!--Storage for RobotControl user defined frames-->
+<UserFrames>
+    <UserFrame Name="Frame_Edge">
+        <PointA X="100" Y="-200" Z="300"/>
+        <PointB X="110" Y="-199" Z="304"/>
+        <PointC X="97" Y="-192" Z="305"/>
+    </UserFrame>
+</UserFrames>

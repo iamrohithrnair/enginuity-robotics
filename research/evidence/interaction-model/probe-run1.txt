@@ -1,0 +1,70 @@
+A1_stations: ['New Station (1)']
+A2_undo_actions_initial: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+A3_window_title: ['RoboDK - New Station (1) - Free (Trial) - 25 days left']
+A4_shot_initial: im-02-initial.png
+B_actionIsometric: [[-0.707, 0.707, 0.0], [-0.354, -0.354, 0.866], [0.612, 0.612, 0.5]]
+B_actionTop: [[0.0, 1.0, 0.0], [-1.0, 0.0, 0.0], [0.0, 0.0, 1.0]]
+B_actionFront: [[0.0, 1.0, 0.0], [0.0, 0.0, 1.0], [1.0, 0.0, 0.0]]
+B_actionRight: [[-1.0, 0.0, 0.0], [0.0, 0.0, 1.0], [0.0, 1.0, 0.0]]
+B_actionLeft: [[1.0, 0.0, 0.0], [0.0, 0.0, 1.0], [0.0, -1.0, 0.0]]
+B_actionBack: [[0.0, -1.0, 0.0], [0.0, 0.0, 1.0], [-1.0, 0.0, 0.0]]
+B_keyevent_portable_Alt+3: Action for shortcut found: Alt+3
+B_view_after_portable: [[0.0, -1.0, 0.0], [0.0, 0.0, 1.0], [-1.0, 0.0, 0.0]]
+B_keyevent_native_opt3: OK
+B_view_after_native: [[0.0, 1.0, 0.0], [0.0, 0.0, 1.0], [1.0, 0.0, 0.0]]
+B_triggeraction_unknown: Triggering action actionDoesNotExist
+B_fit_isometric_cmd: [[-0.707, 0.707, 0.0], [-0.354, -0.354, 0.866], [0.612, 0.612, 0.5]]
+C1_robot_loaded: ABB IRB 120-3/0.6
+C1_undo_after_addfile: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+C2_paste_joints_text: OK
+C2_joints: [10.0, 20.0, 30.0, 40.0, 50.0, 60.0]
+C2_undo_texts: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+C3_paste_joints_again: OK
+C3_joints: [11.0, 21.0, 31.0, 41.0, 51.0, 61.0]
+C3_undo_texts: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+C4_undo: OK
+C4_joints: [11.0, 21.0, 31.0, 41.0, 51.0, 61.0]
+C4_undo_texts: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+C5_redo: OK
+C5_joints: [11.0, 21.0, 31.0, 41.0, 51.0, 61.0]
+C6_api_setJoints_joints: [5.0, 5.0, 5.0, 5.0, 5.0, 5.0]
+C6_undo_texts_after_api: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+C6_undo: OK
+C6_joints_after_undo: [5.0, 5.0, 5.0, 5.0, 5.0, 5.0]
+C6_redo: OK
+C7_undo_after_addframe: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+C7_undo_after_api_setName: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+C7_undo_after_api_setPose: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+C7_undo_after_api_setVisible: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+C7_undo_after_api_setParent: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+C8_undo_after_api_delete: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+C9_undo_after_paste_joints: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+C9_cut_selected: OK
+C9_cut_item_valid: True
+C9_undo_after_cut_delete: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+D1_copy_no_selection: OK
+D1_clipboard_text: '1.000000\t2.000000\t3.000000\t4.000000\t5.000000\t6.000000'
+D2_copy_selected: OK
+D2_clipboard_text: '%RoboDK items%'
+D2_clipboard_info: string, 14, Unicode text, 28, «class ut16», 30
+D3_paste_into_selected: OK
+D3_new_items: [('CopyMe', 'PasteTarget', [100.0, 200.0, 300.0], [100.0, 1200.0, 300.0]), ('CopyMeChild', 'CopyMe', [0.0, 0.0, 50.0], [100.0, 1200.0, 350.0])]
+D4_paste_no_selection: OK
+D4_new_items: [('CopyMe', 'New Station (1)', [100.0, 200.0, 300.0]), ('CopyMeChild', 'CopyMe', [0.0, 0.0, 50.0])]
+D4_undo_texts: ['actionUndo|Undo|Ctrl+Z', 'actionRedo|Redo|Ctrl+Y']
+D5_api_copy_clipboard_text: '%RoboDK items%'
+D5_api_paste: ('CopyMe', 'PasteTarget', [100.0, 200.0, 300.0])
+D5_api_paste_x3: ['CopyMe', 'CopyMe', 'CopyMe']
+D6_paste_xyz_text: OK
+D6_new_items: [('Pasted Points', 5, 'New Station (1)')]
+D7_paste_xyzijk_text: OK
+D7_new_items: [('Pasted Curve', 5, 'New Station (1)')]
+D8_paste_garbage: OK
+D8_new_items: []
+E1_toolbar_complete: OK
+E1_shot: im-03-toolbar-complete.png
+E2_toolbar_basic: OK
+E2_shot: im-04-toolbar-basic.png
+E3_toolbar_default: OK
+
+[exit] {"code": null, "signal": 9, "reason": "idle_timeout"}

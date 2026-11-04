@@ -1,0 +1,88 @@
+T0.from_home_to_J0: [3.0, 0.8944, 90.0578, 1.0, '']
+T0.from_home_to_J0(time): update=0.8944 model=0.8944 err=0.00000
+T0.already_at_J0: [3.0, 0.0, 0.0, 1.0, '']
+T1.MoveJ_J1+1: update=0.1633 model=0.1633 err=0.00000
+T1.MoveJ_J1+2: update=0.2309 model=0.2309 err=0.00000
+T1.MoveJ_J1+5: update=0.3651 model=0.3651 err=0.00000
+T1.MoveJ_J1+10: update=0.5164 model=0.5164 err=0.00000
+T1.MoveJ_J1+20: update=0.7303 model=0.7303 err=0.00000
+T1.MoveJ_J1+45: update=1.0954 model=1.0954 err=0.00000
+T1.MoveJ_J1+90: update=1.5492 model=1.5492 err=0.00000
+T1.MoveJ_J6+100: update=1.6330 model=1.6330 err=0.00000
+T1.MoveJ_J6+200: update=2.3094 model=2.3094 err=0.00000
+T1.MoveJ_J6+300: update=2.8333 model=2.8333 err=0.00000
+T1.MoveJ_J6+390: update=3.2833 model=3.2833 err=0.00000
+T2.MoveJ_axis1+10: update=0.5164 model=0.5164 err=0.00000
+T2.MoveJ_axis2+10: update=0.5164 model=0.5164 err=0.00000
+T2.MoveJ_axis3+10: update=0.5164 model=0.5164 err=0.00000
+T2.MoveJ_axis4+10: update=0.5164 model=0.5164 err=0.00000
+T2.MoveJ_axis5+10: update=0.5164 model=0.5164 err=0.00000
+T2.MoveJ_axis6+10: update=0.5164 model=0.5164 err=0.00000
+T2.MoveJ_J1+90_J2+30: update=1.5492 model=1.5492 err=0.00000
+T2.MoveJ_J1+90_J2+30_J4-90_J6+90: update=1.5492 model=1.5492 err=0.00000
+T2.distance_is_tcp_path_mm(J1+90): 708.3516
+T3.MoveL_1mm: update=0.0516 model=0.0516 err=-0.00000
+T3.MoveL_1mm.distance: 1.0
+T3.MoveL_10mm: update=0.1633 model=0.1633 err=-0.00000
+T3.MoveL_10mm.distance: 10.0
+T3.MoveL_50mm: update=0.3651 model=0.3651 err=0.00000
+T3.MoveL_50mm.distance: 50.0
+T3.MoveL_100mm: update=0.5164 model=0.5164 err=0.00000
+T3.MoveL_100mm.distance: 100.0
+T3.MoveL_200mm: update=0.7303 model=0.7303 err=0.00000
+T3.MoveL_200mm.distance: 200.0
+T4.robot(vj=30,aj=100).MoveJ_J1+5: update=0.4472 model=0.4472 err=0.00000
+T4.robot(vj=30,aj=100).MoveJ_J1+20: update=0.9667 model=0.9667 err=0.00000
+T4.robot(vj=30,aj=100).MoveJ_J1+90: update=3.3000 model=3.3000 err=0.00000
+T4.robot(vj=100,aj=1000).MoveJ_J1+5: update=0.1414 model=0.1414 err=0.00000
+T4.robot(vj=100,aj=1000).MoveJ_J1+20: update=0.3000 model=0.3000 err=0.00000
+T4.robot(vj=100,aj=1000).MoveJ_J1+90: update=1.0000 model=1.0000 err=0.00000
+T4.robot(vj=10,aj=50).MoveJ_J1+5: update=0.7000 model=0.7000 err=0.00000
+T4.robot(vj=10,aj=50).MoveJ_J1+20: update=2.2000 model=2.2000 err=0.00000
+T4.robot(vj=10,aj=50).MoveJ_J1+90: update=9.2000 model=9.2000 err=0.00000
+T4.robot(v=100,a=200).MoveL_10mm: update=0.4472 model=0.4472 err=-0.00000
+T4.robot(v=100,a=200).MoveL_100mm: update=1.5000 model=1.5000 err=-0.00000
+T4.robot(v=50,a=1000).MoveL_10mm: update=0.2500 model=0.2500 err=-0.00000
+T4.robot(v=50,a=1000).MoveL_100mm: update=2.0500 model=2.0500 err=0.00000
+T4.robot(v=250,a=500).MoveL_10mm: update=0.2828 model=0.2828 err=-0.00000
+T4.robot(v=250,a=500).MoveL_100mm: update=0.8944 model=0.8944 err=0.00000
+T4.robot(v=1000,a=1e+06).MoveL_10mm: update=0.0110 model=0.0110 err=-0.00000
+T4.robot(v=1000,a=1e+06).MoveL_100mm: update=0.1010 model=0.1010 err=-0.00000
+T4.robot(aj=1e6).MoveJ_J1+90 -> vj=200: update=0.4502 model=0.4502 err=0.00000
+T5.prog(setSpeed 50)+MoveL100, before run: update=0.5164 model=0.5164 err=0.00000
+T5.prog(setSpeed -1,10,-1,10)+MoveJ90: update=1.5492 model=1.5492 err=0.00000
+T5.after running a program with setSpeed(50, accel 400): plain MoveL100: update=2.1250 model=2.1250 err=0.00000
+T5.after robot.setSpeed(1000,200,1500,150): plain MoveL100: update=0.5164 model=0.5164 err=0.00000
+T6.MoveL_rotz45(max dJ=45.000): update=1.0954 model=1.0954 err=0.00000
+T6.MoveL_rotz90(max dJ=90.000): update=1.5492 model=1.5492 err=0.00000
+T6.MoveL_rotx10(max dJ=27.652): update=0.8587 model=0.8587 err=-0.00000
+T6.MoveL_roty30(max dJ=45.814): update=1.1053 model=1.1053 err=-0.00000
+T6.MoveL_dy=0.001_plus_rotz90: update=1.5492 model=1.5492 err=0.00000
+T6.MoveL_dy=0.0011_plus_rotz90: update=0.0017 model=0.0017 err=-0.00000
+T6.MoveL_dy=0.01_plus_rotz90: update=0.0052 model=0.0052 err=-0.00000
+T6.MoveL_dy=1_plus_rotz90: update=0.0516 model=0.0516 err=-0.00000
+T6.MoveL_dy=100_plus_rotz90: update=0.5164 model=0.5164 err=0.00000
+T7.MoveL50+MoveC_semicircle_r50: update=1.0124 model=1.0124 err=-0.00000
+T7.distance: 207.0796
+T8.square_400mm_rounding_-1: update=2.0656 model=2.0656 err=-0.00000
+T8.square_400mm_rounding_5: update=2.0656 model=2.0656 err=-0.00000
+T8.square_400mm_rounding_50: update=2.0656 model=2.0656 err=-0.00000
+T9.MoveL100+Pause(500): update=1.0164 model=1.0164 err=0.00000
+T9.MoveL100+Pause(1234): update=1.7504 model=1.7504 err=0.00000
+T9.MoveL100+Pause(0): update=0.5164 model=0.5164 err=0.00000
+T9.MoveL100+Pause(-1): update=0.5164 model=0.5164 err=0.00000
+T10.prog_with_call.Update: [3.0, 1.0954, 354.1758, 1.0, '']
+T10.call_time: update=1.0954 model=1.0954 err=0.00000
+T10.prog_with_missing_call.Update: [3.0, 0.0, 0.0, 1.0, '']
+T11.Update({}).time: 2.7836
+T11.Update({'mm_step': 1, 'deg_step': 1}).time: 2.7836
+T11.Update({'mm_step': 50, 'deg_step': 20}).time: 2.7836
+T12.UR5e.MoveJ_J1+10 (aj=400): update=0.3162 model=0.3162 err=0.00000
+T12.UR5e.MoveJ_J1+90 (aj=400): update=0.9487 model=0.9487 err=0.00000
+T12.UR5e.MoveL_50mm (a=2000): update=0.3162 model=0.3162 err=0.00000
+T12.UR5e.MoveJ_J1+90 huge accel -> vj=200: update=0.4502 model=0.4502 err=0.00000
+T12.UR5e.MoveL_50mm huge accel -> v=1000: update=0.0510 model=0.0510 err=-0.00000
+SUMMARY: cases=70 max_abs_err_s=0.00000
+done
+
+[exit] {"code": 0, "signal": 0, "reason": "exited"}

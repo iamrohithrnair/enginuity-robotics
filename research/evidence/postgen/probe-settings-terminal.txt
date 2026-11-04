@@ -1,0 +1,152 @@
+cmd_programs_show_0: 'OK'
+new_station: 'PostgenSettings'
+tf_joints: [[30.0], [-20.0], [40.0], [60.0], [-45.0], [-100.0]]
+tf_config: [[0.0], [0.0], [1.0], [0.0]]
+v00_baseline.make: [True, '', False]
+v00_baseline.call[0]: print('Total instructions: 5')
+v00_baseline.call[1]: r = RobotPost(r"""ABB_RAPID_IRC5""",r"""ABB IRB 120-3/0.6""",6, axes_type=['R','R','R','R','R','R'], native_name=r"""ABB IRB 120-3/0.6""", ip_com=r"""192.168.12
+v00_baseline.call[2]: r.setFrame(p(1234.57,-98.7654,50.5,30,0,0),-1,r"""Frame S""")
+v00_baseline.call[3]: r.setTool(p(10,20,150,0,0,0),-1,r"""Tool S""")
+v00_baseline.call[4]: r.MoveJ(p(-640.584,506.98,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v00_baseline.call[5]: r.MoveL(p(-615.584,550.281,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v00_baseline.call[6]: r.MoveC(p(-618.417,609.652,333.231,150,50,180),[0,-10,20,0,30,1.31556e-14],p(-671.251,582.42,294.929,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0],[0,0,0])
+v00_baseline.call[7]: r.MoveJ(None,[20,-10,20,0,30,0],None)
+v00_baseline.call[8]: r.Pause(250.0)
+v00_baseline.call[9]: r.MoveJ(p(-624.23,571.208,454.62,-122.815,44.5673,-82.7111),[30,-20,40,60,-45,-100],[0,0,1])
+v01_MaxDecimalsPost_10.set[MaxDecimalsPost=10] (was '6'): 'OK'
+v01_MaxDecimalsPost_10.make: [True, '', False]
+v01_MaxDecimalsPost_10.call[0]: print('Total instructions: 5')
+v01_MaxDecimalsPost_10.call[1]: r = RobotPost(r"""ABB_RAPID_IRC5""",r"""ABB IRB 120-3/0.6""",6, axes_type=['R','R','R','R','R','R'], native_name=r"""ABB IRB 120-3/0.6""", ip_com=r"""192.168.12
+v01_MaxDecimalsPost_10.call[2]: r.setFrame(p(1234.56789,-98.7654321,50.5,30,0,0),-1,r"""Frame S""")
+v01_MaxDecimalsPost_10.call[3]: r.setTool(p(10,20,150,0,0,0),-1,r"""Tool S""")
+v01_MaxDecimalsPost_10.call[4]: r.MoveJ(p(-640.5836969,506.9796782,371.5335926,150,50,180),[0,-10,20,0,30,1.315558999e-14],[0,0,0])
+v01_MaxDecimalsPost_10.call[5]: r.MoveL(p(-615.5836969,550.2809484,371.5335926,150,50,180),[0,-10,20,0,30,1.315558999e-14],[0,0,0])
+v01_MaxDecimalsPost_10.call[6]: r.MoveC(p(-618.4172168,609.6519088,333.2313704,150,50,180),[0,-10,20,0,30,1.315558999e-14],p(-671.2507368,582.4203289,294.9291483,150,50,180),[0,-10,20,0,30,1.3
+v01_MaxDecimalsPost_10.call[7]: r.MoveJ(None,[20,-10,20,0,30,0],None)
+v01_MaxDecimalsPost_10.call[8]: r.Pause(250.0)
+v01_MaxDecimalsPost_10.call[9]: r.MoveJ(p(-624.2295916,571.2081258,454.6204115,-122.8149173,44.56733199,-82.71114164),[30,-20,40,60,-45,-100],[0,0,1])
+v02_ProgMoveJType_1.set[ProgMoveJType=1] (was '0'): 'OK'
+v02_ProgMoveJType_1.make: [True, '', False]
+v02_ProgMoveJType_1.call[0]: print('Total instructions: 5')
+v02_ProgMoveJType_1.call[1]: r = RobotPost(r"""ABB_RAPID_IRC5""",r"""ABB IRB 120-3/0.6""",6, axes_type=['R','R','R','R','R','R'], native_name=r"""ABB IRB 120-3/0.6""", ip_com=r"""192.168.12
+v02_ProgMoveJType_1.call[2]: r.setFrame(p(1234.57,-98.7654,50.5,30,0,0),-1,r"""Frame S""")
+v02_ProgMoveJType_1.call[3]: r.setTool(p(10,20,150,0,0,0),-1,r"""Tool S""")
+v02_ProgMoveJType_1.call[4]: r.MoveJ(None,[0,-10,20,0,30,1.31556e-14],None)
+v02_ProgMoveJType_1.call[5]: r.MoveL(p(-615.584,550.281,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v02_ProgMoveJType_1.call[6]: r.MoveC(p(-618.417,609.652,333.231,150,50,180),[0,-10,20,0,30,1.31556e-14],p(-671.251,582.42,294.929,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0],[0,0,0])
+v02_ProgMoveJType_1.call[7]: r.MoveJ(None,[20,-10,20,0,30,0],None)
+v02_ProgMoveJType_1.call[8]: r.Pause(250.0)
+v02_ProgMoveJType_1.call[9]: r.MoveJ(None,[30,-20,40,60,-45,-100],None)
+v03_ProgMoveJType_2.set[ProgMoveJType=2] (was '0'): 'OK'
+v03_ProgMoveJType_2.make: [True, '', False]
+v03_ProgMoveJType_2.call[0]: print('Total instructions: 5')
+v03_ProgMoveJType_2.call[1]: r = RobotPost(r"""ABB_RAPID_IRC5""",r"""ABB IRB 120-3/0.6""",6, axes_type=['R','R','R','R','R','R'], native_name=r"""ABB IRB 120-3/0.6""", ip_com=r"""192.168.12
+v03_ProgMoveJType_2.call[2]: r.setFrame(p(1234.57,-98.7654,50.5,30,0,0),-1,r"""Frame S""")
+v03_ProgMoveJType_2.call[3]: r.setTool(p(10,20,150,0,0,0),-1,r"""Tool S""")
+v03_ProgMoveJType_2.call[4]: r.MoveJ(p(-640.584,506.98,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v03_ProgMoveJType_2.call[5]: r.MoveL(p(-615.584,550.281,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v03_ProgMoveJType_2.call[6]: r.MoveC(p(-618.417,609.652,333.231,150,50,180),[0,-10,20,0,30,1.31556e-14],p(-671.251,582.42,294.929,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0],[0,0,0])
+v03_ProgMoveJType_2.call[7]: r.MoveJ(p(-640.584,506.98,371.534,150,50,180),[20,-10,20,0,30,0],[0,0,0])
+v03_ProgMoveJType_2.call[8]: r.Pause(250.0)
+v03_ProgMoveJType_2.call[9]: r.MoveJ(p(-624.23,571.208,454.62,-122.815,44.5673,-82.7111),[30,-20,40,60,-45,-100],[0,0,1])
+v04_ProgMoveLType_1.set[ProgMoveLType=1] (was '0'): 'OK'
+v04_ProgMoveLType_1.make: [True, '', False]
+v04_ProgMoveLType_1.call[0]: print('Total instructions: 5')
+v04_ProgMoveLType_1.call[1]: r = RobotPost(r"""ABB_RAPID_IRC5""",r"""ABB IRB 120-3/0.6""",6, axes_type=['R','R','R','R','R','R'], native_name=r"""ABB IRB 120-3/0.6""", ip_com=r"""192.168.12
+v04_ProgMoveLType_1.call[2]: r.setFrame(p(1234.57,-98.7654,50.5,30,0,0),-1,r"""Frame S""")
+v04_ProgMoveLType_1.call[3]: r.setTool(p(10,20,150,0,0,0),-1,r"""Tool S""")
+v04_ProgMoveLType_1.call[4]: r.MoveJ(p(-640.584,506.98,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v04_ProgMoveLType_1.call[5]: r.MoveL(None,[0,-10,20,0,30,1.31556e-14],None)
+v04_ProgMoveLType_1.call[6]: r.MoveC(p(-618.417,609.652,333.231,150,50,180),[0,-10,20,0,30,1.31556e-14],p(-671.251,582.42,294.929,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0],[0,0,0])
+v04_ProgMoveLType_1.call[7]: r.MoveJ(None,[20,-10,20,0,30,0],None)
+v04_ProgMoveLType_1.call[8]: r.Pause(250.0)
+v04_ProgMoveLType_1.call[9]: r.MoveJ(p(-624.23,571.208,454.62,-122.815,44.5673,-82.7111),[30,-20,40,60,-45,-100],[0,0,1])
+v05_ProgMoveLType_2.set[ProgMoveLType=2] (was '0'): 'OK'
+v05_ProgMoveLType_2.make: [True, '', False]
+v05_ProgMoveLType_2.call[0]: print('Total instructions: 5')
+v05_ProgMoveLType_2.call[1]: r = RobotPost(r"""ABB_RAPID_IRC5""",r"""ABB IRB 120-3/0.6""",6, axes_type=['R','R','R','R','R','R'], native_name=r"""ABB IRB 120-3/0.6""", ip_com=r"""192.168.12
+v05_ProgMoveLType_2.call[2]: r.setFrame(p(1234.57,-98.7654,50.5,30,0,0),-1,r"""Frame S""")
+v05_ProgMoveLType_2.call[3]: r.setTool(p(10,20,150,0,0,0),-1,r"""Tool S""")
+v05_ProgMoveLType_2.call[4]: r.MoveJ(p(-640.584,506.98,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v05_ProgMoveLType_2.call[5]: r.MoveL(p(-615.584,550.281,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v05_ProgMoveLType_2.call[6]: r.MoveC(p(-618.417,609.652,333.231,150,50,180),[0,-10,20,0,30,1.31556e-14],p(-671.251,582.42,294.929,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0],[0,0,0])
+v05_ProgMoveLType_2.call[7]: r.MoveJ(None,[20,-10,20,0,30,0],None)
+v05_ProgMoveLType_2.call[8]: r.Pause(250.0)
+v05_ProgMoveLType_2.call[9]: r.MoveJ(p(-624.23,571.208,454.62,-122.815,44.5673,-82.7111),[30,-20,40,60,-45,-100],[0,0,1])
+v06_ProgMoveCType_1.set[ProgMoveCType=1] (was '0'): 'OK'
+v06_ProgMoveCType_1.make: [True, '', False]
+v06_ProgMoveCType_1.call[0]: print('Total instructions: 5')
+v06_ProgMoveCType_1.call[1]: r = RobotPost(r"""ABB_RAPID_IRC5""",r"""ABB IRB 120-3/0.6""",6, axes_type=['R','R','R','R','R','R'], native_name=r"""ABB IRB 120-3/0.6""", ip_com=r"""192.168.12
+v06_ProgMoveCType_1.call[2]: r.setFrame(p(1234.57,-98.7654,50.5,30,0,0),-1,r"""Frame S""")
+v06_ProgMoveCType_1.call[3]: r.setTool(p(10,20,150,0,0,0),-1,r"""Tool S""")
+v06_ProgMoveCType_1.call[4]: r.MoveJ(p(-640.584,506.98,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v06_ProgMoveCType_1.call[5]: r.MoveL(p(-615.584,550.281,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v06_ProgMoveCType_1.call[6]: r.MoveC(None,[0,-10,20,0,30,1.31556e-14],None,[0,-10,20,0,30,1.31556e-14],[0,0,0],[0,0,0])
+v06_ProgMoveCType_1.call[7]: r.MoveJ(None,[20,-10,20,0,30,0],None)
+v06_ProgMoveCType_1.call[8]: r.Pause(250.0)
+v06_ProgMoveCType_1.call[9]: r.MoveJ(p(-624.23,571.208,454.62,-122.815,44.5673,-82.7111),[30,-20,40,60,-45,-100],[0,0,1])
+v07_ProgMoveCType_2.set[ProgMoveCType=2] (was '0'): 'OK'
+v07_ProgMoveCType_2.make: [True, '', False]
+v07_ProgMoveCType_2.call[0]: print('Total instructions: 5')
+v07_ProgMoveCType_2.call[1]: r = RobotPost(r"""ABB_RAPID_IRC5""",r"""ABB IRB 120-3/0.6""",6, axes_type=['R','R','R','R','R','R'], native_name=r"""ABB IRB 120-3/0.6""", ip_com=r"""192.168.12
+v07_ProgMoveCType_2.call[2]: r.setFrame(p(1234.57,-98.7654,50.5,30,0,0),-1,r"""Frame S""")
+v07_ProgMoveCType_2.call[3]: r.setTool(p(10,20,150,0,0,0),-1,r"""Tool S""")
+v07_ProgMoveCType_2.call[4]: r.MoveJ(p(-640.584,506.98,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v07_ProgMoveCType_2.call[5]: r.MoveL(p(-615.584,550.281,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v07_ProgMoveCType_2.call[6]: r.MoveC(p(-618.417,609.652,333.231,150,50,180),[0,-10,20,0,30,1.31556e-14],p(-671.251,582.42,294.929,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0],[0,0,0])
+v07_ProgMoveCType_2.call[7]: r.MoveJ(None,[20,-10,20,0,30,0],None)
+v07_ProgMoveCType_2.call[8]: r.Pause(250.0)
+v07_ProgMoveCType_2.call[9]: r.MoveJ(p(-624.23,571.208,454.62,-122.815,44.5673,-82.7111),[30,-20,40,60,-45,-100],[0,0,1])
+v08_ProgMoveNames_1.set[ProgMoveNames=1] (was '0'): 'OK'
+v08_ProgMoveNames_1.make: [True, '', False]
+v08_ProgMoveNames_1.call[0]: print('Total instructions: 5')
+v08_ProgMoveNames_1.call[1]: r = RobotPost(r"""ABB_RAPID_IRC5""",r"""ABB IRB 120-3/0.6""",6, axes_type=['R','R','R','R','R','R'], native_name=r"""ABB IRB 120-3/0.6""", ip_com=r"""192.168.12
+v08_ProgMoveNames_1.call[2]: r.setFrame(p(1234.57,-98.7654,50.5,30,0,0),-1,r"""Frame S""")
+v08_ProgMoveNames_1.call[3]: r.setTool(p(10,20,150,0,0,0),-1,r"""Tool S""")
+v08_ProgMoveNames_1.call[4]: r.MoveJ(p(-640.584,506.98,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v08_ProgMoveNames_1.call[5]: r.MoveL(p(-615.584,550.281,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v08_ProgMoveNames_1.call[6]: r.MoveC(p(-618.417,609.652,333.231,150,50,180),[0,-10,20,0,30,1.31556e-14],p(-671.251,582.42,294.929,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0],[0,0,0])
+v08_ProgMoveNames_1.call[7]: r.MoveJ(None,[20,-10,20,0,30,0],None)
+v08_ProgMoveNames_1.call[8]: r.Pause(250.0)
+v08_ProgMoveNames_1.call[9]: r.MoveJ(p(-624.23,571.208,454.62,-122.815,44.5673,-82.7111),[30,-20,40,60,-45,-100],[0,0,1])
+v09_ProgRecalc_1.set[ProgRecalc=1] (was '0'): 'OK'
+v09_ProgRecalc_1.make: [True, '', False]
+v09_ProgRecalc_1.call[0]: print('Total instructions: 5')
+v09_ProgRecalc_1.call[1]: r = RobotPost(r"""ABB_RAPID_IRC5""",r"""ABB IRB 120-3/0.6""",6, axes_type=['R','R','R','R','R','R'], native_name=r"""ABB IRB 120-3/0.6""", ip_com=r"""192.168.12
+v09_ProgRecalc_1.call[2]: r.setFrame(p(1234.57,-98.7654,50.5,30,0,0),-1,r"""Frame S""")
+v09_ProgRecalc_1.call[3]: r.setTool(p(10,20,150,0,0,0),-1,r"""Tool S""")
+v09_ProgRecalc_1.call[4]: r.MoveJ(p(-640.584,506.98,371.534,150,50,180),[0,-10,20,0,30,1.31556e-14],[0,0,0])
+v09_ProgRecalc_1.call[5]: r.MoveL(p(-615.584,550.281,371.534,150,50,180),[10.777,-8.99401,19.1388,-15.9802,31.3521,20.7179],[0,0,0])
+v09_ProgRecalc_1.call[6]: r.MoveC(p(-618.417,609.652,333.231,150,50,180),[23.4492,-12.4243,29.0967,-36.3558,30.9462,47.8432],p(-671.251,582.42,294.929,150,50,180),[14.1447,-22.2526,43.48
+v09_ProgRecalc_1.call[7]: r.MoveJ(None,[20,-10,20,0,30,0],None)
+v09_ProgRecalc_1.call[8]: r.Pause(250.0)
+v09_ProgRecalc_1.call[9]: r.MoveJ(p(-624.23,571.208,454.62,-122.815,44.5673,-82.7111),[30,-20,40,60,-45,-100],[0,0,1])
+maxlines.old: '-1'
+maxlines.set5: 'OK'
+maxlines.ABB_RAPID_IRC5.make: [True, '', False]
+maxlines.ABB_RAPID_IRC5.files: [['LongProg.mod', 1876], ['LongProg_0.mod', 376], ['LongProg_1.mod', 798], ['LongProg_2.mod', 797], ['LongProg_3.mod', 236], ['intermediate_PostLongProg.py', 2231]]
+maxlines.KUKA_KRC4.make: [True, '', False]
+maxlines.KUKA_KRC4.files: [['LongProg.src', 944], ['LongProg1.src', 393], ['LongProg2.src', 493], ['LongProg3.src', 494], ['LongProgMain.src', 161], ['intermediate_PostLongProg.py', 2211]]
+maxlines.Universal_Robots.make: [True, '', False]
+maxlines.Universal_Robots.files: [['LongProg.script', 3107], ['LongProg.urp', 1065], ['intermediate_PostLongProg.py', 2239]]
+maxlines.reset: 'OK'
+maxlines.default.make: [True, '', False]
+subcall.make: [True, '', False]
+subcall.files: [['MainCall.mod', 869], ['intermediate_PostMainCall.py', 1669]]
+inline.set: 'OK'
+inline.make: [True, '', False]
+inline.files: [['MainCall.mod', 803], ['intermediate_PostMainCall.py', 1576]]
+count.only_movec.make: [True, '', False]
+count.only_movec: print('Total instructions: 1')
+count.only_pause.make: [True, '', False]
+count.only_pause: print('Total instructions: 0')
+count.only_setdo.make: [True, '', False]
+count.only_setdo: print('Total instructions: 0')
+count.two_movej.make: [True, '', False]
+count.two_movej: print('Total instructions: 2')
+bare.name: 'Bare Prog-1 (x)'
+bare.make: [True, '', False]
+bare.files: [['BareProg1x.mod', 649], ['intermediate_PostBare Prog-1 (x).py', 67]]
+done
+
+[exit] {"code": 0, "signal": 0, "reason": "exited"}

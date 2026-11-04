@@ -1,0 +1,38 @@
+Module GModule
+  Public prof1 As Profile
+  Public Loc1 As Location
+  Public Loc2 As Location
+
+  Public Sub Init
+    '<MotionProfile>prof1
+    prof1 = New Profile
+    prof1.Speed = 25
+    prof1.Speed2 = 0
+    prof1.Accel = 100
+    prof1.Decel = 100
+    prof1.AccelRamp = 0.1
+    prof1.DecelRamp = 0.1
+    prof1.Straight = False
+    prof1.InRange = 10
+    '</MotionProfile>
+
+    '<MotionLocation>Loc1
+    Loc1 = New Location
+    Loc1.Type = 1
+    Loc1.Angles(10.000,-20.000,50.000,30.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)
+    Loc1.ZWorld = False
+    Loc1.ZClearance = 1E+32
+    Loc1.Config = 0
+    '</MotionLocation>
+
+    '<MotionLocation>Loc2
+    Loc2 = New Location
+    Loc2.Type = 1
+    Loc2.Angles(30.000,25.000,80.000,-45.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)
+    Loc2.ZWorld = False
+    Loc2.ZClearance = 1E+32
+    Loc2.Config = 0
+    '</MotionLocation>
+
+  End Sub
+End Module

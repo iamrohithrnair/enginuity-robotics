@@ -1,0 +1,10 @@
+{
+ "post": "Siemens_Sinumerik",
+ "robot": "MABI Robotic MLR-2500-P",
+ "nq": 1,
+ "axes": "L",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

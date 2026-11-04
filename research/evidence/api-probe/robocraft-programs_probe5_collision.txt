@@ -1,0 +1,33 @@
+map.robot_and_tool_only: ['ROBOT[0]-ROBOT[2]', 'ROBOT[0]-ROBOT[3]', 'ROBOT[0]-ROBOT[4]', 'ROBOT[0]-ROBOT[5]', 'ROBOT[0]-ROBOT[6]', 'ROBOT[0]-T1[0]', 'ROBOT[1]-ROBOT[3]', 'ROBOT[1]-ROBOT[4]', 'ROBOT[1]-ROBOT[5]', 'ROBOT[1]-ROBOT[6]', 'ROBOT[1]-T1[0]', 'ROBOT[2]-ROBOT[4]', 'ROBOT[2]-ROBOT[5]', 'ROBOT[2]-ROBOT[6]', 'ROBOT[2]-T1[0]', 'ROBOT[3]-ROBOT[5]', 'ROBOT[3]-ROBOT[6]', 'ROBOT[3]-T1[0]', 'ROBOT[4]-ROBOT[6]', 'ROBOT[4]-T1[0]', 'ROBOT[5]-T1[0]', 'ROBOT[6]-T1[0]']
+map.after_adding_one_object: {ROBOT-FarBox: 6, ROBOT-ROBOT: 15, ROBOT-T1: 7, T1-FarBox: 1}
+map.robot_vs_object_links: ['ROBOT[1]-FarBox[0]', 'ROBOT[2]-FarBox[0]', 'ROBOT[3]-FarBox[0]', 'ROBOT[4]-FarBox[0]', 'ROBOT[5]-FarBox[0]', 'ROBOT[6]-FarBox[0]', 'T1[0]-FarBox[0]']
+map.after_second_object(no object-object pair): {ROBOT-FarBox: 6, ROBOT-HitBox: 6, ROBOT-ROBOT: 15, ROBOT-T1: 7, T1-FarBox: 1, T1-HitBox: 1}
+map.CollisionMap(All): {FarBox-HitBox: 1, ROBOT-FarBox: 7, ROBOT-HitBox: 7, ROBOT-ROBOT: 21, ROBOT-T1: 7, T1-FarBox: 1, T1-HitBox: 1}
+map.CollisionMap(None): {}
+map.CollisionMap(Default): {ROBOT-FarBox: 6, ROBOT-HitBox: 6, ROBOT-ROBOT: 15, ROBOT-T1: 7, T1-FarBox: 1, T1-HitBox: 1}
+query.Collisions()_global_OFF: 2
+query.Collision(robot,HitBox)_global_OFF: 1
+toggle.setCollisionActive(ON)_returns: 2
+query.Collisions()_ON: 2
+query.CollisionItems: ['HitBox', 'ROBOT', 'ROBOT']
+query.CollisionPairs: ['ROBOT[4]-HitBox[0]', 'ROBOT[5]-HitBox[0]']
+query.Collision(robot,HitBox): 1
+query.Collision(tool_without_geometry,HitBox): 0
+query.HitBox.Collision(robot): 1
+query.Collision(robot,FarBox): 0
+pair.disable(robot link5,HitBox): 1
+pair.Collisions()_after_disable: 1
+pair.enable_again: 1
+move.setJoints(J5=-30).Collisions: [3, ['ROBOT[4]-HitBox[0]', 'ROBOT[5]-HitBox[0]', 'ROBOT[6]-HitBox[0]']]
+move.setJoints(J1=90).Collisions: 0
+test.MoveJ_Test(90->-90 through box): 2
+test.robot_left_at(J1): 0.0
+test.MoveJ_Test(90->100 free): 0
+test.MoveL_Test(free 50mm): 0
+test.MoveL_Test(unreachable): -2
+settings[CollisideOneStop,PathStepCollisionMM,PathStepCollisionDeg,CollisionMethod]: ['0', '4', '4', 'Fastest']
+run.ON[busy,stopped_before_target(-90<J1<90),last_instruction_executed,collisions_at_stop>0]: [0, True, 0.0, True]
+run.OFF[busy,J1_end,last_instruction_executed]: [0, -90.0, 1.0]
+done
+
+[exit] {"code":0}

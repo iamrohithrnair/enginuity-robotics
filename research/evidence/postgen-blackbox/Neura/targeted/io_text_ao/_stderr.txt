@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/var/folders/r6/t7lk44hn5h1_hgjwsznck3m40000gp/T/pgbb-1578z9qt/PostTgtProg.py", line 30, in <module>
+    r.setAO(2,'x')
+  File "Neura.py", line 744, in Neura.RobotPost.setAO
+ValueError: could not convert string to float: 'x'

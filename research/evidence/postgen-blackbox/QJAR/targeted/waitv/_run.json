@@ -1,0 +1,11 @@
+{
+ "post": "QJAR",
+ "robot": "QJAR QJR20-1600",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "waitv",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

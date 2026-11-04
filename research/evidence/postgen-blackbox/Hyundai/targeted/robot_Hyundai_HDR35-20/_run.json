@@ -1,0 +1,11 @@
+{
+ "post": "Hyundai",
+ "robot": "Hyundai HDR35-20",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "targeted": "robot_Hyundai_HDR35-20",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

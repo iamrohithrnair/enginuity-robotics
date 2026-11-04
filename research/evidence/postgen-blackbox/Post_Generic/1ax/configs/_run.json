@@ -1,0 +1,10 @@
+{
+ "post": "Post_Generic",
+ "robot": "SMC 500AG",
+ "nq": 1,
+ "axes": "L",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

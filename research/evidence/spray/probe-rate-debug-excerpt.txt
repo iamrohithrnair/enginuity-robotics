@@ -1,0 +1,824 @@
++0ms Running API Command:  "Add"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Add"
++58ms Running API Command:  "AddToolEmpty"
++1ms Updating positions and rendering...
++0ms Done with API Command:  "AddToolEmpty"
++7ms Running API Command:  "AddShape3"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "AddShape3"
++7ms Running API Command:  "S_Speed4"
++1ms Updating positions and rendering...
++0ms Done with API Command:  "S_Speed4"
++8ms Running API Command:  "Gun_Add"
++0ms Done with API Command:  "Gun_Add"
++0ms Running API Command:  "Gun_Add"
++0ms Done with API Command:  "Gun_Add"
++0ms Running API Command:  "Gun_SetState"
++0ms Done with API Command:  "Gun_SetState"
++1ms Running API Command:  "MoveXb"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "MoveXb"
++8ms Sim +s:  0.04
++2ms Sim +s:  0.01
++6ms Sim +s:  0.03
++9ms Sim +s:  0.045
++1ms Sim +s:  0.005
++7ms Sim +s:  0.035
++2ms Sim +s:  0.01
++6ms Sim +s:  0.03
++7ms Sim +s:  0.035
++10ms Sim +s:  0.05
++7ms Sim +s:  0.035
++3ms Sim +s:  0.015
++5ms Sim +s:  0.025
++10ms Sim +s:  0.05
++7ms Sim +s:  0.035
++9ms Sim +s:  0.045
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++5ms Sim +s:  0.025
++9ms Sim +s:  0.045
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++5ms Sim +s:  0.025
++9ms Sim +s:  0.045
++0ms Trajectory update skipped. Steps too small:  0   0
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++6ms Sim +s:  0.03
++8ms Sim +s:  0.04
++8ms Sim +s:  0.04
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++6ms Sim +s:  0.03
++1ms Sim +s:  0.055
++6ms Sim +s:  0.03
++8ms Sim +s:  0.04
++2ms Sim +s:  0.01
++6ms Sim +s:  0.03
++3ms Sim +s:  0.015
++5ms Sim +s:  0.025
++9ms Sim +s:  0.045
++9ms Sim +s:  0.045
++8ms Sim +s:  0.04
++2ms Sim +s:  0.01
++6ms Sim +s:  0.03
++8ms Sim +s:  0.04
++9ms Sim +s:  0.045
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++6ms Sim +s:  0.03
++8ms Sim +s:  0.04
++1ms Sim +s:  0.005
++7ms Sim +s:  0.035
++2ms Sim +s:  0.01
++7ms Sim +s:  0.035
++8ms Sim +s:  0.04
++8ms Sim +s:  0.04
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++6ms Sim +s:  0.03
++8ms Sim +s:  0.04
++0ms Trajectory update skipped. Steps too small:  0   0
++9ms Sim +s:  0.04
++2ms Sim +s:  0.015
++6ms Sim +s:  0.03
++8ms Sim +s:  0.04
++1ms Sim +s:  0.005
++7ms Sim +s:  0.035
++2ms Sim +s:  0.01
++7ms Sim +s:  0.035
++8ms Sim +s:  0.04
++0ms Trajectory update skipped. Steps too small:  0   0
++8ms Sim +s:  0.04
++3ms Sim +s:  0.00733333
++13ms Running API Command:  "SimulateSpeed"
++1ms Updating positions and rendering...
++0ms Done with API Command:  "SimulateSpeed"
++8ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++8ms Running API Command:  "MoveXb"
++1ms Sim +s:  0.031
++0ms Updating positions and rendering...
++0ms Done with API Command:  "MoveXb"
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++9ms Sim +s:  0.009
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++1ms Sim +s:  0.001
++8ms Sim +s:  0.008
++1ms Sim +s:  0.001
++7ms Sim +s:  0.007
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++1ms Sim +s:  0.001
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++1ms Sim +s:  0.001
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++8ms Sim +s:  0.008
++1ms Sim +s:  0.001
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++1ms Sim +s:  0.001
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.008
++1ms Sim +s:  0.002
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++7ms Sim +s:  0.007
++1ms Sim +s:  0.001
++7ms Sim +s:  0.007
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++1ms Sim +s:  0.001
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++1ms Sim +s:  0.001
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++7ms Sim +s:  0.007
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++9ms Sim +s:  0.009
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++1ms Sim +s:  0.001
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++7ms Sim +s:  0.007
++1ms Sim +s:  0.001
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++7ms Sim +s:  0.007
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++9ms Sim +s:  0.009
++3ms Sim +s:  0.002
++5ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++0ms Trajectory update skipped. Steps too small:  0   0
++9ms Sim +s:  0.009
++2ms Sim +s:  0.002
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++9ms Sim +s:  0.009
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++9ms Sim +s:  0.009
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++1ms Sim +s:  0.001
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++1ms Sim +s:  0.001
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++1ms Sim +s:  0.001
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++1ms Sim +s:  0.001
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++0ms Trajectory update skipped. Steps too small:  0   0
++9ms Sim +s:  0.009
++2ms Sim +s:  0.002
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++0ms Trajectory update skipped. Steps too small:  0   0
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++1ms Sim +s:  0.001
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++4ms Sim +s:  0.004
++9ms Sim +s:  0.009
++1ms Sim +s:  0.001
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++7ms Sim +s:  0.007
++1ms Sim +s:  0.001
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++0ms Trajectory update skipped. Steps too small:  0   0
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++0ms Trajectory update skipped. Steps too small:  0   0
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++1ms Sim +s:  0.001
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++1ms Sim +s:  0.001
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++4ms Sim +s:  0.004
++9ms Sim +s:  0.009
++1ms Sim +s:  0.001
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++1ms Sim +s:  0.001
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++9ms Sim +s:  0.009
++2ms Sim +s:  0.002
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++0ms Trajectory update skipped. Steps too small:  0   0
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++8ms Sim +s:  0.008
++9ms Sim +s:  0.009
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++10ms Sim +s:  0.01
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++0ms Trajectory update skipped. Steps too small:  0   0
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++8ms Sim +s:  0.008
++1ms Sim +s:  0.001
++6ms Sim +s:  0.006
++3ms Sim +s:  0.003
++7ms Sim +s:  0.007
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++10ms Sim +s:  0.01
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++0ms Trajectory update skipped. Steps too small:  0   0
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++10ms Sim +s:  0.01
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++9ms Sim +s:  0.009
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++10ms Sim +s:  0.01
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++0ms Trajectory update skipped. Steps too small:  0   0
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++10ms Sim +s:  0.01
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++10ms Sim +s:  0.01
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++10ms Sim +s:  0.01
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++10ms Sim +s:  0.01
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++7ms Sim +s:  0.007
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++10ms Sim +s:  0.01
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++3ms Sim +s:  0.003
++7ms Sim +s:  0.007
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++7ms Sim +s:  0.007
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++8ms Sim +s:  0.008
++1ms Sim +s:  0.001
++7ms Sim +s:  0.007
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++8ms Sim +s:  0.008
++9ms Sim +s:  0.009
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++9ms Sim +s:  0.009
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++10ms Sim +s:  0.01
++7ms Sim +s:  0.007
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++10ms Sim +s:  0.01
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++10ms Sim +s:  0.01
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++10ms Sim +s:  0.01
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++8ms Sim +s:  0.008
++9ms Sim +s:  0.009
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++5ms Sim +s:  0.005
++10ms Sim +s:  0.01
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++7ms Sim +s:  0.007
++8ms Sim +s:  0.008
++8ms Sim +s:  0.008
++3ms Sim +s:  0.003
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++8ms Sim +s:  0.008
++2ms Sim +s:  0.002
++6ms Sim +s:  0.006
++9ms Sim +s:  0.009
++1ms Sim +s:  0.001
++7ms Sim +s:  0.00178387
++1ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++7ms Running API Command:  "SimulateSpeed"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "SimulateSpeed"
++9ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++8ms Running API Command:  "MoveXb"
++1ms Sim +s:  0.13
++0ms Updating positions and rendering...
++0ms Done with API Command:  "MoveXb"
++7ms Sim +s:  0.035
++8ms Sim +s:  0.04
++9ms Sim +s:  0.045
++2ms Sim +s:  0.01
++6ms Sim +s:  0.03
++9ms Sim +s:  0.045
++9ms Sim +s:  0.04
++2ms Sim +s:  0.015
++6ms Sim +s:  0.03
++9ms Sim +s:  0.045
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++6ms Sim +s:  0.025
++9ms Sim +s:  0.05
++8ms Sim +s:  0.04
++2ms Sim +s:  0.01
++6ms Sim +s:  0.03
++9ms Sim +s:  0.045
++1ms Sim +s:  0.005
++8ms Sim +s:  0.04
++2ms Sim +s:  0.01
++6ms Sim +s:  0.03
++9ms Sim +s:  0.045
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++6ms Sim +s:  0.03
++8ms Sim +s:  0.04
++1ms Sim +s:  0.005
++8ms Sim +s:  0.04
++2ms Sim +s:  0.01
++6ms Sim +s:  0.03
++9ms Sim +s:  0.045
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++6ms Sim +s:  0.03
++8ms Sim +s:  0.04
++9ms Sim +s:  0.045
++2ms Sim +s:  0.01
++6ms Sim +s:  0.03
++9ms Sim +s:  0.045
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++6ms Sim +s:  0.03
++9ms Sim +s:  0.045
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++6ms Sim +s:  0.03
++10ms Sim +s:  0.05
++7ms Sim +s:  0.035
++3ms Sim +s:  0.015
++6ms Sim +s:  0.03
++8ms Sim +s:  0.04
++1ms Sim +s:  0.005
++7ms Sim +s:  0.035
++3ms Sim +s:  0.015
++6ms Sim +s:  0.03
++8ms Sim +s:  0.04
++1ms Sim +s:  0.005
++7ms Sim +s:  0.035
++3ms Sim +s:  0.015
++5ms Sim +s:  0.025
++9ms Sim +s:  0.045
++1ms Sim +s:  0.005
++7ms Sim +s:  0.035
++9ms Sim +s:  0.045
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++5ms Sim +s:  0.025
++10ms Sim +s:  0.05
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++6ms Sim +s:  0.03
++9ms Sim +s:  0.045
++9ms Sim +s:  0.045
++1ms Sim +s:  0.005
++6ms Sim +s:  0.03
++9ms Sim +s:  0.045
++9ms Sim +s:  0.045
++2ms Sim +s:  0.01
++6ms Sim +s:  0.03
++9ms Sim +s:  0.045
++9ms Sim +s:  0.045
++2ms Sim +s:  0.01
++6ms Sim +s:  0.03
++9ms Sim +s:  0.045
++9ms Sim +s:  0.045
++1ms Sim +s:  0.005
++7ms Sim +s:  0.035
++9ms Sim +s:  0.045
++8ms Sim +s:  0.04
++3ms Sim +s:  0.015
++6ms Sim +s:  0.03
++9ms Sim +s:  0.045
++9ms Sim +s:  0.045
++2ms Sim +s:  0.01
++6ms Sim +s:  0.03
++3ms Sim +s:  0.015
++6ms Sim +s:  0.03
++8ms Sim +s:  0.04
++2ms Sim +s:  0.01
++7ms Sim +s:  0.035
++3ms Sim +s:  0.015
++6ms Sim +s:  0.015
++1ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++9ms Running API Command:  "SimulateSpeed"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "SimulateSpeed"
++8ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++8ms Running API Command:  "MoveXb"
++0ms Sim +s:  0.52
++0ms Updating positions and rendering...
++0ms Done with API Command:  "MoveXb"
++8ms Sim +s:  0.16
++2ms Sim +s:  0.04
++7ms Sim +s:  0.12
++8ms Sim +s:  0.18
++8ms Sim +s:  0.16
++3ms Sim +s:  0.06
++6ms Sim +s:  0.12
++8ms Sim +s:  0.16
++1ms Sim +s:  0.02
++7ms Sim +s:  0.14
++3ms Sim +s:  0.06
++6ms Sim +s:  0.12
++8ms Sim +s:  0.16
++9ms Sim +s:  0.18
++2ms Sim +s:  0.04
++6ms Sim +s:  0.12
++9ms Sim +s:  0.18
++9ms Sim +s:  0.18
++2ms Sim +s:  0.04
++6ms Sim +s:  0.12
++3ms Sim +s:  0.06
++7ms Sim +s:  0.14
++8ms Sim +s:  0.16
++1ms Sim +s:  0.02
++8ms Sim +s:  0.16
++1ms Sim +s:  0.02
++7ms Sim +s:  0.14
++3ms Sim +s:  0.04
++17ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++5ms Running API Command:  "S_Thetas"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "S_Thetas"
++9ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++7ms Running API Command:  "G_Thetas"
++0ms Done with API Command:  "G_Thetas"
++1ms Running API Command:  "Gun_Stats"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "Gun_Stats"
++8ms Running API Command:  "SCMD"
++0ms Updating positions and rendering...
++0ms Done with API Command:  "SCMD"
++946ms Running API Command:  "Gun_SetState"
++0ms Done with API Command:  "Gun_SetState"

@@ -1,0 +1,10 @@
+{
+ "post": "Kassow",
+ "robot": "Kassow Robots KR0810",
+ "nq": 7,
+ "axes": "RRRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

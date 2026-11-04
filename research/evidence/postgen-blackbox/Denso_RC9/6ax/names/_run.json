@@ -1,0 +1,9 @@
+{
+ "post": "Denso_RC9",
+ "robot": "Denso Cobotta PRO 1300 Touch sensing soft cover",
+ "nq": 6,
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

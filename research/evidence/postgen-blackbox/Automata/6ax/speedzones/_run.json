@@ -1,0 +1,10 @@
+{
+ "post": "Automata",
+ "robot": "Automata EVA",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

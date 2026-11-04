@@ -1,0 +1,11 @@
+{
+ "post": "Denso_RC8",
+ "robot": "Denso Cobotta PRO 900",
+ "nq": 4,
+ "axes": "RRRR",
+ "targeted": "ax4R",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}

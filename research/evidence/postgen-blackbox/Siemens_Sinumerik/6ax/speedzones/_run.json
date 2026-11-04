@@ -1,0 +1,10 @@
+{
+ "post": "Siemens_Sinumerik",
+ "robot": "MABI Robotic MAX-100-2.25-P",
+ "nq": 6,
+ "axes": "RRRRRR",
+ "exit": 0,
+ "stray_files": [
+  "Library"
+ ]
+}
