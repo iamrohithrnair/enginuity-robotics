@@ -1,0 +1,35 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    metersPerUnit = 0.01
+    upAxis = "Y"
+    subLayers = [
+        @./overrides.usda@
+    ]
+)
+
+# centimetres, Y up; the geometry comes from a payload, a sublayer binds the quad to Red
+def Xform "Root" (
+    kind = "component"
+    prepend payload = @./geo.usda@</Geo>
+)
+{
+    double3 xformOp:translate = (100, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate"]
+
+    def Scope "Looks"
+    {
+        def Material "Red"
+        {
+            token outputs:surface.connect = </Root/Looks/Red/Surface.outputs:surface>
+
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 0, 0)
+                float inputs:opacity = 1
+                token outputs:surface
+            }
+        }
+    }
+}

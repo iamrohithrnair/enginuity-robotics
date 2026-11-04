@@ -1,0 +1,52 @@
+#usda 1.0
+(
+    defaultPrim = "Thing"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+# metres, Z up; a variant selection picks the mesh, an internal reference instantiates a class
+def Xform "Thing" (
+    variants = {
+        string size = "big"
+    }
+    prepend variantSets = "size"
+)
+{
+    variantSet "size" = {
+        "small" {
+            def Mesh "M"
+            {
+                int[] faceVertexCounts = [3]
+                int[] faceVertexIndices = [0, 1, 2]
+                point3f[] points = [(0, 0, 0), (0.1, 0, 0), (0, 0, 0.2)]
+            }
+        }
+        "big" {
+            def Mesh "M"
+            {
+                int[] faceVertexCounts = [3]
+                int[] faceVertexIndices = [0, 1, 2]
+                point3f[] points = [(0, 0, 0), (1, 0, 0), (0, 0, 2)]
+            }
+        }
+    }
+
+    def "Copy" (
+        prepend references = </Proto>
+    )
+    {
+        double3 xformOp:translate = (0, 3, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+}
+
+class "Proto"
+{
+    def Mesh "M"
+    {
+        int[] faceVertexCounts = [3]
+        int[] faceVertexIndices = [0, 1, 2]
+        point3f[] points = [(0, 0, 0), (1, 0, 0), (0, 1, 0)]
+    }
+}
