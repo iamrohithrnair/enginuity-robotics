@@ -1,0 +1,61 @@
+{
+  "name": "enginuity",
+  "version": "0.1.0",
+  "description": "Enginuity: a robot cell simulator and offline programming studio with a robolink-compatible API, an MCP server and a Copilot agent",
+  "private": true,
+  "bin": {
+    "enginuity-mcp": "scripts/enginuity-mcp.mjs"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:rust": "cargo test --release --manifest-path crates/rc_core/Cargo.toml",
+    "python:setup": "python3 -I python/env/setup_env.py --all",
+    "test:py": "python3 -I -m unittest discover -s python/tests -v && python3 -I -m unittest discover -s python/enginuity/tests -v",
+    "build:wasm": "cargo build --release --target wasm32-unknown-unknown --manifest-path crates/rc_core/Cargo.toml && cp crates/rc_core/target/wasm32-unknown-unknown/release/rc_core.wasm public/wasm/rc_core.wasm",
+    "build:cad": "cargo build --release --target wasm32-unknown-unknown --manifest-path crates/rc_cad/Cargo.toml && cp crates/rc_cad/target/wasm32-unknown-unknown/release/rc_cad.wasm public/wasm/rc_cad.wasm",
+    "test:cad": "cargo test --release --manifest-path crates/rc_cad/Cargo.toml",
+    "library:mirror": "jiti scripts/library-mirror.ts",
+    "examples:build": "node scripts/build-examples.mjs",
+    "mcp": "node scripts/enginuity-mcp.mjs",
+    "test:all": "npm run test:rust && npm run test:py && npm test"
+  },
+  "dependencies": {
+    "@animateicons/react": "0.12.0",
+    "@dimforge/rapier3d-deterministic-compat": "0.21.0",
+    "@jitl/quickjs-singlefile-cjs-release-asyncify": "0.32.0",
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "@openai/agents": "^0.20.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "motion": "13.5.1",
+    "next": "16.4.2",
+    "openai": "^7.39.0",
+    "quickjs-emscripten-core": "0.32.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1",
+    "sharp": "0.35.5",
+    "three": "^0.186.1",
+    "undici": "7.30.0",
+    "zod": "^4.6.7",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.186.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "jiti": "^2.7.0",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^5.0.5"
+  }
+}
