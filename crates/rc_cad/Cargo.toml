@@ -1,0 +1,25 @@
+[package]
+name = "rc_cad"
+version = "0.1.0"
+edition = "2021"
+description = "Enginuity CAD import: STEP (ISO 10303-21) and IGES B-rep geometry to coloured triangle meshes (native + wasm32)"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+
+cdt = "0.1"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
+
+[profile.relunwind]
+inherits = "release"
+panic = "unwind"
