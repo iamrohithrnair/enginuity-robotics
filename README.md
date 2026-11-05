@@ -58,6 +58,8 @@ The ambition is to make robot programming accessible to manufacturers that canno
 
 ## Engineering underneath
 
+See the [architecture reference](docs/ARCHITECTURE.md) for C4 views, the 283-tool registry, runtime boundaries, and end-to-end sequence diagrams.
+
 - Browser-based 3D station with robot kinematics, motion simulation, collision checking, and optional physics.
 - Rust/WebAssembly geometry kernels and a Python controller-code generation runtime.
 - Next.js, React, Three.js, and React Three Fiber.
