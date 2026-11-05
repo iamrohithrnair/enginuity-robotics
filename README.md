@@ -5,6 +5,8 @@
 
 **An agentic robotics workspace that builds cells, tests motion in simulation, and exports controller-native programs—all from your browser.**
 
+[Watch the demo on YouTube](https://youtu.be/Hs6iYQsmXeA)
+
 Physical AI needs more than a convincing answer. It needs a place to prove that an action can work before a machine moves.
 
 ## The problem: five million robots, one very human bottleneck
