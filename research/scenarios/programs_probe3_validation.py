@@ -1,4 +1,4 @@
-
+# Probes motion validation for unreachable targets, joint limits, singularities and collisions.
 
 
 

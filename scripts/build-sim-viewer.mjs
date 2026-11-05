@@ -1,4 +1,4 @@
- 
+// Bundles the browser simulation player into a minified standalone script.
  
  
 import { rolldown } from "rolldown";

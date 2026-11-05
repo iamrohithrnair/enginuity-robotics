@@ -1,4 +1,4 @@
- 
+// Verifies program-menu toggles, path checks, target recalculation, and generation.
  
  
 import { mkdtempSync } from "node:fs";

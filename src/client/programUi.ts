@@ -1,3 +1,4 @@
+// Coordinates instruction editors, program dialogs and script actions.
 "use client";
 
  

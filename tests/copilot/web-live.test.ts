@@ -1,4 +1,4 @@
- 
+// Checks live Meta search grounding, citations, and prompt-injection screening.
  
  
 import { describe, expect, it } from "vitest";

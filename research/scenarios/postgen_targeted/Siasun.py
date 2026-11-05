@@ -1,4 +1,4 @@
-
+# Defines Siasun probes for I/O formatting, speed/zone settings and axis counts.
 POST = "Siasun"
 NQ = 6
 ROBOT = "DUCO GCR10-1300"

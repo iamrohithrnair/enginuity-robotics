@@ -1,4 +1,4 @@
-
+# Emits split Elite EC V3 controller programs with pose and joint registers.
 
 
 

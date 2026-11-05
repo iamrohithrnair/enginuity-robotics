@@ -1,4 +1,4 @@
- 
+// Verifies machining project creation, generated paths, NC parsing, and program events.
  
  
  

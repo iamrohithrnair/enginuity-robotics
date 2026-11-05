@@ -1,4 +1,4 @@
-
+// Parses STEP Part 21 records and entity references.
 
 
 use std::collections::HashMap;

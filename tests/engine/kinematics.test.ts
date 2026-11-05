@@ -1,4 +1,4 @@
- 
+// Verifies robot loading, joint limits, and forward/inverse kinematics for reachable poses.
  
 import { describe, expect, it } from "vitest";
 import { engine, near } from "../helpers";

@@ -1,3 +1,4 @@
+// Registers decision-model profiles, queries and program instruction commands.
 import { z } from "zod";
 import {
   answerSummary,

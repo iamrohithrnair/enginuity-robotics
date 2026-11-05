@@ -1,4 +1,4 @@
- 
+// Verifies mechanism-specific kinematics, joint configurations, and IK solution ordering.
  
  
  

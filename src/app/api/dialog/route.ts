@@ -1,3 +1,4 @@
+// Forwards dialog button and text responses to the server runner.
 import { getServer } from "@/server/store";
 
  

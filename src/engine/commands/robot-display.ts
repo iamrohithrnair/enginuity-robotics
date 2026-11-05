@@ -1,3 +1,4 @@
+// Registers robot frame displays, joint senses and kinematics table operations.
  
  
  

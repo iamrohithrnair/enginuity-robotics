@@ -1,3 +1,4 @@
+// Converts poses between matrix, Euler, quaternion and robot-controller representations.
  
  
  

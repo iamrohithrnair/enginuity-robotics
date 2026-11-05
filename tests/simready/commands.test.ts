@@ -1,4 +1,4 @@
- 
+// Verifies SimReady loading, object placement, physics metadata, and search commands.
 import { describe, expect, it, vi } from "vitest";
 import type { SimReadyPrepared } from "@/engine/registry";
 import { engine } from "../helpers";

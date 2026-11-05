@@ -1,4 +1,4 @@
-
+# Defines JAKA probes for I/O conversion, arc geometry and blend behavior.
 POST = "JAKA"
 NQ = 6
 ROBOT = "JAKA 12L"

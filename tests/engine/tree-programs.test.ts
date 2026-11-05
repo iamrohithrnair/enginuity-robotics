@@ -1,4 +1,4 @@
- 
+// Verifies station-tree edits, program instructions, undo/redo, and library placement.
 import { existsSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { engine, LIBRARY_FILE } from "../helpers";

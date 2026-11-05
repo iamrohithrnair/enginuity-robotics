@@ -1,3 +1,4 @@
+// Dispatches MCP HTTP requests and preflight responses.
 import { connection } from "next/server";
 import { handleMcpOptions, handleMcpOther, handleMcpPost } from "@/server/mcp/http";
 

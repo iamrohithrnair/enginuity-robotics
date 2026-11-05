@@ -1,4 +1,4 @@
-
+# Defines URP probes for named waypoints, move grouping and program-size limits.
 
 POST = "Universal_Robots_URP"
 NQ = 6

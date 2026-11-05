@@ -1,4 +1,4 @@
- 
+// Verifies API calibration, mechanism building, camera operations, and robot connections.
  
  
  

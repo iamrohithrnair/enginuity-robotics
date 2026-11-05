@@ -1,4 +1,4 @@
-
+# Runs the browser studio and Python tooling in a production container.
 
 
 FROM node:22-bookworm-slim

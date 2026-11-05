@@ -1,3 +1,4 @@
+// Registers active-frame clearing and simulation-event instruction editing.
 import { z } from "zod";
 import { requireRef } from "../dispatch";
 import { eventName } from "../naming";

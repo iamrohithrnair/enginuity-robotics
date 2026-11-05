@@ -1,3 +1,4 @@
+// Registers robot program creation, instruction editing and program validation.
 import { z } from "zod";
 import { requireRef, resolveRef } from "../dispatch";
 import { xyzrpwToPose } from "../math";

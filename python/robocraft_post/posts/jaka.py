@@ -1,4 +1,4 @@
-
+# Packages JAKA motion scripts, project metadata and variable definitions.
 
 
 

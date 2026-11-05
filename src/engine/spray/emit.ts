@@ -1,3 +1,4 @@
+// Emits spray particles and counts target hits for each gun update.
  
  
  

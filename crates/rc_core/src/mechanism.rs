@@ -1,4 +1,4 @@
-
+// Computes joint-driven transforms for supported mechanism configurations.
 
 
 

@@ -1,4 +1,4 @@
- 
+// Verifies spray option parsing, particle projection, emission statistics, and clearing.
  
  
 import { readFileSync } from "node:fs";

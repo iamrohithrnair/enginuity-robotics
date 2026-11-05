@@ -1,4 +1,4 @@
- 
+// Verifies stdio bridge errors explain how to reach or start the app.
  
  
 import { createServer } from "node:net";

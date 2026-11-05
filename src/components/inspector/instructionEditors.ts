@@ -2,6 +2,7 @@
  
  
 
+// Registers and resolves custom editors by instruction kind.
 import type { ReactNode } from "react";
 import type { InstructionData, Item } from "@/engine/types";
 

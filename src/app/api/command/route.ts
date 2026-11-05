@@ -1,3 +1,4 @@
+// Executes a UI command and returns its result.
 import { run } from "@/server/store";
 
 export async function POST(request: Request) {

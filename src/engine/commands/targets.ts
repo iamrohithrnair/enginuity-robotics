@@ -1,3 +1,4 @@
+// Registers target teaching, pose updates, robot configurations and previews.
 import { z } from "zod";
 import { requireRef } from "../dispatch";
 import { fk, ikAll, ikClosest, jointsConfig, kinematicsReady } from "../kinematics";

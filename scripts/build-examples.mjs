@@ -1,4 +1,4 @@
- 
+// Launches the TypeScript example builder with source and server-only aliases.
 import { createJiti } from "jiti";
 import path from "node:path";
 

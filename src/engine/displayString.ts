@@ -1,3 +1,4 @@
+// Parses object display strings into point, line and surface styles.
  
  
  

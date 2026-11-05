@@ -1,3 +1,4 @@
+// Handles API collision queries, pair maps and object attachment commands.
  
  
 

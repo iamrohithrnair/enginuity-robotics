@@ -1,4 +1,4 @@
-
+# Defines Epson RC probes for frame IDs, input waits, axis counts and hand configurations.
 POST = "Epson_RC"
 NQ = 6
 ROBOT = "Epson C12XL-A1401"

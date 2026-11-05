@@ -1,4 +1,4 @@
-
+# Intercepts file writes and dialog calls to capture noninteractive post outputs.
 
 
 

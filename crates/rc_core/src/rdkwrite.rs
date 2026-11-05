@@ -1,4 +1,4 @@
-
+// Serializes station items and metadata into the RDK container format.
 
 
 

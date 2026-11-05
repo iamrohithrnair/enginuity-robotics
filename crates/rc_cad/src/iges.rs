@@ -1,4 +1,4 @@
-
+// Reads IGES entities into the CAD geometry model.
 
 
 

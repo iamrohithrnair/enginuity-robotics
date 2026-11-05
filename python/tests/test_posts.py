@@ -1,4 +1,4 @@
-
+# Verifies captured post output, generation errors, intermediate safety and CLI behavior.
 
 
 

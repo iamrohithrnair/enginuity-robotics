@@ -1,4 +1,4 @@
-
+# Emits QJAR RBG motion programs with joint and Cartesian target records.
 
 
 

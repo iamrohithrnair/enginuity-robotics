@@ -1,4 +1,4 @@
-
+# Probes GUI selection, clipboard, undo and view interactions alongside API state.
 
 
 

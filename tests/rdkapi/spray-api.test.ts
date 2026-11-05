@@ -1,4 +1,4 @@
- 
+// Verifies spray-gun API states, projected particles, statistics, and byte-level replies.
  
  
  

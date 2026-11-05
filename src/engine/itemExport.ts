@@ -1,3 +1,4 @@
+// Collects item geometry and writes exports in supported mesh formats.
  
  
 

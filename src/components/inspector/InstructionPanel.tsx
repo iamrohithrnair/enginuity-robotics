@@ -1,4 +1,5 @@
 "use client";
+// Edits movement, speed, code, I/O, event, and custom instructions.
 
 import { cmd } from "@/client/api";
 import { pickItem } from "@/client/interaction";

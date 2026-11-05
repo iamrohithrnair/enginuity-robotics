@@ -1,4 +1,5 @@
 "use client";
+// Runs decision-model experiments with questions, images, and station context.
 
 import { useState, type KeyboardEvent } from "react";
 import { selectNow } from "@/client/api";

@@ -1,4 +1,4 @@
- 
+// Verifies library caching, mirror downloads, thumbnail path safety, and offline serving.
  
  
 import { createHash } from "node:crypto";

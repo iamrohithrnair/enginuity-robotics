@@ -1,4 +1,4 @@
-
+# Defines Denso RC9 probes for numeric precision, target names and acceleration settings.
 POST = "Denso_RC9"
 NQ = 6
 ROBOT = "Denso Cobotta PRO 1300"

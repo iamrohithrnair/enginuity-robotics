@@ -1,4 +1,5 @@
 "use client";
+// Edits collision-checking pairs between station items.
 
  
  

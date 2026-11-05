@@ -1,4 +1,5 @@
 "use client";
+// Renders Copilot model badges, capability indicators, and web-search cards.
 
  
  

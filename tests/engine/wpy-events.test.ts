@@ -1,4 +1,4 @@
- 
+// Verifies object creation/removal, attachment locks, and conveyor event behavior.
  
  
  

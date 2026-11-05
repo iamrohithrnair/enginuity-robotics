@@ -1,3 +1,4 @@
+// Registers browser handlers for menu actions, dialogs and viewport controls.
 "use client";
 
  

@@ -1,4 +1,5 @@
 "use client";
+// Edits poses across coordinate formats and reference frames.
 
 import { useState } from "react";
 import { cmd, setStatus } from "@/client/api";

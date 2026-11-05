@@ -1,4 +1,4 @@
- 
+// Verifies imported machining curves, points, approach moves, and project events.
  
  
  

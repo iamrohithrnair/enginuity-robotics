@@ -1,4 +1,4 @@
- 
+// Verifies Copilot endpoint selection, credential precedence, and model capabilities.
  
  
 import { describe, expect, it } from "vitest";

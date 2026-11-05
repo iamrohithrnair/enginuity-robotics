@@ -1,4 +1,4 @@
-
+# Generates FANUC LS programs with motion lines and numbered position records.
 
 
 

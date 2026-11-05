@@ -1,4 +1,4 @@
- 
+// Verifies item-menu display flags, locking, geometry splitting, exports, and alignment.
  
  
  

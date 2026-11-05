@@ -1,4 +1,4 @@
- 
+// Verifies USD parsing, layer composition, variant resolution, and SimReady mesh conversion.
  
  
 import { mkdir, readFile, rename, writeFile } from "node:fs/promises";

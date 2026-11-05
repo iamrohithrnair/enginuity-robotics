@@ -1,4 +1,5 @@
 "use client";
+// Registers decision-model menus and instruction editors.
 
  
  

@@ -1,4 +1,5 @@
 "use client";
+// Handles viewport camera navigation, item picking, and interactive dragging.
 
  
  

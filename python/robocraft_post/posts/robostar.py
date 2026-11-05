@@ -1,4 +1,4 @@
-
+# Generates Robostar JOB files with numbered points and split motion routines.
 
 
 

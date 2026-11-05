@@ -1,4 +1,4 @@
- 
+// Renders station geometry into fitted PNG thumbnails.
  
  
  

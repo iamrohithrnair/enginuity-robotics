@@ -1,4 +1,4 @@
- 
+// Exercises simulation timing, I/O waits, program calls, and motion settings through the app.
  
  
 import { expect, test, type APIRequestContext } from "@playwright/test";

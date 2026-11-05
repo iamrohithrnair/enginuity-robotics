@@ -1,4 +1,4 @@
-
+# Generates split HIWIN HRSS motion programs with robot-axis targets.
 
 
 

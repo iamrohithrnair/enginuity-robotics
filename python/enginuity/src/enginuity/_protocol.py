@@ -1,4 +1,4 @@
-
+# Encodes and decodes typed messages for Enginuity's socket protocol.
 
 
 

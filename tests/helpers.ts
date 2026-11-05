@@ -1,4 +1,4 @@
- 
+// Creates engine test harnesses with geometry storage, command dispatch, and undo support.
  
 import { readFileSync } from "node:fs";
 import path from "node:path";

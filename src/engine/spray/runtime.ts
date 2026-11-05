@@ -1,3 +1,4 @@
+// Manages station spray guns, emitted particles and per-gun statistics.
  
  
  

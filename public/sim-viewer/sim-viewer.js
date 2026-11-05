@@ -1,3 +1,4 @@
+// Provides the browser runtime for exported robot-cell simulations.
 (function(){
 /**
 * @license

@@ -1,4 +1,4 @@
-
+// Provides vector and transform operations for CAD tessellation.
 
 pub type V3 = [f64; 3];
 

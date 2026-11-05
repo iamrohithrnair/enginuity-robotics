@@ -1,4 +1,4 @@
-
+# Builds Kinova Link6 JSON programs with grouped waypoint instructions.
 
 
 

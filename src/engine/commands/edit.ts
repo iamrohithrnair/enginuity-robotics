@@ -1,3 +1,4 @@
+// Registers clipboard operations and transactional undo/redo commands.
 import { z } from "zod";
 import { requireRef, resolveRef } from "../dispatch";
 import { clampJoints } from "../kinematics";

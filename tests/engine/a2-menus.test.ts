@@ -1,4 +1,4 @@
- 
+// Verifies context-menu entries and enabled states for instructions, programs, targets, and Python.
  
  
  

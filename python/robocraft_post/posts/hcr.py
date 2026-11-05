@@ -1,4 +1,4 @@
-
+# Generates HCR JavaScript programs with motion, speed and I/O commands.
 
 
 

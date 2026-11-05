@@ -1,4 +1,5 @@
 "use client";
+// Edits application options, keyboard shortcuts, and Copilot settings.
 
  
  

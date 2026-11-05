@@ -1,4 +1,5 @@
 "use client";
+// Renders anchored dropdown and context menus with nested entries.
 
 import { useEffect, useLayoutEffect, useRef, useState, type ReactNode, type RefObject } from "react";
 import { createPortal } from "react-dom";

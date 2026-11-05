@@ -1,4 +1,4 @@
-
+# Registers KUKA KRC5 output using the shared KRC4 program generator.
 
 
 

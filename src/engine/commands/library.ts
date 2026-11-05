@@ -1,3 +1,4 @@
+// Registers library searches, model loading and primitive-object creation.
 import { z } from "zod";
 import { requireRef } from "../dispatch";
 import { parseRobotFile } from "../kinematics";

@@ -1,4 +1,4 @@
-
+# Captures program-generation results and output files for a minimal ABB motion program.
 
 
 

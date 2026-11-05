@@ -1,3 +1,4 @@
+// Manages station items, hierarchy traversal and robot-relative coordinate transforms.
  
 
 import { eye, inv, mul, type Mat } from "./math";

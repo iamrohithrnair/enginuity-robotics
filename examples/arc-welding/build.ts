@@ -1,4 +1,4 @@
- 
+// Builds a welding cell with curve-follow seams, circular welds, and arc-control programs.
  
  
 

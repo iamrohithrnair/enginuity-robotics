@@ -1,4 +1,4 @@
- 
+// Builds a scripted palletizing cell with vacuum gripping and conveyor handshakes.
  
  
  

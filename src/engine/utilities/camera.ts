@@ -1,3 +1,4 @@
+// Parses simulated camera parameters and formats camera settings and colors.
  
  
  

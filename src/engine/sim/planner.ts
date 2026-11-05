@@ -1,3 +1,4 @@
+// Plans robot programs, collision-checked motion and sampled joint trajectories.
  
  
  

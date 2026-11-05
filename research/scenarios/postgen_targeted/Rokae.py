@@ -1,4 +1,4 @@
-
+# Defines Rokae probes for configuration flags, tool quaternions and dropped commands.
 POST = "Rokae"
 NQ = 6
 ROBOT = "Rokae XB4"

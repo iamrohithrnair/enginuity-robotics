@@ -1,4 +1,4 @@
-
+# Reports Python client method coverage of server protocol commands.
 
 
 

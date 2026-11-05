@@ -1,4 +1,4 @@
-
+// Evaluates rational spline curves and surfaces from control points and knots.
 
 
 use crate::math::V3;

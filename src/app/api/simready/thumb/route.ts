@@ -1,3 +1,4 @@
+// Serves SimReady asset thumbnails with HTTP error responses.
 import { connection } from "next/server";
 import { SimReadyError, errorMessageOf, simready } from "@/server/simready";
 

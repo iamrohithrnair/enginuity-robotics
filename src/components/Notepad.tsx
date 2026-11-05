@@ -1,4 +1,5 @@
 "use client";
+// Provides a floating notepad with file, clipboard, and formatting controls.
 
  
  

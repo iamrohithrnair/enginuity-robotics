@@ -1,4 +1,4 @@
- 
+// Verifies batched FK/IK, configuration flags, and tool-pose handling over the API.
  
  
 import { mkdtempSync } from "node:fs";

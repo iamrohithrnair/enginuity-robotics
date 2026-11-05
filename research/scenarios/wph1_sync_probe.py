@@ -1,4 +1,4 @@
-
+# Captures synchronized-program updates and instruction joint matrices across station examples.
 
 
 

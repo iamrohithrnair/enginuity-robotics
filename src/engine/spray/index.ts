@@ -1,3 +1,4 @@
+// Exposes spray configuration, particles, emission and runtime controls.
  
  
  

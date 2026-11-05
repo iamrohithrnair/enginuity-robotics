@@ -1,4 +1,4 @@
- 
+// Verifies action bindings, shortcuts, menu structure, and toolbar layouts.
  
  
  

@@ -1,4 +1,4 @@
-
+# Probes raw protocol geometry, measurement, calibration and binary-export commands.
 
 
 

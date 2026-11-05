@@ -1,4 +1,4 @@
-
+# Keeps local credentials and development artifacts out of container builds.
 .env*
 *.env
 *.env.*

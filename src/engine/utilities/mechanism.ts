@@ -1,3 +1,4 @@
+// Builds robot mechanism models from joint geometry and kinematic parameters.
  
  
  

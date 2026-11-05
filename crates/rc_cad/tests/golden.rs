@@ -1,4 +1,4 @@
-
+// Checks imported mesh geometry, units, and colors against CAD fixtures.
 
 
 

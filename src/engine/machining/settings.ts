@@ -1,3 +1,4 @@
+// Defines machining defaults and merges project-specific path settings.
  
  
  

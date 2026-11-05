@@ -1,4 +1,5 @@
 "use client";
+// Loads and renders spray-gun particle layers in the viewport.
 
  
  

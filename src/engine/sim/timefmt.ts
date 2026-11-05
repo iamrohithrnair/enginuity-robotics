@@ -1,3 +1,4 @@
+// Formats program durations and completion status messages.
  
  
  

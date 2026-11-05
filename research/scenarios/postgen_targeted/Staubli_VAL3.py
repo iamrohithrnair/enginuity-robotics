@@ -1,4 +1,4 @@
-
+# Defines Staubli VAL3 probes for split arcs, robot configurations and tool rotations.
 POST = "Staubli_VAL3"
 NQ = 6
 ROBOT = "Staubli RX130B"

@@ -1,4 +1,4 @@
- 
+// Verifies interpolated linear paths, mechanism singularities, and redundant-axis continuity.
  
  
  

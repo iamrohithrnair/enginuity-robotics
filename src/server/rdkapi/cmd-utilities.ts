@@ -1,3 +1,4 @@
+// Handles API calibration, mechanism building, camera snapshots and robot connections.
  
  
  

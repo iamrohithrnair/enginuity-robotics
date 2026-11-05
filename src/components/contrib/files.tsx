@@ -1,4 +1,5 @@
 "use client";
+// Adds recent-file and backup recovery actions to the File menu.
 
  
 

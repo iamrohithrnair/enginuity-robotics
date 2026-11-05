@@ -1,3 +1,4 @@
+// Registers robot synchronization with external axes and synchronization queries.
  
  
  

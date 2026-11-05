@@ -1,4 +1,4 @@
- 
+// Verifies script sandbox isolation, resource limits, error locations, and pose validation.
  
 import { describe, expect, it } from "vitest";
 import { scripted } from "./harness";

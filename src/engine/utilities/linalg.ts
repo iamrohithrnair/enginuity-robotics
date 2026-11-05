@@ -1,3 +1,4 @@
+// Provides vector algebra, eigensolvers and least-squares plane fitting.
  
  
  

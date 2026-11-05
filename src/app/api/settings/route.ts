@@ -1,3 +1,4 @@
+// Reads public settings and applies settings updates.
 import { connection } from "next/server";
 import { applySettings } from "@/engine/commands/settings";
 import { byok } from "@/server/copilot/config";

@@ -1,4 +1,5 @@
 "use client";
+// Presents robot joints, Cartesian jogging, tools, and reference controls.
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { cmd, cmdx } from "@/client/api";

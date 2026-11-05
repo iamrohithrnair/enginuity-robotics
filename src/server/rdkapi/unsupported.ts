@@ -1,3 +1,4 @@
+// Consumes unsupported API requests and returns structured protocol errors.
  
  
  

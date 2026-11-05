@@ -1,4 +1,4 @@
- 
+// Verifies MCP tool discovery, command replies, error reporting, and HTTP endpoint guards.
  
  
  

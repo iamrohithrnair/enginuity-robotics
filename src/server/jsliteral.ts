@@ -1,3 +1,4 @@
+// Parses JavaScript literal values without evaluating source code.
  
  
  

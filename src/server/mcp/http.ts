@@ -1,3 +1,4 @@
+// Guards MCP HTTP requests with host checks, tokens and CORS handling.
  
  
  

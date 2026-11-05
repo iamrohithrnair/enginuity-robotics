@@ -1,4 +1,4 @@
-
+# Verifies custom-post templates, validation, subclass loading and CLI generation.
 
 
 

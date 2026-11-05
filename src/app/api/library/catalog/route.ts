@@ -1,3 +1,4 @@
+// Searches library assets and returns filtered catalog facets.
 import { visibleLibraryEntries } from "@/server/examples";
 import { LibraryError, libraryCatalog, searchCatalog } from "@/server/library";
 import { getServer } from "@/server/store";

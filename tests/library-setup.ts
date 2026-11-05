@@ -1,4 +1,4 @@
- 
+// Warns at test startup when no offline library mirror is available.
  
 import { libraryMirrorNote } from "./library";
 

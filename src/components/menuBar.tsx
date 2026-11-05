@@ -1,4 +1,5 @@
 "use client";
+// Builds action-backed main menus, toolbar groups, and layout choices.
 
  
  

@@ -1,3 +1,4 @@
+// Maps API station actions to browser controls, shortcuts and view settings.
  
  
  

@@ -1,4 +1,4 @@
-
+# Generates Yamaha programs with per-axis drives, Cartesian motion and I/O commands.
 
 
 

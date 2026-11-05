@@ -1,3 +1,4 @@
+// Registers station item creation, hierarchy editing, selection and appearance commands.
 import { z } from "zod";
 import { requireRef, resolveRef } from "../dispatch";
 import { eye, inv, mul, transl, xyzrpwToPose, poseToXYZRPW, type Mat } from "../math";

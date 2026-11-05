@@ -1,3 +1,4 @@
+// Registers mechanism construction and robot kinematic-parameter editing.
  
  
  

@@ -1,3 +1,4 @@
+// Registers spray-gun creation, activation, statistics and cleanup commands.
  
  
  

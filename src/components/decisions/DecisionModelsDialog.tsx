@@ -1,4 +1,5 @@
 "use client";
+// Manages decision-model profiles, credentials, and test requests.
 
 import { useState, type KeyboardEvent, type ReactNode } from "react";
 import { useRC } from "@/client/store";

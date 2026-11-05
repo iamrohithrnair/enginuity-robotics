@@ -1,4 +1,4 @@
-
+# Defines post registration, shared output handling and robot kinematics helpers.
 
 
 

@@ -1,3 +1,4 @@
+// Configures single-worker Chrome tests against a local Next.js server.
 import { defineConfig } from "@playwright/test";
 
 const PORT = Number(process.env.RC_PORT ?? 3100);

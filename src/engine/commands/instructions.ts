@@ -1,3 +1,4 @@
+// Edits and executes instructions with program locks and linked-target checks.
 import { z } from "zod";
 import { requireRef } from "../dispatch";
 import { fk, ikClosest } from "../kinematics";

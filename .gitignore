@@ -1,4 +1,4 @@
-
+# Excludes local credentials, generated output, and private capture artifacts.
 
 
 /node_modules

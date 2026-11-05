@@ -1,4 +1,5 @@
 "use client";
+// Builds typed decision questions from templates and editable options.
 
 import { useState } from "react";
 import { questionKey, type DecisionQuestion, type DecisionQuestionType } from "@/engine/decisions";

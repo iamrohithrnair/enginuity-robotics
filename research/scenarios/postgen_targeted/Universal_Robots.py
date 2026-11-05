@@ -1,4 +1,4 @@
-
+# Defines URScript probes for blending geometry, frame changes and motion-state tracking.
 import math
 
 POST = "Universal_Robots"

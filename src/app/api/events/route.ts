@@ -1,3 +1,4 @@
+// Streams workspace and viewer events over server-sent events.
 import { connection } from "next/server";
 import { getServer, type ServerEvent } from "@/server/store";
 import { eventChannels, viewConnected, viewDisconnected } from "@/server/viewbridge";

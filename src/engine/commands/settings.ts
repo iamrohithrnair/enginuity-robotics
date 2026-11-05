@@ -1,3 +1,4 @@
+// Validates application option changes and registers settings read/reset commands.
 import { z } from "zod";
 import { DEFAULT_SETTINGS, SETTINGS_DOC } from "../settings";
 import { CommandError, defineCommand, type Services } from "../registry";

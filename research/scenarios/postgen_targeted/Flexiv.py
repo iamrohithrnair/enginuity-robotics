@@ -1,4 +1,4 @@
-
+# Defines Flexiv probes for subprogram emission and trajectory blend-zone edge cases.
 POST = "Flexiv"
 NQ = 7
 ROBOT = "Flexiv Rizon 10"

@@ -1,4 +1,4 @@
-
+# Emits CLOOS motion programs and pulse-encoded point tables.
 
 
 

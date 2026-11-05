@@ -1,4 +1,4 @@
-
+# Defines AUBO probes for UUID allocation, subprogram grouping and I/O formatting.
 POST = "AUBO"
 NQ = 6
 ROBOT = "AUBO-ES3"

@@ -1,4 +1,4 @@
-
+# Generates Markdown API tables from public client classes and helper functions.
 
 
 

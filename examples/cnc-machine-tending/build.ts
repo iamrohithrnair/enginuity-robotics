@@ -1,4 +1,4 @@
- 
+// Builds a CNC-tending cell with gripper transfers, door motion, and machine-cycle handshakes.
  
  
 

@@ -1,4 +1,4 @@
- 
+// Verifies icon SVG markup, animation styles, key coverage, sizing, and colors.
  
  
  

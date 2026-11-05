@@ -1,4 +1,4 @@
-
+# Imports post-processor modules to populate the shared registry.
 import importlib as _importlib
 import pkgutil as _pkgutil
 

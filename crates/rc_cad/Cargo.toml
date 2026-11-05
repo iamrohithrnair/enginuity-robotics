@@ -1,3 +1,4 @@
+# Builds the CAD import kernel for native and WebAssembly targets.
 [package]
 name = "rc_cad"
 version = "0.1.0"

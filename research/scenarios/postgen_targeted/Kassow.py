@@ -1,4 +1,4 @@
-
+# Defines Kassow probes for repeated waypoints, target names and motion settings.
 POST = "Kassow"
 NQ = 7
 ROBOT = "Kassow Robots KR0810"

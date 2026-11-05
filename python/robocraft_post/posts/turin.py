@@ -1,4 +1,4 @@
-
+# Emits Turin robot motion commands with speed, acceleration and blending settings.
 
 
 

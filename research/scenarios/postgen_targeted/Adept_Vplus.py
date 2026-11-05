@@ -1,4 +1,4 @@
-
+# Defines Adept V+ probes for acceleration, frames, blending and extra-axis handling.
 POST = "Adept_Vplus"
 NQ = 6
 ROBOT = "Adept Six 300"

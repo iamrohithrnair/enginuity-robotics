@@ -1,4 +1,4 @@
-
+// Triangulates trimmed CAD faces while respecting surface boundaries.
 
 
 

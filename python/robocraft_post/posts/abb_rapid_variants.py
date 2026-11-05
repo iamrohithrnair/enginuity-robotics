@@ -1,4 +1,4 @@
-
+# Registers OmniCore and S4C output variants of the ABB RAPID post processor.
 
 
 

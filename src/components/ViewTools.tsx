@@ -1,4 +1,5 @@
 "use client";
+// Hosts color, measurement, help, and auxiliary view panels.
 
  
  

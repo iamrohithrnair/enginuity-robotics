@@ -1,4 +1,5 @@
  
+// Loads menu and UI contributions for studio features.
 export {};
 import "./files";
 import "./decisions";

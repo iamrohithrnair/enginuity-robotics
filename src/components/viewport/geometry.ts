@@ -1,4 +1,5 @@
 "use client";
+// Fetches mesh buffers and builds cached Three.js geometry and transforms.
 
 import * as THREE from "three";
 import { mergeVertices } from "three/examples/jsm/utils/BufferGeometryUtils.js";

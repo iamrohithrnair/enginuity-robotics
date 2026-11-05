@@ -1,3 +1,4 @@
+// Receives viewer interaction events and reports subscribed event channels.
 import { connection } from "next/server";
 import { lastClick, setViewPoseFromView } from "@/server/rdkapi/cmd-actions";
 import { broadcast, getServer } from "@/server/store";

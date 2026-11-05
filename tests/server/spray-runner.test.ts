@@ -1,4 +1,4 @@
- 
+// Verifies simulation ticks emit spray particles along the robot TCP path.
  
  
  

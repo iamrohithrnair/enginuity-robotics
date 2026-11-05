@@ -1,4 +1,5 @@
 "use client";
+// Builds the main menu, toolbars, and studio utility toggles.
 
 import { useEffect, useRef, useSyncExternalStore } from "react";
 import { prettyKeys } from "@/client/shortcuts";

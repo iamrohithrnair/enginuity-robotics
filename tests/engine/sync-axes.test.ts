@@ -1,4 +1,4 @@
- 
+// Verifies external-axis synchronization, combined joint vectors, and path planning.
  
  
  

@@ -1,4 +1,4 @@
- 
+// Builds a point-follow dispensing cell with event-triggered glue-control programs.
  
 
 import { box, C, cyl, rbox, type ExampleBuilder, type Part } from "../lib/builder";

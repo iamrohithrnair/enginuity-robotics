@@ -1,4 +1,4 @@
-
+# Checks client handshake, errors and reconnection against a fake socket server.
 
 
 

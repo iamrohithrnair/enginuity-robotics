@@ -1,3 +1,4 @@
+// Registers object curve, point, projection and feature-selection commands.
  
  
  

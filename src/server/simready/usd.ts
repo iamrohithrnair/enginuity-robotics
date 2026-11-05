@@ -1,3 +1,4 @@
+// Composes USD scene layers into meshes, materials and physics metadata.
  
  
  

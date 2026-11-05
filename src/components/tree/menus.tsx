@@ -1,4 +1,5 @@
 "use client";
+// Builds station-item context menus for editing, display, and hierarchy actions.
 
  
  

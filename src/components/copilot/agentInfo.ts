@@ -1,4 +1,5 @@
 "use client";
+// Manages browser API keys, model metadata, and Copilot readiness state.
 
  
  

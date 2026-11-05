@@ -1,4 +1,4 @@
- 
+// Verifies SimReady cache path safety, download retries, conversion reuse, and thumbnails.
  
 import { existsSync, mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";

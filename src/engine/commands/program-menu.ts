@@ -1,3 +1,4 @@
+// Registers program locking, main-program selection and path-validation commands.
 import { z } from "zod";
 import { checkCollisions } from "../collision";
 import { requireRef } from "../dispatch";

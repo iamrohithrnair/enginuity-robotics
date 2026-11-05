@@ -1,3 +1,4 @@
+// Indexes triangle meshes for ray casting and closest-point projection.
  
  
  

@@ -1,4 +1,5 @@
 "use client";
+// Mounts decision dialogs and connects server decision events to UI state.
 
 import { useEffect } from "react";
 import { onServerEvent } from "@/client/api";

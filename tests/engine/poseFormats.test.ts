@@ -1,4 +1,4 @@
- 
+// Verifies pose-format conversions, singularity round-trips, and pasted pose parsing.
 import { describe, expect, it } from "vitest";
 import { DEG, mulAll, rotx, roty, rotz, transl, type Mat } from "@/engine/math";
 import { DEFAULT_POSE_FORMAT, POSE_FORMATS, formatToPose, parsePoseText, poseToFormat } from "@/engine/poseFormats";

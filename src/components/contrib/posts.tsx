@@ -1,4 +1,5 @@
 "use client";
+// Opens the post-processor editor for the selected robot's post.
 
  
  

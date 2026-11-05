@@ -1,3 +1,4 @@
+// Parses G-code and APT files into machining paths and events.
  
  
  

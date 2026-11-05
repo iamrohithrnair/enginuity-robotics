@@ -1,4 +1,4 @@
-
+# Probes robot FK/IK, joint configurations and pose-conversion conventions.
 
 
 

@@ -1,3 +1,4 @@
+// Verifies scope checks, command gating, injection screening, and secret detection.
 import { afterEach, describe, expect, it, vi } from "vitest";
 import {
   checkScope,

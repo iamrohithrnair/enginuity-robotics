@@ -1,3 +1,4 @@
+// Handles item activation, selection gestures and viewport interaction shortcuts.
 "use client";
 
  

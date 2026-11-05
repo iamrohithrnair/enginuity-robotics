@@ -5,6 +5,7 @@
  
  
 "use client";
+// Renders an animated grabbing-hand icon with start and stop controls.
 
 import { LazyMotion, domAnimation, m, useAnimation } from "motion/react";
 import type { HTMLAttributes } from "react";

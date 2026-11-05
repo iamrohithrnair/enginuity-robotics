@@ -1,3 +1,4 @@
+// Registers program playback, simulated robot motion, events and collision controls.
 import { z } from "zod";
 import { checkCollisions } from "../collision";
 import { requireRef } from "../dispatch";

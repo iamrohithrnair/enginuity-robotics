@@ -1,3 +1,4 @@
+// Accepts viewport screenshots or reports capture failures.
 import { connection } from "next/server";
 import { completeScreenshot, failScreenshot } from "@/server/viewbridge";
 

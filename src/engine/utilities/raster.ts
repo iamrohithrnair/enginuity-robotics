@@ -1,3 +1,4 @@
+// Rasterizes lit triangle scenes into color, grayscale and depth images.
  
  
  

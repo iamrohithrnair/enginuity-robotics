@@ -1,4 +1,4 @@
-
+# Defines Toshiba probes for hand configuration, angle formatting and axis counts.
 POST = "Toshiba"
 NQ = 4
 AXES = "RRTR"

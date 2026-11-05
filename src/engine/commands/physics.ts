@@ -1,3 +1,4 @@
+// Registers rigid-body simulation configuration, stepping and object-state commands.
  
  
  

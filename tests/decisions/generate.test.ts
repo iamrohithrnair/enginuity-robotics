@@ -1,4 +1,4 @@
- 
+// Verifies decision steps become descriptive comments in generated robot programs.
  
 import { describe, expect, it } from "vitest";
 import { buildIntermediate, generationSettings } from "@/engine/commands/generate";

@@ -1,3 +1,4 @@
+// Applies relative item moves while respecting locks and robot motion rules.
 import { z } from "zod";
 import { requireRef } from "../dispatch";
 import { fk } from "../kinematics";

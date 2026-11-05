@@ -1,3 +1,4 @@
+// Processes socket API handshakes, command dispatch and protocol status replies.
  
 
 import type { Socket } from "node:net";

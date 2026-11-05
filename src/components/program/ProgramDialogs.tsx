@@ -1,4 +1,5 @@
 "use client";
+// Hosts program instruction, configuration, generation, and Python prompt dialogs.
 
 import { useEffect, useMemo, useState } from "react";
 import { cmd, cmdx, setStatus } from "@/client/api";

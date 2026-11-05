@@ -1,4 +1,4 @@
-
+# Defines Nachi AX/FD probes for smoothing, tool changes, circular moves and splitting.
 POST = "Nachi_AX_FD"
 NQ = 6
 ROBOT = "Nachi MC10L-01"

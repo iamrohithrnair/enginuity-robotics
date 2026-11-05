@@ -1,4 +1,4 @@
-
+# Defines IIMT probes for text-valued analog I/O, frames, speeds and pauses.
 POST = "IIMT"
 NQ = 6
 ROBOT = "IIMT CI-03"

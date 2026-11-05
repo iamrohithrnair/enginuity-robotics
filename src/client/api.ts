@@ -1,3 +1,4 @@
+// Sends workspace commands and applies streamed patches and live joint updates.
 "use client";
 
 import type { Workspace, WorkspacePatch } from "@/engine/types";

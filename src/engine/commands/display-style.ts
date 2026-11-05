@@ -1,3 +1,4 @@
+// Registers object display-string parsing and style updates.
  
  
  

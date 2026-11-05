@@ -1,3 +1,4 @@
+// Defines API command registration, connection context and serialized state access.
  
 
 import type { Mat } from "@/engine/math";

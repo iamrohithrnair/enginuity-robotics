@@ -1,4 +1,5 @@
 "use client";
+// Manages script editor state, live output, and execution controls.
 
  
  

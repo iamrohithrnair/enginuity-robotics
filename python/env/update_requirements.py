@@ -1,4 +1,4 @@
-
+# Builds hash-pinned requirements from allowlisted PyPI wheels and permitted licenses.
 
 
 

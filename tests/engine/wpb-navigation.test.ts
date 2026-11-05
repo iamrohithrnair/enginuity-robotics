@@ -1,4 +1,4 @@
- 
+// Verifies wheel and drag navigation, camera rotations, and view-pose conversions.
  
 import * as THREE from "three";
 import { describe, expect, it } from "vitest";

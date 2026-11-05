@@ -1,4 +1,4 @@
-
+// Implements rigid transforms and pose interpolation for robot motion.
 
 
 

@@ -1,3 +1,4 @@
+# Packages the Python API for controlling Enginuity stations and robots.
 [build-system]
 requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"

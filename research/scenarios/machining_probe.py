@@ -1,4 +1,4 @@
-
+# Probes machining parameters, geometry projection and generated program instructions.
 
 
 

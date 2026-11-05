@@ -1,4 +1,4 @@
-
+# Builds Staubli VAL3 projects with XML program files, databases and motion helpers.
 
 
 

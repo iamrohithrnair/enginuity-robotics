@@ -1,3 +1,4 @@
+// Defines menu actions, command bindings and configurable keyboard shortcuts.
  
  
  

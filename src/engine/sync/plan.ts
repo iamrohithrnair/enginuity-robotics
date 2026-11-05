@@ -1,3 +1,4 @@
+// Plans synchronized robot motion using combined external-axis kinematics.
  
  
  

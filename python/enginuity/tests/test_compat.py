@@ -1,4 +1,4 @@
-
+# Verifies import aliases, prelude exports and script-launcher behavior.
 
 
 

@@ -1,3 +1,4 @@
+// Builds convex-hull faces and support samples for collision geometry.
  
  
  

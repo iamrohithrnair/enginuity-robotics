@@ -1,3 +1,4 @@
+// Lists pending post-processor picks and accepts selections.
 import { connection } from "next/server";
 import { getServer } from "@/server/store";
 

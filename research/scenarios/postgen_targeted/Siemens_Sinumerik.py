@@ -1,4 +1,4 @@
-
+# Defines Sinumerik probes for modal motion state, frames, I/O and subprograms.
 POST = "Siemens_Sinumerik"
 NQ = 6
 ROBOT = "MABI Robotic MAX-100-2.25-P"

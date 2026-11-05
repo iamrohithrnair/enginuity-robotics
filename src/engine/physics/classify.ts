@@ -1,3 +1,4 @@
+// Classifies movable parts and fixed supports from contact relationships.
  
  
  

@@ -1,4 +1,4 @@
-
+# Defines OTC probes for smoothing, tool changes, circular moves and splitting.
 POST = "OTC"
 NQ = 6
 ROBOT = "Daihen OTC AX-V4"

@@ -1,3 +1,4 @@
+// Searches SimReady assets and returns category and dataset metadata.
 import { connection } from "next/server";
 import { DATASET_ID, DATASET_LICENSE, DATASET_URL, errorMessageOf, searchSimReady, simreadyCatalog } from "@/server/simready";
 

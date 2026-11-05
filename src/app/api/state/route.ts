@@ -1,3 +1,4 @@
+// Returns the workspace snapshot with undo history and public settings.
 import { connection } from "next/server";
 import { getServer } from "@/server/store";
 import { publicSettings } from "@/server/util";

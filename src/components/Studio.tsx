@@ -1,4 +1,5 @@
 "use client";
+// Composes the viewport, menus, inspectors, and studio dialogs.
 
 import dynamic from "next/dynamic";
 import { useEffect } from "react";

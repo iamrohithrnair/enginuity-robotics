@@ -1,4 +1,4 @@
- 
+// Creates script-enabled engine harnesses with configurable sandbox limits and optional posts.
  
 import { mkdtempSync } from "node:fs";
 import { tmpdir } from "node:os";

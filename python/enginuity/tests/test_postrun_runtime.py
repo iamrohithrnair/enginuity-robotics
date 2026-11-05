@@ -1,4 +1,4 @@
-
+# Checks math and filename helpers required by post-processor scripts.
 
 
 

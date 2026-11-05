@@ -1,3 +1,4 @@
+// Clamps station-tree text and icon sizes during zoom gestures.
  
  
  

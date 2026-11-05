@@ -1,3 +1,4 @@
+// Stores machining feature picks, curve tools and project dialogs.
 "use client";
 
  

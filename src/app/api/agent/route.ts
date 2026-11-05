@@ -1,3 +1,4 @@
+// Serves Copilot status and streams chat responses.
 import { chat, resetChat, wakeGuard } from "@/server/agent";
 import { byok, copilotInfo, requestScope } from "@/server/copilot/config";
 import { parseImages } from "@/server/copilot/vision";

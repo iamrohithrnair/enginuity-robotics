@@ -1,4 +1,5 @@
 "use client";
+// Displays transient status messages and the current viewport interaction mode.
 
 import { useEffect, useState } from "react";
 import { useRC, useViewState } from "@/client/store";

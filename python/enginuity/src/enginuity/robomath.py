@@ -1,4 +1,4 @@
-
+# Provides matrix algebra, rigid transforms and robot pose conversions.
 
 
 

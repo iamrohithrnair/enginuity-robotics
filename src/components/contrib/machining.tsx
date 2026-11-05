@@ -1,4 +1,5 @@
 "use client";
+// Registers machining project, curve editing, and toolpath actions.
 
  
  

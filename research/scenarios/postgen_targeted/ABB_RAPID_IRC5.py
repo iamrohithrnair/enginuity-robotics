@@ -1,4 +1,4 @@
-
+# Defines ABB RAPID probes for alternative seventh-axis type encodings.
 
 POST = "ABB_RAPID_IRC5"
 NQ = 7

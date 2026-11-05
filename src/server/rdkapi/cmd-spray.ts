@@ -1,3 +1,4 @@
+// Handles API spray-gun creation, state changes, statistics and cleanup.
  
  
  

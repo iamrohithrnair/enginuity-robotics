@@ -1,4 +1,4 @@
- 
+// Verifies G_DataParam returns imported binary parameters and empty bytes for missing names.
  
  
 import { mkdtempSync, readFileSync } from "node:fs";

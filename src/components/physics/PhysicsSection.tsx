@@ -1,4 +1,5 @@
 "use client";
+// Edits per-item physics body mode, mass, friction, and restitution.
 
  
  

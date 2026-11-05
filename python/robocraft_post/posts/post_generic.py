@@ -1,4 +1,4 @@
-
+# Emits generic CNC-style joint and Cartesian motion commands.
 
 
 

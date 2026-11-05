@@ -1,4 +1,4 @@
- 
+// Verifies script APIs map to engine commands with grouped undo and station-switch safety.
  
 import { describe, expect, it } from "vitest";
 import { dispatch } from "@/engine/dispatch";

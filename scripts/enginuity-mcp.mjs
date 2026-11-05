@@ -1,5 +1,5 @@
 #!/usr/bin/env node
- 
+// Bridges MCP stdio clients to the running app's Streamable HTTP endpoint.
  
  
  

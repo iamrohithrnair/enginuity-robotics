@@ -1,4 +1,4 @@
-
+# Sweeps robot joint values to probe limit enforcement and kinematic class behavior.
 
 
 

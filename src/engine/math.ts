@@ -1,3 +1,4 @@
+// Computes rigid transforms, pose conversions and interpolated spatial motion.
  
  
  

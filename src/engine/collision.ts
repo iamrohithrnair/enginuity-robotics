@@ -1,3 +1,4 @@
+// Builds collision bodies and filters intersections through station pair maps.
  
  
  

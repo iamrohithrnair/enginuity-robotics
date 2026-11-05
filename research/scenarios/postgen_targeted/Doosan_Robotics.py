@@ -1,4 +1,4 @@
-
+# Defines Doosan probes for I/O values, blending, pauses and tool changes.
 POST = "Doosan_Robotics"
 NQ = 6
 ROBOT = "Doosan Robotics A0509 White"

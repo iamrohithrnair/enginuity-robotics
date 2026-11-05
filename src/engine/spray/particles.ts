@@ -1,3 +1,4 @@
+// Packs spray particle transforms and colors into binary buffers.
  
  
  

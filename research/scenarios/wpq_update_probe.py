@@ -1,4 +1,4 @@
-
+# Captures batched program-update results from selected station files.
 
 
 

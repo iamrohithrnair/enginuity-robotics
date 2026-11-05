@@ -1,3 +1,4 @@
+// Maps keyboard events to configured actions and guarded program commands.
 "use client";
 
 import { useEffect } from "react";

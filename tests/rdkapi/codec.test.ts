@@ -1,4 +1,4 @@
- 
+// Verifies API wire encodings, handshake bytes, pose layout, and request round-trips.
  
 import { readFileSync } from "node:fs";
 import path from "node:path";

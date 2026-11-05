@@ -1,4 +1,4 @@
- 
+// Checks stored joints/pose pairs across mirrored stations for kinematics consistency.
  
  
  

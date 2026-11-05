@@ -1,4 +1,5 @@
 "use client";
+// Visualizes decision answers, confidence levels, and execution results.
 
 import type { DecisionAnswer, DecisionResult } from "@/engine/decisions";
 

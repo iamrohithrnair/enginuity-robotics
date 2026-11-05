@@ -1,4 +1,5 @@
 "use client";
+// Provides static and animated icons for items, instructions, and controls.
  
  
  

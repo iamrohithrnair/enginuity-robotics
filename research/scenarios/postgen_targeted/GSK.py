@@ -1,4 +1,4 @@
-
+# Defines GSK probes for circular-move state, frame/tool changes and command escaping.
 POST = "GSK"
 NQ = 6
 ROBOT = "GSK RB03A1"

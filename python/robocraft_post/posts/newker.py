@@ -1,4 +1,4 @@
-
+# Emits NEWKer i6 G-code-style motion programs with joint and Cartesian targets.
 
 
 

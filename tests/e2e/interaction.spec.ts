@@ -1,4 +1,4 @@
- 
+// Exercises browser shortcuts, station-tree edits, clipboard actions, and library dialogs.
  
  
 import { expect, test, type Page } from "@playwright/test";

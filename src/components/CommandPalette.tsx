@@ -1,4 +1,5 @@
 "use client";
+// Searches and runs application commands from a keyboard palette.
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { cmd } from "@/client/api";

@@ -1,3 +1,4 @@
+// Parses text and binary USD layers into prims, properties and composition arcs.
  
  
  

@@ -1,3 +1,4 @@
+// Constructs tool orientations and candidate frames along machining paths.
  
  
  

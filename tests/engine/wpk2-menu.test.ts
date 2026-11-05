@@ -1,4 +1,4 @@
- 
+// Verifies File-menu robot-station import/export labels avoid vendor branding.
  
 import { describe, expect, it } from "vitest";
 

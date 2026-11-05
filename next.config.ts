@@ -1,3 +1,4 @@
+// Configures Next.js caching, build output, and Tailwind CSS loading.
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {

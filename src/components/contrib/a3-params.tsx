@@ -1,4 +1,5 @@
 "use client";
+// Edits robot joint senses, home position, and kinematics tables.
 
  
  

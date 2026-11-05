@@ -1,4 +1,4 @@
-
+# Defines QJAR probes for I/O coercion, frame IDs, acceleration and axis counts.
 POST = "QJAR"
 NQ = 6
 ROBOT = "QJAR QJR20-1600"

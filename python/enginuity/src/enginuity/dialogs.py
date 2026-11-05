@@ -1,4 +1,4 @@
-
+# Routes message, input and file dialogs through the robot client or console.
 
 
 

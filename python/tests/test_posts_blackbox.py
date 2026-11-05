@@ -1,4 +1,4 @@
-
+# Checks post output and expected failures against black-box program captures.
 
 
 

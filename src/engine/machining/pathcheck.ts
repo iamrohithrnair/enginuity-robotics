@@ -1,3 +1,4 @@
+// Validates linear and circular moves against robot kinematics.
  
  
  

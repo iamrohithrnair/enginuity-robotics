@@ -1,4 +1,4 @@
-
+# Builds deterministic STEP fixtures for CAD import checks.
 
 
 

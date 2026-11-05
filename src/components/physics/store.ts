@@ -1,4 +1,5 @@
 "use client";
+// Tracks physics UI state and refreshes simulation reports from the server.
 
  
  

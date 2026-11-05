@@ -1,3 +1,4 @@
+// Tracks linear and circular IK paths while detecting singularities and jumps.
  
  
  

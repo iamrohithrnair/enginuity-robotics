@@ -1,4 +1,4 @@
-
+# Probes raw robot API handshakes, message framing and unknown-command responses.
 
 
 

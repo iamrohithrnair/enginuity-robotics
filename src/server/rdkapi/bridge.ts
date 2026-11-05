@@ -1,3 +1,4 @@
+// Maps API handles and errors onto serialized engine workspace operations.
  
  
 

@@ -1,4 +1,4 @@
-
+# Generates numbered Mitsubishi programs with position declarations and motion commands.
 
 
 

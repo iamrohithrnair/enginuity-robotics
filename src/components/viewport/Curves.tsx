@@ -1,4 +1,5 @@
 "use client";
+// Displays and edits curve geometry, point selections, and toolpath previews.
 
  
  

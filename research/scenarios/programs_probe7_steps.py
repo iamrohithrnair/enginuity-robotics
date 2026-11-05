@@ -1,4 +1,4 @@
-
+# Probes path-step and motion-splitting settings during program generation and execution.
 
 
 

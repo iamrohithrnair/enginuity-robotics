@@ -1,4 +1,4 @@
- 
+// Compares regenerated machining paths with stored programs using rigid-fit error analysis.
  
  
  

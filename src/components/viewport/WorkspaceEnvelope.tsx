@@ -1,4 +1,5 @@
 "use client";
+// Renders robot reach envelopes for configured workspace display modes.
 
  
  

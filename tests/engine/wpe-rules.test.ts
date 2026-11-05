@@ -1,4 +1,4 @@
- 
+// Verifies path-error decoding, motion-planning state, and station collision rules.
  
  
 import { beforeAll, describe, expect, it } from "vitest";

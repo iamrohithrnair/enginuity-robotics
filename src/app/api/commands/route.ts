@@ -1,3 +1,4 @@
+// Lists registered commands with their parameter schemas.
 import { connection } from "next/server";
 import { z } from "zod";
 import { allCommands } from "@/engine/registry";

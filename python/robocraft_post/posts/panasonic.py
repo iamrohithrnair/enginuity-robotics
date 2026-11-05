@@ -1,4 +1,4 @@
-
+# Generates Panasonic G3 CSR programs with position tables and split motion blocks.
 
 
 

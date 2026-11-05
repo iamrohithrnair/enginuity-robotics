@@ -1,4 +1,4 @@
-
+// Resolves STEP entity graphs into tessellatable faces.
 
 
 

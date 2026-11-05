@@ -1,4 +1,4 @@
- 
+// Builds a high-speed SCARA cell that sorts colored parts with vacuum grip programs.
  
 
 import { along, box, C, cyl, down, rbox, type ExampleBuilder, type Part } from "../lib/builder";

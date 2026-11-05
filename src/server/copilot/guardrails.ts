@@ -1,3 +1,4 @@
+// Screens copilot scope, tool commands and untrusted content for unsafe requests.
  
  
  

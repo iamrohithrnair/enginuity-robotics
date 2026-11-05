@@ -1,3 +1,4 @@
+// Serves thumbnail images for example stations.
 import { connection } from "next/server";
 import { exampleThumbnail } from "@/server/examples";
 

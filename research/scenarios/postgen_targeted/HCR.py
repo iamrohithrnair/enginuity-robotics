@@ -1,4 +1,4 @@
-
+# Defines HCR probes for I/O, frame changes, speed settings and subprograms.
 POST = "HCR"
 NQ = 6
 ROBOT = "Hanwha HCR-10L"

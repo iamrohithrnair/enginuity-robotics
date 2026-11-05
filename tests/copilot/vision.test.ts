@@ -1,4 +1,4 @@
- 
+// Verifies image validation, SAM box parsing, and photo-object tool behavior.
  
 import { afterEach, describe, expect, it, vi } from "vitest";
 import {

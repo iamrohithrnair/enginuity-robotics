@@ -1,4 +1,4 @@
-
+# Defines Precise probes for axis layouts, configuration flags and location naming.
 POST = "Precise"
 NQ = 4
 AXES = "RRTR"

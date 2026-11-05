@@ -1,3 +1,4 @@
+// Bridges API message-box requests to browser dialogs and text prompts.
  
  
  

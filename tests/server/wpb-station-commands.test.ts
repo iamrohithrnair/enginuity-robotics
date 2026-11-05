@@ -1,4 +1,4 @@
- 
+// Verifies station UI commands, snapshots, server traces, and API event subscriptions.
  
  
  

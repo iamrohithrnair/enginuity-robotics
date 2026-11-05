@@ -1,3 +1,4 @@
+// Registers Python script editing, execution, approval and file-saving commands.
 import { z } from "zod";
 import { requireRef } from "../dispatch";
 import { autoName } from "../naming";

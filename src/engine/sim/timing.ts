@@ -1,3 +1,4 @@
+// Computes joint and Cartesian motion durations from speed and acceleration limits.
  
  
  

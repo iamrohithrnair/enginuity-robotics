@@ -1,3 +1,4 @@
+// Registers simulated camera setup, parameter editing and snapshot commands.
  
  
  

@@ -1,4 +1,4 @@
-
+# Generates split Inexbot JBR jobs with joint targets and motion instructions.
 
 
 

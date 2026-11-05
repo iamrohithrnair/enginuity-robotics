@@ -1,4 +1,5 @@
 "use client";
+// Controls program execution, path checks, generation, and instruction display.
 
 import { useEffect, useRef, useState } from "react";
 import { cmd, selectNow } from "@/client/api";

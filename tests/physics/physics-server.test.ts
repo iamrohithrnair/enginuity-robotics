@@ -1,4 +1,4 @@
- 
+// Verifies server physics stepping, coalesced patches, pause behavior, and persistence.
  
  
 import { mkdtempSync } from "node:fs";

@@ -1,3 +1,4 @@
+<!-- Next.js development conventions for the robotics studio. -->
 <!-- BEGIN:nextjs-agent-rules -->
 
 ## This is NOT the Next.js you know

@@ -1,4 +1,4 @@
-
+# Samples mechanism and tool kinematics, recording link poses and IK solutions.
 
 
 

@@ -1,4 +1,5 @@
 "use client";
+// Edits item names, frames, targets, object appearance, and notes.
 
 import { useEffect, useState } from "react";
 import { cmd } from "@/client/api";

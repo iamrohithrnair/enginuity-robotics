@@ -1,4 +1,5 @@
 "use client";
+// Edits decision instructions, model questions, and outcome actions.
 
 import { useState, type KeyboardEvent } from "react";
 import { useRC } from "@/client/store";

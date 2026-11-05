@@ -1,4 +1,4 @@
- 
+// Verifies imported station objects and tools retain their geometry transforms.
  
  
  

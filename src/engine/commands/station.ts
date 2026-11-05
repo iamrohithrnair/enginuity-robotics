@@ -1,3 +1,4 @@
+// Registers station lifecycle, persistence, recent-file and backup-recovery commands.
 import { z } from "zod";
 import { requireRef } from "../dispatch";
 import { newStationName } from "../naming";

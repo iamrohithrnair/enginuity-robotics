@@ -1,3 +1,4 @@
+// Synchronizes spray emission with server motion and broadcasts particle updates.
  
  
  

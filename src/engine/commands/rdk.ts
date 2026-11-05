@@ -1,3 +1,4 @@
+// Reconstructs station items, robots and instructions from RDK payloads.
 import { z } from "zod";
 import { parseRdkFile } from "../kinematics";
 import { eye, inv, mul, poseDistance, type Mat } from "../math";

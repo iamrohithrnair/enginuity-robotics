@@ -1,3 +1,4 @@
+// Serializes and validates saved toolbar and panel layouts.
  
  
  

@@ -1,4 +1,4 @@
- 
+// Verifies workspace display settings, view actions, selection resets, and item dragging.
  
  
 import { describe, expect, it } from "vitest";

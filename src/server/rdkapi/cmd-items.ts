@@ -1,3 +1,4 @@
+// Handles API item lifecycle, tree hierarchy, selection and station data.
  
 
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";

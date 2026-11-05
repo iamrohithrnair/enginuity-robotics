@@ -1,3 +1,4 @@
+// Collects visible station meshes with their world transforms and colors.
  
  
  

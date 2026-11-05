@@ -1,3 +1,4 @@
+// Coordinates SimReady downloads, USD conversion and prepared-asset caching.
  
  
  

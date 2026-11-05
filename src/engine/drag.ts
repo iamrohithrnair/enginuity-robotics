@@ -1,3 +1,4 @@
+// Resolves movable drag subjects and robot motion modes under item locks.
  
  
 

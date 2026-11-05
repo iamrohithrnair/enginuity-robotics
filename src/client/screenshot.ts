@@ -1,3 +1,4 @@
+// Captures viewport images and answers server screenshot requests.
 "use client";
 
  

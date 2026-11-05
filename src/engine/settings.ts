@@ -1,3 +1,4 @@
+// Defines application option defaults and their settings-panel descriptions.
  
  
  

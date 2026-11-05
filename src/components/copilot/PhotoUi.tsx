@@ -1,4 +1,5 @@
 "use client";
+// Prepares photo attachments and renders image previews and analysis cards.
 
  
  

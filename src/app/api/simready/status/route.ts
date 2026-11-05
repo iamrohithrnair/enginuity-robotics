@@ -1,3 +1,4 @@
+// Reports current SimReady asset preparation status.
 import { connection } from "next/server";
 import { simready } from "@/server/simready";
 

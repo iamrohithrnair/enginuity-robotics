@@ -1,4 +1,4 @@
- 
+// Verifies conveyor motion, moving-object sensors, and create/wait event scheduling.
  
  
  

@@ -2,6 +2,7 @@
  
  
 
+// Resolves reference frames and converts poses between local and absolute coordinates.
 import { fk, kinematicsReady } from "@/engine/kinematics";
 import { eye, inv, mul, type Mat } from "@/engine/math";
 import type { Item, Workspace } from "@/engine/types";

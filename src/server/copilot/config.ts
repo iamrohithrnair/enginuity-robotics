@@ -1,3 +1,4 @@
+// Resolves copilot provider endpoints, models, credentials and request scopes.
  
  
  

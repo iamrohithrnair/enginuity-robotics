@@ -1,4 +1,5 @@
  
+// Maps toolbar actions to concise usage descriptions.
 export const TOOLBAR_HELP: Record<string, string> = {
   actionOpen: "Open a station, robot, tool or 3D file (STEP, STL, GLB…)",
   actionOpen_weblib: "Browse 1,500+ robots, tools and NVIDIA SimReady objects to add",

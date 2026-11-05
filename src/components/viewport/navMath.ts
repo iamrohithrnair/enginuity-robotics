@@ -2,6 +2,7 @@
  
  
 
+// Converts viewport coordinates and calculates camera navigation gestures.
 import * as THREE from "three";
 import type { Mat } from "@/engine/math";
 

@@ -1,4 +1,4 @@
- 
+// Verifies MoveL segmentation and generated move ordering under split-distance settings.
  
 import { spawnSync } from "node:child_process";
 import { readFileSync } from "node:fs";

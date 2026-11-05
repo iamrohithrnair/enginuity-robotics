@@ -1,4 +1,5 @@
 "use client";
+// Displays example stations and their simulated cycle times.
 
  
  

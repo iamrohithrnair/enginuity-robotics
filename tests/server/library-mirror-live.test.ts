@@ -1,4 +1,4 @@
- 
+// Verifies complete mirrored catalogs, file integrity, and offline asset loading.
  
  
  

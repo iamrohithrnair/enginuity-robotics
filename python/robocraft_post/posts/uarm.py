@@ -1,4 +1,4 @@
-
+# Generates uArm CNC commands for joint, linear and circular movements.
 
 
 

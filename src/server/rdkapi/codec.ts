@@ -1,3 +1,4 @@
+// Encodes and decodes socket protocol poses, matrices and typed values.
  
  
  

@@ -1,3 +1,4 @@
+// Maintains shared server workspace state, serialized commands and event delivery.
  
  
  

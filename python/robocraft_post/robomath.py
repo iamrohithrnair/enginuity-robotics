@@ -1,4 +1,4 @@
-
+# Provides lightweight pose arithmetic and orientation conversions for post generation.
 
 
 

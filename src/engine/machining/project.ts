@@ -1,3 +1,4 @@
+// Solves machining project paths into robot moves and instruction events.
  
  
  

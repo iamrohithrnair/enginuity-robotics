@@ -1,4 +1,4 @@
- 
+// Verifies motion profiles, speed/acceleration rules, and program time estimates.
  
  
  

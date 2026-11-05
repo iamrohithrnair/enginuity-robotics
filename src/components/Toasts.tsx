@@ -1,4 +1,5 @@
 "use client";
+// Displays dismissible notifications with severity-specific styling.
 
 import { useRC } from "@/client/store";
 import { Icon } from "./icons";

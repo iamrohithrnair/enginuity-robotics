@@ -1,3 +1,4 @@
+// Serves cached triangle geometry as a binary response.
 import { getServer } from "@/server/store";
 
 export async function GET(_req: Request, ctx: RouteContext<"/api/geometry/[id]">) {

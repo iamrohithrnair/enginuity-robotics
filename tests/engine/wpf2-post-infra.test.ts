@@ -1,4 +1,4 @@
- 
+// Verifies post arguments, pulse scaling, post selection, and axis-type metadata.
  
  
  

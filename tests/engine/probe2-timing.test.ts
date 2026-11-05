@@ -1,4 +1,4 @@
- 
+// Verifies joint, linear, and circular motion timing and TCP distance estimates.
  
  
 import { beforeAll, describe, expect, it } from "vitest";

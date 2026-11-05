@@ -1,4 +1,4 @@
- 
+// Exercises live MCP tool discovery, stdio robot-program generation, and offline diagnostics.
  
  
  

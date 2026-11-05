@@ -1,3 +1,4 @@
+// Tracks reversible workspace mutations and grouped undo/redo operations.
  
  
  

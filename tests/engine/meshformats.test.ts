@@ -1,4 +1,4 @@
- 
+// Verifies mesh-format readers preserve triangulation, transforms, and material colors.
  
 import { describe, expect, it } from "vitest";
 import { DRACO_NOT_SUPPORTED } from "@/engine/meshformats";

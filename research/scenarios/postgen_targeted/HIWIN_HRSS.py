@@ -1,4 +1,4 @@
-
+# Defines HIWIN HRSS probes for split boundaries, frame IDs and extra-axis motion.
 POST = "HIWIN_HRSS"
 NQ = 6
 ROBOT = "HIWIN RA605-710-GB"

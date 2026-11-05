@@ -1,3 +1,4 @@
+// Registers robot joint control, kinematics, active frames and motion settings.
 import { z } from "zod";
 import { requireRef } from "../dispatch";
 import { clampJoints, fk, ikAll, ikClosest, jointsConfig, linkFrames } from "../kinematics";

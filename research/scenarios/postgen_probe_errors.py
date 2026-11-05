@@ -1,4 +1,4 @@
-
+# Probes post-generation failures for invalid names, output paths and split programs.
 
 
 

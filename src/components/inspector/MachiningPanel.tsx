@@ -1,4 +1,5 @@
 "use client";
+// Edits machining project references, motion settings, and toolpath events.
 
  
  

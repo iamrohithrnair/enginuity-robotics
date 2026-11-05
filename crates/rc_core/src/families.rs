@@ -1,4 +1,4 @@
-
+// Resolves inverse-kinematics branches for supported robot families.
 
 
 

@@ -1,4 +1,4 @@
- 
+// Verifies simulation seeking places the robot on its path and selects the running instruction.
  
 import { describe, expect, it } from "vitest";
 import { planProgram } from "@/engine/sim/planner";

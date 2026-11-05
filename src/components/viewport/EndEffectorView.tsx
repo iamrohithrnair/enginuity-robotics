@@ -1,4 +1,5 @@
 "use client";
+// Renders robot end-effector close-ups in a dedicated viewport panel.
 
  
  

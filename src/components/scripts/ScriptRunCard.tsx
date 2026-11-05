@@ -1,4 +1,5 @@
 "use client";
+// Displays script run results, logs, and generated outputs.
 
  
  

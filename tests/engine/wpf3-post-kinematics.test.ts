@@ -1,4 +1,4 @@
- 
+// Verifies joint-only target metadata and kinematics responses supplied to post processors.
  
  
  

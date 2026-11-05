@@ -1,4 +1,4 @@
- 
+// Verifies Python program naming, execution, output handling, and approval of Copilot-written code.
  
  
  

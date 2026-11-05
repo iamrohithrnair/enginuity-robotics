@@ -1,4 +1,4 @@
-
+# Generates Nachi AX/FD and OTC programs with numbered motion steps.
 
 
 

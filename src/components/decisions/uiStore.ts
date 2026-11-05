@@ -1,4 +1,5 @@
 "use client";
+// Manages decision dialogs, profile keys, request execution, and result logs.
 
  
  

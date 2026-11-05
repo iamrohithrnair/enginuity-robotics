@@ -1,3 +1,4 @@
+// Declares the binary USD parser interface used by asset conversion.
  
 declare module "three/examples/jsm/loaders/usd/USDCParser.js" {
   export class USDCParser {

@@ -1,4 +1,5 @@
 "use client";
+// Renders simulated camera windows, frusta, and downloadable snapshots.
 
  
  

@@ -1,4 +1,4 @@
-
+# Exercises live client APIs, including events, machining and spray operations.
 
 
 

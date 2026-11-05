@@ -1,3 +1,4 @@
+// Translates program instructions to editable JSON records and applies updates.
  
  
  

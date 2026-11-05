@@ -1,4 +1,4 @@
-
+// Decodes station containers into items, geometry, and motion data.
 
 
 

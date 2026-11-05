@@ -1,4 +1,4 @@
-
+// Decodes station-tail records and configuration parameters.
 
 
 

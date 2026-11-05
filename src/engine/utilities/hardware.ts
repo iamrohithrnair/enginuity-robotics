@@ -1,3 +1,4 @@
+// Registers robot connection controls and reports unavailable hardware capabilities.
  
  
  

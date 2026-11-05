@@ -1,4 +1,5 @@
 "use client";
+// Toggles physics simulation and opens its settings panel.
 
  
  

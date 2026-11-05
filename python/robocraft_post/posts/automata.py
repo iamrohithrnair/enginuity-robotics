@@ -1,4 +1,4 @@
-
+# Generates Python motion and I/O scripts for Automata robots.
 
 
 

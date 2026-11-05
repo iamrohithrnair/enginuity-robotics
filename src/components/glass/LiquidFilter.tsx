@@ -1,4 +1,5 @@
 "use client";
+// Creates an SVG displacement filter for liquid-glass surfaces.
 
 import { useSyncExternalStore } from "react";
 

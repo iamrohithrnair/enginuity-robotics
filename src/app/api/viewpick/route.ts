@@ -1,3 +1,4 @@
+// Completes pending viewport picks with selected items and coordinates.
 import { connection } from "next/server";
 import { completeViewPick } from "@/server/viewpick";
 

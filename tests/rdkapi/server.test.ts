@@ -1,4 +1,4 @@
- 
+// Verifies API handshakes, item operations, station state, and protocol error responses.
  
  
 import { mkdtempSync } from "node:fs";

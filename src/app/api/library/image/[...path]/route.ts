@@ -1,3 +1,4 @@
+// Proxies image assets from the robot library.
 import { connection } from "next/server";
 import { LibraryError, libraryImage } from "@/server/library";
 

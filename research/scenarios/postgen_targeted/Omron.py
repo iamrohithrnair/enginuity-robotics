@@ -1,4 +1,4 @@
-
+# Defines Omron probes for typed I/O, node ordering, speed state and subprograms.
 
 
 POST = "Omron"

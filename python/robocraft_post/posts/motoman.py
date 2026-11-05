@@ -1,4 +1,4 @@
-
+# Emits split Motoman JBI jobs with position tables and motion settings.
 
 
 

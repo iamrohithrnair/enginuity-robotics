@@ -1,4 +1,5 @@
 "use client";
+// Hosts machining file pickers, tool controls, and calculation reports.
 
  
  

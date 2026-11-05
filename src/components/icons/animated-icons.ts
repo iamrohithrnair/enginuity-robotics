@@ -2,6 +2,7 @@
  
 // (@animateicons/react, MIT, Copyright (c) 2025 Avijit Dey) and lucide-animated (./animated, MIT,
 // Copyright (c) 2024-2026 pqoqubbw) animate Lucide artwork (ISC); see THIRD_PARTY_NOTICES.md.
+// Maps studio icon names to animated React icon components.
 import type { CSSProperties, ComponentType, Ref } from "react";
 import { ActivityIcon } from "@animateicons/react/lucide/activity-icon";
 import { BlendIcon } from "@animateicons/react/lucide/blend-icon";

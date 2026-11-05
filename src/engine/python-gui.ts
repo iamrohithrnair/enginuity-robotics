@@ -1,3 +1,4 @@
+// Detects tkinter scripts and reports unavailable desktop GUI support.
  
  
  

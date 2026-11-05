@@ -1,4 +1,5 @@
 "use client";
+// Renders the physics feature's SVG symbol.
 
  
  

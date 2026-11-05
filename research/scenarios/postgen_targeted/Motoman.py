@@ -1,4 +1,4 @@
-
+# Defines Motoman probes for pulse conversion across axis counts and axis-type layouts.
 
 
 POST = "Motoman"

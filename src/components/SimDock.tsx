@@ -1,4 +1,5 @@
 "use client";
+// Controls program playback, sequence scrubbing, and simulation speed.
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { cmd } from "@/client/api";

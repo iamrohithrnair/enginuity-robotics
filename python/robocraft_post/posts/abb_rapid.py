@@ -1,4 +1,4 @@
-
+# Emits ABB RAPID modules with motion instructions, targets and tool declarations.
 
 
 

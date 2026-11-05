@@ -1,3 +1,4 @@
+// Defines root document metadata, viewport settings, and global styles.
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 

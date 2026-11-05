@@ -1,3 +1,4 @@
+// Delivers sequenced workspace and viewer events through long polling.
 import { connection } from "next/server";
 import { getServer, type ServerEvent } from "@/server/store";
 import { eventChannels, viewConnected, viewDisconnected } from "@/server/viewbridge";

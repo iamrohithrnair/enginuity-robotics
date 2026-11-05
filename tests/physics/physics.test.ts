@@ -1,4 +1,4 @@
- 
+// Verifies rigid-body falling, stacking, grabbing, collision roles, and workspace changes.
  
  
 import { describe, expect, it } from "vitest";

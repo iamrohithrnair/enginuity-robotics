@@ -1,3 +1,4 @@
+// Exposes engine commands, station resources and automation prompts through MCP.
  
  
  

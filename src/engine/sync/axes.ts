@@ -1,3 +1,4 @@
+// Combines robot and external-axis joints and resolves synchronized transforms.
  
  
  

@@ -1,4 +1,4 @@
-
+# Compares post outputs with captures while normalizing volatile fields and known divergences.
 
 
 

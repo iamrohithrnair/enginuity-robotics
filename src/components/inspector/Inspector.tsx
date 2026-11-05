@@ -1,4 +1,5 @@
 "use client";
+// Selects inspector panels for station items and quick-add actions.
 
 import { useMemo } from "react";
 import { cmd } from "@/client/api";

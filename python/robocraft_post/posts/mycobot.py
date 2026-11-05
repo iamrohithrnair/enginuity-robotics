@@ -1,4 +1,4 @@
-
+# Adapts shared Python motion-script generation to the MyCobot driver.
 
 
 

@@ -1,3 +1,4 @@
+// Loads and caches the Rapier rigid-body simulation module.
  
  
  

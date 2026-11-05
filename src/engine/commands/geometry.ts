@@ -1,3 +1,4 @@
+// Registers mesh transforms, merging, recoloring and containment queries.
  
  
  

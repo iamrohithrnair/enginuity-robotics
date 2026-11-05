@@ -1,4 +1,5 @@
 "use client";
+// Displays default decision-model settings and profile management controls.
 
 import { decisionProvider } from "@/engine/decisions";
 import { Icon } from "../icons";

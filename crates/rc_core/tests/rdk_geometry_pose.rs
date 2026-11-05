@@ -1,4 +1,4 @@
-
+// Checks geometry transforms when loading station fixtures.
 
 
 

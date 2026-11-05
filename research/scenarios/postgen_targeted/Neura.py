@@ -1,4 +1,4 @@
-
+# Defines Neura probes for blend zones, textual I/O values, messages and speeds.
 POST = "Neura"
 NQ = 6
 ROBOT = "Delta Electronics DC06"

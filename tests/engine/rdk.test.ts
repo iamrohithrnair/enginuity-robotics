@@ -1,4 +1,4 @@
- 
+// Verifies .rdk station and .rdka item imports preserve hierarchy and poses.
  
  
 import { readFileSync } from "node:fs";

@@ -1,4 +1,4 @@
-
+# Serializes Flexiv trajectory waypoints with joint values, motion profiles and speeds.
 
 
 

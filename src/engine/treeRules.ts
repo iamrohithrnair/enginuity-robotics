@@ -1,3 +1,4 @@
+// Enforces station-tree parenting rules and absolute-pose retention policies.
  
 
 import type { Item, ItemType, Workspace } from "./types";

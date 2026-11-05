@@ -1,4 +1,4 @@
-
+# Generates Epson RC programs with joint, linear and circular moves.
 
 
 

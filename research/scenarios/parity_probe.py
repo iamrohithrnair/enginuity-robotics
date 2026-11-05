@@ -1,4 +1,4 @@
-
+# Exercises parity suites for station trees, kinematics, programs, collisions and execution.
 
 
 

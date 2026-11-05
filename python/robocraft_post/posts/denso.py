@@ -1,4 +1,4 @@
-
+# Generates Denso RC8 PACScript programs with motion, tool and I/O commands.
 
 
 

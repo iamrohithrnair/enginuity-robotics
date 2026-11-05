@@ -1,4 +1,5 @@
 "use client";
+// Hosts simulation exports, demo packaging, and robot display options.
 
  
  

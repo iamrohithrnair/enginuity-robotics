@@ -1,4 +1,5 @@
 "use client";
+// Builds viewport lighting, floor reflections, shadows, and grid.
 
  
  

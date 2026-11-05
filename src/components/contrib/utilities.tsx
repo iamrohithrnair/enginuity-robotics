@@ -1,4 +1,5 @@
 "use client";
+// Hosts robot calibration, mechanism building, and utility dialogs.
 
  
  

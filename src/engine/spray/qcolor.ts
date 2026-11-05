@@ -1,3 +1,4 @@
+// Parses named and hexadecimal Qt-style colors into RGBA components.
  
  
  

@@ -1,4 +1,5 @@
 "use client";
+// Adds script creation, editing, and execution menu actions.
 
  
  

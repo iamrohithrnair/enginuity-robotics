@@ -1,4 +1,4 @@
-
+# Generates Denso RC9 PACScript with motion speed and acceleration settings.
 
 
 

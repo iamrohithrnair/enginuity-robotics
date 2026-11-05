@@ -1,4 +1,4 @@
-
+# Defines KEBA KAIRO probes for target names, frame/tool defaults and output channels.
 POST = "KEBA_KAIRO"
 NQ = 6
 ROBOT = "autonox Robotics articc6-1557-3kg (AT_00004)"

@@ -1,4 +1,4 @@
-
+# Generates Kawasaki AS programs with joint targets, motions and I/O commands.
 
 
 

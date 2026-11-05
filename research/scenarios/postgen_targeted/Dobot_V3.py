@@ -1,4 +1,4 @@
-
+# Defines Dobot V3 probes for I/O coercion, speed limits, blending and subprograms.
 POST = "Dobot_V3"
 NQ = 6
 ROBOT = "Dobot CR10"

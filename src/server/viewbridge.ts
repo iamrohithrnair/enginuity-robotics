@@ -1,3 +1,4 @@
+// Tracks browser view connections and coordinates screenshot requests and files.
  
  
  

@@ -1,4 +1,4 @@
- 
+// Provides a TCP test client for API handshakes, wire messages, items, and statuses.
 import net from "node:net";
 import { WireReader, WireWriter } from "@/server/rdkapi/codec";
 

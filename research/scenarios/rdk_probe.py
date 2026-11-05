@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# Inspects compressed station files, record headers and embedded program instructions.
 
 
 

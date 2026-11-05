@@ -1,3 +1,4 @@
+// Registers collision-map editing and swept-motion collision checks.
  
  
  

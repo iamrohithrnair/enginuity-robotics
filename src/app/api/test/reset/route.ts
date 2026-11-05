@@ -1,3 +1,4 @@
+// Resets the workspace to a fresh station for enabled tests.
 import { getServer, run } from "@/server/store";
 import { createWorkspace } from "@/engine/workspace";
 

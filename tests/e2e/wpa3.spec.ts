@@ -1,4 +1,4 @@
- 
+// Exercises simulation exports, robot panels, cinema shortcuts, and demo packaging in the browser.
  
  
 import { readFileSync } from "node:fs";

@@ -1,3 +1,4 @@
+// Defines station items, robot models, workspace state and incremental patches.
 import type { Mat } from "./math";
 
  

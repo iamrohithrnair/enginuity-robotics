@@ -1,4 +1,4 @@
-
+// Evaluates analytic curves and surfaces within CAD import tolerances.
 
 
 use crate::math::*;

@@ -1,3 +1,4 @@
+# Pauses a spray simulation mid-pass and captures its view and spray state.
 import json, subprocess, sys, time, urllib.request
 BASE="http://localhost:3200"; FILE, PROG, RATIO, AT, OUT = sys.argv[1], sys.argv[2], float(sys.argv[3]), float(sys.argv[4]), sys.argv[5]
 def cmd(name, params=None):

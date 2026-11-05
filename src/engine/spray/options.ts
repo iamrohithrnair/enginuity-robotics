@@ -1,3 +1,4 @@
+// Parses spray-gun options, particle shapes and emission-rate settings.
  
  
  

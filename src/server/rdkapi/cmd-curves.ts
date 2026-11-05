@@ -1,3 +1,4 @@
+// Handles API curve geometry, projection and machining-project commands.
  
  
  

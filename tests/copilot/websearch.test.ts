@@ -1,4 +1,4 @@
- 
+// Verifies grounded web-search requests, source merging, and guarded result handling.
  
  
 import { afterEach, describe, expect, it, vi } from "vitest";

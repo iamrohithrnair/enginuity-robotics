@@ -1,4 +1,5 @@
 "use client";
+// Displays station items with selection, filtering, and drag-and-drop.
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { cmd, cmdx, selectNow, setStatus } from "@/client/api";

@@ -2,6 +2,7 @@
  
  
 
+// Registers and merges ordered main-menu and item-menu contributions.
 import type { Item, Workspace } from "@/engine/types";
 import type { MenuEntry } from "./glass/Menu";
 

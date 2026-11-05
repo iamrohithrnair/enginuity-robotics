@@ -1,3 +1,4 @@
+// Routes named actions to browser handlers or engine commands.
 "use client";
 
  

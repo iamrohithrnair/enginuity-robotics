@@ -1,4 +1,4 @@
-
+# Generates AUBO Lua scripts and XML motion-project files.
 
 
 

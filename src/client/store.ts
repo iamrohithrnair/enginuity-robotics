@@ -1,3 +1,4 @@
+// Stores client workspace, viewport state and transient interface interactions.
 "use client";
 
 import { create } from "zustand";

@@ -1,4 +1,4 @@
- 
+// Verifies file dispatch, station persistence, unsaved-change prompts, and backups.
  
  
 import { existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";

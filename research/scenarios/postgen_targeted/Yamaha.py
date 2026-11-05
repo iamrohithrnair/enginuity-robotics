@@ -1,4 +1,4 @@
-
+# Defines Yamaha probes for speed/acceleration limits and I/O value handling.
 POST = "Yamaha"
 NQ = 4
 ROBOT = "Yamaha YK400XR-S-150"

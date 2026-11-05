@@ -1,4 +1,5 @@
 "use client";
+// Configures robot synchronization with tracks and turntables.
 
  
  

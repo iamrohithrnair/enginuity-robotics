@@ -1,3 +1,4 @@
+// Registers robot rounding updates and motion-speed state queries.
 import { z } from "zod";
 import { defineCommand, ItemRef } from "../registry";
 import { effectiveSpeeds } from "../sim/timing";

@@ -1,3 +1,4 @@
+// Streams workspace events over dedicated API event-channel connections.
  
  
  

@@ -1,4 +1,4 @@
- 
+// Verifies API item filters distinguish robot arms from external-axis mechanisms.
  
  
 import { describe, expect, it } from "vitest";

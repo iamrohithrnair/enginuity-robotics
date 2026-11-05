@@ -1,4 +1,4 @@
- 
+// Verifies Copilot script execution, generation feedback, error reporting, and station guards.
  
  
 import { mkdtempSync } from "node:fs";

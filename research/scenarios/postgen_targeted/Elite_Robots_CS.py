@@ -1,4 +1,4 @@
-
+# Defines Elite CS probes for typed I/O, task flow, frame reuse and subprogram stops.
 POST = "Elite_Robots_CS"
 NQ = 6
 ROBOT = "Elite Robots CS530H"

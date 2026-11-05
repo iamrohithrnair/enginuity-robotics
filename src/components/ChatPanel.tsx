@@ -1,4 +1,5 @@
 "use client";
+// Presents Copilot conversations with tool progress and photo attachments.
 
 import { type DragEvent, type ReactNode, useEffect, useRef, useState } from "react";
 import { useRC } from "@/client/store";

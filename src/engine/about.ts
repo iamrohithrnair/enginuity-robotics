@@ -1,3 +1,4 @@
+// Defines product identity and build metadata for the About panel.
  
  
 

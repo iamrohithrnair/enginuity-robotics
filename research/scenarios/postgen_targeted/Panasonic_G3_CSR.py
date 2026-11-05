@@ -1,4 +1,4 @@
-
+# Defines Panasonic CSR probes for circular-motion splitting, subprograms and I/O.
 POST = "Panasonic_G3_CSR"
 NQ = 6
 ROBOT = "Panasonic TA-1000"

@@ -1,4 +1,4 @@
- 
+// Compares script robomath outputs with reference pose and matrix calculations.
  
  
 import { readFileSync } from "node:fs";

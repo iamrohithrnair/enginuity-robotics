@@ -1,4 +1,4 @@
-
+# Builds Hans robot scripts and controller JSON projects from motion instructions.
 
 
 

@@ -1,4 +1,5 @@
 "use client";
+// Persists inspector pose-format preferences in browser storage.
 
 import { create } from "zustand";
 import { DEFAULT_POSE_FORMAT, type PoseFormatId } from "@/engine/poseFormats";

@@ -1,4 +1,4 @@
- 
+// Verifies mesh welding, primitive recognition, hull generation, and automatic body roles.
  
 import { describe, expect, it } from "vitest";
 import { AUTO, decide, type Candidate, type Relations } from "@/engine/physics/classify";

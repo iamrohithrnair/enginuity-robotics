@@ -1,3 +1,4 @@
+// Defines rigid-body settings, role reports and physics runtime state.
  
  
  

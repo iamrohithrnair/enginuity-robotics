@@ -1,4 +1,5 @@
 "use client";
+// Resolves server-requested viewport picks using scene raycasts.
 
  
  

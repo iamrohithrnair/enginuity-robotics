@@ -1,4 +1,4 @@
-
+// Models joint limits, coordinate mappings, and robot kinematics.
 
 
 

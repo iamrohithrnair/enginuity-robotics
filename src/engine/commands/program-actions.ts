@@ -1,3 +1,4 @@
+// Binds program menu actions and reveals selected items in the tree.
  
  
  

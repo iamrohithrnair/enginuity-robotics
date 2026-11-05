@@ -1,4 +1,4 @@
- 
+// Verifies robot workspace envelopes, frame visibility, and parameter exports.
  
  
  

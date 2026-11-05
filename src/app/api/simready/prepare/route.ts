@@ -1,3 +1,4 @@
+// Prepares SimReady assets with optional textures and forced refresh.
 import { SimReadyError, errorMessageOf, simready } from "@/server/simready";
 
  

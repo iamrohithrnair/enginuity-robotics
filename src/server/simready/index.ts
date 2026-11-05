@@ -1,3 +1,4 @@
+// Exposes SimReady asset discovery, dataset access and preparation services.
  
  
 export { ATTRIBUTION, DATASET_ID, DATASET_LICENSE, DATASET_URL, SimReadyError, checkId, checkRelPath, errorMessage as errorMessageOf, offlineOnly, simreadyDir } from "./http";

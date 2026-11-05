@@ -1,4 +1,4 @@
-
+# Defines Elite EC V3 probes for split boundaries, circular moves and motion settings.
 POST = "Elite_Robots_EC_V3"
 NQ = 6
 ROBOT = "Elite Robots EC612"

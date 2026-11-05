@@ -1,4 +1,4 @@
-
+// Reports mesh statistics for imported CAD files.
 
 use rc_cad::{Import, Kind};
 use std::time::Instant;

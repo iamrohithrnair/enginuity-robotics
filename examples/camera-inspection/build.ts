@@ -1,4 +1,4 @@
- 
+// Builds a camera-inspection cell that sorts picked parts through decision-driven outcomes.
  
  
  

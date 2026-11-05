@@ -1,3 +1,4 @@
+// Encodes RGB image pixels into baseline JPEG data.
  
  
  

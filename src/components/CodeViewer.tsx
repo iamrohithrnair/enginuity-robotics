@@ -1,4 +1,5 @@
 "use client";
+// Displays generated robot code with syntax highlighting.
 
 import { useState } from "react";
 import { useRC } from "@/client/store";

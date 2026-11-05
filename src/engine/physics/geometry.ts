@@ -1,3 +1,4 @@
+// Analyzes triangle meshes to detect primitive colliders and transformed bounds.
  
  
  

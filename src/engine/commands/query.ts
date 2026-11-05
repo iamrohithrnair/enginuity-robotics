@@ -1,3 +1,4 @@
+// Exposes workspace descriptions, item queries and station parameter updates.
 import { z } from "zod";
 import { requireRef } from "../dispatch";
 import { poseToXYZRPW, round } from "../math";

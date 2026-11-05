@@ -1,3 +1,4 @@
+// Converts rigid poses between supported Euler-angle and quaternion formats.
  
  
  

@@ -1,4 +1,5 @@
 "use client";
+// Applies server sequence previews and Python path traces to viewport state.
 
  
  

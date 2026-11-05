@@ -1,4 +1,5 @@
 "use client";
+// Browses and filters robot, tool, example, and SimReady asset catalogs.
 
 import { useCallback, useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
 import { cmd } from "@/client/api";

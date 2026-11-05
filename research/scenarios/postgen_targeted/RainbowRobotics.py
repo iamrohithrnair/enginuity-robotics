@@ -1,4 +1,4 @@
-
+# Defines Rainbow Robotics probes for joint targets, frames, zones and I/O values.
 POST = "RainbowRobotics"
 NQ = 6
 ROBOT = "RB10-1300"

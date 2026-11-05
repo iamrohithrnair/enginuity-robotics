@@ -1,4 +1,4 @@
-
+# Defines Hyundai probes for axis counts, tool IDs, I/O and named program splitting.
 POST = "Hyundai"
 NQ = 6
 ROBOT = "Hyundai HA006B"

@@ -1,3 +1,4 @@
+// Resolves viewport defaults, frame scales, trace styles and navigation settings.
  
  
  

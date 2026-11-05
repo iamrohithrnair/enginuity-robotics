@@ -1,3 +1,4 @@
+// Handles extended API tree, viewport, file-transfer and calibration commands.
  
  
  

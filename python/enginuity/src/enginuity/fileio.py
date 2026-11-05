@@ -1,4 +1,4 @@
-
+# Reads delimited lists and matrices, handles file paths and uploads files via FTP.
 
 from __future__ import annotations
 

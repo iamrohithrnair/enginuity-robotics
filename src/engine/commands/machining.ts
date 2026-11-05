@@ -1,3 +1,4 @@
+// Creates machining projects and generates robot programs from their paths.
  
  
  

@@ -1,3 +1,4 @@
+// Builds spray-target geometry and casts particle segments against triangles.
  
  
  

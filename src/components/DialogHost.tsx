@@ -1,4 +1,5 @@
 "use client";
+// Hosts server questions, item pickers, and rename dialogs.
 
 import { useEffect, useRef, useState } from "react";
 import { answerDialog, cmd } from "@/client/api";

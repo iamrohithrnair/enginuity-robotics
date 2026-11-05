@@ -1,4 +1,5 @@
 "use client";
+// Labels example stations and provides a quick close action.
 
 import { useEffect } from "react";
 import { cmd } from "@/client/api";

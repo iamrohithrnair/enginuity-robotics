@@ -1,4 +1,4 @@
-
+// Parses robot definitions, shapes, and motion settings from library files.
 
 
 

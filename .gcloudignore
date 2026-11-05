@@ -1,4 +1,4 @@
-
+# Excludes local credentials and development files from deployment uploads.
 .env*
 *.env
 *.env.*

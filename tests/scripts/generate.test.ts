@@ -1,4 +1,4 @@
- 
+// Verifies scripts generate UR/RAPID robot programs and flush unfinished recordings.
  
 import { existsSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";

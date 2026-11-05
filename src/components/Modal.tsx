@@ -1,4 +1,5 @@
 "use client";
+// Renders modal shells and sanitizes supported rich-text content.
 
 import type { ReactNode } from "react";
 

@@ -1,3 +1,4 @@
+// Registers viewport controls, rendering options, measurements and workspace displays.
 import { z } from "zod";
 import { ABOUT } from "../about";
 import { actionParams, actionListing, findAction, MAIN_ACTIONS } from "../actions";

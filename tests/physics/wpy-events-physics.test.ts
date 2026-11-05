@@ -1,4 +1,4 @@
- 
+// Verifies event-created objects fall under physics while templates survive removal.
  
  
  

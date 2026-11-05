@@ -1,4 +1,4 @@
-
+# Validates matrix operations and pose conversions against identities and golden cases.
 
 
 

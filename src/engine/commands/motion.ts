@@ -1,3 +1,4 @@
+// Registers path checks, joint lists, simulated arcs and tool attachments.
  
  
  

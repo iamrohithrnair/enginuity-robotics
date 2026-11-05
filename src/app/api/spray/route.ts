@@ -1,3 +1,4 @@
+// Serves spray-gun metadata and binary particle chunks.
 import { connection } from "next/server";
 import { gunByKey, PARTICLE_BYTES, stationMeta } from "@/engine/spray";
 import { getServer } from "@/server/store";

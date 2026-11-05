@@ -1,4 +1,4 @@
-
+# Displays captured post products with byte, encoding and newline diagnostics.
 
 
 

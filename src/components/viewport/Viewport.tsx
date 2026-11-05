@@ -1,4 +1,5 @@
 "use client";
+// Composes the interactive 3D station scene and synchronizes live robot poses.
 
 import { GizmoHelper, GizmoViewport, TransformControls } from "@react-three/drei";
 import { Canvas, useFrame, useThree, type ThreeEvent } from "@react-three/fiber";

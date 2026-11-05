@@ -1,4 +1,4 @@
-
+# Defines Denso RC8 probes for frame IDs, axis counts and motion/I/O formatting.
 POST = "Denso_RC8"
 NQ = 6
 ROBOT = "Denso Cobotta PRO 900"

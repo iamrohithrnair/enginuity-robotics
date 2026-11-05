@@ -1,4 +1,4 @@
- 
+// Verifies path validation for unreachable targets, joint limits, and singularities.
  
  
 import { beforeAll, describe, expect, it } from "vitest";

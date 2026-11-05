@@ -1,4 +1,5 @@
 "use client";
+// Controls physics settings, settling, pose resets, and body reports.
 
  
  

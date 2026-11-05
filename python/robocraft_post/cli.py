@@ -1,4 +1,4 @@
-
+# Exposes post discovery, source inspection and intermediate-program execution as a JSON CLI.
 
 
 

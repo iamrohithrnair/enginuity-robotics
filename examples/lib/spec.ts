@@ -1,4 +1,4 @@
- 
+// Defines metadata and build hooks for runnable example stations.
 
 import type { ExampleBuilder } from "./builder";
 import type { ThumbnailView } from "./thumbnail";

@@ -1,3 +1,4 @@
+// Samples robot joint boundaries into renderable workspace envelope surfaces.
  
  
  

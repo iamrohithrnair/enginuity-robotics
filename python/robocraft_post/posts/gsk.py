@@ -1,4 +1,4 @@
-
+# Emits split GSK PRL programs with point declarations and motion commands.
 
 
 

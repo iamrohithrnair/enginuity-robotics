@@ -1,4 +1,4 @@
-
+# Maps protocol status codes to typed Enginuity client exceptions.
 
 
 

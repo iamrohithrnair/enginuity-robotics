@@ -1,3 +1,4 @@
+// Parses STL and OBJ meshes and builds basic triangle primitives.
  
  
  

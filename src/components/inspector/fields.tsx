@@ -1,4 +1,5 @@
 "use client";
+// Provides reusable inspector fields, pose inputs, and section layouts.
 
 import { useId, useState, type ReactNode } from "react";
 

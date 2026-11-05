@@ -1,3 +1,4 @@
+// Encodes PNG images and reads PNG dimensions and format metadata.
  
  
  

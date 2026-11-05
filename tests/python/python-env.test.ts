@@ -1,4 +1,4 @@
- 
+// Verifies pinned package allowlists, missing-module recovery, and managed Python setup.
  
  
  

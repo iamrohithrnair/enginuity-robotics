@@ -1,4 +1,5 @@
 # Enginuity
+<!-- Browser-based robot-cell engineering, simulation, and controller program export. -->
 
 ## From plain English to robot motion.
 

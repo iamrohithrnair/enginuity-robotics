@@ -1,4 +1,4 @@
-
+# Measures program timing and path length under motion speeds, accelerations and blending.
 
 
 

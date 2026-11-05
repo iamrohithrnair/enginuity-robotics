@@ -1,4 +1,4 @@
-
+# Runs spray programs at chosen simulation speeds and records statistics and screenshots.
 
 
 

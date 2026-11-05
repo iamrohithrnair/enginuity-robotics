@@ -1,4 +1,4 @@
- 
+// Verifies streamed OpenAI-compatible tool calls execute on the engine and feed the conversation.
  
  
 import { mkdtempSync } from "node:fs";

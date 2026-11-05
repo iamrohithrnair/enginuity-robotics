@@ -1,4 +1,4 @@
- 
+// Verifies display-string parsing, camera presets, and cross-robot joint-path listings.
  
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";

@@ -1,3 +1,4 @@
+// Configures Node-based tests, source aliases, and offline-library setup.
 import path from "node:path";
 import { defineConfig } from "vitest/config";
 

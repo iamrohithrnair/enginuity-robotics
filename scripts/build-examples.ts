@@ -1,4 +1,4 @@
- 
+// Builds, validates, and packages example stations with thumbnails and a catalog.
  
  
  

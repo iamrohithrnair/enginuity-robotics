@@ -1,3 +1,4 @@
+// Builds photo tools and segments user images into object bounding boxes.
  
  
  

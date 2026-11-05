@@ -1,3 +1,4 @@
+// Serializes workspace items and geometry into RDK station files.
 import { z } from "zod";
 import { writeRdkFile } from "../kinematics";
 import { CommandError, defineCommand, status } from "../registry";

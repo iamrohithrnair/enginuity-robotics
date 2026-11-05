@@ -1,3 +1,4 @@
+// Captures viewport or simulated-camera images for decision-model requests.
  
  
  

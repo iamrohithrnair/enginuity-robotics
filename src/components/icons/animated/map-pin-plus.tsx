@@ -5,6 +5,7 @@
  
  
 "use client";
+// Renders an animated map-pin-plus icon with start and stop controls.
 
 import type { Variants } from "motion/react";
 import { LazyMotion, domAnimation, m, useAnimation } from "motion/react";

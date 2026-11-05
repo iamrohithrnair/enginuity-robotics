@@ -1,3 +1,4 @@
+# Builds the robotics kernel for native and WebAssembly targets.
 [package]
 name = "rc_core"
 version = "0.1.0"

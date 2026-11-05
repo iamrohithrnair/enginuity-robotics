@@ -1,4 +1,4 @@
-
+# Generates Rokae modules with motion commands and target declarations.
 
 
 
